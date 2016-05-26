@@ -14,6 +14,10 @@ var base = require("xbase"),
 	urlUtil = require("xutil").url,
 	url = require("url"),
 	unicodeUtil = require("xutil").unicode,
+	zlib = require("zlib"),
+	readChunk = require('read-chunk'),
+	imageType = require('image-type'),
+	iconv = require('iconv'), 
 	cache = require('cache');
 
 exports.cache = cache(path.join(__dirname, '..', 'cache'), { compress: true });
@@ -23,7 +27,7 @@ exports.getSetsToDo = function(startAt)
 	startAt = startAt || 2;
 	if(process.argv.length<(startAt+1))
 	{
-		base.error("Usage: node %s <set code|'allsets'>", process.argv[1]);
+		base.error("Usage: node %s <set code|allsets|FD>", process.argv[1]);
 		process.exit(1);
 	}
 
@@ -35,6 +39,11 @@ exports.getSetsToDo = function(startAt)
 		if(arg==="allsets")
 		{
 			setsToDo = C.SETS.map(function(SET) { return SET.code; });
+		}
+		else if(arg==="FD"){
+
+			setsToDo = exports.getFDSetCodes();
+
 		}
 		else if(arg==="nongatherersets")
 		{
@@ -81,6 +90,43 @@ exports.getMCISetCodes = function()
 	return C.SETS.filter(function(SET) { return SET.isMCISet; }).map(function(SET) { return SET.code; });
 };
 
+exports.getFDSetCodes = function(){
+	var setsToDo = [];
+	C.SETS.forEach(function(SET) {
+
+		if(["planechase", "masters", "vanguard", "archenemy", "un", "starter"].indexOf(SET.type)>-1){
+			//Type d'extension non géré
+			return;
+		}
+
+		if(SET.hasOwnProperty("isMCISet") && SET.isMCISet){
+			//Extensions non présentes sur Gatherer donc infos manquantes, pour la plupart ce sont des extensions promo
+			return;
+		}
+		if(SET.hasOwnProperty("onlineOnly") && SET.onlineOnly){
+			//Extensions onlineOnly
+			return;
+		}
+
+		if(C.SETS_NOT_ON_GATHERER.indexOf(SET.code)>-1) {
+			//Extensions non présentes sur Gatherer donc infos manquantes
+			return;
+		}
+
+		if([
+				"MGB", // MBG : box avec très peu de cartes
+				"S99", "S00", //ceux là c'est juste relou (pas toutes les infos sur mci)
+				"CED", "CEI" //pas de numéro et vraiment très ancien
+			].indexOf(SET.code)>-1) {
+			return;
+		}
+
+		setsToDo.push(SET.code);
+	});
+
+	return setsToDo;
+};
+
 exports.cardComparator = function(a, b)
 {
 	var result = unicodeUtil.unicodeToAscii(a.name).toLowerCase().localeCompare(unicodeUtil.unicodeToAscii(b.name).toLowerCase());
@@ -96,17 +142,20 @@ exports.cardComparator = function(a, b)
 	return 0;
 };
 
-exports.buildMultiverseLanguagesURL = function(multiverseid)
+exports.buildMultiverseLanguagesURL = function(multiverseid, page)
 {
 	if(!multiverseid)
 		throw new Error("Invalid multiverseid");
+
+	var params = { multiverseid : multiverseid };
+	if(page) params.page = page+"";
 
 	var urlConfig =
 	{
 		protocol : "http",
 		host     : "gatherer.wizards.com",
 		pathname : "/Pages/Card/Languages.aspx",
-		query    : { multiverseid : multiverseid }
+		query    : params
 	};
 
 	return url.format(urlConfig);
@@ -231,7 +280,7 @@ exports.performSetCorrections = function(setCorrections, fullSet)
 			cards = cards.sort(exports.cardComparator);
 		}
 		else if(setCorrection==="recalculateStandard") {
-			cards.forEach(function(card) { exports.updateStandardForCard(card); });
+			cards.forEach(function(card) { exports.updateStandardForCard(card, fullSet); });
 		}
 		else
 		{
@@ -504,7 +553,7 @@ exports.performSetCorrections = function(setCorrections, fullSet)
 	// Generate ID
 	cards.forEach(function(card)
 	{
-		card.id = hash("sha1", (fullSet.code + card.name + card.imageName));
+		card.mtgjson_id = hash("sha1", (fullSet.code + card.name + card.imageName));
 	});
 };
 
@@ -603,7 +652,143 @@ exports.buildMultiverseListingURLs = function(setName, cb) {
 		}
 	);
 };
+/*
+ exports.getURLAsDoc = function(targetURL, cb, retryCount, encoding)
+ {
+ var cachePath = exports.generateCacheFilePath(targetURL);
 
+ tiptoe(
+ function get()
+ {
+ if(fs.existsSync(cachePath))
+ {
+ //base.info("URL [%s] is %s", targetURL, cachePath.split('/').pop());
+ //base.info("Reading %s from cache", targetURL);
+ zlib.gunzip(fs.readFileSync(cachePath), this);
+ }
+ else
+ {
+ base.info("Requesting from web: %s", targetURL);
+ httpUtil.get(targetURL, {timeout:base.SECOND*10, retry:5}, this);
+ }
+ },
+ function createDoc(err, pageHTML, responseHeaders, responseStatusCode)
+ {
+ if(err || (responseStatusCode && responseStatusCode!==200))
+ {
+ base.error("Error downloading: " + targetURL);
+ base.error("Cache path: " + cachePath);
+ base.error(err);
+ return setImmediate(function() { cb(err); });
+ }
+
+ if(encoding && responseStatusCode){
+ //Si requete Web
+ var converter = new iconv.Iconv(encoding, 'utf8');
+ pageHTML = converter.convert(pageHTML).toString();
+
+ }
+
+
+
+
+ if(!pageHTML || pageHTML.length===0 || (!targetURL.contains("www.magiclibrarities.net")
+ && !pageHTML.toString("utf8").trim().toLowerCase().endsWith("</html>")))
+ {
+ retryCount = retryCount||0;
+ if(retryCount>3)
+ throw new Error("Invalid pageHTML for " + cachePath + " (" + targetURL + ")");
+
+ base.error("FAILED DOWNLOADING (%s), TRYING AGAIN RETRY %d", targetURL, retryCount, encoding);
+ return exports.getURLAsDoc(targetURL, cb, retryCount+1, encoding);
+ }
+
+ if(!fs.existsSync(cachePath)) {
+ fs.writeFileSync(cachePath, zlib.gzipSync(pageHTML));
+ }
+
+ setImmediate(function() { cb(null, domino.createWindow(pageHTML).document); }.bind(this));
+ }
+ );
+ };
+
+
+
+
+ exports.getURLAsJSON = function(targetURL, cb, retryCount, additionalOptions, withcache)
+ {
+ var cachePath = exports.generateCacheFilePath(targetURL);
+
+ tiptoe(
+ function get()
+ {
+ if(fs.existsSync(cachePath) && withcache!=null)
+ {
+ zlib.gunzip(fs.readFileSync(cachePath), this);
+ }
+ else {
+ base.info("Requesting from web: %s", targetURL);
+ var options = {
+ timeout: base.SECOND * 10,
+ retry: 5,
+ headers: {"Accept": "application/json", "Content-Type": "application/json"}
+ };
+ if (additionalOptions) {
+ options = merge_objects(options, additionalOptions);
+ }
+ httpUtil.get(targetURL, options, this);
+ }
+ },
+ function createJson(err, JSONcontent, responseHeaders, responseStatusCode)
+ {
+ if(err || (responseStatusCode && responseStatusCode!==200))
+ {
+ base.error("Error downloading: " + targetURL+ " status code = "+responseStatusCode);
+ base.error("Cache path: " + cachePath);
+ base.error(err);
+ return setImmediate(function() { cb(err); });
+ }
+
+ if(!JSONcontent || JSONcontent.length===0)
+ {
+ retryCount = retryCount||0;
+ if(retryCount>3)
+ throw new Error("Invalid pageHTML for " + cachePath + " (" + targetURL + ")");
+
+ base.error("FAILED DOWNLOADING (%s), TRYING AGAIN RETRY %d", targetURL, retryCount);
+ return exports.getURLAsJSON(targetURL, cb, retryCount+1, additionalOptions, withcache);
+ }
+ if(!fs.existsSync(cachePath)) {
+ fs.writeFileSync(cachePath, zlib.gzipSync(JSONcontent));
+ }
+
+ setImmediate(function() {  cb(null, JSONcontent); }.bind(this));
+ }
+ );
+ };
+ */
+function merge_objects(obj1, obj2) {
+
+	for (var p in obj2) {
+		try {
+			// Property in destination object set; update its value.
+			if ( obj2[p].constructor==Object ) {
+				obj1[p] = merge_objects(obj1[p], obj2[p]);
+
+			} else {
+				obj1[p] = obj2[p];
+
+			}
+
+		} catch(e) {
+			// Property in destination object not set; create it and set its value.
+			obj1[p] = obj2[p];
+
+		}
+	}
+
+	return obj1;
+}
 exports.getURLAsDoc = function(targetURL, cb, retryCount) {
 	var retryCount = 0;
 
@@ -743,6 +928,69 @@ exports.updateStandardForCard = function(card) {
 	}
 };
 
+exports.removeFile = function (filePath) {
+	try{
+		fs.unlink(filePath);
+		return true;
+	}catch(err){
+	}
+	return false;
+};
+
+exports.fileExist = fs.existsSync || function (filePath){
+	try{
+		fs.statSync(filePath);
+	}catch(err){
+		if(err.code == 'ENOENT') return false;
+	}
+	return true;
+};
+
+
+exports.isValidImage = function(imagePath){
+	if(!exports.fileExist(imagePath)) return false;
+
+	var buffer = readChunk.sync(imagePath, 0, 12);
+	var type = imageType(buffer);
+	return type!=null && type.ext!=null && ["jpg", "png", "bmp"].indexOf(type.ext)>-1;
+
+};
+
+exports.isValidCardImage = function(cardPath, log){
+	if(!exports.isValidImage(cardPath)) return false;
+	try{
+		var stats = fs.statSync(cardPath);
+		if(stats.size == 73739) return false;//taille du dos de carte du gatherer
+		if(log) console.log(cardPath+" "+stats.size);
+		return true
+
+	}catch(err){
+		if(err.code == 'ENOENT') return false;
+	}
+	return false;
+};
+
+exports.updateStandardForCard = function(card, set) {
+	// Update standard legalities
+	if (card.legalities)
+		card.legalities = card.legalities.filter(function(cardLegality) { return(cardLegality.format != "Standard"); });
+
+	var standard = false;
+	card.printings.forEach(function(value) {
+		if (!standard && C.STANDARD_SETS.indexOf(value) >= 0) {
+			standard = true;
+			//base.info("Card %s is in standard set (%s).", card.name, value);
+		}
+	});
+	if (standard == true) {
+		var legalityObject = {format:"Standard", legality: "Legal"};
+		if (card.legalities == undefined)
+			card.legalities = [];
+
+		card.legalities.push(legalityObject);
+	}
+};
+
 /**
  * saveSet() prepares and saves a given set to a file.
  * 1.    Each card is sorted by the following criteria:
@@ -840,6 +1088,10 @@ exports.alphanum = function(a, b) {
     }
   }
   return aa.length - bb.length;
+};
+
+String.prototype.capitalizeFirstLetter = function() {
+	return this.charAt(0).toUpperCase() + this.slice(1);
 };
 
 /**
