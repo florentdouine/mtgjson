@@ -44,7 +44,7 @@ tiptoe(
 
 		newSet.cards = newSet.cards.sort(shared.cardComparator);
 
-		fs.writeFileSync(path.join(__dirname, "..", "json", targetSetCode + ".json"), JSON.stringify(newSet), {encoding : "utf8"});
+		fs.writeFileSync(path.join(__dirname, "..", "jsonFD", targetSetCode + ".json"), JSON.stringify(newSet), {encoding : "utf8"});
 
 		process.exit(0);
 	}
@@ -60,7 +60,7 @@ function processSet(setCode, targetMultiverseids, cb)
 	tiptoe(
 		function loadSetJSON()
 		{
-			fs.readFile(path.join(__dirname, "..", "json", setCode + ".json"), {encoding : "utf8"}, this);
+			fs.readFile(path.join(__dirname, "..", "jsonFD", setCode + ".json"), {encoding : "utf8"}, this);
 			
 		},
 		function processSetJSON(err, setRaw)
@@ -202,7 +202,7 @@ function loadSetCards(setCode, cb)
 	tiptoe(
 		function loadSetJSON()
 		{
-			fs.readFile(path.join(__dirname, "..", "json", setCode + ".json"), {encoding : "utf8"}, this);
+			fs.readFile(path.join(__dirname, "..", "jsonFD", setCode + ".json"), {encoding : "utf8"}, this);
 		},
 		function processSetJSON(err, setRaw)
 		{

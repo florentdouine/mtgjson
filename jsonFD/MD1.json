@@ -1,0 +1,2245 @@
+{
+  "name": "Modern Event Deck 2014",
+  "code": "MD1",
+  "magicCardsInfoCode": "md1",
+  "releaseDate": "2014-05-30",
+  "border": "black",
+  "type": "box",
+  "mkm_name": "Modern Event Deck 2014",
+  "mkm_id": 1484,
+  "card_total": 26,
+  "cards": [
+    {
+      "artist": "Chuck Lukacs",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"We are a clachan of smiths. The forge is as comfortable to us as a small fire during a cool winter's evening.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "burrenton forge-tender",
+      "images": {
+        "en": "/md1/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 267012,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/burrenton_forge_tender.jpg",
+      "mtgjson_id": "6a1de336d2c494aee05be41df1e8b1a0f924a026",
+      "multiverseid": 382179,
+      "name": "Burrenton Forge-Tender",
+      "near_mint_id": "md1_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "Protection from red\nSacrifice Burrenton Forge-Tender: Prevent all damage a red source of your choice would deal this turn.",
+      "originalType": "Creature — Kithkin Wizard",
+      "power": "1",
+      "printings": [
+        "lrw_007"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "If the red source you chose changes colors before the damage is dealt, the damage-prevention effect doesn't apply."
+        }
+      ],
+      "subtypes": [
+        "Kithkin",
+        "Wizard"
+      ],
+      "text": "Protection from red\nSacrifice Burrenton Forge-Tender: Prevent all damage a red source of your choice would deal this turn.",
+      "toughness": "1",
+      "type": "Creature — Kithkin Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jim Nelson",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "caves of koilos",
+      "images": {
+        "en": "/md1/en/014.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267013,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/caves_of_koilos.jpg",
+      "mtgjson_id": "275f977621a31bcef8a008d3bf7c45be3cfe58ab",
+      "multiverseid": 382180,
+      "name": "Caves of Koilos",
+      "near_mint_id": "md1_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "{T}: Add {1} to your mana pool.\n{T}: Add {W} or {B} to your mana pool. Caves of Koilos deals 1 damage to you.",
+      "originalType": "Land",
+      "printings": [
+        "10e_350",
+        "9ed_320",
+        "apc_140",
+        "m15_241",
+        "ori_245"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2015-06-22",
+          "text": "The damage dealt to you is part of the second mana ability. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2015-06-22",
+          "text": "Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source."
+        }
+      ],
+      "text": "{T}: Add {1} to your mana pool.\n{T}: Add {W} or {B} to your mana pool. Caves of Koilos deals 1 damage to you.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Jung Park",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "\"There is much to learn here, but few can endure the ringing of the spires.\"\n—Nulakam the Archivist",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "city of brass",
+      "images": {
+        "en": "/md1/en/015.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267014,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/city_of_brass.jpg",
+      "mtgjson_id": "2cb57cc80094f5be8356c3caaa840cfe0c7c2c5b",
+      "multiverseid": 382181,
+      "name": "City of Brass",
+      "near_mint_id": "md1_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "5ed_413",
+        "6ed_321",
+        "7ed_327",
+        "8ed_322",
+        "arn_085",
+        "chr_092",
+        "mma_221"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The first ability triggers no matter how the land becomes tapped."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass's triggered ability is put on the stack on top of it. City of Brass's ability will resolve first."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first."
+        }
+      ],
+      "text": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"You serve Phyrexia. Your pieces would better serve Phyrexia elsewhere.\"\n—Azax-Azog, the Demon Thane",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dismember",
+      "images": {
+        "en": "/md1/en/025.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B/P}{B/P}",
+      "mkm_product_id": 267015,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/dismember.jpg",
+      "mtgjson_id": "d8489367e1771568de82f9bd6103ac82f780569f",
+      "multiverseid": 382182,
+      "name": "Dismember",
+      "near_mint_id": "md1_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "({B/P} can be paid with either {B} or 2 life.)\nTarget creature gets -5/-5 until end of turn.",
+      "originalType": "Instant",
+      "printings": [
+        "mm2_079",
+        "nph_057"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2011-06-01",
+          "text": "A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid."
+        },
+        {
+          "date": "2011-06-01",
+          "text": "To calculate the converted mana cost of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1."
+        },
+        {
+          "date": "2011-06-01",
+          "text": "As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X."
+        },
+        {
+          "date": "2011-06-01",
+          "text": "If you're at 1 life or less, you can't pay 2 life."
+        },
+        {
+          "date": "2011-06-01",
+          "text": "Phyrexian mana is not a new color. Players can't add Phyrexian mana to their mana pools."
+        }
+      ],
+      "text": "({B/P} can be paid with either {B} or 2 life.)\nTarget creature gets -5/-5 until end of turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"It hurts more if you think about it.\"\n—Hooks, Cabal torturer",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "duress",
+      "images": {
+        "en": "/md1/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 267016,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/duress.jpg",
+      "mtgjson_id": "49788a9318b3836c38626493cfadb790df2ab128",
+      "multiverseid": 382183,
+      "name": "Duress",
+      "near_mint_id": "md1_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.",
+      "originalType": "Sorcery",
+      "printings": [
+        "7ed_131",
+        "dd3_dvd_046",
+        "ddc_046",
+        "dtk_098",
+        "m10_096",
+        "m11_096",
+        "m13_090",
+        "m14_097",
+        "pd3_013",
+        "usg_132"
+      ],
+      "rarity": "Common",
+      "text": "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 0,
+      "colors": "C",
+      "imageName": "elspeth emblem",
+      "images": {
+        "en": "/md1/en/to004.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/MD1_4-Elspeth-Emblem.jpg",
+      "name": "Elspeth Emblem",
+      "near_mint_id": "md1_to004",
+      "number": 4,
+      "numberSpecial": "to004",
+      "originalText": "Artifacts, creatures, enchantments, and lands you control have indestructible.",
+      "originalType": "Emblem — Elspeth",
+      "rarity": "Token",
+      "subtypes": [
+        "Elspeth"
+      ],
+      "text": "Artifacts, creatures, enchantments, and lands you control have indestructible.",
+      "type": "Emblem — Elspeth",
+      "types": [
+        "Emblem"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "elspeth, knight-errant",
+      "images": {
+        "en": "/md1/en/013.jpg"
+      },
+      "layout": "normal",
+      "loyalty": 4,
+      "manaCost": "{2}{W}{W}",
+      "mkm_product_id": 267017,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/elspeth_knight_errant.jpg",
+      "mtgjson_id": "948349edc0ad3dde3964dfb37bf1be0f2f757a6a",
+      "multiverseid": 382184,
+      "name": "Elspeth, Knight-Errant",
+      "near_mint_id": "md1_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "+1: Put a 1/1 white Soldier creature token onto the battlefield.\n+1: Target creature gets +3/+3 and gains flying until end of turn.\n-8: You get an emblem with \"Artifacts, creatures, enchantments, and lands you control have indestructible.\"",
+      "originalType": "Planeswalker — Elspeth",
+      "printings": [
+        "ala_009",
+        "ddf_001",
+        "mma_013"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2011-01-01",
+          "text": "Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren't permanents and don't exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability"
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Lethal damage and effects that say \"destroy\" won't cause a permanent with indestructible to be put into the graveyard. However, a permanent with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's a creature whose toughness is 0 or less, or if it's an Aura that's either unattached or attached to something illegal."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are permanents. You can cast one at the time you could cast a sorcery. When your planeswalker spell resolves, it enters the battlefield under your control."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are not creatures. Spells and abilities that affect creatures won’t affect them."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers have loyalty. A planeswalker enters the battlefield with a number of loyalty counters on it equal to the number printed in its lower right corner. Activating one of its abilities may cause it to gain or lose loyalty counters. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it. If it has no loyalty counters on it, it’s put into its owner’s graveyard as a state-based action."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers each have a number of activated abilities called “loyalty abilities.” You can activate a loyalty ability of a planeswalker you control only at the time you could cast a sorcery and only if you haven’t activated one of that planeswalker’s loyalty abilities yet that turn."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "The cost to activate a planeswalker’s loyalty ability is represented by a symbol with a number inside. Up-arrows contain positive numbers, such as “+1”; this means “Put one loyalty counter on this planeswalker.” Down-arrows contain negative numbers, such as “-7”; this means “Remove seven loyalty counters from this planeswalker.” A symbol with a “0” means “Put zero loyalty counters on this planeswalker.”"
+        },
+        {
+          "date": "2013-07-01",
+          "text": "You can’t activate a planeswalker’s ability with a negative loyalty cost unless the planeswalker has at least that many loyalty counters on it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers can’t attack (unless an effect turns the planeswalker into a creature). However, they can be attacked. Each of your attacking creatures can attack your opponent or a planeswalker that player controls. You say which as you declare attackers."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If your planeswalkers are being attacked, you can block the attackers as normal."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a creature that’s attacking a planeswalker isn’t blocked, it’ll deal its combat damage to that planeswalker. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a source you control would deal noncombat damage to an opponent, you may have that source deal that damage to a planeswalker that opponent controls instead. For example, although you can’t target a planeswalker with Shock, you can target your opponent with Shock, and then as Shock resolves, choose to have Shock deal its 2 damage to one of your opponent’s planeswalkers. (You can’t split up that damage between different players and/or planeswalkers.) If you have Shock deal its damage to a planeswalker, two loyalty counters are removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them and the rest are put into their owners’ graveyards as a state-based action."
+        }
+      ],
+      "subtypes": [
+        "Elspeth"
+      ],
+      "text": "+1: Put a 1/1 white Soldier creature token onto the battlefield.\n+1: Target creature gets +3/+3 and gains flying until end of turn.\n−8: You get an emblem with \"Artifacts, creatures, enchantments, and lands you control have indestructible.\"",
+      "type": "Planeswalker — Elspeth",
+      "types": [
+        "Planeswalker"
+      ]
+    },
+    {
+      "artist": "Peter Mohrbacher",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "Deserted, but not uninhabited.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ghost quarter",
+      "images": {
+        "en": "/md1/en/026.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267018,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/ghost_quarter.jpg",
+      "mtgjson_id": "0a3ece87d17040412913b1867c702bb3391b1120",
+      "multiverseid": 382185,
+      "name": "Ghost Quarter",
+      "near_mint_id": "md1_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "{T}: Add {1} to your mana pool.\n{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library.",
+      "originalType": "Land",
+      "printings": [
+        "c14_298",
+        "c15_285",
+        "dis_173",
+        "isd_240"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2006-05-01",
+          "text": "If you target Ghost Quarter with its own ability, the ability will be countered because its target is no longer on the battlefield. You won't get to search for a land card."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "If the targeted land is an illegal target by the time Ghost Quarter's ability resolves, it will be countered and none of its effects will happen. The land's controller won't get to search for a basic land card."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Ghost Quarter's ability. This may happen because the land has indestructible or because it was regenerated."
+        }
+      ],
+      "text": "{T}: Add {1} to your mana pool.\n{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Together the soldiers were like a golden blade, cutting down their enemies and scarring the darkness.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "honor of the pure",
+      "images": {
+        "en": "/md1/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 267019,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/honor_of_the_pure.jpg",
+      "mtgjson_id": "39202b9f153f4a6589a909d11b3828e98d311c44",
+      "multiverseid": 382186,
+      "name": "Honor of the Pure",
+      "near_mint_id": "md1_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "White creatures you control get +1/+1.",
+      "originalType": "Enchantment",
+      "printings": [
+        "m10_016",
+        "m11_017",
+        "m12_023"
+      ],
+      "rarity": "Rare",
+      "text": "White creatures you control get +1/+1.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "You will scream out your innermost secrets just to make it stop.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "inquisition of kozilek",
+      "images": {
+        "en": "/md1/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 267020,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/inquisition_of_kozilek.jpg",
+      "mtgjson_id": "f29a0cd5a82506f123174d7b9efc9ba77bc3bc71",
+      "multiverseid": 382187,
+      "name": "Inquisition of Kozilek",
+      "near_mint_id": "md1_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Target player reveals his or her hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.",
+      "originalType": "Sorcery",
+      "printings": [
+        "roe_115"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-02-01",
+          "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+        }
+      ],
+      "text": "Target player reveals his or her hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Clint Cearley",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "In life, they were a motley crew: farmers, lords, cutpurses, priests. In death, they are united in singular, benevolent purpose.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "intangible virtue",
+      "images": {
+        "en": "/md1/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 267021,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/intangible_virtue.jpg",
+      "mtgjson_id": "64ddd0ac2472cfdccfe64cb07ed0b5c048c1043b",
+      "multiverseid": 382188,
+      "name": "Intangible Virtue",
+      "near_mint_id": "md1_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "Creature tokens you control get +1/+1 and have vigilance.",
+      "originalType": "Enchantment",
+      "printings": [
+        "cns_072",
+        "isd_019"
+      ],
+      "rarity": "Uncommon",
+      "text": "Creature tokens you control get +1/+1 and have vigilance.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Cliff Childs",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "C",
+      "flavor": "Not every church is a place of faith.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "isolated chapel",
+      "images": {
+        "en": "/md1/en/016.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267022,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/isolated_chapel.jpg",
+      "mtgjson_id": "fc41ca47c28415aacc57f41adc7caafb18982b87",
+      "multiverseid": 382189,
+      "name": "Isolated Chapel",
+      "near_mint_id": "md1_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "isd_242"
+      ],
+      "rarity": "Rare",
+      "text": "Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Matt Thompson",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Before the war, we prayed to Kataki to sharpen our swords and harden our armor. Without his blessing our weapons are all but useless against the kami hordes.\"\n—Kenzo the Hardhearted",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kataki, war's wage",
+      "images": {
+        "en": "/md1/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 267023,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/kataki_wars_wage.jpg",
+      "mtgjson_id": "c92f8396712a78f03cec2092b8b91458fe096de1",
+      "multiverseid": 382190,
+      "name": "Kataki, War's Wage",
+      "near_mint_id": "md1_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "All artifacts have \"At the beginning of your upkeep, sacrifice this artifact unless you pay {1}.\"",
+      "originalType": "Legendary Creature — Spirit",
+      "power": "2",
+      "printings": [
+        "mma_020",
+        "sok_014"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Spirit"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "All artifacts have \"At the beginning of your upkeep, sacrifice this artifact unless you pay {1}.\"",
+      "toughness": "1",
+      "type": "Legendary Creature — Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Bud Cook",
+      "cmc": 3,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "W",
+      "flavor": "The murdered inhabitants of Hollowhenge impart to the living the terror they felt in death.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "lingering souls",
+      "images": {
+        "en": "/md1/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 267024,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/lingering_souls.jpg",
+      "mtgjson_id": "22c5f6c02b128f05c479d3cc5ba1e02055debce6",
+      "multiverseid": 382191,
+      "name": "Lingering Souls",
+      "near_mint_id": "md1_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Put two 1/1 white Spirit creature tokens with flying onto the battlefield.\nFlashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "ddk_024",
+        "dka_012"
+      ],
+      "rarity": "Uncommon",
+      "text": "Put two 1/1 white Spirit creature tokens with flying onto the battlefield.\nFlashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Matt Stewart",
+      "cmc": 0,
+      "colors": "C",
+      "imageName": "myr",
+      "images": {
+        "en": "/md1/en/to003.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/MD1_3-Myr.jpg",
+      "name": "Myr",
+      "near_mint_id": "md1_to003",
+      "number": 3,
+      "numberSpecial": "to003",
+      "originalType": "Artifact Creature — Myr",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Myr"
+      ],
+      "toughness": "1",
+      "type": "Artifact Creature — Myr",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Todd Lockwood",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "path to exile",
+      "images": {
+        "en": "/md1/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 267025,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/path_to_exile.jpg",
+      "mtgjson_id": "a170d3f3444d0927b4ef0c34d9ddb920a3d0f3b7",
+      "multiverseid": 382192,
+      "name": "Path to Exile",
+      "near_mint_id": "md1_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.",
+      "originalType": "Instant",
+      "printings": [
+        "cmd_025",
+        "con_015",
+        "ddi_023",
+        "mma_025"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "If the targeted creature becomes an illegal target by the time Path to Exile would resolve, the entire spell is countered. The creature's controller won't get to search for a basic land card."
+        }
+      ],
+      "text": "Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains",
+      "images": {
+        "en": "/md1/en/019.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267026,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/plains.jpg",
+      "mtgjson_id": "6fa5556488b3c66346c946f9ee6de8070896f354",
+      "multiverseid": 382193,
+      "name": "Plains",
+      "near_mint_id": "md1_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "John Matson",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"The nim raid our homes without warning. We must defend our homes without hesitation.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "raise the alarm",
+      "images": {
+        "en": "/md1/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 267027,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/raise_the_alarm.jpg",
+      "mtgjson_id": "f57c2e077ae25feb9542bffdfc29d0a0cca6e792",
+      "multiverseid": 382194,
+      "name": "Raise the Alarm",
+      "near_mint_id": "md1_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "Put two 1/1 white Soldier creature tokens onto the battlefield.",
+      "originalType": "Instant",
+      "printings": [
+        "ddf_025",
+        "ddo_023",
+        "m15_026",
+        "mm2_031",
+        "mrd_016"
+      ],
+      "rarity": "Common",
+      "text": "Put two 1/1 white Soldier creature tokens onto the battlefield.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Jean-Sébastien Rossbach",
+      "cmc": 1,
+      "colors": "C",
+      "flavor": "Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "relic of progenitus",
+      "images": {
+        "en": "/md1/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 267028,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/relic_of_progenitus.jpg",
+      "mtgjson_id": "732935eb8603149d5253dc02a9702e951c2b4c72",
+      "multiverseid": 382195,
+      "name": "Relic of Progenitus",
+      "near_mint_id": "md1_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "{T}: Target player exiles a card from his or her graveyard.\n{1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.",
+      "originalType": "Artifact",
+      "printings": [
+        "ala_218",
+        "mma_213"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "If you activate the first ability, the targeted player chooses which card to exile. The choice is made as the ability resolves."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "You can activate the second ability even if no players have any cards in their graveyards. You'll still draw a card."
+        }
+      ],
+      "text": "{T}: Target player exiles a card from his or her graveyard.\n{1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "cmc": 2,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "shrine of loyal legions",
+      "images": {
+        "en": "/md1/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mkm_product_id": 267029,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/shrine_of_loyal_legions.jpg",
+      "mtgjson_id": "c80c8334a0efb3b019157dcc94e324e4b4d73288",
+      "multiverseid": 382196,
+      "name": "Shrine of Loyal Legions",
+      "near_mint_id": "md1_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "At the beginning of your upkeep or whenever you cast a white spell, put a charge counter on Shrine of Loyal Legions.\n{3}, {T}, Sacrifice Shrine of Loyal Legions: Put a 1/1 colorless Myr artifact creature token onto the battlefield for each charge counter on Shrine of Loyal Legions.",
+      "originalType": "Artifact",
+      "printings": [
+        "nph_155"
+      ],
+      "rarity": "Uncommon",
+      "text": "At the beginning of your upkeep or whenever you cast a white spell, put a charge counter on Shrine of Loyal Legions.\n{3}, {T}, Sacrifice Shrine of Loyal Legions: Put a 1/1 colorless Myr artifact creature token onto the battlefield for each charge counter on Shrine of Loyal Legions.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Goran Josic",
+      "cmc": 0,
+      "color": [
+        "W"
+      ],
+      "colors": "C",
+      "imageName": "soldier",
+      "images": {
+        "en": "/md1/en/to001.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/MD1_1-Soldier.jpg",
+      "name": "Soldier",
+      "near_mint_id": "md1_to001",
+      "number": 1,
+      "numberSpecial": "to001",
+      "originalType": "Creature — Soldier",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Soldier"
+      ],
+      "toughness": "1",
+      "type": "Creature — Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Randy Gallegos",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"One does not question the size or shape of the grains of sand in an hourglass. Nor do I question the temperament of the souls under my guidance.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "soul warden",
+      "images": {
+        "en": "/md1/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 267030,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/soul_warden.jpg",
+      "mtgjson_id": "2e3b4ea36d9c0cac4bf4330f40df8aa31c5e78ff",
+      "multiverseid": 382197,
+      "name": "Soul Warden",
+      "near_mint_id": "md1_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "Whenever another creature enters the battlefield, you gain 1 life.",
+      "originalType": "Creature — Human Cleric",
+      "power": "1",
+      "printings": [
+        "10e_044",
+        "9ed_046",
+        "brb_076",
+        "exo_021",
+        "m10_034"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Does not trigger on a card on the battlefield being changed into a creature."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time."
+        },
+        {
+          "date": "2005-08-01",
+          "text": "Two Soul Wardens entering the battlefield at the same time will each cause the other's ability to trigger."
+        },
+        {
+          "date": "2005-08-01",
+          "text": "The life gain is mandatory."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "text": "Whenever another creature enters the battlefield, you gain 1 life.",
+      "toughness": "1",
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Tomasz Jedruszek",
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"I need never remember my past associates, my victims, my mistakes. Innistrad preserves them all for me.\"\n—Sorin Markov",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "spectral procession",
+      "images": {
+        "en": "/md1/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2/W}{2/W}{2/W}",
+      "mkm_product_id": 267031,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/spectral_procession.jpg",
+      "mtgjson_id": "c73ba223c2e3fff48c519e14986df091e03f3519",
+      "multiverseid": 382198,
+      "name": "Spectral Procession",
+      "near_mint_id": "md1_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Put three 1/1 white Spirit creature tokens with flying onto the battlefield.",
+      "originalType": "Sorcery",
+      "printings": [
+        "c14_090",
+        "ddk_026",
+        "mm2_033",
+        "shm_023"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-05-01",
+          "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you've chosen a method of paying for it that includes generic mana."
+        },
+        {
+          "date": "2008-05-01",
+          "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Spectral Procession is white even if you spend six blue mana to cast it."
+        },
+        {
+          "date": "2008-05-01",
+          "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Spectral Procession has a converted mana cost of 6, even if you spend {W}{W}{W} to cast it."
+        },
+        {
+          "date": "2008-05-01",
+          "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Spectral Procession by spending {W}{W}{W}, {2}{W}{W}, {4}{W}, or {6}."
+        }
+      ],
+      "text": "Put three 1/1 white Spirit creature tokens with flying onto the battlefield.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 0,
+      "color": [
+        "W"
+      ],
+      "colors": "C",
+      "imageName": "spirit",
+      "images": {
+        "en": "/md1/en/to002.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/MD1_2-Spirit.jpg",
+      "name": "Spirit",
+      "near_mint_id": "md1_to002",
+      "number": 2,
+      "numberSpecial": "to002",
+      "originalText": "Flying",
+      "originalType": "Creature — Spirit",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Spirit"
+      ],
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Creature — Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp",
+      "images": {
+        "en": "/md1/en/020.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267032,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/swamp.jpg",
+      "mtgjson_id": "ac8dece2d08e1dacd1f3435fe173146f313af151",
+      "multiverseid": 382199,
+      "name": "Swamp",
+      "near_mint_id": "md1_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Chris Rahn",
+      "cmc": 3,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sword of feast and famine",
+      "images": {
+        "en": "/md1/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 267033,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/sword_of_feast_and_famine.jpg",
+      "mtgjson_id": "7f35998e2b47761e55be7c2a67ded6039db72679",
+      "multiverseid": 382200,
+      "name": "Sword of Feast and Famine",
+      "near_mint_id": "md1_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}",
+      "originalType": "Artifact — Equipment",
+      "printings": [
+        "mbs_138"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2011-06-01",
+          "text": "You'll untap all lands you control even if the player doesn't discard a card."
+        }
+      ],
+      "subtypes": [
+        "Equipment"
+      ],
+      "text": "Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}",
+      "type": "Artifact — Equipment",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "rk post",
+      "cmc": 2,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "WB",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "tidehollow sculler",
+      "images": {
+        "en": "/md1/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}{B}",
+      "mkm_product_id": 267034,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/tidehollow_sculler.jpg",
+      "mtgjson_id": "9818a0492bc24d73c27f41c66f5def6ffdf1ca05",
+      "multiverseid": 382201,
+      "name": "Tidehollow Sculler",
+      "near_mint_id": "md1_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "When Tidehollow Sculler enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.\nWhen Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand.",
+      "originalType": "Artifact Creature — Zombie",
+      "power": "2",
+      "printings": [
+        "ala_202",
+        "mma_184"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-06-07",
+          "text": "If Tidehollow Sculler leaves the battlefield before its first ability has resolved, its second ability will trigger. This ability will do nothing when it resolves. Then its first ability will resolve and exile the chosen card forever."
+        }
+      ],
+      "subtypes": [
+        "Zombie"
+      ],
+      "text": "When Tidehollow Sculler enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.\nWhen Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand.",
+      "toughness": "2",
+      "type": "Artifact Creature — Zombie",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "C",
+      "flavor": "\"For centuries my creation kept this world in balance. Now only her shadow remains.\"\n—Sorin Markov",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "vault of the archangel",
+      "images": {
+        "en": "/md1/en/017.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267035,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/vault_of_the_archangel.jpg",
+      "mtgjson_id": "c5bb96a1d9c9123a6efe5631e8ab4d1923c2ec49",
+      "multiverseid": 382202,
+      "name": "Vault of the Archangel",
+      "near_mint_id": "md1_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "{T}: Add {1} to your mana pool.\n{2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn.",
+      "originalType": "Land",
+      "printings": [
+        "dka_158"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2011-01-22",
+          "text": "Vault of the Archangel's last ability affects only creatures you control when that ability resolves. It won't affect creatures that come under your control later in the turn."
+        },
+        {
+          "date": "2011-01-22",
+          "text": "Multiple instances of deathtouch or lifelink on the same creature are redundant."
+        }
+      ],
+      "text": "{T}: Add {1} to your mana pool.\n{2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Omar Rayyan",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "windbrisk heights",
+      "images": {
+        "en": "/md1/en/018.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 267036,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/windbrisk_heights.jpg",
+      "mtgjson_id": "e3431d3f573c4e330eaf8d625baa3f15d6c21a5b",
+      "multiverseid": 382203,
+      "name": "Windbrisk Heights",
+      "near_mint_id": "md1_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)\n{T}: Add {W} to your mana pool.\n{W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.",
+      "originalType": "Land",
+      "printings": [
+        "lrw_281",
+        "v12_015"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "At the time the ability resolves, you'll get to play the card if you declared three different creatures as attackers at any point in the turn. A creature declared as an attacker in two different attack phases counts only once. A creature that entered the battlefield attacking (such as a token created by Militia's Pride) doesn't count because you never attacked with it."
+        }
+      ],
+      "text": "Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)\n{T}: Add {W} to your mana pool.\n{W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 2,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "WB",
+      "flavor": "\"Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder.\"\n—Knight-Captain Wyhorn",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "zealous persecution",
+      "images": {
+        "en": "/md1/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}{B}",
+      "mkm_product_id": 267037,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Modern_Event_Deck_2014/zealous_persecution.jpg",
+      "mtgjson_id": "1dbf3a6b4f52478f134fcce51f8208e44dac31fa",
+      "multiverseid": 382204,
+      "name": "Zealous Persecution",
+      "near_mint_id": "md1_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.",
+      "originalType": "Instant",
+      "printings": [
+        "arb_085",
+        "ddk_023"
+      ],
+      "rarity": "Uncommon",
+      "text": "Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "both"
+}

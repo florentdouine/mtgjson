@@ -1,0 +1,5934 @@
+{
+  "name": "Duel Decks Anthology, Jace vs. Chandra",
+  "code": "DD3_JVC",
+  "magicCardsInfoCode": "ddajvc",
+  "releaseDate": "2014-12-05",
+  "border": "black",
+  "type": "duel deck",
+  "card_total": 62,
+  "cards": [
+    {
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "cmc": 6,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "aethersnipe",
+      "images": {
+        "en": "/dd3_jvc/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{U}",
+      "mtgjson_id": "31e6d59286239c0cea652e041c6d918ed5fcb6b7",
+      "multiverseid": 393816,
+      "name": "Æthersnipe",
+      "near_mint_id": "dd3_jvc_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "When Æthersnipe enters the battlefield, return target nonland permanent to its owner's hand.\nEvoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "originalType": "Creature — Elemental",
+      "power": "4",
+      "printings": [
+        "cmd_039",
+        "dd2_017",
+        "lrw_050",
+        "mm2_039",
+        "mma_036"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+        }
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "When Æthersnipe enters the battlefield, return target nonland permanent to its owner's hand.\nEvoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "toughness": "4",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Pray that it doesn't seek the safety of your lungs.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "air elemental",
+      "images": {
+        "en": "/dd3_jvc/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}{U}",
+      "mtgjson_id": "d95ed5c4283d724d84f3f4351c02ae111f567d4d",
+      "multiverseid": 393817,
+      "name": "Air Elemental",
+      "near_mint_id": "dd3_jvc_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "Flying",
+      "originalType": "Creature — Elemental",
+      "power": "4",
+      "printings": [
+        "10e_064",
+        "2ed_047",
+        "3ed_047",
+        "4ed_059",
+        "5ed_071",
+        "6ed_056",
+        "7ed_058",
+        "8ed_059",
+        "9ed_058",
+        "brb_003",
+        "btd_001",
+        "dd2_013",
+        "lea_047",
+        "leb_047",
+        "m10_042"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "Flying",
+      "toughness": "4",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Poole",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Banned",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ancestral vision",
+      "images": {
+        "en": "/dd3_jvc/en/021.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "50669fb16ae1b0d86d7177dacb5f0560b49b6f7e",
+      "multiverseid": 393818,
+      "name": "Ancestral Vision",
+      "near_mint_id": "dd3_jvc_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)\nTarget player draws three cards.",
+      "originalType": "Sorcery",
+      "printings": [
+        "dd2_021",
+        "tsp_048"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2006-10-15",
+          "text": "This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with Fist of Suns or Mind's Desire."
+        },
+        {
+          "date": "2006-10-15",
+          "text": "This has no mana cost, which means it can't be cast with the Replicate ability of Djinn Illuminatus or by somehow giving it Flashback."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it."
+        }
+      ],
+      "text": "Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)\nTarget player draws three cards.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Ben Thompson",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "Reinforcements . . . or refreshments?",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "bottle gnomes",
+      "images": {
+        "en": "/dd3_jvc/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mtgjson_id": "34d85c6337da5ab66a9bba36dd8b8384a484666a",
+      "multiverseid": 393819,
+      "name": "Bottle Gnomes",
+      "near_mint_id": "dd3_jvc_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "Sacrifice Bottle Gnomes: You gain 3 life.",
+      "originalType": "Artifact Creature — Gnome",
+      "power": "1",
+      "printings": [
+        "10e_312",
+        "9ed_290",
+        "c14_231",
+        "dd2_007",
+        "mrd_148",
+        "tmp_268"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Gnome"
+      ],
+      "text": "Sacrifice Bottle Gnomes: You gain 3 life.",
+      "toughness": "3",
+      "type": "Artifact Creature — Gnome",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Stephen Tappin",
+      "cmc": 6,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Water calls to water, and the world is left exhausted and withered in its wake.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "brine elemental",
+      "images": {
+        "en": "/dd3_jvc/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}{U}",
+      "mtgjson_id": "b8a3a721666adb64d471e8a2b5f32c175c762ff0",
+      "multiverseid": 393820,
+      "name": "Brine Elemental",
+      "near_mint_id": "dd3_jvc_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "Morph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Brine Elemental is turned face up, each opponent skips his or her next untap step.",
+      "originalType": "Creature — Elemental",
+      "power": "5",
+      "printings": [
+        "c14_099",
+        "dd2_018",
+        "tsp_050"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2006-09-25",
+          "text": "Skipping the \"next\" step is cumulative. If a player turns two Brine Elementals face up on the same turn, that player's opponents will each skip their next two untap steps."
+        }
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "Morph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Brine Elemental is turned face up, each opponent skips his or her next untap step.",
+      "toughness": "4",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "chandra nalaar",
+      "images": {
+        "en": "/dd3_jvc/en/034.jpg"
+      },
+      "layout": "normal",
+      "loyalty": 6,
+      "manaCost": "{3}{R}{R}",
+      "mtgjson_id": "6fdfad521f372154d2f39485ee16e7148a0c2e3c",
+      "multiverseid": 393821,
+      "name": "Chandra Nalaar",
+      "near_mint_id": "dd3_jvc_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "+1: Chandra Nalaar deals 1 damage to target player.\n–X: Chandra Nalaar deals X damage to target creature.\n–8: Chandra Nalaar deals 10 damage to target player and each creature he or she controls.",
+      "originalType": "Planeswalker — Chandra",
+      "printings": [
+        "dd2_034",
+        "lrw_159",
+        "m10_132",
+        "m11_127"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "To activate the second ability, you choose a value of X equal to or less than the number of loyalty counters on Chandra Nalaar. You may choose 0. You can't choose a negative number."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are permanents. You can cast one at the time you could cast a sorcery. When your planeswalker spell resolves, it enters the battlefield under your control."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are not creatures. Spells and abilities that affect creatures won’t affect them."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers have loyalty. A planeswalker enters the battlefield with a number of loyalty counters on it equal to the number printed in its lower right corner. Activating one of its abilities may cause it to gain or lose loyalty counters. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it. If it has no loyalty counters on it, it’s put into its owner’s graveyard as a state-based action."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers each have a number of activated abilities called “loyalty abilities.” You can activate a loyalty ability of a planeswalker you control only at the time you could cast a sorcery and only if you haven’t activated one of that planeswalker’s loyalty abilities yet that turn."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "The cost to activate a planeswalker’s loyalty ability is represented by a symbol with a number inside. Up-arrows contain positive numbers, such as “+1”; this means “Put one loyalty counter on this planeswalker.” Down-arrows contain negative numbers, such as “-7”; this means “Remove seven loyalty counters from this planeswalker.” A symbol with a “0” means “Put zero loyalty counters on this planeswalker.”"
+        },
+        {
+          "date": "2013-07-01",
+          "text": "You can’t activate a planeswalker’s ability with a negative loyalty cost unless the planeswalker has at least that many loyalty counters on it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers can’t attack (unless an effect turns the planeswalker into a creature). However, they can be attacked. Each of your attacking creatures can attack your opponent or a planeswalker that player controls. You say which as you declare attackers."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If your planeswalkers are being attacked, you can block the attackers as normal."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a creature that’s attacking a planeswalker isn’t blocked, it’ll deal its combat damage to that planeswalker. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a source you control would deal noncombat damage to an opponent, you may have that source deal that damage to a planeswalker that opponent controls instead. For example, although you can’t target a planeswalker with Shock, you can target your opponent with Shock, and then as Shock resolves, choose to have Shock deal its 2 damage to one of your opponent’s planeswalkers. (You can’t split up that damage between different players and/or planeswalkers.) If you have Shock deal its damage to a planeswalker, two loyalty counters are removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them and the rest are put into their owners’ graveyards as a state-based action."
+        }
+      ],
+      "subtypes": [
+        "Chandra"
+      ],
+      "text": "+1: Chandra Nalaar deals 1 damage to target player.\n−X: Chandra Nalaar deals X damage to target creature.\n−8: Chandra Nalaar deals 10 damage to target player and each creature he or she controls.",
+      "type": "Planeswalker — Chandra",
+      "types": [
+        "Planeswalker"
+      ]
+    },
+    {
+      "artist": "Tony Szczudlo",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "chartooth cougar",
+      "images": {
+        "en": "/dd3_jvc/en/047.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{R}",
+      "mtgjson_id": "fc91fd465afa94cbe65c012f8089d03f8d8a1b7b",
+      "multiverseid": 393822,
+      "name": "Chartooth Cougar",
+      "near_mint_id": "dd3_jvc_047",
+      "number": 47,
+      "numberSpecial": "047",
+      "originalText": "{R}: Chartooth Cougar gets +1/+0 until end of turn.\nMountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "originalType": "Creature — Cat Beast",
+      "power": "4",
+      "printings": [
+        "cmd_115",
+        "cns_139",
+        "dd2_047",
+        "ddi_059",
+        "scg_084"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "Unlike the normal cycling ability, Mountaincycling doesn't allow you to draw a card. Instead, it lets you search your library for a Mountain card. After you find a Mountain card in your library, you reveal it, put it into your hand, then shuffle your library."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "Mountaincycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Mountaincycling this card. Any ability that stops a cycling ability from being activated also stops Mountaincycling from being activated."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "Mountaincycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Mountaincycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "You can choose to find any card with the Mountain land type, including nonbasic lands. You can also choose not to find a card, even if there is a Mountain card in your library."
+        }
+      ],
+      "subtypes": [
+        "Cat",
+        "Beast"
+      ],
+      "text": "{R}: Chartooth Cougar gets +1/+0 until end of turn.\nMountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "toughness": "4",
+      "type": "Creature — Cat Beast",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spears",
+      "cmc": 1,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "condescend",
+      "images": {
+        "en": "/dd3_jvc/en/028.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{U}",
+      "mtgjson_id": "40963ea64deb7ab43732807e4e2847b59d8b8015",
+      "multiverseid": 393823,
+      "name": "Condescend",
+      "near_mint_id": "dd3_jvc_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "Counter target spell unless its controller pays {X}. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "originalType": "Instant",
+      "printings": [
+        "5dn_027",
+        "dd2_028"
+      ],
+      "rarity": "Common",
+      "text": "Counter target spell unless its controller pays {X}. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Chippy",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "cone of flame",
+      "images": {
+        "en": "/dd3_jvc/en/054.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}{R}",
+      "mtgjson_id": "49a7adb1fef1ce964e298b6845233e0d71e1d735",
+      "multiverseid": 393824,
+      "name": "Cone of Flame",
+      "near_mint_id": "dd3_jvc_054",
+      "number": 54,
+      "numberSpecial": "054",
+      "originalText": "Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.",
+      "originalType": "Sorcery",
+      "printings": [
+        "10e_194",
+        "dd2_054",
+        "ddg_075",
+        "m15_137",
+        "wth_095"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-07-18",
+          "text": "Each of the three targets must be different. If there aren’t three different legal targets available, you can't cast the spell."
+        },
+        {
+          "date": "2014-07-18",
+          "text": "If one or two of Cone of Flame’s targets are illegal when it resolves, you can’t change how much damage will be dealt to the remaining legal targets."
+        }
+      ],
+      "text": "Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Jason Chan",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "The pyromancer summoned up her mightiest onslaught of fire and rage. Jace feigned interest.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "counterspell",
+      "images": {
+        "en": "/dd3_jvc/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{U}{U}",
+      "mtgjson_id": "c32b099941f33e94acffd31f27b740a738ce7330",
+      "multiverseid": 393825,
+      "name": "Counterspell",
+      "near_mint_id": "dd3_jvc_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "Counter target spell.",
+      "originalType": "Instant",
+      "printings": [
+        "2ed_055",
+        "3ed_054",
+        "4ed_065",
+        "5ed_077",
+        "6ed_061",
+        "7ed_067",
+        "brb_015",
+        "btd_006",
+        "dd2_024",
+        "ice_064",
+        "lea_055",
+        "leb_055",
+        "mmq_069",
+        "tmp_057"
+      ],
+      "rarity": "Common",
+      "text": "Counter target spell.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Matthew D. Wilson",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "daze",
+      "images": {
+        "en": "/dd3_jvc/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mtgjson_id": "906276ebb99686b3dced5446ebb60207a653e898",
+      "multiverseid": 393826,
+      "name": "Daze",
+      "near_mint_id": "dd3_jvc_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "You may return an Island you control to its owner's hand rather than pay Daze's mana cost.\nCounter target spell unless its controller pays {1}.",
+      "originalType": "Instant",
+      "printings": [
+        "dd2_023",
+        "nms_030"
+      ],
+      "rarity": "Common",
+      "text": "You may return an Island you control to its owner's hand rather than pay Daze's mana cost.\nCounter target spell unless its controller pays {1}.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "demonfire",
+      "images": {
+        "en": "/dd3_jvc/en/057.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{R}",
+      "mtgjson_id": "d3f283cbc64a1ddf91728fa78142d363a8a298fc",
+      "multiverseid": 393827,
+      "name": "Demonfire",
+      "near_mint_id": "dd3_jvc_057",
+      "number": 57,
+      "numberSpecial": "057",
+      "originalText": "Demonfire deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.\nHellbent — If you have no cards in hand, Demonfire can't be countered by spells or abilities and the damage can't be prevented.",
+      "originalType": "Sorcery",
+      "printings": [
+        "dd2_057",
+        "dis_060"
+      ],
+      "rarity": "Rare",
+      "text": "Demonfire deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.\nHellbent — If you have no cards in hand, Demonfire can't be countered by spells or abilities and the damage can't be prevented.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Jim Pavelec",
+      "cmc": 0,
+      "color": [
+        "R"
+      ],
+      "colors": "C",
+      "imageName": "elemental shaman",
+      "images": {
+        "en": "/dd3_jvc/en/to004.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DD3_JVC_004-Elemental-Shaman.jpg",
+      "name": "Elemental Shaman",
+      "near_mint_id": "dd3_jvc_to004",
+      "number": 4,
+      "numberSpecial": "to004",
+      "originalType": "Creature — Elemental Shaman",
+      "power": "3",
+      "rarity": "Token",
+      "subtypes": [
+        "Elemental",
+        "Shaman"
+      ],
+      "toughness": "1",
+      "type": "Creature — Elemental Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Luca Zontini",
+      "cmc": 7,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "errant ephemeron",
+      "images": {
+        "en": "/dd3_jvc/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{U}",
+      "mtgjson_id": "654a8927d9b9157a6d43a55100baa99e8be00dcd",
+      "multiverseid": 393828,
+      "name": "Errant Ephemeron",
+      "near_mint_id": "dd3_jvc_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "Flying\nSuspend 4—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
+      "originalType": "Creature — Illusion",
+      "power": "4",
+      "printings": [
+        "dd2_020",
+        "ddm_020",
+        "mma_041",
+        "tsp_060"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-06-07",
+          "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+        }
+      ],
+      "subtypes": [
+        "Illusion"
+      ],
+      "text": "Flying\nSuspend 4—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
+      "toughness": "4",
+      "type": "Creature — Illusion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Cavotta",
+      "cmc": 4,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Try to pretend like you understand what's important.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fact or fiction",
+      "images": {
+        "en": "/dd3_jvc/en/026.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}",
+      "mtgjson_id": "4fa20f57487b32a7122a1a49279b992a25aa0ff6",
+      "multiverseid": 393829,
+      "name": "Fact or Fiction",
+      "near_mint_id": "dd3_jvc_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+      "originalType": "Instant",
+      "printings": [
+        "c15_094",
+        "cmd_045",
+        "cns_097",
+        "dd2_026",
+        "inv_057",
+        "v13_009"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose which pile to put into your hand."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The revealed cards are revealed in order, so that all players know what order they were on the library."
+        }
+      ],
+      "text": "Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Ralph Horsley",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fathom seer",
+      "images": {
+        "en": "/dd3_jvc/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mtgjson_id": "b7ffb19775453bf3591c829f2b2a79bdb4c3155b",
+      "multiverseid": 393830,
+      "name": "Fathom Seer",
+      "near_mint_id": "dd3_jvc_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Morph—Return two Islands you control to their owner's hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Fathom Seer is turned face up, draw two cards.",
+      "originalType": "Creature — Illusion",
+      "power": "1",
+      "printings": [
+        "c14_109",
+        "dd2_003",
+        "ddn_045",
+        "tsp_062"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Illusion"
+      ],
+      "text": "Morph—Return two Islands you control to their owner's hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Fathom Seer is turned face up, draw two cards.",
+      "toughness": "3",
+      "type": "Creature — Illusion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dave Dorman",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "The spell fell upon the crowd like a dragon, ancient and full of death.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fireball",
+      "images": {
+        "en": "/dd3_jvc/en/056.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{R}",
+      "mtgjson_id": "cc2a2fb5ba26d8db0db8ff8421fc5d566f68f6bf",
+      "multiverseid": 393831,
+      "name": "Fireball",
+      "near_mint_id": "dd3_jvc_056",
+      "number": 56,
+      "numberSpecial": "056",
+      "originalText": "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.\nFireball costs {1} more to cast for each target beyond the first.",
+      "originalType": "Sorcery",
+      "printings": [
+        "2ed_150",
+        "3ed_149",
+        "4ed_210",
+        "5ed_227",
+        "btd_037",
+        "c13_106",
+        "dd2_056",
+        "dst_060",
+        "lea_150",
+        "leb_151",
+        "m10_136",
+        "m11_138",
+        "m12_131",
+        "pd2_027"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-12-01",
+          "text": "The additional cost is paid when you pay the rest of Fireball's costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward Fireball's converted mana cost."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "If, for example, X is 5 and you choose three target creatures, Fireball has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as Fireball resolves, it deals 1 damage to each of them."
+        },
+        {
+          "date": "2009-05-01",
+          "text": "You may cast Fireball with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Fireball's damage is divided as Fireball resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "You can target more than X creatures. However, if the number of legal targets at the time Fireball resolves is greater than X, none of them will be dealt any damage."
+        }
+      ],
+      "text": "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.\nFireball costs {1} more to cast for each target beyond the first.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Michael Danza",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Embermages aren't well known for their diplomatic skills.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fireblast",
+      "images": {
+        "en": "/dd3_jvc/en/055.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{R}{R}",
+      "mtgjson_id": "73236eabab538b2ef6237e18e2c9a115ca5194f4",
+      "multiverseid": 393832,
+      "name": "Fireblast",
+      "near_mint_id": "dd3_jvc_055",
+      "number": 55,
+      "numberSpecial": "055",
+      "originalText": "You may sacrifice two Mountains rather than pay Fireblast's mana cost.\nFireblast deals 4 damage to target creature or player.",
+      "originalType": "Instant",
+      "printings": [
+        "dd2_055",
+        "pd2_026",
+        "vis_079"
+      ],
+      "rarity": "Common",
+      "text": "You may sacrifice two Mountains rather than pay Fireblast's mana cost.\nFireblast deals 4 damage to target creature or player.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Reach out and torch someone.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "firebolt",
+      "images": {
+        "en": "/dd3_jvc/en/049.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "eed8360b38562222e1256039e61358187d3b1761",
+      "multiverseid": 393833,
+      "name": "Firebolt",
+      "near_mint_id": "dd3_jvc_049",
+      "number": 49,
+      "numberSpecial": "049",
+      "originalText": "Firebolt deals 2 damage to target creature or player.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "dd2_049",
+        "ody_193"
+      ],
+      "rarity": "Common",
+      "text": "Firebolt deals 2 damage to target creature or player.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Jeff Reitz",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Remember the moral of the fireslinger fable: with power comes isolation.\"\n—Karn, silver golem",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fireslinger",
+      "images": {
+        "en": "/dd3_jvc/en/036.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "d64a30609fbf51bedacc3d4255f0d4888425b4f6",
+      "multiverseid": 393834,
+      "name": "Fireslinger",
+      "near_mint_id": "dd3_jvc_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "{T}: Fireslinger deals 1 damage to target creature or player and 1 damage to you.",
+      "originalType": "Creature — Human Wizard",
+      "power": "1",
+      "printings": [
+        "dd2_036",
+        "tmp_173"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "{T}: Fireslinger deals 1 damage to target creature or player and 1 damage to you.",
+      "toughness": "1",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Trevor Hairsine",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Gyara Spearhurler would have been renowned for her deadly accuracy, if it weren't for her deadly accuracy.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flame javelin",
+      "images": {
+        "en": "/dd3_jvc/en/053.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2/R}{2/R}{2/R}",
+      "mtgjson_id": "9ea823524b09cad08eb2744a6800f3e42a537af1",
+      "multiverseid": 393835,
+      "name": "Flame Javelin",
+      "near_mint_id": "dd3_jvc_053",
+      "number": 53,
+      "numberSpecial": "053",
+      "originalText": "({2/R} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)\nFlame Javelin deals 4 damage to target creature or player.",
+      "originalType": "Instant",
+      "printings": [
+        "dd2_053",
+        "ddk_070",
+        "shm_092"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-05-01",
+          "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you've chosen a method of paying for it that includes generic mana."
+        },
+        {
+          "date": "2008-05-01",
+          "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Flame Javelin is red even if you spend six green mana to cast it."
+        },
+        {
+          "date": "2008-05-01",
+          "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Flame Javelin has a converted mana cost of 6, even if you spend {R}{R}{R} to cast it."
+        },
+        {
+          "date": "2008-05-01",
+          "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Flame Javelin by spending {R}{R}{R}, {2}{R}{R}, {4}{R}, or {6}."
+        }
+      ],
+      "text": "({2/R} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)\nFlame Javelin deals 4 damage to target creature or player.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Daren Bader",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "When he hits people, they stay hit.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flamekin brawler",
+      "images": {
+        "en": "/dd3_jvc/en/035.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "83a7a48c3a4259e5f9fc49eebf4e136a80996050",
+      "multiverseid": 393836,
+      "name": "Flamekin Brawler",
+      "near_mint_id": "dd3_jvc_035",
+      "number": 35,
+      "numberSpecial": "035",
+      "originalText": "{R}: Flamekin Brawler gets +1/+0 until end of turn.",
+      "originalType": "Creature — Elemental Warrior",
+      "power": "0",
+      "printings": [
+        "dd2_035",
+        "lrw_166"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elemental",
+        "Warrior"
+      ],
+      "text": "{R}: Flamekin Brawler gets +1/+0 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Elemental Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"For dim-witted, thick-skulled genetic mutants, they have pretty good aim.\"\n—Sisay, captain of the Weatherlight",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flametongue kavu",
+      "images": {
+        "en": "/dd3_jvc/en/042.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}",
+      "mtgjson_id": "3f5504c474493f8d014a7c60e47710c70f167f2e",
+      "multiverseid": 393837,
+      "name": "Flametongue Kavu",
+      "near_mint_id": "dd3_jvc_042",
+      "number": 42,
+      "numberSpecial": "042",
+      "originalText": "When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.",
+      "originalType": "Creature — Kavu",
+      "power": "4",
+      "printings": [
+        "c14_176",
+        "cmd_123",
+        "dd2_042",
+        "pls_060"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If it enters the battlefield as the only targetable creature, it must target itself."
+        }
+      ],
+      "subtypes": [
+        "Kavu"
+      ],
+      "text": "When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.",
+      "toughness": "2",
+      "type": "Creature — Kavu",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dave Dorman",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Inside even the humblest goblin lurks the potential for far greater things—and far worse.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flamewave invoker",
+      "images": {
+        "en": "/dd3_jvc/en/040.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mtgjson_id": "bf5bf14ffced03d9c836fcaa8be5ac0b3e56d28d",
+      "multiverseid": 393838,
+      "name": "Flamewave Invoker",
+      "near_mint_id": "dd3_jvc_040",
+      "number": 40,
+      "numberSpecial": "040",
+      "originalText": "{7}{R}: Flamewave Invoker deals 5 damage to target player.",
+      "originalType": "Creature — Goblin Mutant",
+      "power": "2",
+      "printings": [
+        "10e_202",
+        "dd2_040",
+        "dd3_evg_036",
+        "evg_036",
+        "lgn_092"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin",
+        "Mutant"
+      ],
+      "text": "{7}{R}: Flamewave Invoker deals 5 damage to target player.",
+      "toughness": "2",
+      "type": "Creature — Goblin Mutant",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 4,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fledgling mawcor",
+      "images": {
+        "en": "/dd3_jvc/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}",
+      "mtgjson_id": "7989ef46a3e03c1f089a1a42873dc7c9eb1c3194",
+      "multiverseid": 393839,
+      "name": "Fledgling Mawcor",
+      "near_mint_id": "dd3_jvc_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Flying\n{T}: Fledgling Mawcor deals 1 damage to target creature or player.\nMorph {U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "originalType": "Creature — Beast",
+      "power": "2",
+      "printings": [
+        "dd2_010",
+        "tsp_063"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Beast"
+      ],
+      "text": "Flying\n{T}: Fledgling Mawcor deals 1 damage to target creature or player.\nMorph {U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "toughness": "2",
+      "type": "Creature — Beast",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Cavotta",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Baby dragons can't figure out humans—if they didn't want to be killed, why were they made of meat and treasure?",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "furnace whelp",
+      "images": {
+        "en": "/dd3_jvc/en/043.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}{R}",
+      "mtgjson_id": "5236a98f7fd05e26cfcb367b784c743b6e2b9439",
+      "multiverseid": 393840,
+      "name": "Furnace Whelp",
+      "near_mint_id": "dd3_jvc_043",
+      "number": 43,
+      "numberSpecial": "043",
+      "originalText": "Flying\n{R}: Furnace Whelp gets +1/+0 until end of turn.",
+      "originalType": "Creature — Dragon",
+      "power": "2",
+      "printings": [
+        "10e_205",
+        "5dn_065",
+        "cmd_124",
+        "dd2_043",
+        "m13_133"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{R}: Furnace Whelp gets +1/+0 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "cmc": 6,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "guile",
+      "images": {
+        "en": "/dd3_jvc/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}{U}{U}",
+      "mtgjson_id": "7d660c51c614d659914c5d00784bdb99a850fb0d",
+      "multiverseid": 393841,
+      "name": "Guile",
+      "near_mint_id": "dd3_jvc_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Guile can't be blocked except by three or more creatures.\nIf a spell or ability you control would counter a spell, instead exile that spell and you may play that card without paying its mana cost.\nWhen Guile is put into a graveyard from anywhere, shuffle it into its owner's library.",
+      "originalType": "Creature — Elemental Incarnation",
+      "power": "6",
+      "printings": [
+        "dd2_014",
+        "lrw_069",
+        "mm2_046"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "Guile's second ability replaces \"counter [a certain spell]\" with \"exile [a certain spell] and you may cast it without paying its mana cost.\" You have the option to cast it immediately upon its exile. If you choose not to, it remains exiled and you don't get another chance to cast it. If the spell or ability that tried to counter the spell has additional effects, it then continues to resolve."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "Exiling the spell is mandatory. Casting it is not."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "A spell exiled this way was never actually countered."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "If a spell or ability you control attempts to counter a spell that can't be countered, it doesn't. Since the spell wouldn't be countered, Guile's ability has no effect on it. The spell will continue to resolve normally."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it won't get shuffled into its owner's library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all."
+        }
+      ],
+      "subtypes": [
+        "Elemental",
+        "Incarnation"
+      ],
+      "text": "Guile can't be blocked except by three or more creatures.\nIf a spell or ability you control would counter a spell, instead exile that spell and you may play that card without paying its mana cost.\nWhen Guile is put into a graveyard from anywhere, shuffle it into its owner's library.",
+      "toughness": "6",
+      "type": "Creature — Elemental Incarnation",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Don't trust your secrets to the sea.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Banned",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gush",
+      "images": {
+        "en": "/dd3_jvc/en/027.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}",
+      "mtgjson_id": "6ab51ca6c21217bf8b4aef06347ea1d0413ff5e5",
+      "multiverseid": 393842,
+      "name": "Gush",
+      "near_mint_id": "dd3_jvc_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "You may return two Islands you control to their owner's hand rather than pay Gush's mana cost.\nDraw two cards.",
+      "originalType": "Instant",
+      "printings": [
+        "dd2_027",
+        "mmq_082"
+      ],
+      "rarity": "Common",
+      "text": "You may return two Islands you control to their owner's hand rather than pay Gush's mana cost.\nDraw two cards.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Omar Rayyan",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hostility",
+      "images": {
+        "en": "/dd3_jvc/en/048.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}{R}{R}",
+      "mtgjson_id": "254a0f8405eb37a37decb64ca992cb8daa3dd187",
+      "multiverseid": 393843,
+      "name": "Hostility",
+      "near_mint_id": "dd3_jvc_048",
+      "number": 48,
+      "numberSpecial": "048",
+      "originalText": "Haste\nIf a spell you control would deal damage to an opponent, prevent that damage. Put a 3/1 red Elemental Shaman creature token with haste onto the battlefield for each 1 damage prevented this way.\nWhen Hostility is put into a graveyard from anywhere, shuffle it into its owner's library.",
+      "originalType": "Creature — Elemental Incarnation",
+      "power": "6",
+      "printings": [
+        "c15_158",
+        "dd2_048",
+        "lrw_176"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "If a spell you control would deal damage to an opponent and that opponent controls a planeswalker, that opponent chooses which of your effects to apply first. -- If that player chooses to apply Hostility's effect first, the damage is prevented, you put some tokens onto the battlefield, and the planeswalker redirection effect is moot because there's no damage to redirect. -- If that player chooses to apply the planeswalker redirection effect first, you have a choice. You can redirect the damage to the planeswalker (in which case Hostility's prevention effect is moot because nothing's dealing damage to the player anymore) or you can have your spell continue to deal damage to the opponent. If you choose the latter, Hostility's effect then applies, the damage is prevented, and you get the tokens."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it won't get shuffled into its owner's library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all."
+        }
+      ],
+      "subtypes": [
+        "Elemental",
+        "Incarnation"
+      ],
+      "text": "Haste\nIf a spell you control would deal damage to an opponent, prevent that damage. Put a 3/1 red Elemental Shaman creature token with haste onto the battlefield for each 1 damage prevented this way.\nWhen Hostility is put into a graveyard from anywhere, shuffle it into its owner's library.",
+      "toughness": "6",
+      "type": "Creature — Elemental Incarnation",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Steve Prescott",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Who said there are no assurances in life? I assure you this is going to hurt.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "incinerate",
+      "images": {
+        "en": "/dd3_jvc/en/051.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "8fb5828b3cf9cfbbfe5570c6b6c6e4062b388cda",
+      "multiverseid": 393844,
+      "name": "Incinerate",
+      "near_mint_id": "dd3_jvc_051",
+      "number": 51,
+      "numberSpecial": "051",
+      "originalText": "Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.",
+      "originalType": "Instant",
+      "printings": [
+        "10e_213",
+        "5ed_242",
+        "dd2_051",
+        "ice_194",
+        "m12_146",
+        "mir_184"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2007-07-15",
+          "text": "Regeneration abilities that would affect that creature can still be activated; they just won't do anything. The creature can't be regenerated for any reason, even if an effect other than Incinerate would deal lethal damage to it or otherwise destroy it."
+        }
+      ],
+      "text": "Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Elementals are ideas given form. This one is the idea of \"smashitude.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ingot chewer",
+      "images": {
+        "en": "/dd3_jvc/en/045.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{R}",
+      "mtgjson_id": "880baa55143644a6188f70e0ae640124585cfc70",
+      "multiverseid": 393845,
+      "name": "Ingot Chewer",
+      "near_mint_id": "dd3_jvc_045",
+      "number": 45,
+      "numberSpecial": "045",
+      "originalText": "When Ingot Chewer enters the battlefield, destroy target artifact.\nEvoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "originalType": "Creature — Elemental",
+      "power": "3",
+      "printings": [
+        "c14_179",
+        "dd2_045",
+        "lrw_180"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+        }
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "When Ingot Chewer enters the battlefield, destroy target artifact.\nEvoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "toughness": "3",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spears",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "inner-flame acolyte",
+      "images": {
+        "en": "/dd3_jvc/en/041.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mtgjson_id": "813176e1d752e54208f20cf5dc6e3cab1509748a",
+      "multiverseid": 393846,
+      "name": "Inner-Flame Acolyte",
+      "near_mint_id": "dd3_jvc_041",
+      "number": 41,
+      "numberSpecial": "041",
+      "originalText": "When Inner-Flame Acolyte enters the battlefield, target creature gets +2/+0 and gains haste until end of turn.\nEvoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "originalType": "Creature — Elemental Shaman",
+      "power": "2",
+      "printings": [
+        "dd2_041",
+        "lrw_181"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+        }
+      ],
+      "subtypes": [
+        "Elemental",
+        "Shaman"
+      ],
+      "text": "When Inner-Flame Acolyte enters the battlefield, target creature gets +2/+0 and gains haste until end of turn.\nEvoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "toughness": "2",
+      "type": "Creature — Elemental Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island1",
+      "images": {
+        "en": "/dd3_jvc/en/030.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "886ab30e773ecf8b3fc016bb38ca5fe807684e07",
+      "multiverseid": 393847,
+      "name": "Island",
+      "near_mint_id": "dd3_jvc_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_031",
+        "dd3_jvc_032",
+        "dd3_jvc_033",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_061",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_032",
+        "dd3_jvc_031",
+        "dd3_jvc_033"
+      ]
+    },
+    {
+      "artist": "Scott Bailey",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island2",
+      "images": {
+        "en": "/dd3_jvc/en/031.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "6953833ebc0a496f2d0be1ce594b33d3c77a6541",
+      "multiverseid": 393849,
+      "name": "Island",
+      "near_mint_id": "dd3_jvc_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_032",
+        "dd3_jvc_033",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_061",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_030",
+        "dd3_jvc_032",
+        "dd3_jvc_033"
+      ]
+    },
+    {
+      "artist": "Donato Giancola",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island3",
+      "images": {
+        "en": "/dd3_jvc/en/032.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "84930d2def0b4289093b1fa040df3872e3c9d92c",
+      "multiverseid": 393848,
+      "name": "Island",
+      "near_mint_id": "dd3_jvc_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_033",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_061",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_033"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island4",
+      "images": {
+        "en": "/dd3_jvc/en/033.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "ee91959c43bf5cce4636bd76f37cd46efd1801ed",
+      "multiverseid": 393850,
+      "name": "Island",
+      "near_mint_id": "dd3_jvc_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_032",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_061",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_030",
+        "dd3_jvc_032",
+        "dd3_jvc_031"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "jace beleren",
+      "images": {
+        "en": "/dd3_jvc/en/001.jpg"
+      },
+      "layout": "normal",
+      "loyalty": 3,
+      "manaCost": "{1}{U}{U}",
+      "mtgjson_id": "97821d7f4791399323978fff0819cc6a45a03b24",
+      "multiverseid": 393851,
+      "name": "Jace Beleren",
+      "near_mint_id": "dd3_jvc_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "+2: Each player draws a card.\n–1: Target player draws a card.\n–10: Target player puts the top twenty cards of his or her library into his or her graveyard.",
+      "originalType": "Planeswalker — Jace",
+      "printings": [
+        "dd2_001",
+        "lrw_071",
+        "m10_058",
+        "m11_058"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "If there are fewer than twenty cards in the targeted player's library, that player puts all the cards from his or her library into his or her graveyard."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are permanents. You can cast one at the time you could cast a sorcery. When your planeswalker spell resolves, it enters the battlefield under your control."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are not creatures. Spells and abilities that affect creatures won’t affect them."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers have loyalty. A planeswalker enters the battlefield with a number of loyalty counters on it equal to the number printed in its lower right corner. Activating one of its abilities may cause it to gain or lose loyalty counters. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it. If it has no loyalty counters on it, it’s put into its owner’s graveyard as a state-based action."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers each have a number of activated abilities called “loyalty abilities.” You can activate a loyalty ability of a planeswalker you control only at the time you could cast a sorcery and only if you haven’t activated one of that planeswalker’s loyalty abilities yet that turn."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "The cost to activate a planeswalker’s loyalty ability is represented by a symbol with a number inside. Up-arrows contain positive numbers, such as “+1”; this means “Put one loyalty counter on this planeswalker.” Down-arrows contain negative numbers, such as “-7”; this means “Remove seven loyalty counters from this planeswalker.” A symbol with a “0” means “Put zero loyalty counters on this planeswalker.”"
+        },
+        {
+          "date": "2013-07-01",
+          "text": "You can’t activate a planeswalker’s ability with a negative loyalty cost unless the planeswalker has at least that many loyalty counters on it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers can’t attack (unless an effect turns the planeswalker into a creature). However, they can be attacked. Each of your attacking creatures can attack your opponent or a planeswalker that player controls. You say which as you declare attackers."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If your planeswalkers are being attacked, you can block the attackers as normal."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a creature that’s attacking a planeswalker isn’t blocked, it’ll deal its combat damage to that planeswalker. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a source you control would deal noncombat damage to an opponent, you may have that source deal that damage to a planeswalker that opponent controls instead. For example, although you can’t target a planeswalker with Shock, you can target your opponent with Shock, and then as Shock resolves, choose to have Shock deal its 2 damage to one of your opponent’s planeswalkers. (You can’t split up that damage between different players and/or planeswalkers.) If you have Shock deal its damage to a planeswalker, two loyalty counters are removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them and the rest are put into their owners’ graveyards as a state-based action."
+        }
+      ],
+      "subtypes": [
+        "Jace"
+      ],
+      "text": "+2: Each player draws a card.\n−1: Target player draws a card.\n−10: Target player puts the top twenty cards of his or her library into his or her graveyard.",
+      "type": "Planeswalker — Jace",
+      "types": [
+        "Planeswalker"
+      ]
+    },
+    {
+      "artist": "Philip Straub",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "keldon megaliths",
+      "images": {
+        "en": "/dd3_jvc/en/058.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "5fbb2902cc286a77b2618f1c7843717f09bfb89d",
+      "multiverseid": 393852,
+      "name": "Keldon Megaliths",
+      "near_mint_id": "dd3_jvc_058",
+      "number": 58,
+      "numberSpecial": "058",
+      "originalText": "Keldon Megaliths enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nHellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or player. Activate this ability only if you have no cards in hand.",
+      "originalType": "Land",
+      "printings": [
+        "dd2_058",
+        "fut_170"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2007-05-01",
+          "text": "It doesn't matter how many cards you have in your hand when the ability resolves."
+        }
+      ],
+      "text": "Keldon Megaliths enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nHellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or player. Activate this ability only if you have no cards in hand.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Justin Sweet",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "magma jet",
+      "images": {
+        "en": "/dd3_jvc/en/052.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "82888736ed10e97e1967a9775d1df8ba2c644c5b",
+      "multiverseid": 393853,
+      "name": "Magma Jet",
+      "near_mint_id": "dd3_jvc_052",
+      "number": 52,
+      "numberSpecial": "052",
+      "originalText": "Magma Jet deals 2 damage to target creature or player. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "originalType": "Instant",
+      "printings": [
+        "5dn_073",
+        "dd2_052",
+        "ddl_022",
+        "ths_128"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-09-15",
+          "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won’t scry."
+        }
+      ],
+      "text": "Magma Jet deals 2 damage to target creature or player. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Jon J Muth",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Beauty to the eye does not always translate to the touch.\"\n—Naimah, Femeref philosopher",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "man-o'-war",
+      "images": {
+        "en": "/dd3_jvc/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}",
+      "mtgjson_id": "d43fa59250f87d33c10ae1425e536cbc75084f2a",
+      "multiverseid": 393854,
+      "name": "Man-o'-War",
+      "near_mint_id": "dd3_jvc_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "When Man-o'-War enters the battlefield, return target creature to its owner's hand.",
+      "originalType": "Creature — Jellyfish",
+      "power": "2",
+      "printings": [
+        "brb_040",
+        "dd2_008",
+        "ddo_038",
+        "vis_037"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "It can choose itself. It has to if there are no other creatures."
+        }
+      ],
+      "subtypes": [
+        "Jellyfish"
+      ],
+      "text": "When Man-o'-War enters the battlefield, return target creature to its owner's hand.",
+      "toughness": "2",
+      "type": "Creature — Jellyfish",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Wayne England",
+      "cmc": 1,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Do not call the Balduvians barbaric. Their magic is as potent as it is primal.\"\n—Zur the Enchanter",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "martyr of frost",
+      "images": {
+        "en": "/dd3_jvc/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{U}",
+      "mtgjson_id": "13334e7d6d869c06dbc88296a13bfa941bf0fe09",
+      "multiverseid": 393855,
+      "name": "Martyr of Frost",
+      "near_mint_id": "dd3_jvc_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "{2}, Reveal X blue cards from your hand, Sacrifice Martyr of Frost: Counter target spell unless its controller pays {X}.",
+      "originalType": "Creature — Human Wizard",
+      "power": "1",
+      "printings": [
+        "csp_040",
+        "dd2_002"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2006-07-15",
+          "text": "Each card that's revealed to pay the cost remains revealed until the ability leaves the stack."
+        },
+        {
+          "date": "2006-07-15",
+          "text": "A card that's already revealed for another cost or because of an effect can be revealed to pay this cost."
+        },
+        {
+          "date": "2006-07-15",
+          "text": "If one of the cards that's revealed to pay the cost leaves its owner's hand before the ability resolves, it stops being revealed, but the value of X is not affected."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "{2}, Reveal X blue cards from your hand, Sacrifice Martyr of Frost: Counter target spell unless its controller pays {X}.",
+      "toughness": "1",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Adam Rex",
+      "cmc": 2,
+      "colors": "C",
+      "flavor": "\"What is mana but possibility, an idea not yet given form?\"\n—Jhoira, master artificer",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mind stone",
+      "images": {
+        "en": "/dd3_jvc/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mtgjson_id": "5cab8287a3a1bc5991c16baa355778bc4c0b8f8c",
+      "multiverseid": 393856,
+      "name": "Mind Stone",
+      "near_mint_id": "dd3_jvc_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "{T}: Add {1} to your mana pool.\n{1}, {T}, Sacrifice Mind Stone: Draw a card.",
+      "originalType": "Artifact",
+      "printings": [
+        "10e_335",
+        "c14_250",
+        "c15_259",
+        "dd2_022",
+        "ddp_065",
+        "wth_153"
+      ],
+      "rarity": "Uncommon",
+      "text": "{T}: Add {1} to your mana pool.\n{1}, {T}, Sacrifice Mind Stone: Draw a card.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain1",
+      "images": {
+        "en": "/dd3_jvc/en/059.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "fefe88f354664a08e9ca44ce17acd85288735dc0",
+      "multiverseid": 393857,
+      "name": "Mountain",
+      "near_mint_id": "dd3_jvc_059",
+      "number": 59,
+      "numberSpecial": "059",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dd3_jvc_060"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain2",
+      "images": {
+        "en": "/dd3_jvc/en/060.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "4cee929a49df89b1cae29a4ec488da2cd1f2dcd7",
+      "multiverseid": 393860,
+      "name": "Mountain",
+      "near_mint_id": "dd3_jvc_060",
+      "number": 60,
+      "numberSpecial": "060",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_059",
+        "dd3_jvc_061",
+        "dd3_jvc_062"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain3",
+      "images": {
+        "en": "/dd3_jvc/en/061.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "41224331c425af5100ef14ee861ad5f2ccfb2eae",
+      "multiverseid": 393858,
+      "name": "Mountain",
+      "near_mint_id": "dd3_jvc_061",
+      "number": 61,
+      "numberSpecial": "061",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_059",
+        "dd3_jvc_062",
+        "dd3_jvc_060"
+      ]
+    },
+    {
+      "artist": "Mark Tedin",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain4",
+      "images": {
+        "en": "/dd3_jvc/en/062.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "5d3926b6e5bd203d5f2eb3fa028c8bb68894c486",
+      "multiverseid": 393859,
+      "name": "Mountain",
+      "near_mint_id": "dd3_jvc_062",
+      "number": 62,
+      "numberSpecial": "062",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_jvc_059",
+        "dd3_jvc_061",
+        "dd3_jvc_060"
+      ]
+    },
+    {
+      "artist": "Eric Fortune",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mulldrifter",
+      "images": {
+        "en": "/dd3_jvc/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}",
+      "mtgjson_id": "86d8a9c887bed367f6018ea0abd4079e4fd39e1b",
+      "multiverseid": 393861,
+      "name": "Mulldrifter",
+      "near_mint_id": "dd3_jvc_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Flying\nWhen Mulldrifter enters the battlefield, draw two cards.\nEvoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "originalType": "Creature — Elemental",
+      "power": "2",
+      "printings": [
+        "c14_118",
+        "c15_097",
+        "cmd_052",
+        "dd2_012",
+        "lrw_076",
+        "mm2_051",
+        "mma_054"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "Flying\nWhen Mulldrifter enters the battlefield, draw two cards.\nEvoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "toughness": "2",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Cliff Nielsen",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ophidian",
+      "images": {
+        "en": "/dd3_jvc/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}",
+      "mtgjson_id": "52dc292a446f9800789b6394885a32b207ecf740",
+      "multiverseid": 393862,
+      "name": "Ophidian",
+      "near_mint_id": "dd3_jvc_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Whenever Ophidian attacks and isn't blocked, you may draw a card. If you do, Ophidian assigns no combat damage this turn.",
+      "originalType": "Creature — Snake",
+      "power": "1",
+      "printings": [
+        "dd2_009",
+        "wth_045"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "An ability that triggers when something \"attacks and isn't blocked\" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step."
+        }
+      ],
+      "subtypes": [
+        "Snake"
+      ],
+      "text": "Whenever Ophidian attacks and isn't blocked, you may draw a card. If you do, Ophidian assigns no combat damage this turn.",
+      "toughness": "3",
+      "type": "Creature — Snake",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 6,
+      "colors": "C",
+      "flavor": "The longer it patrols the smoldering crags of the Oxidda Chain, the more it adopts their fiery temper.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "oxidda golem",
+      "images": {
+        "en": "/dd3_jvc/en/046.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}",
+      "mtgjson_id": "e4b43b9b183241dd243b3486417b6f13551488fb",
+      "multiverseid": 393863,
+      "name": "Oxidda Golem",
+      "near_mint_id": "dd3_jvc_046",
+      "number": 46,
+      "numberSpecial": "046",
+      "originalText": "Affinity for Mountains (This spell costs {1} less to cast for each Mountain you control.)\nHaste",
+      "originalType": "Artifact Creature — Golem",
+      "power": "3",
+      "printings": [
+        "dd2_046",
+        "dst_135"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Golem"
+      ],
+      "text": "Affinity for Mountains (This spell costs {1} less to cast for each Mountain you control.)\nHaste",
+      "toughness": "2",
+      "type": "Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Zug",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "His blade was forged over coals of moaning treefolk, curved at the optimum angle for severing heads, and heated to volcanic temperatures by his touch.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "pyre charger",
+      "images": {
+        "en": "/dd3_jvc/en/038.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}{R}",
+      "mtgjson_id": "120970cec53595d0b2633434d9bf015f38da092a",
+      "multiverseid": 393864,
+      "name": "Pyre Charger",
+      "near_mint_id": "dd3_jvc_038",
+      "number": 38,
+      "numberSpecial": "038",
+      "originalText": "Haste\n{R}: Pyre Charger gets +1/+0 until end of turn.",
+      "originalType": "Creature — Elemental Warrior",
+      "power": "1",
+      "printings": [
+        "dd2_038",
+        "shm_103"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elemental",
+        "Warrior"
+      ],
+      "text": "Haste\n{R}: Pyre Charger gets +1/+0 until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Elemental Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 6,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "quicksilver dragon",
+      "images": {
+        "en": "/dd3_jvc/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}{U}",
+      "mtgjson_id": "ca5fe67466d811e381bb5025046f06f8a6aff34d",
+      "multiverseid": 393865,
+      "name": "Quicksilver Dragon",
+      "near_mint_id": "dd3_jvc_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Flying\n{U}: If target spell has only one target and that target is Quicksilver Dragon, change that spell's target to another creature.\nMorph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "originalType": "Creature — Dragon",
+      "power": "5",
+      "printings": [
+        "dd2_019",
+        "ons_103"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying\n{U}: If target spell has only one target and that target is Quicksilver Dragon, change that spell's target to another creature.\nMorph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "toughness": "5",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rakdos pit dragon",
+      "images": {
+        "en": "/dd3_jvc/en/044.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}{R}",
+      "mtgjson_id": "4a7046fb21e516ec277b5f46f01a162f2d9ff5da",
+      "multiverseid": 393866,
+      "name": "Rakdos Pit Dragon",
+      "near_mint_id": "dd3_jvc_044",
+      "number": 44,
+      "numberSpecial": "044",
+      "originalText": "{R}{R}: Rakdos Pit Dragon gains flying until end of turn.\n{R}: Rakdos Pit Dragon gets +1/+0 until end of turn.\nHellbent — Rakdos Pit Dragon has double strike as long as you have no cards in hand.",
+      "originalType": "Creature — Dragon",
+      "power": "3",
+      "printings": [
+        "dd2_044",
+        "dis_069"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2006-05-01",
+          "text": "If Rakdos Pit Dragon loses double strike after first strike combat damage has been dealt, it won't deal damage during the normal combat damage step."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "{R}{R}: Rakdos Pit Dragon gains flying until end of turn.\n{R}: Rakdos Pit Dragon gets +1/+0 until end of turn.\nHellbent — Rakdos Pit Dragon has double strike as long as you have no cards in hand.",
+      "toughness": "3",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Aaron Boyd",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"You aren't invited.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "repulse",
+      "images": {
+        "en": "/dd3_jvc/en/025.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}",
+      "mtgjson_id": "ac53a6c61b2d72f92a0e31b20d0c73f2418ed01c",
+      "multiverseid": 393867,
+      "name": "Repulse",
+      "near_mint_id": "dd3_jvc_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "Return target creature to its owner's hand.\nDraw a card.",
+      "originalType": "Instant",
+      "printings": [
+        "cmd_058",
+        "dd2_025",
+        "inv_070"
+      ],
+      "rarity": "Common",
+      "text": "Return target creature to its owner's hand.\nDraw a card.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Carl Critchlow",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "riftwing cloudskate",
+      "images": {
+        "en": "/dd3_jvc/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}{U}",
+      "mtgjson_id": "d6d8153214cd06bcd5871bef53334ebd8f6313b4",
+      "multiverseid": 393868,
+      "name": "Riftwing Cloudskate",
+      "near_mint_id": "dd3_jvc_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "Flying\nWhen Riftwing Cloudskate enters the battlefield, return target permanent to its owner's hand.\nSuspend 3—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
+      "originalType": "Creature — Illusion",
+      "power": "2",
+      "printings": [
+        "dd2_015",
+        "ddm_018",
+        "mma_062",
+        "tsp_073"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-06-07",
+          "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+        }
+      ],
+      "subtypes": [
+        "Illusion"
+      ],
+      "text": "Flying\nWhen Riftwing Cloudskate enters the battlefield, return target permanent to its owner's hand.\nSuspend 3—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
+      "toughness": "2",
+      "type": "Creature — Illusion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "After the fourth time Chandra left a place engulfed in flames, she decided to just go ahead and make it her thing.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "seal of fire",
+      "images": {
+        "en": "/dd3_jvc/en/050.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "d07e76448e20949caa1ca763867e0ddde34ea8d4",
+      "multiverseid": 393869,
+      "name": "Seal of Fire",
+      "near_mint_id": "dd3_jvc_050",
+      "number": 50,
+      "numberSpecial": "050",
+      "originalText": "Sacrifice Seal of Fire: Seal of Fire deals 2 damage to target creature or player.",
+      "originalType": "Enchantment",
+      "printings": [
+        "dd2_050",
+        "dis_071",
+        "nms_098"
+      ],
+      "rarity": "Common",
+      "text": "Sacrifice Seal of Fire: Seal of Fire deals 2 damage to target creature or player.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Justin Sweet",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "The slith incubate in the Great Furnace's heat, emerging on Mirrodin's surface only when the four suns have aligned overhead.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "slith firewalker",
+      "images": {
+        "en": "/dd3_jvc/en/039.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}{R}",
+      "mtgjson_id": "5ca927fd0dd820b74be11c9d5f220789c904757e",
+      "multiverseid": 393870,
+      "name": "Slith Firewalker",
+      "near_mint_id": "dd3_jvc_039",
+      "number": 39,
+      "numberSpecial": "039",
+      "originalText": "Haste\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+      "originalType": "Creature — Slith",
+      "power": "1",
+      "printings": [
+        "dd2_039",
+        "mrd_107"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Slith"
+      ],
+      "text": "Haste\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+      "toughness": "1",
+      "type": "Creature — Slith",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "When provoked, a flamekin's inner fire burns far hotter than any giant's forge.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "soulbright flamekin",
+      "images": {
+        "en": "/dd3_jvc/en/037.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "d36dd93f5b38fbe8c6dd4abba218ad6557ea278f",
+      "multiverseid": 393871,
+      "name": "Soulbright Flamekin",
+      "near_mint_id": "dd3_jvc_037",
+      "number": 37,
+      "numberSpecial": "037",
+      "originalText": "{2}: Target creature gains trample until end of turn. If this is the third time this ability has resolved this turn, you may add {R}{R}{R}{R}{R}{R}{R}{R} to your mana pool.",
+      "originalType": "Creature — Elemental Shaman",
+      "power": "2",
+      "printings": [
+        "dd2_037",
+        "lrw_190",
+        "mm2_126"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "Soulbright Flamekin's ability uses the stack and can be responded to. It's not a mana ability because it has a target."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "Counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times."
+        }
+      ],
+      "subtypes": [
+        "Elemental",
+        "Shaman"
+      ],
+      "text": "{2}: Target creature gains trample until end of turn. If this is the third time this ability has resolved this turn, you may add {R}{R}{R}{R}{R}{R}{R}{R} to your mana pool.",
+      "toughness": "1",
+      "type": "Creature — Elemental Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Daren Bader",
+      "cmc": 6,
+      "colors": "C",
+      "flavor": "The longer it soars above the shimmering swirls of the Quicksilver Sea, the more it adopts their unpredictability.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "spire golem",
+      "images": {
+        "en": "/dd3_jvc/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}",
+      "mtgjson_id": "d343c733af488e9017f96d410f64047f8cd8cf23",
+      "multiverseid": 393872,
+      "name": "Spire Golem",
+      "near_mint_id": "dd3_jvc_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "Affinity for Islands (This spell costs {1} less to cast for each Island you control.)\nFlying",
+      "originalType": "Artifact Creature — Golem",
+      "power": "2",
+      "printings": [
+        "dd2_016",
+        "dst_145"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Golem"
+      ],
+      "text": "Affinity for Islands (This spell costs {1} less to cast for each Island you control.)\nFlying",
+      "toughness": "4",
+      "type": "Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Alan Pollack",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "terrain generator",
+      "images": {
+        "en": "/dd3_jvc/en/029.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "7d4facce2def97676b80bd3f30f7ba0cde9d2f4e",
+      "multiverseid": 393873,
+      "name": "Terrain Generator",
+      "near_mint_id": "dd3_jvc_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "{T}: Add {1} to your mana pool.\n{2}, {T}: You may put a basic land card from your hand onto the battlefield tapped.",
+      "originalType": "Land",
+      "printings": [
+        "dd2_029",
+        "nms_143"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Putting a land onto the battlefield this way does not count as your one land play for the turn."
+        },
+        {
+          "date": "2007-05-01",
+          "text": "Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to."
+        }
+      ],
+      "text": "{T}: Add {1} to your mana pool.\n{2}, {T}: You may put a basic land card from your hand onto the battlefield tapped.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Jim Nelson",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "voidmage apprentice",
+      "images": {
+        "en": "/dd3_jvc/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mtgjson_id": "6b76cf41c5705d99ec24e4becf618c705b530284",
+      "multiverseid": 393874,
+      "name": "Voidmage Apprentice",
+      "near_mint_id": "dd3_jvc_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Voidmage Apprentice is turned face up, counter target spell.",
+      "originalType": "Creature — Human Wizard",
+      "power": "1",
+      "printings": [
+        "dd2_004",
+        "lgn_054"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield."
+        },
+        {
+          "date": "2013-04-15",
+          "text": "If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Voidmage Apprentice is turned face up, counter target spell.",
+      "toughness": "1",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wall of deceit",
+      "images": {
+        "en": "/dd3_jvc/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mtgjson_id": "f36dc9663c97ce7a02e5091a692d11594e8cf137",
+      "multiverseid": 393875,
+      "name": "Wall of Deceit",
+      "near_mint_id": "dd3_jvc_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "Defender\n{3}: Turn Wall of Deceit face down.\nMorph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "originalType": "Creature — Wall",
+      "power": "0",
+      "printings": [
+        "dd2_005",
+        "lgn_055"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Wall"
+      ],
+      "text": "Defender (This creature can't attack.)\n{3}: Turn Wall of Deceit face down.\nMorph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "toughness": "5",
+      "type": "Creature — Wall",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Thomas Gianni",
+      "cmc": 4,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Fly us higher, out of its storm.\"\n—Sisay, captain of the Weatherlight",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "waterspout djinn",
+      "images": {
+        "en": "/dd3_jvc/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}{U}",
+      "mtgjson_id": "ec566684030c186d5e562f3af7acd3152eb9f21c",
+      "multiverseid": 393876,
+      "name": "Waterspout Djinn",
+      "near_mint_id": "dd3_jvc_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Flying\nAt the beginning of your upkeep, sacrifice Waterspout Djinn unless you return an untapped Island you control to its owner's hand.",
+      "originalType": "Creature — Djinn",
+      "power": "4",
+      "printings": [
+        "dd2_011",
+        "vis_050"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose a land to return and return it during resolution of the upkeep triggered ability. This means if you have two Waterspout Djinns, they must each return different Islands."
+        }
+      ],
+      "subtypes": [
+        "Djinn"
+      ],
+      "text": "Flying\nAt the beginning of your upkeep, sacrifice Waterspout Djinn unless you return an untapped Island you control to its owner's hand.",
+      "toughness": "4",
+      "type": "Creature — Djinn",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Eric Peterson",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "willbender",
+      "images": {
+        "en": "/dd3_jvc/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mtgjson_id": "6bb78fd2b90458e669165844469c1dcbe7d24167",
+      "multiverseid": 393877,
+      "name": "Willbender",
+      "near_mint_id": "dd3_jvc_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Willbender is turned face up, change the target of target spell or ability with a single target.",
+      "originalType": "Creature — Human Wizard",
+      "power": "1",
+      "printings": [
+        "c14_131",
+        "dd2_006",
+        "ddn_047",
+        "lgn_058",
+        "tsb_036"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield."
+        },
+        {
+          "date": "2013-04-15",
+          "text": "If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Willbender is turned face up, change the target of target spell or ability with a single target.",
+      "toughness": "2",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "both"
+}

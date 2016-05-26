@@ -345,7 +345,7 @@ var cacheMultiverseIds = function(cb){
 
 			setCodes.serialForEach(function(code, subcb)
 			{
-				fs.readFile(path.join(__dirname, "..", "json", code + ".json"), "utf8", subcb);
+				fs.readFile(path.join(__dirname, "..", "jsonFD", code + ".json"), "utf8", subcb);
 			}, this);
 		},
 		function cacheMultiverseIds(JSONRaw)
@@ -934,7 +934,7 @@ var addPrintingsToCards = function (set, cb) {
 			var nonGathererSets = C.SETS_NOT_ON_GATHERER.concat(shared.getMCISetCodes()).concat(setCodes.slice(setCodes.indexOf(C.LAST_PRINTINGS_RESET)+1)).unique();
 			nonGathererSets.remove(set.code);
 			nonGathererSets.serialForEach(function (code, subcb) {
-				fs.readFile(path.join(__dirname, "..", "json", code + ".json"), "utf8", subcb);
+				fs.readFile(path.join(__dirname, "..", "jsonFD", code + ".json"), "utf8", subcb);
 			}, this);
 		},
 		function addPrintings(nonGathererSetsJSONRaw) {
@@ -1872,7 +1872,7 @@ var ripMCISet = function(set, cb) {
 			set.cards = cards.filterEmpty().sort(shared.cardComparator);
 			fillImageNames(set);
 
-			if (fs.existsSync(path.join(__dirname, "..", "json", set.code + ".json"))) {
+			if (fs.existsSync(path.join(__dirname, "..", "jsonFD", set.code + ".json"))) {
 				addPrintingsToMCISet(set, this.parallel());
 				addMagicLibraritiesInfoToMCISet(set, this.parallel());
 			}
@@ -1892,7 +1892,7 @@ var ripMCISet = function(set, cb) {
 
 			var oracleCards = {};
 			C.SETS.map(function (SET) { return SET.code; }).removeAll(shared.getMCISetCodes()).removeAll(C.SETS_NOT_ON_GATHERER).reverse().forEach(function (SETCODE) {
-				JSON.parse(fs.readFileSync(path.join(__dirname, "..", "json", SETCODE + ".json"))).cards.forEach(function (card) {
+				JSON.parse(fs.readFileSync(path.join(__dirname, "..", "jsonFD", SETCODE + ".json"))).cards.forEach(function (card) {
 					if (oracleCards.hasOwnProperty(card.name))
 						return;
 
@@ -2146,7 +2146,7 @@ var addPrintingsToMCISet = function(set, cb) {
 			set.cards.forEach(function (card) { card.printings = [set.code]; });
 
 			C.SETS.forEach(function (SET) {
-				fs.readFile(path.join(__dirname, "..", "json", SET.code + ".json"), {encoding : "utf8"}, this.parallel());
+				fs.readFile(path.join(__dirname, "..", "jsonFD", SET.code + ".json"), {encoding : "utf8"}, this.parallel());
 			}.bind(this));
 		},
 		function checkForPrintings(err) {
@@ -2491,6 +2491,7 @@ var fixCommanderIdentityForCards = function(cards, cb) {
 	// Expose stuff
 	exports.ripMCISet = ripMCISet;
 	exports.ripSet = ripSet;
+	exports.cacheMultiverseIds = cacheMultiverseIds;
 	exports.fixCommanderIdentityForCards = fixCommanderIdentityForCards;
 	exports.getURLsForMultiverseid = getURLsForMultiverseid;
 	exports.processMultiverseids = processMultiverseids;

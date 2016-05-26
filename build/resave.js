@@ -33,7 +33,7 @@ setsToDo.serialForEach(function(arg, subcb) {
 	tiptoe(
 		function loadJSON() {
 			base.info("Loading file for set %s (%s)", targetSet.name, targetSet.code);
-			fs.readFile(path.join(__dirname, "..", "json", targetSet.code + ".json"), "utf8", this);
+			fs.readFile(path.join(__dirname, "..", "jsonFD", targetSet.code + ".json"), "utf8", this);
 		},
 		function convertAndSave(JSONRaw) {
 			var set = JSON.parse(JSONRaw);

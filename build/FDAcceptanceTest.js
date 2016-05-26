@@ -31,7 +31,7 @@ function processSet(code, cb)
     tiptoe(
         function getJSON()
         {
-            fs.readFile(path.join(__dirname, "..", "json", code + ".json"), {encoding : "utf8"}, this);
+            fs.readFile(path.join(__dirname, "..", "jsonFD", code + ".json"), {encoding : "utf8"}, this);
         },
         function processCards(setRaw) {
             set = JSON.parse(setRaw);

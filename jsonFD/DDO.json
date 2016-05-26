@@ -1,0 +1,6577 @@
+{
+  "name": "Duel Decks: Elspeth vs. Kiora",
+  "code": "DDO",
+  "magicCardsInfoCode": "ddo",
+  "releaseDate": "2015-02-27",
+  "border": "black",
+  "type": "duel deck",
+  "translations": {
+    "jp": "デュエルデッキ: エルズペスVSキオーラ"
+  },
+  "mkm_name": "Duel Decks: Elspeth vs. Kiora",
+  "mkm_id": 1593,
+  "magic_ville_name": "Elspeth vs. Kiora",
+  "card_total": 67,
+  "cards": [
+    {
+      "artist": "David Palumbo",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Learn not only from the failures of the past, but also from its triumphs.\"\n—Isperia",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "accumulated knowledge",
+      "images": {
+        "en": "/ddo/en/035.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mkm_product_id": 272331,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/accumulated_knowledge.jpg",
+      "mtgjson_id": "9a2a293db64ef6266c385a05f0bcf044ead0d52d",
+      "multiverseid": 394351,
+      "name": "Accumulated Knowledge",
+      "near_mint_id": "ddo_035",
+      "number": 35,
+      "numberSpecial": "035",
+      "originalText": "Draw a card, then draw cards equal to the number of cards named Accumulated Knowledge in all graveyards.",
+      "originalType": "Instant",
+      "printings": [
+        "nms_026"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The count does not include the card that is currently resolving. The card does not go to the graveyard until after it is done resolving."
+        }
+      ],
+      "text": "Draw a card, then draw cards equal to the number of cards named Accumulated Knowledge in all graveyards.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Ryan Barger",
+      "cmc": 4,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"You can come back once you've learned some manners—and figured out how to reconstitute your physical forms.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "aetherize",
+      "images": {
+        "en": "/ddo/en/036.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}",
+      "mkm_product_id": 272998,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/aetherize.jpg",
+      "mtgjson_id": "42795467b67db0d295e64113d5a080602346c8bb",
+      "multiverseid": 394352,
+      "name": "Ætherize",
+      "near_mint_id": "ddo_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "Return all attacking creatures to their owner's hand.",
+      "originalType": "Instant",
+      "printings": [
+        "c15_085",
+        "gtc_029"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-01-24",
+          "text": "An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat. There's no such thing as an attacking creature outside of the combat phase."
+        }
+      ],
+      "text": "Return all attacking creatures to their owner's hand.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Willian Murai",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Oathbreaker, I cast you out!\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "banisher priest",
+      "images": {
+        "en": "/ddo/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}{W}",
+      "mkm_product_id": 272970,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/banisher_priest.jpg",
+      "mtgjson_id": "b214fe50c9249e3bf62a8aed86636fa49fb43eb7",
+      "multiverseid": 394353,
+      "name": "Banisher Priest",
+      "near_mint_id": "ddo_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "When Banisher Priest enters the battlefield, exile target creature an opponent controls until Banisher Priest leaves the battlefield. (That creature returns under its owner's control.)",
+      "originalType": "Creature — Human Cleric",
+      "power": "2",
+      "printings": [
+        "m14_007"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Banisher Priest’s ability causes a zone change with a duration, a new style of ability that’s somewhat reminiscent of older cards like Oblivion Ring. However, unlike Oblivion Ring, cards like Banisher Priest have a single ability that creates two one-shot effects: one that exiles the creature when the ability resolves, and another that returns the exiled card to the battlefield immediately after Banisher Priest leaves the battlefield."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If Banisher Priest leaves the battlefield before its enters-the-battlefield ability resolves, the target creature won’t be exiled."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Auras attached to the exiled creature will be put into their owners’ graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a creature token is exiled, it ceases to exist. It won’t be returned to the battlefield."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "The exiled card returns to the battlefield immediately after Banisher Priest leaves the battlefield. Nothing happens between the two events, including state-based actions. The two creatures aren’t on the battlefield at the same time. For example, if the returning creature is a Clone, it can’t enter the battlefield as a copy of Banisher Priest."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "In a multiplayer game, if Banisher Priest’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "text": "When Banisher Priest enters the battlefield, exile target creature an opponent controls until Banisher Priest leaves the battlefield. (That creature returns under its owner's control.)",
+      "toughness": "2",
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "captain of the watch",
+      "images": {
+        "en": "/ddo/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{W}{W}",
+      "mkm_product_id": 272971,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/captain_of_the_watch.jpg",
+      "mtgjson_id": "9bca04caced3026a730dd580f56c53036bd220c8",
+      "multiverseid": 394354,
+      "name": "Captain of the Watch",
+      "near_mint_id": "ddo_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Vigilance\nOther Soldier creatures you control get +1/+1 and have vigilance.\nWhen Captain of the Watch enters the battlefield, put three 1/1 white Soldier creature tokens onto the battlefield.",
+      "originalType": "Creature — Human Soldier",
+      "power": "3",
+      "printings": [
+        "m10_006",
+        "m13_008"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "Captain of the Watch grants +1/+1 and vigilance to all other Soldier creatures you control, not just the ones its ability puts onto the battlefield."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)\nOther Soldier creatures you control get +1/+1 and have vigilance.\nWhen Captain of the Watch enters the battlefield, put three 1/1 white Soldier creature tokens onto the battlefield.",
+      "toughness": "3",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Clint Cearley",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"You were defeated the moment you declared your aggression.\"\n—Gideon Jura",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "celestial flare",
+      "images": {
+        "en": "/ddo/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}{W}",
+      "mkm_product_id": 272972,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/celestial_flare.jpg",
+      "mtgjson_id": "6af5e90daee0c2d5c11d22c64da7dec938b26216",
+      "multiverseid": 394355,
+      "name": "Celestial Flare",
+      "near_mint_id": "ddo_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Target player sacrifices an attacking or blocking creature.",
+      "originalType": "Instant",
+      "printings": [
+        "m14_012",
+        "ori_008"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Celestial Flare targets only a player, not any creature. A creature with hexproof or protection from white can be sacrificed this way."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the player sacrifices a blocking creature, any attacking creature it was blocking remains blocked. Unless that attacking creature has trample or is being blocked by another creature, it won’t assign or deal combat damage."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Creatures continue to be attacking or blocking creatures through the end of combat step. It is possible to cast Celestial Flare within combat but after combat damage is dealt (specifically, during the combat damage step or the end of combat step). Only attacking and blocking creatures that survived combat damage can be sacrificed at this time."
+        }
+      ],
+      "text": "Target player sacrifices an attacking or blocking creature.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Mark Zug",
+      "cmc": 2,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "\"Nature was slowly heading in the right direction, but we know how to achieve faster results.\"\n—Vorel of the Hull Clade",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "coiling oracle",
+      "images": {
+        "en": "/ddo/en/051.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}{U}",
+      "mkm_product_id": 273012,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/coiling_oracle.jpg",
+      "mtgjson_id": "c87c174eb4fd72ef4056e7607309a49852b1d5bf",
+      "multiverseid": 394356,
+      "name": "Coiling Oracle",
+      "near_mint_id": "ddo_051",
+      "number": 51,
+      "numberSpecial": "051",
+      "originalText": "When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
+      "originalType": "Creature — Snake Elf Druid",
+      "power": "1",
+      "printings": [
+        "c15_213",
+        "dis_107"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Snake",
+        "Elf",
+        "Druid"
+      ],
+      "text": "When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
+      "toughness": "1",
+      "type": "Creature — Snake Elf Druid",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"The Boros fight for justice. The Azorius fight for law. I hold the line between, and make sure the people are given both.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "court street denizen",
+      "images": {
+        "en": "/ddo/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 272973,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/court_street_denizen.jpg",
+      "mtgjson_id": "b2ca9da35c4940973bebfbf1964d455a569606fb",
+      "multiverseid": 394357,
+      "name": "Court Street Denizen",
+      "near_mint_id": "ddo_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "Whenever another white creature enters the battlefield under your control, tap target creature an opponent controls.",
+      "originalType": "Creature — Human Soldier",
+      "power": "2",
+      "printings": [
+        "gtc_008"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Whenever another white creature enters the battlefield under your control, tap target creature an opponent controls.",
+      "toughness": "2",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Peter Mohrbacher",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"The people of Akros must learn from our leonin adversaries. If we match their staunch ferocity with our superior faith, we cannot fail.\"\n—Cymede, queen of Akros",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dauntless onslaught",
+      "images": {
+        "en": "/ddo/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 272974,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/dauntless_onslaught.jpg",
+      "mtgjson_id": "5bc627f48556d6381d1c209bc5bd7bcf0048d31a",
+      "multiverseid": 394358,
+      "name": "Dauntless Onslaught",
+      "near_mint_id": "ddo_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Up to two target creatures each get +2/+2 until end of turn.",
+      "originalType": "Instant",
+      "printings": [
+        "ddn_027",
+        "ths_006"
+      ],
+      "rarity": "Uncommon",
+      "text": "Up to two target creatures each get +2/+2 until end of turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Lius Lasahido",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "decree of justice",
+      "images": {
+        "en": "/ddo/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{X}{2}{W}{W}",
+      "mkm_product_id": 272333,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/decree_of_justice.jpg",
+      "mtgjson_id": "4c0cf9047f57657471dd951a191c274cbaeead30",
+      "multiverseid": 394359,
+      "name": "Decree of Justice",
+      "near_mint_id": "ddo_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "Put X 4/4 white Angel creature tokens with flying onto the battlefield.\nCycling {2}{W} ({2}{W}, Discard this card: Draw a card.)\nWhen you cycle Decree of Justice, you may pay {X}. If you do, put X 1/1 white Soldier creature tokens onto the battlefield.",
+      "originalType": "Sorcery",
+      "printings": [
+        "c14_070",
+        "scg_008"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The two X's in the mana cost mean that you pay 2 mana (above the {2}{W}{W} base cost) for each token you want to create."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "When you cycle this card, the last ability triggers. When that ability resolves, you choose a value of X and pay it during resolution."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You can cast this with X=0."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card."
+        }
+      ],
+      "text": "Put X 4/4 white Angel creature tokens with flying onto the battlefield.\nCycling {2}{W} ({2}{W}, Discard this card: Draw a card.)\nWhen you cycle Decree of Justice, you may pay {X}. If you do, put X 1/1 white Soldier creature tokens onto the battlefield.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 5,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"In our war Heliod gave mortals some favor, yet other times he withheld aid. Are we still no more than game pieces to him?\"\n—Polyxene the Doubter",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dictate of heliod",
+      "images": {
+        "en": "/ddo/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}{W}",
+      "mkm_product_id": 272975,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/dictate_of_heliod.jpg",
+      "mtgjson_id": "9eb5abb49692272559e95919de55406eafa28d5e",
+      "multiverseid": 394360,
+      "name": "Dictate of Heliod",
+      "near_mint_id": "ddo_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "Flash\nCreatures you control get +2/+2.",
+      "originalType": "Enchantment",
+      "printings": [
+        "c15_068",
+        "jou_008"
+      ],
+      "rarity": "Rare",
+      "text": "Flash\nCreatures you control get +2/+2.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "elspeth, sun's champion",
+      "images": {
+        "en": "/ddo/en/001.jpg"
+      },
+      "layout": "normal",
+      "loyalty": 4,
+      "manaCost": "{4}{W}{W}",
+      "mkm_product_id": 272328,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/elspeth_suns_champion.jpg",
+      "mtgjson_id": "0f6d03da661195235474220e97fd3c4405943e58",
+      "multiverseid": 394361,
+      "name": "Elspeth, Sun's Champion",
+      "near_mint_id": "ddo_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "+1: Put three 1/1 white Soldier creature tokens onto the battlefield.\n−3: Destroy all creatures with power 4 or greater.\n−7: You get an emblem with \"Creatures you control get +2/+2 and have flying.\"",
+      "originalType": "Planeswalker — Elspeth",
+      "printings": [
+        "ths_009"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are permanents. You can cast one at the time you could cast a sorcery. When your planeswalker spell resolves, it enters the battlefield under your control."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers are not creatures. Spells and abilities that affect creatures won’t affect them."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers have loyalty. A planeswalker enters the battlefield with a number of loyalty counters on it equal to the number printed in its lower right corner. Activating one of its abilities may cause it to gain or lose loyalty counters. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it. If it has no loyalty counters on it, it’s put into its owner’s graveyard as a state-based action."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers each have a number of activated abilities called “loyalty abilities.” You can activate a loyalty ability of a planeswalker you control only at the time you could cast a sorcery and only if you haven’t activated one of that planeswalker’s loyalty abilities yet that turn."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "The cost to activate a planeswalker’s loyalty ability is represented by a symbol with a number inside. Up-arrows contain positive numbers, such as “+1”; this means “Put one loyalty counter on this planeswalker.” Down-arrows contain negative numbers, such as “-7”; this means “Remove seven loyalty counters from this planeswalker.” A symbol with a “0” means “Put zero loyalty counters on this planeswalker.”"
+        },
+        {
+          "date": "2013-07-01",
+          "text": "You can’t activate a planeswalker’s ability with a negative loyalty cost unless the planeswalker has at least that many loyalty counters on it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Planeswalkers can’t attack (unless an effect turns the planeswalker into a creature). However, they can be attacked. Each of your attacking creatures can attack your opponent or a planeswalker that player controls. You say which as you declare attackers."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If your planeswalkers are being attacked, you can block the attackers as normal."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a creature that’s attacking a planeswalker isn’t blocked, it’ll deal its combat damage to that planeswalker. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a source you control would deal noncombat damage to an opponent, you may have that source deal that damage to a planeswalker that opponent controls instead. For example, although you can’t target a planeswalker with Shock, you can target your opponent with Shock, and then as Shock resolves, choose to have Shock deal its 2 damage to one of your opponent’s planeswalkers. (You can’t split up that damage between different players and/or planeswalkers.) If you have Shock deal its damage to a planeswalker, two loyalty counters are removed from it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them and the rest are put into their owners’ graveyards as a state-based action."
+        }
+      ],
+      "subtypes": [
+        "Elspeth"
+      ],
+      "text": "+1: Put three 1/1 white Soldier creature tokens onto the battlefield.\n−3: Destroy all creatures with power 4 or greater.\n−7: You get an emblem with \"Creatures you control get +2/+2 and have flying.\"",
+      "type": "Planeswalker — Elspeth",
+      "types": [
+        "Planeswalker"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "evolving wilds",
+      "images": {
+        "en": "/ddo/en/058.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273019,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/evolving_wilds.jpg",
+      "mtgjson_id": "f5aa6ea7188e26f3aa5b35107f3b86359898b551",
+      "multiverseid": 394362,
+      "name": "Evolving Wilds",
+      "near_mint_id": "ddo_058",
+      "number": 58,
+      "numberSpecial": "058",
+      "originalText": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "bfz_236",
+        "c13_287",
+        "c14_295",
+        "c15_283",
+        "cmd_272",
+        "ddh_032",
+        "ddk_033",
+        "ddn_032",
+        "ddp_031",
+        "dka_155",
+        "dtk_248",
+        "m13_224",
+        "m15_243",
+        "mm2_241",
+        "ori_246",
+        "roe_228"
+      ],
+      "rarity": "Common",
+      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Johann Bodin",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"I will never run out of new oceans to explore or new sea-dwellers to embrace as my own.\"\n—Kiora",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "explore",
+      "images": {
+        "en": "/ddo/en/045.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 272335,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/explore.jpg",
+      "mtgjson_id": "04479e1cc10cd6f2cd185f06f50c267e2a63c052",
+      "multiverseid": 394363,
+      "name": "Explore",
+      "near_mint_id": "ddo_045",
+      "number": 45,
+      "numberSpecial": "045",
+      "originalText": "You may play an additional land this turn.\nDraw a card.",
+      "originalType": "Sorcery",
+      "printings": [
+        "wwk_099"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2010-03-01",
+          "text": "Explore's effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as Explore resolves; Explore fully resolves (and you'll draw a card, perhaps a land you'll play later) first."
+        },
+        {
+          "date": "2010-03-01",
+          "text": "The effects of multiple Explores in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Oracle of Mul Daya."
+        },
+        {
+          "date": "2010-03-01",
+          "text": "If you somehow manage to cast Explore when it's not your turn, you'll draw a card when it resolves, but you won't be able to play a land that turn."
+        }
+      ],
+      "text": "You may play an additional land this turn.\nDraw a card.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "Torching Krosa would be pointless. It grows faster than it burns.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "explosive vegetation",
+      "images": {
+        "en": "/ddo/en/046.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}",
+      "mkm_product_id": 273007,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/explosive_vegetation.jpg",
+      "mtgjson_id": "fde248b535f7160526a5f08e1b73720b11e92b8e",
+      "multiverseid": 394364,
+      "name": "Explosive Vegetation",
+      "near_mint_id": "ddo_046",
+      "number": 46,
+      "numberSpecial": "046",
+      "originalText": "Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.",
+      "originalType": "Sorcery",
+      "printings": [
+        "cmd_153",
+        "dtk_186",
+        "ons_263"
+      ],
+      "rarity": "Uncommon",
+      "text": "Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest1",
+      "images": {
+        "en": "/ddo/en/063.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273027,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/forest1.jpg",
+      "mtgjson_id": "41d6074849b84c4181a2f04da79407c1f674a18b",
+      "multiverseid": 394366,
+      "name": "Forest",
+      "near_mint_id": "ddo_063",
+      "number": 63,
+      "numberSpecial": "063",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_064",
+        "ddo_065"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest2",
+      "images": {
+        "en": "/ddo/en/064.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273028,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/forest2.jpg",
+      "mtgjson_id": "99e7926eaba6eddf5169589733ff1ca76f804d56",
+      "multiverseid": 394365,
+      "name": "Forest",
+      "near_mint_id": "ddo_064",
+      "number": 64,
+      "numberSpecial": "064",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_063",
+        "ddo_065"
+      ]
+    },
+    {
+      "artist": "Raoul Vitale",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest3",
+      "images": {
+        "en": "/ddo/en/065.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273021,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/forest3.jpg",
+      "mtgjson_id": "e6e7dcaa7ef680686d7f673b3ea9bed070062c47",
+      "multiverseid": 394367,
+      "name": "Forest",
+      "near_mint_id": "ddo_065",
+      "number": 65,
+      "numberSpecial": "065",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_064",
+        "ddo_063"
+      ]
+    },
+    {
+      "artist": "Tim Hildebrandt",
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gempalm avenger",
+      "images": {
+        "en": "/ddo/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{W}",
+      "mkm_product_id": 272976,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/gempalm_avenger.jpg",
+      "mtgjson_id": "57fce593d9a13f161e674c70a66cb669f0199de1",
+      "multiverseid": 394368,
+      "name": "Gempalm Avenger",
+      "near_mint_id": "ddo_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Avenger, Soldier creatures get +1/+1 and gain first strike until end of turn.",
+      "originalType": "Creature — Human Soldier",
+      "power": "3",
+      "printings": [
+        "lgn_014"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Avenger, Soldier creatures get +1/+1 and gain first strike until end of turn.",
+      "toughness": "5",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"Don't be fooled. If it were as docile as it looks, it would've died off long ago.\"\n—Yon Basrel, Oran-Rief survivalist",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "grazing gladehart",
+      "images": {
+        "en": "/ddo/en/047.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mkm_product_id": 273008,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/grazing_gladehart.jpg",
+      "mtgjson_id": "dac6fe938fc34e0bda7d622b8639962b97bdf467",
+      "multiverseid": 394369,
+      "name": "Grazing Gladehart",
+      "near_mint_id": "ddo_047",
+      "number": 47,
+      "numberSpecial": "047",
+      "originalText": "Landfall — Whenever a land enters the battlefield under your control, you may gain 2 life.",
+      "originalType": "Creature — Antelope",
+      "power": "2",
+      "printings": [
+        "c13_147",
+        "ddh_011",
+        "ddp_014",
+        "zen_163"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad's ability, for example)."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+        }
+      ],
+      "subtypes": [
+        "Antelope"
+      ],
+      "text": "Landfall — Whenever a land enters the battlefield under your control, you may gain 2 life.",
+      "toughness": "2",
+      "type": "Creature — Antelope",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dan Frazier",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Banking steeply, the aven streaked toward the ground—and vanished.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gustcloak harrier",
+      "images": {
+        "en": "/ddo/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}{W}",
+      "mkm_product_id": 272977,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/gustcloak_harrier.jpg",
+      "mtgjson_id": "aaff6280e904acd08f7f350a0d6f6d3c1f79dd98",
+      "multiverseid": 394370,
+      "name": "Gustcloak Harrier",
+      "near_mint_id": "ddo_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Flying\nWhenever Gustcloak Harrier becomes blocked, you may untap it and remove it from combat.",
+      "originalType": "Creature — Bird Soldier",
+      "power": "2",
+      "printings": [
+        "ons_034"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Bird",
+        "Soldier"
+      ],
+      "text": "Flying\nWhenever Gustcloak Harrier becomes blocked, you may untap it and remove it from combat.",
+      "toughness": "2",
+      "type": "Creature — Bird Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jim Nelson",
+      "cmc": 5,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Our death-arrows flew in high arcs towards the aven. And then . . . nothing.\"\n—Coliseum guard",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gustcloak savior",
+      "images": {
+        "en": "/ddo/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{W}",
+      "mkm_product_id": 273029,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/gustcloak_savior.jpg",
+      "mtgjson_id": "b958dbdf9b74871fee75e15ac4c3623ad3ef18cf",
+      "multiverseid": 394371,
+      "name": "Gustcloak Savior",
+      "near_mint_id": "ddo_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Flying\nWhenever a creature you control becomes blocked, you may untap that creature and remove it from combat.",
+      "originalType": "Creature — Bird Soldier",
+      "power": "3",
+      "printings": [
+        "ons_036"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Bird",
+        "Soldier"
+      ],
+      "text": "Flying\nWhenever a creature you control becomes blocked, you may untap that creature and remove it from combat.",
+      "toughness": "4",
+      "type": "Creature — Bird Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Zug",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Entire platoons have mysteriously vanished from battle, leaving enemy weapons to slice through empty air.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gustcloak sentinel",
+      "images": {
+        "en": "/ddo/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}{W}",
+      "mkm_product_id": 272979,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/gustcloak_sentinel.jpg",
+      "mtgjson_id": "fe864fd56a84f6393e4031e7bcc5339fe82c91ab",
+      "multiverseid": 394372,
+      "name": "Gustcloak Sentinel",
+      "near_mint_id": "ddo_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Whenever Gustcloak Sentinel becomes blocked, you may untap it and remove it from combat.",
+      "originalType": "Creature — Human Soldier",
+      "power": "3",
+      "printings": [
+        "ddl_013",
+        "ons_037"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Whenever Gustcloak Sentinel becomes blocked, you may untap it and remove it from combat.",
+      "toughness": "3",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dan Frazier",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "They're trained in the art of pressing their luck.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gustcloak skirmisher",
+      "images": {
+        "en": "/ddo/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}",
+      "mkm_product_id": 272980,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/gustcloak_skirmisher.jpg",
+      "mtgjson_id": "e6c9da103870a3a2dcf75f44097e8c62d9a9aff7",
+      "multiverseid": 394373,
+      "name": "Gustcloak Skirmisher",
+      "near_mint_id": "ddo_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "Flying\nWhenever Gustcloak Skirmisher becomes blocked, you may untap it and remove it from combat.",
+      "originalType": "Creature — Bird Soldier",
+      "power": "2",
+      "printings": [
+        "ons_038"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Bird",
+        "Soldier"
+      ],
+      "text": "Flying\nWhenever Gustcloak Skirmisher becomes blocked, you may untap it and remove it from combat.",
+      "toughness": "3",
+      "type": "Creature — Bird Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Michael Phillippi",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "icatian javelineers",
+      "images": {
+        "en": "/ddo/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 272330,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/icatian_javelineers.jpg",
+      "mtgjson_id": "fd51cea875bf440df0320aa7b6bf976ebda41787",
+      "multiverseid": 394374,
+      "name": "Icatian Javelineers",
+      "near_mint_id": "ddo_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Icatian Javelineers enters the battlefield with a javelin counter on it.\n{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player.",
+      "originalType": "Creature — Human Soldier",
+      "power": "1",
+      "printings": [
+        "fem_148",
+        "fem_149",
+        "fem_150",
+        "tsb_010"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Icatian Javelineers enters the battlefield with a javelin counter on it.\n{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player.",
+      "toughness": "1",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Anthony Francisco",
+      "cmc": 9,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Into its maw went the seventh sea, never to be seen again while the world remains.\"\n—Esper fable",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "inkwell leviathan",
+      "images": {
+        "en": "/ddo/en/037.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{7}{U}{U}",
+      "mkm_product_id": 272999,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/inkwell_leviathan.jpg",
+      "mtgjson_id": "70c41876ec7c27115a7ce3917a954b02b43df1c4",
+      "multiverseid": 394375,
+      "name": "Inkwell Leviathan",
+      "near_mint_id": "ddo_037",
+      "number": 37,
+      "numberSpecial": "037",
+      "originalText": "Trample\nIslandwalk (This creature can't be blocked as long as defending player controls an Island.)\nShroud (This creature can't be the target of spells or abilities.)",
+      "originalType": "Artifact Creature — Leviathan",
+      "power": "7",
+      "printings": [
+        "con_030",
+        "pd3_010"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Leviathan"
+      ],
+      "text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nTrample\nShroud (This creature can't be the target of spells or abilities.)",
+      "toughness": "11",
+      "type": "Artifact Creature — Leviathan",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island1",
+      "images": {
+        "en": "/ddo/en/060.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273025,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/island1.jpg",
+      "mtgjson_id": "64f289467ab96712a784d9ac424f8232290c440b",
+      "multiverseid": 394377,
+      "name": "Island",
+      "near_mint_id": "ddo_060",
+      "number": 60,
+      "numberSpecial": "060",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_032",
+        "dd3_jvc_033",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_061",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_062",
+        "ddo_061"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island2",
+      "images": {
+        "en": "/ddo/en/061.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273020,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/island2.jpg",
+      "mtgjson_id": "5956dc89045da89c883cced89330800759bea99b",
+      "multiverseid": 394378,
+      "name": "Island",
+      "near_mint_id": "ddo_061",
+      "number": 61,
+      "numberSpecial": "061",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_032",
+        "dd3_jvc_033",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_062",
+        "ddo_060"
+      ]
+    },
+    {
+      "artist": "Raoul Vitale",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island3",
+      "images": {
+        "en": "/ddo/en/062.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273026,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/island3.jpg",
+      "mtgjson_id": "ba89229bae6c4e1490d789346e4539de9957a952",
+      "multiverseid": 394376,
+      "name": "Island",
+      "near_mint_id": "ddo_062",
+      "number": 62,
+      "numberSpecial": "062",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_032",
+        "dd3_jvc_033",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_061",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_060",
+        "ddo_061"
+      ]
+    },
+    {
+      "artist": "Thomas Denmark",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"If a boggart even dares breathe near one of my kin, I'll know. And I'll not be happy.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kinsbaile skirmisher",
+      "images": {
+        "en": "/ddo/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 272981,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/kinsbaile_skirmisher.jpg",
+      "mtgjson_id": "a7209d8530f8710aaaea0ea99c2da2f61bd2e95c",
+      "multiverseid": 394379,
+      "name": "Kinsbaile Skirmisher",
+      "near_mint_id": "ddo_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "When Kinsbaile Skirmisher enters the battlefield, target creature gets +1/+1 until end of turn.",
+      "originalType": "Creature — Kithkin Soldier",
+      "power": "2",
+      "printings": [
+        "lrw_024",
+        "m15_016"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Kithkin",
+        "Soldier"
+      ],
+      "text": "When Kinsbaile Skirmisher enters the battlefield, target creature gets +1/+1 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Kithkin Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "cmc": 4,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kiora, the crashing wave",
+      "images": {
+        "en": "/ddo/en/034.jpg"
+      },
+      "layout": "normal",
+      "loyalty": 2,
+      "manaCost": "{2}{G}{U}",
+      "mkm_product_id": 272329,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/kiora_the_crashing_wave.jpg",
+      "mtgjson_id": "6ed167a90e4eae99236a5205980ac49ff652e63c",
+      "multiverseid": 394380,
+      "name": "Kiora, the Crashing Wave",
+      "near_mint_id": "ddo_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "+1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.\n−1: Draw a card. You may play an additional land this turn.\n−5: You get an emblem with \"At the beginning of your end step, put a 9/9 blue Kraken creature token onto the battlefield.\"",
+      "originalType": "Planeswalker — Kiora",
+      "printings": [
+        "bng_149"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2014-02-01",
+          "text": "Kiora’s first ability can target any permanent an opponent controls, not just one that can deal or be dealt damage."
+        },
+        {
+          "date": "2014-02-01",
+          "text": "Once the first ability resolves, the damage prevention continues to apply even if that permanent changes controllers."
+        },
+        {
+          "date": "2014-02-01",
+          "text": "Kiora’s second ability allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you won’t play a land as that ability resolves. The ability will fully resolve (and you’ll draw a card, perhaps a land you’ll play later) first."
+        },
+        {
+          "date": "2014-02-01",
+          "text": "The effect of the second ability is cumulative with other effects that let you play additional lands, such as the one from Rites of Flourishing."
+        },
+        {
+          "date": "2014-02-01",
+          "text": "If Kiora leaves the battlefield after her second ability is activated but before it resolves, you’ll still be able to play an additional land after the ability resolves."
+        }
+      ],
+      "subtypes": [
+        "Kiora"
+      ],
+      "text": "+1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.\n−1: Draw a card. You may play an additional land this turn.\n−5: You get an emblem with \"At the beginning of your end step, put a 9/9 blue Kraken creature token onto the battlefield.\"",
+      "type": "Planeswalker — Kiora",
+      "types": [
+        "Planeswalker"
+      ]
+    },
+    {
+      "artist": "Eric Deschamps",
+      "cmc": 2,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "\"She may call herself Kiora but I believe she is Thassa, the embodiment of the sea and empress of the depths.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kiora's follower",
+      "images": {
+        "en": "/ddo/en/052.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}{U}",
+      "mkm_product_id": 273013,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/kioras_follower.jpg",
+      "mtgjson_id": "b491d9ec088c398d01112ea907906cc3b619ddd7",
+      "multiverseid": 394381,
+      "name": "Kiora's Follower",
+      "near_mint_id": "ddo_052",
+      "number": 52,
+      "numberSpecial": "052",
+      "originalText": "{T}: Untap another target permanent.",
+      "originalType": "Creature — Merfolk",
+      "power": "2",
+      "printings": [
+        "bng_150"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Merfolk"
+      ],
+      "text": "{T}: Untap another target permanent.",
+      "toughness": "2",
+      "type": "Creature — Merfolk",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dan Scott",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Sometimes I snare the unexpected, but I know its purpose will be revealed in time.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kor skyfisher",
+      "images": {
+        "en": "/ddo/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 272982,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/kor_skyfisher.jpg",
+      "mtgjson_id": "83dcc7ffdfe251f0306c5c064a1cf95f0034ee3e",
+      "multiverseid": 394382,
+      "name": "Kor Skyfisher",
+      "near_mint_id": "ddo_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "Flying\nWhen Kor Skyfisher enters the battlefield, return a permanent you control to its owner's hand.",
+      "originalType": "Creature — Kor Soldier",
+      "power": "2",
+      "printings": [
+        "ddf_008",
+        "zen_023"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The triggered ability doesn't target a permanent. You choose which one to return to its owner's hand as the ability resolves. No one can respond to the choice."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If Kor Skyfisher is still on the battlefield as its triggered ability resolves, you may return Kor Skyfisher itself."
+        }
+      ],
+      "subtypes": [
+        "Kor",
+        "Soldier"
+      ],
+      "text": "Flying\nWhen Kor Skyfisher enters the battlefield, return a permanent you control to its owner's hand.",
+      "toughness": "3",
+      "type": "Creature — Kor Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dan Scott",
+      "cmc": 0,
+      "color": [
+        "U"
+      ],
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Kraken",
+          "powerToughness": "9/9",
+          "name": "Kraken",
+          "type": "Créature : kraken",
+          "magic_ville_id": "evk067"
+        }
+      ],
+      "imageName": "kraken",
+      "images": {
+        "en": "/ddo/en/to067.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 273040,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/kraken_token_blue_99.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDO_067-Kraken.jpg",
+      "name": "Kraken",
+      "near_mint_id": "ddo_to067",
+      "number": 67,
+      "numberSpecial": "to067",
+      "originalType": "Creature — Kraken",
+      "power": "9",
+      "rarity": "Token",
+      "subtypes": [
+        "Kraken"
+      ],
+      "toughness": "9",
+      "type": "Creature — Kraken",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 3,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "\"The enlightenment I never found in etherium I have found traced in the coatl's scales.\"\n—Ranalus, vedalken heretic",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "lorescale coatl",
+      "images": {
+        "en": "/ddo/en/053.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}{U}",
+      "mkm_product_id": 273014,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/lorescale_coatl.jpg",
+      "mtgjson_id": "8d88e0d1bf7bec672edac6cbb9da88e9c3759e72",
+      "multiverseid": 394384,
+      "name": "Lorescale Coatl",
+      "near_mint_id": "ddo_053",
+      "number": 53,
+      "numberSpecial": "053",
+      "originalText": "Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl.",
+      "originalType": "Creature — Snake",
+      "power": "2",
+      "printings": [
+        "arb_101",
+        "c15_225",
+        "mm2_179"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-05-01",
+          "text": "If a spell or ability causes you to draw multiple cards, Lorescale Coatl's ability triggers that many times."
+        },
+        {
+          "date": "2009-05-01",
+          "text": "If a spell or ability causes you to put cards in your hand without specifically using the word \"draw,\" Lorescale Coatl's ability won't trigger."
+        }
+      ],
+      "subtypes": [
+        "Snake"
+      ],
+      "text": "Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl.",
+      "toughness": "2",
+      "type": "Creature — Snake",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Stewart",
+      "cmc": 5,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"On every plane I've encountered loxodons, I've found stalwart and loyal friends.\"\n—Elspeth",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "loxodon partisan",
+      "images": {
+        "en": "/ddo/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{W}",
+      "mkm_product_id": 272983,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/loxodon_partisan.jpg",
+      "mtgjson_id": "47bda80fcaa256f60b367d50f73a1a6690a7dfe4",
+      "multiverseid": 394385,
+      "name": "Loxodon Partisan",
+      "near_mint_id": "ddo_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)",
+      "originalType": "Creature — Elephant Soldier",
+      "power": "3",
+      "printings": [
+        "mbs_012"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elephant",
+        "Soldier"
+      ],
+      "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)",
+      "toughness": "4",
+      "type": "Creature — Elephant Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jon J Muth",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Beauty to the eye does not always translate to the touch.\"\n—Naimah, Femeref philosopher",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "man-o'-war",
+      "images": {
+        "en": "/ddo/en/038.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}",
+      "mkm_product_id": 273000,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/man_o_war.jpg",
+      "mtgjson_id": "bf02c74ae3064e6ac65877a1e2c85f3c2b467060",
+      "multiverseid": 394386,
+      "name": "Man-o'-War",
+      "near_mint_id": "ddo_038",
+      "number": 38,
+      "numberSpecial": "038",
+      "originalText": "When Man-o'-War enters the battlefield, return target creature to its owner's hand.",
+      "originalType": "Creature — Jellyfish",
+      "power": "2",
+      "printings": [
+        "brb_040",
+        "dd2_008",
+        "dd3_jvc_008",
+        "vis_037"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "It can choose itself. It has to if there are no other creatures."
+        }
+      ],
+      "subtypes": [
+        "Jellyfish"
+      ],
+      "text": "When Man-o'-War enters the battlefield, return target creature to its owner's hand.",
+      "toughness": "2",
+      "type": "Creature — Jellyfish",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "rk post",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"The southern fortress taken by invaders? Heh, sure . . . when elephants fly.\"\n—Brezard Skeinbow, captain of the guard",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mighty leap",
+      "images": {
+        "en": "/ddo/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 272984,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/mighty_leap.jpg",
+      "mtgjson_id": "1008fef9920ecedcfea2aeca9e2800e7a77e61db",
+      "multiverseid": 394387,
+      "name": "Mighty Leap",
+      "near_mint_id": "ddo_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "Target creature gets +2/+2 and gains flying until end of turn.",
+      "originalType": "Instant",
+      "printings": [
+        "ddf_024",
+        "ddg_026",
+        "m11_022",
+        "m12_026",
+        "mm2_024",
+        "ori_026"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2015-06-22",
+          "text": "Giving a creature flying after it’s already been blocked won’t change or undo that block. If you want the flying to affect what can block the creature, you must cast Mighty Leap during the declare attackers step at the latest."
+        }
+      ],
+      "text": "Target creature gets +2/+2 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Such deeds should be common fare for such as us.\"\n—Anax, king of Akros",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mortal's ardor",
+      "images": {
+        "en": "/ddo/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 272985,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/mortals_ardor.jpg",
+      "mtgjson_id": "424c0fd8308beef07d5bc70a0cd30cab5a95e151",
+      "multiverseid": 394388,
+      "name": "Mortal's Ardor",
+      "near_mint_id": "ddo_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Target creature gets +1/+1 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
+      "originalType": "Instant",
+      "printings": [
+        "bng_020"
+      ],
+      "rarity": "Common",
+      "text": "Target creature gets +1/+1 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "She will not touch a weapon, yet she is the greatest protector her people have ever known.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mother of runes",
+      "images": {
+        "en": "/ddo/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 272334,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/mother_of_runes.jpg",
+      "mtgjson_id": "71d7385d8e95049c008df66bc01ef1ad176a3023",
+      "multiverseid": 394389,
+      "name": "Mother of Runes",
+      "near_mint_id": "ddo_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "{T}: Target creature you control gains protection from the color of your choice until end of turn.",
+      "originalType": "Creature — Human Cleric",
+      "power": "1",
+      "printings": [
+        "cmd_021",
+        "ulg_014"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "text": "{T}: Target creature you control gains protection from the color of your choice until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Alex Horley-Orlandelli",
+      "cmc": 5,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "It's not the two heads you should fear. It's the four fangs.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "nessian asp",
+      "images": {
+        "en": "/ddo/en/048.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{G}",
+      "mkm_product_id": 273009,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/nessian_asp.jpg",
+      "mtgjson_id": "8dd8c2be6b4631a54d518d1679dcc71a9dfd9f86",
+      "multiverseid": 394390,
+      "name": "Nessian Asp",
+      "near_mint_id": "ddo_048",
+      "number": 48,
+      "numberSpecial": "048",
+      "originalText": "Reach\n{6}{G}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)",
+      "originalType": "Creature — Snake",
+      "power": "4",
+      "printings": [
+        "ths_164"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-09-15",
+          "text": "Once a creature becomes monstrous, it can’t become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "Monstrous isn’t an ability that a creature has. It’s just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "An ability that triggers when a creature becomes monstrous won’t trigger if that creature isn’t on the battlefield when its monstrosity ability resolves."
+        }
+      ],
+      "subtypes": [
+        "Snake"
+      ],
+      "text": "Reach\n{6}{G}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)",
+      "toughness": "5",
+      "type": "Creature — Snake",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Yohann Schepacz",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "It is an expert at culling individuals who stray too far from the herd.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "netcaster spider",
+      "images": {
+        "en": "/ddo/en/049.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mkm_product_id": 273010,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/netcaster_spider.jpg",
+      "mtgjson_id": "809e76dc43916971d388c133314a2ad10bcd057a",
+      "multiverseid": 394391,
+      "name": "Netcaster Spider",
+      "near_mint_id": "ddo_049",
+      "number": 49,
+      "numberSpecial": "049",
+      "originalText": "Reach (This creature can block creatures with flying.)\nWhenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn.",
+      "originalType": "Creature — Spider",
+      "power": "2",
+      "printings": [
+        "m15_186"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Spider"
+      ],
+      "text": "Reach (This creature can block creatures with flying.)\nWhenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn.",
+      "toughness": "3",
+      "type": "Creature — Spider",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Howard Lyon",
+      "cmc": 2,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "The Simic soon discovered that the sky offered as few constraints on size as the sea.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "nimbus swimmer",
+      "images": {
+        "en": "/ddo/en/054.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{G}{U}",
+      "mkm_product_id": 273015,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/nimbus_swimmer.jpg",
+      "mtgjson_id": "3d53b1edbfb874c03eddadea04cc3ef5f537d805",
+      "multiverseid": 394392,
+      "name": "Nimbus Swimmer",
+      "near_mint_id": "ddo_054",
+      "number": 54,
+      "numberSpecial": "054",
+      "originalText": "Flying\nNimbus Swimmer enters the battlefield with X +1/+1 counters on it.",
+      "originalType": "Creature — Leviathan",
+      "power": "0",
+      "printings": [
+        "gtc_181"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Leviathan"
+      ],
+      "text": "Flying\nNimbus Swimmer enters the battlefield with X +1/+1 counters on it.",
+      "toughness": "0",
+      "type": "Creature — Leviathan",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Alex Horley-Orlandelli",
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "noble templar",
+      "images": {
+        "en": "/ddo/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{W}",
+      "mkm_product_id": 272986,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/noble_templar.jpg",
+      "mtgjson_id": "bb959ae285a5d4f104df3392f66391404a39dccf",
+      "multiverseid": 394393,
+      "name": "Noble Templar",
+      "near_mint_id": "ddo_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "Vigilance\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "originalType": "Creature — Human Cleric Soldier",
+      "power": "3",
+      "printings": [
+        "cns_075",
+        "scg_019"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Cleric",
+        "Soldier"
+      ],
+      "text": "Vigilance\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "toughness": "6",
+      "type": "Creature — Human Cleric Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dallas Williams",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Her prophecies amaze her even as she speaks them.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "omenspeaker",
+      "images": {
+        "en": "/ddo/en/039.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mkm_product_id": 273001,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/omenspeaker.jpg",
+      "mtgjson_id": "3f8af52648c4204a3082a0c9f32285ca6c74c73c",
+      "multiverseid": 394394,
+      "name": "Omenspeaker",
+      "near_mint_id": "ddo_039",
+      "number": 39,
+      "numberSpecial": "039",
+      "originalText": "When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "originalType": "Creature — Human Wizard",
+      "power": "1",
+      "printings": [
+        "ths_057"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-09-15",
+          "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won’t scry."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "toughness": "3",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jason Felix",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Soulless demon, you are bound to me. Now we will both dwell in oblivion.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "peel from reality",
+      "images": {
+        "en": "/ddo/en/040.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mkm_product_id": 273002,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/peel_from_reality.jpg",
+      "mtgjson_id": "3f5ed523d70168794d4725fdad48a7a37f41ece0",
+      "multiverseid": 394395,
+      "name": "Peel from Reality",
+      "near_mint_id": "ddo_040",
+      "number": 40,
+      "numberSpecial": "040",
+      "originalText": "Return target creature you control and target creature you don't control to their owners' hands.",
+      "originalType": "Instant",
+      "printings": [
+        "avr_071",
+        "m15_074",
+        "rav_061"
+      ],
+      "rarity": "Common",
+      "text": "Return target creature you control and target creature you don't control to their owners' hands.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains1",
+      "images": {
+        "en": "/ddo/en/030.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273022,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/plains1.jpg",
+      "mtgjson_id": "99b2bbb0d0128e8010971466e51fc5c976204fb2",
+      "multiverseid": 394397,
+      "name": "Plains",
+      "near_mint_id": "ddo_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_033",
+        "ddo_031",
+        "ddo_032"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains2",
+      "images": {
+        "en": "/ddo/en/031.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273023,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/plains2.jpg",
+      "mtgjson_id": "7a9842880815490515c09638b6936cccae0dcd88",
+      "multiverseid": 394398,
+      "name": "Plains",
+      "near_mint_id": "ddo_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_033",
+        "ddo_030",
+        "ddo_032"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains3",
+      "images": {
+        "en": "/ddo/en/032.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 272996,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/plains3.jpg",
+      "mtgjson_id": "3296b7071ebd27a4496d45671b607beb02a2f1b4",
+      "multiverseid": 394399,
+      "name": "Plains",
+      "near_mint_id": "ddo_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_033",
+        "ddo_030",
+        "ddo_031"
+      ]
+    },
+    {
+      "artist": "Raoul Vitale",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains4",
+      "images": {
+        "en": "/ddo/en/033.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 273024,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/plains4.jpg",
+      "mtgjson_id": "b484a62516dad18662bda8d2c2b86a02af5d0c90",
+      "multiverseid": 394396,
+      "name": "Plains",
+      "near_mint_id": "ddo_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddo_030",
+        "ddo_031",
+        "ddo_032"
+      ]
+    },
+    {
+      "artist": "Chase Stone",
+      "cmc": 4,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "\"Everything serves a purpose. Even you.\"\n—Vorel of the Hull Clade",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plasm capture",
+      "images": {
+        "en": "/ddo/en/055.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}{G}{U}{U}",
+      "mkm_product_id": 273016,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/plasm_capture.jpg",
+      "mtgjson_id": "6ce96dea73511cd5d99c53ec142851d68296ddfc",
+      "multiverseid": 394400,
+      "name": "Plasm Capture",
+      "near_mint_id": "ddo_055",
+      "number": 55,
+      "numberSpecial": "055",
+      "originalText": "Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors to your mana pool, where X is that spell's converted mana cost.",
+      "originalType": "Instant",
+      "printings": [
+        "dgm_091"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "If the countered spell had {X} in its mana cost, include the value chosen for that X when determining how much mana to add to your pool. For example, if you counter a spell that costs {X}{R} with X equal to 5, you'll add six mana to your mana pool."
+        },
+        {
+          "date": "2013-04-15",
+          "text": "Your precombat main phase is the main phase that happens immediately after your draw step, not any other main phase."
+        }
+      ],
+      "text": "Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors to your mana pool, where X is that spell's converted mana cost.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Steve Prescott",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"In troubled times, we all need someone to watch our back.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "precinct captain",
+      "images": {
+        "en": "/ddo/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}{W}",
+      "mkm_product_id": 272987,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/precinct_captain.jpg",
+      "mtgjson_id": "c7470e7ca886a12684a3d167eb890a8c7063e47b",
+      "multiverseid": 394401,
+      "name": "Precinct Captain",
+      "near_mint_id": "ddo_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "First strike\nWhenever Precinct Captain deals combat damage to a player, put a 1/1 white Soldier creature token onto the battlefield.",
+      "originalType": "Creature — Human Soldier",
+      "power": "2",
+      "printings": [
+        "rtr_017"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "First strike\nWhenever Precinct Captain deals combat damage to a player, put a 1/1 white Soldier creature token onto the battlefield.",
+      "toughness": "2",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Zoltan Boros",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Like blinking or breathing, responding to an alarm is an involuntary reflex.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "raise the alarm",
+      "images": {
+        "en": "/ddo/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 272988,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/raise_the_alarm.jpg",
+      "mtgjson_id": "5bd5ca16c5ff1a3fdd976f6bc2fbe7de5b715038",
+      "multiverseid": 394402,
+      "name": "Raise the Alarm",
+      "near_mint_id": "ddo_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "Put two 1/1 white Soldier creature tokens onto the battlefield.",
+      "originalType": "Instant",
+      "printings": [
+        "ddf_025",
+        "m15_026",
+        "md1_008",
+        "mm2_031",
+        "mrd_016"
+      ],
+      "rarity": "Common",
+      "text": "Put two 1/1 white Soldier creature tokens onto the battlefield.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 7,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "scourge of fleets",
+      "images": {
+        "en": "/ddo/en/041.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{U}{U}",
+      "mkm_product_id": 273003,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/scourge_of_fleets.jpg",
+      "mtgjson_id": "18a8c33b07a5c3118f4fe1f04405206e4a70ccc3",
+      "multiverseid": 394403,
+      "name": "Scourge of Fleets",
+      "near_mint_id": "ddo_041",
+      "number": 41,
+      "numberSpecial": "041",
+      "originalText": "When Scourge of Fleets enters the battlefield, return each creature your opponents control with toughness X or less to its owner's hand, where X is the number of Islands you control.",
+      "originalType": "Creature — Kraken",
+      "power": "6",
+      "printings": [
+        "jou_051"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-04-26",
+          "text": "The value of X is determined as the ability resolves."
+        }
+      ],
+      "subtypes": [
+        "Kraken"
+      ],
+      "text": "When Scourge of Fleets enters the battlefield, return each creature your opponents control with toughness X or less to its owner's hand, where X is the number of Islands you control.",
+      "toughness": "6",
+      "type": "Creature — Kraken",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sealock monster",
+      "images": {
+        "en": "/ddo/en/042.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}{U}",
+      "mkm_product_id": 273004,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/sealock_monster.jpg",
+      "mtgjson_id": "e7825a792a904b84bdbf039925f689c9f9b1f914",
+      "multiverseid": 394404,
+      "name": "Sealock Monster",
+      "near_mint_id": "ddo_042",
+      "number": 42,
+      "numberSpecial": "042",
+      "originalText": "Sealock Monster can't attack unless defending player controls an Island.\n{5}{U}{U}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)\nWhen Sealock Monster becomes monstrous, target land becomes an Island in addition to its other types.",
+      "originalType": "Creature — Octopus",
+      "power": "5",
+      "printings": [
+        "ths_062"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-09-15",
+          "text": "The effect making the land an Island doesn’t have a duration and will last indefinitely. The land retains any land types and abilities it already had. An Island has the ability “{T}: Add {U} to your mana pool.”"
+        },
+        {
+          "date": "2013-09-15",
+          "text": "Once a creature becomes monstrous, it can’t become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "Monstrous isn’t an ability that a creature has. It’s just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "An ability that triggers when a creature becomes monstrous won’t trigger if that creature isn’t on the battlefield when its monstrosity ability resolves."
+        }
+      ],
+      "subtypes": [
+        "Octopus"
+      ],
+      "text": "Sealock Monster can't attack unless defending player controls an Island.\n{5}{U}{U}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)\nWhen Sealock Monster becomes monstrous, target land becomes an Island in addition to its other types.",
+      "toughness": "5",
+      "type": "Creature — Octopus",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Heather Hudson",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "secluded steppe",
+      "images": {
+        "en": "/ddo/en/029.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 272995,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/secluded_steppe.jpg",
+      "mtgjson_id": "8a64b634aac3c17a4ee6c0438f56efc8b4b2da30",
+      "multiverseid": 394405,
+      "name": "Secluded Steppe",
+      "near_mint_id": "ddo_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "Secluded Steppe enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+      "originalType": "Land",
+      "printings": [
+        "c13_319",
+        "c14_310",
+        "c15_304",
+        "cmd_286",
+        "dd3_dvd_025",
+        "ddc_025",
+        "ons_324"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        }
+      ],
+      "text": "Secluded Steppe enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "rk post",
+      "cmc": 7,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "\"We've bred out the shortcomings of the species' natural form and replaced them with assets of our own design.\"\n—Momir Vig",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "simic sky swallower",
+      "images": {
+        "en": "/ddo/en/056.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{G}{U}",
+      "mkm_product_id": 273017,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/simic_sky_swallower.jpg",
+      "mtgjson_id": "84dbb9ae93054bb465ad86254a271ee43e48610a",
+      "multiverseid": 394406,
+      "name": "Simic Sky Swallower",
+      "near_mint_id": "ddo_056",
+      "number": 56,
+      "numberSpecial": "056",
+      "originalText": "Flying, trample\nShroud (This creature can't be the target of spells or abilities.)",
+      "originalType": "Creature — Leviathan",
+      "power": "6",
+      "printings": [
+        "cmd_226",
+        "dis_130"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Leviathan"
+      ],
+      "text": "Flying, trample\nShroud (This creature can't be the target of spells or abilities.)",
+      "toughness": "6",
+      "type": "Creature — Leviathan",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "cmc": 0,
+      "color": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Soldier",
+          "powerToughness": "1/1",
+          "name": "Soldat",
+          "type": "Créature : soldat",
+          "magic_ville_id": "evk066"
+        }
+      ],
+      "imageName": "soldier",
+      "images": {
+        "en": "/ddo/en/to066.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 273039,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/soldier_token_white_11.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDO_066-Soldier.jpg",
+      "name": "Soldier",
+      "near_mint_id": "ddo_to066",
+      "number": 66,
+      "numberSpecial": "to066",
+      "originalType": "Creature — Soldier",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Soldier"
+      ],
+      "toughness": "1",
+      "type": "Creature — Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Igor Kieryluk",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"I was called to this world of steel, and it will be my steel that answers.\"\n—Elspeth",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "soul parry",
+      "images": {
+        "en": "/ddo/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 272989,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/soul_parry.jpg",
+      "mtgjson_id": "cdd3c94ce4b4b0d2113ede8fca7d189d974b0a84",
+      "multiverseid": 394408,
+      "name": "Soul Parry",
+      "near_mint_id": "ddo_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "Prevent all damage one or two target creatures would deal this turn.",
+      "originalType": "Instant",
+      "printings": [
+        "som_021"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2011-01-01",
+          "text": "Soul Parry prevents all damage the targeted creatures would deal this turn, not just combat damage."
+        }
+      ],
+      "text": "Prevent all damage one or two target creatures would deal this turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Zoltan Boros",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Bant sentries were called the Angel Line. They never faltered, and they were ready to die defending their position.\"\n—Elspeth",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "standing troops",
+      "images": {
+        "en": "/ddo/en/025.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 272990,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/standing_troops.jpg",
+      "mtgjson_id": "b256b1558fabe3e36ec27793abc684de94be1aa6",
+      "multiverseid": 394409,
+      "name": "Standing Troops",
+      "near_mint_id": "ddo_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "Vigilance",
+      "originalType": "Creature — Human Soldier",
+      "power": "1",
+      "printings": [
+        "6ed_044",
+        "7ed_048",
+        "8ed_048",
+        "exo_022"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Vigilance",
+      "toughness": "4",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"It's easy for the innocent to speak of justice. They seldom feel its terrible power.\"\n—Orim, Samite inquisitor",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sunlance",
+      "images": {
+        "en": "/ddo/en/026.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 272991,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/sunlance.jpg",
+      "mtgjson_id": "a33578661fadf23f1c4b66d662e067df0f31c34f",
+      "multiverseid": 394410,
+      "name": "Sunlance",
+      "near_mint_id": "ddo_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "Sunlance deals 3 damage to target nonwhite creature.",
+      "originalType": "Sorcery",
+      "printings": [
+        "ddf_021",
+        "mm2_034",
+        "plc_031"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2007-02-01",
+          "text": "This is the timeshifted version of Strafe."
+        }
+      ],
+      "text": "Sunlance deals 3 damage to target nonwhite creature.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Matt Cavotta",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Surrakar grab things they don't want.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "surrakar banisher",
+      "images": {
+        "en": "/ddo/en/043.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}",
+      "mkm_product_id": 273005,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/surrakar_banisher.jpg",
+      "mtgjson_id": "51abda9664dd8cfc8bea2f4ceca6dde76b1454d7",
+      "multiverseid": 394411,
+      "name": "Surrakar Banisher",
+      "near_mint_id": "ddo_043",
+      "number": 43,
+      "numberSpecial": "043",
+      "originalText": "When Surrakar Banisher enters the battlefield, you may return target tapped creature to its owner's hand.",
+      "originalType": "Creature — Surrakar",
+      "power": "3",
+      "printings": [
+        "wwk_039"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Surrakar"
+      ],
+      "text": "When Surrakar Banisher enters the battlefield, you may return target tapped creature to its owner's hand.",
+      "toughness": "3",
+      "type": "Creature — Surrakar",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "James Zapata",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "\"When gods become apathetic, the people will worship anyone who answers their pleas.\"\n—Kiora",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "temple of the false god",
+      "images": {
+        "en": "/ddo/en/059.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 272332,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/temple_of_the_false_god.jpg",
+      "mtgjson_id": "6eca5f2d9a8784965e4d19e4bf2b8532e2ad9bfa",
+      "multiverseid": 394412,
+      "name": "Temple of the False God",
+      "near_mint_id": "ddo_059",
+      "number": 59,
+      "numberSpecial": "059",
+      "originalText": "{T}: Add {2} to your mana pool. Activate this ability only if you control five or more lands.",
+      "originalType": "Land",
+      "printings": [
+        "c13_327",
+        "c14_314",
+        "c15_313",
+        "cmd_290",
+        "scg_143"
+      ],
+      "rarity": "Uncommon",
+      "text": "{T}: Add {2} to your mana pool. Activate this ability only if you control five or more lands.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Wayne Reynolds",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "time to feed",
+      "images": {
+        "en": "/ddo/en/050.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mkm_product_id": 273011,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/time_to_feed.jpg",
+      "mtgjson_id": "5b7d629bfc1d7025ee42fc4b7951fd3dd05708e1",
+      "multiverseid": 394413,
+      "name": "Time to Feed",
+      "near_mint_id": "ddo_050",
+      "number": 50,
+      "numberSpecial": "050",
+      "originalText": "Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that creature. (Each deals damage equal to its power to the other.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "ths_181"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-09-15",
+          "text": "Time to Feed has two targets: a creature an opponent controls and a creature you control. If only one of those creatures is a legal target when Time to Feed tries to resolve, the creatures won’t fight and neither will deal or be dealt damage. If the creature you don’t control is the illegal target, you won’t gain life when it dies."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "If neither creature is a legal target when Time to Feed tries to resolve, the spell will be countered and none of its effects will happen."
+        },
+        {
+          "date": "2013-09-15",
+          "text": "If the first target creature dies that turn, you’ll gain 3 life no matter what caused the creature to die or who controls the creature at that time."
+        }
+      ],
+      "text": "Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that creature. (Each deals damage equal to its power to the other.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Eytan Zana",
+      "cmc": 5,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "As the Simic released more of their krasis experiments, they required new habitats, always at the expense of the locals.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "urban evolution",
+      "images": {
+        "en": "/ddo/en/057.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}{U}",
+      "mkm_product_id": 273018,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/urban_evolution.jpg",
+      "mtgjson_id": "a6dbbe8b19a6dcc3b271595237a6168d727eb8e9",
+      "multiverseid": 394414,
+      "name": "Urban Evolution",
+      "near_mint_id": "ddo_057",
+      "number": 57,
+      "numberSpecial": "057",
+      "originalText": "Draw three cards. You may play an additional land this turn.",
+      "originalType": "Sorcery",
+      "printings": [
+        "gtc_204"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-01-24",
+          "text": "Urban Evolution's effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as Urban Evolution resolves; Urban Evolution fully resolves (and you'll draw three cards, perhaps including a land you'll play later) first."
+        },
+        {
+          "date": "2013-01-24",
+          "text": "The effects of multiple Urban Evolutions in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Rites of Flourishing."
+        },
+        {
+          "date": "2013-01-24",
+          "text": "If you somehow manage to cast Urban Evolution when it's not your turn, you'll draw three cards when it resolves, but you won't be able to play a land that turn."
+        }
+      ],
+      "text": "Draw three cards. You may play an additional land this turn.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Michael Komarck",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Courage is a proud and gleaming shield. It does not bend or hide from sight. To fight with courage, we must forge in steel.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "veteran armorsmith",
+      "images": {
+        "en": "/ddo/en/027.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}{W}",
+      "mkm_product_id": 272993,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/veteran_armorsmith.jpg",
+      "mtgjson_id": "ccba4d34ffee91b2f69501203af7d2c705bff3d3",
+      "multiverseid": 394415,
+      "name": "Veteran Armorsmith",
+      "near_mint_id": "ddo_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "Other Soldier creatures you control get +0/+1.",
+      "originalType": "Creature — Human Soldier",
+      "power": "2",
+      "printings": [
+        "m10_038"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Other Soldier creatures you control get +0/+1.",
+      "toughness": "3",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Michael Komarck",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Truth is a straight, keen edge. There are no soft angles or rounded edges. To fight for truth, we must forge in steel.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "veteran swordsmith",
+      "images": {
+        "en": "/ddo/en/028.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 272994,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/veteran_swordsmith.jpg",
+      "mtgjson_id": "0e00669d6aa3e0bbba78ae066581663fc253c815",
+      "multiverseid": 394416,
+      "name": "Veteran Swordsmith",
+      "near_mint_id": "ddo_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "Other Soldier creatures you control get +1/+0.",
+      "originalType": "Creature — Human Soldier",
+      "power": "3",
+      "printings": [
+        "m10_039"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "text": "Other Soldier creatures you control get +1/+0.",
+      "toughness": "2",
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Slawomir Maniak",
+      "cmc": 4,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"I can see why this appeals to Thassa.\"\n—Kiora",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "whelming wave",
+      "images": {
+        "en": "/ddo/en/044.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}{U}",
+      "mkm_product_id": 273006,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Elspeth_vs._Kiora/whelming_wave.jpg",
+      "mtgjson_id": "119f5029acf4bee663a7e1b23c658b02a4581152",
+      "multiverseid": 394417,
+      "name": "Whelming Wave",
+      "near_mint_id": "ddo_044",
+      "number": 44,
+      "numberSpecial": "044",
+      "originalText": "Return all creatures to their owners' hands except for Krakens, Leviathans, Octopuses, and Serpents.",
+      "originalType": "Sorcery",
+      "printings": [
+        "bng_057"
+      ],
+      "rarity": "Rare",
+      "text": "Return all creatures to their owners' hands except for Krakens, Leviathans, Octopuses, and Serpents.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    }
+  ],
+  "languages": [
+    "English",
+    "Japanese"
+  ],
+  "finition": "both"
+}

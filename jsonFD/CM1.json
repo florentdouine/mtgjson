@@ -1,0 +1,1158 @@
+{
+  "name": "Commander's Arsenal",
+  "code": "CM1",
+  "oldCode": "CMA",
+  "magicCardsInfoCode": "cma",
+  "releaseDate": "2012-11-02",
+  "border": "black",
+  "type": "commander",
+  "mkm_name": "Commander's Arsenal",
+  "mkm_id": 1418,
+  "card_total": 18,
+  "cards": [
+    {
+      "artist": "Trevor Claxton",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "chaos warp",
+      "images": {
+        "en": "/cm1/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 259306,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/chaos_warp.jpg",
+      "mtgjson_id": "c538bd18755007f490056c60cae7b68a5dd3e0e7",
+      "multiverseid": 338441,
+      "name": "Chaos Warp",
+      "near_mint_id": "cm1_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "The owner of target permanent shuffles it into his or her library, then reveals the top card of his or her library. If it's a permanent card, he or she puts it onto the battlefield.",
+      "originalType": "Instant",
+      "printings": [
+        "c14_174",
+        "cmd_114"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2011-09-22",
+          "text": "The owner of a token is the player under whose control the token was put onto the battlefield. If a token is shuffled into a player's library this way, that player shuffles before revealing the top card of that library."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "If the permanent is an illegal target by the time Chaos Warp tries to resolve, it will be countered and none of its effects will occur. No library will be shuffled and no card will be revealed."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "A permanent card is a card with one or more of the following card types: artifact, creature, enchantment, land, or planeswalker."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "If the revealed card is a permanent card but can't enter the battlefield (perhaps because it's an Aura with nothing to enchant), it remains on top of that library."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "If the revealed card is not a permanent card, it remains on top of that library."
+        }
+      ],
+      "text": "The owner of target permanent shuffles it into his or her library, then reveals the top card of his or her library. If it's a permanent card, he or she puts it onto the battlefield.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "When defeat is near and guidance is scarce, all eyes look in one direction.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "command tower",
+      "images": {
+        "en": "/cm1/en/002.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 259305,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/command_tower.jpg",
+      "mtgjson_id": "2090dd46a156a4b64b3da7465f687ebd71a6a3f7",
+      "multiverseid": 338442,
+      "name": "Command Tower",
+      "near_mint_id": "cm1_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "{T}: Add to your mana pool one mana of any color in your commander's color identity.",
+      "originalType": "Land",
+      "printings": [
+        "c13_281",
+        "c15_281",
+        "cmd_269"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2011-09-22",
+          "text": "The color identity of your commander is set before the game begins and doesn't change during the game, even your commander is in a hidden zone (like the hand or library) or an effect changes your commander's color."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "If your commander is a card like Kozilek, Butcher of Truth that has no colors in its color identity, Command Tower's ability produces no mana."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "In formats other than Commander, Command Tower's ability produces no mana."
+        }
+      ],
+      "text": "{T}: Add to your mana pool one mana of any color in your commander's color identity.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Mathias Kollros",
+      "cmc": 8,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "decree of pain",
+      "images": {
+        "en": "/cm1/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{B}{B}",
+      "mkm_product_id": 259313,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/decree_of_pain.jpg",
+      "mtgjson_id": "0a2d01f44f11806b2077b25974dcc7f953d202bb",
+      "multiverseid": 338453,
+      "name": "Decree of Pain",
+      "near_mint_id": "cm1_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Destroy all creatures. They can't be regenerated. Draw a card for each creature destroyed this way.\nCycling {3}{B}{B} ({3}{B}{B}, Discard this card: Draw a card.)\nWhen you cycle Decree of Pain, all creatures get -2/-2 until end of turn.",
+      "originalType": "Sorcery",
+      "printings": [
+        "c13_072",
+        "scg_064"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card."
+        }
+      ],
+      "text": "Destroy all creatures. They can't be regenerated. Draw a card for each creature destroyed this way.\nCycling {3}{B}{B} ({3}{B}{B}, Discard this card: Draw a card.)\nWhen you cycle Decree of Pain, all creatures get -2/-2 until end of turn.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Richard Kane Ferguson",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "First the insult, then the injury.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "desertion",
+      "images": {
+        "en": "/cm1/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}{U}",
+      "mkm_product_id": 259312,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/desertion.jpg",
+      "mtgjson_id": "fdd3dfe9f659508d12b676a7f312255811528458",
+      "multiverseid": 338454,
+      "name": "Desertion",
+      "near_mint_id": "cm1_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.",
+      "originalType": "Instant",
+      "printings": [
+        "6ed_064",
+        "vis_030"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The card is put onto the battlefield, but any effects that check if the original card was \"cast from your hand\" will not trigger or otherwise consider the card to have been cast from your hand. The card was put onto the battlefield by the effect of Desertion instead."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This spell includes a replacement effect. If the target is an artifact or creature, it never goes to the graveyard."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If the spell is not countered (because the spell it targets can't be countered), then this card's ability does not put the card onto the battlefield. The spell continues to resolve as normal."
+        }
+      ],
+      "text": "Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Miao Aili",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "diaochan, artful beauty",
+      "images": {
+        "en": "/cm1/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}",
+      "mkm_product_id": 259323,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/diaochan_artful_beauty.jpg",
+      "mtgjson_id": "0f601ffba3d37635ed9ad2dbdefeebde45e8dccd",
+      "multiverseid": 338449,
+      "name": "Diaochan, Artful Beauty",
+      "near_mint_id": "cm1_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "{T}: Destroy target creature of your choice, then destroy target creature of an opponent's choice. Activate this ability only during your turn, before attackers are declared.",
+      "originalType": "Legendary Creature — Human Advisor",
+      "power": "1",
+      "printings": [],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2013-09-20",
+          "text": "If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Advisor"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "{T}: Destroy target creature of your choice, then destroy target creature of an opponent's choice. Activate this ability only during your turn, before attackers are declared.",
+      "toughness": "1",
+      "type": "Legendary Creature — Human Advisor",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Carl Critchlow",
+      "cmc": 6,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "RG",
+      "flavor": "Swarms thrive in its nest, feeding on leathery bits of discarded wing.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dragonlair spider",
+      "images": {
+        "en": "/cm1/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}{R}{G}{G}",
+      "mkm_product_id": 259301,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/dragonlair_spider.jpg",
+      "mtgjson_id": "0cdccbf886c3f92226cb84ede152c96504805de0",
+      "multiverseid": 338446,
+      "name": "Dragonlair Spider",
+      "near_mint_id": "cm1_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Reach\nWhenever an opponent casts a spell, put a 1/1 green Insect creature token onto the battlefield.",
+      "originalType": "Creature — Spider",
+      "power": "5",
+      "printings": [],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2012-06-01",
+          "text": "The triggered ability will resolve and the Insect will be created before the spell that caused it to trigger resolves."
+        },
+        {
+          "date": "2012-06-01",
+          "text": "The triggered ability won't be affected if the spell that caused it to trigger is countered."
+        }
+      ],
+      "subtypes": [
+        "Spider"
+      ],
+      "text": "Reach\nWhenever an opponent casts a spell, put a 1/1 green Insect creature token onto the battlefield.",
+      "toughness": "6",
+      "type": "Creature — Spider",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Marco Nelor",
+      "cmc": 6,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "duplicant",
+      "images": {
+        "en": "/cm1/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}",
+      "mkm_product_id": 259300,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/duplicant.jpg",
+      "mtgjson_id": "efd1254460c50e2a479582a1cd387eccc6c16dcc",
+      "multiverseid": 338451,
+      "name": "Duplicant",
+      "near_mint_id": "cm1_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "Imprint — When Duplicant enters the battlefield, you may exile target nontoken creature.\nAs long as the exiled card is a creature card, Duplicant has that card's power, toughness, and creature types. It's still a Shapeshifter.",
+      "originalType": "Artifact Creature — Shapeshifter",
+      "power": "2",
+      "printings": [
+        "mrd_165"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-12-01",
+          "text": "If no creature card is imprinted on Duplicant, it has its normal power, toughness, and creature types."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "Duplicant's power and toughness change to the imprinted card's power and toughness. Counters and other effects that change Duplicant's power and toughness still apply."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "Duplicant keeps all creature types it had when the card was imprinted, including any types that Duplicant had gained."
+        }
+      ],
+      "subtypes": [
+        "Shapeshifter"
+      ],
+      "text": "Imprint — When Duplicant enters the battlefield, you may exile target nontoken creature.\nAs long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.",
+      "toughness": "4",
+      "type": "Artifact Creature — Shapeshifter",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 3,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "UG",
+      "flavor": "\"I am not at liberty to reveal my sources, but I can assure you, the price on your head is high.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "edric, spymaster of trest",
+      "images": {
+        "en": "/cm1/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}{U}",
+      "mkm_product_id": 259315,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/edric_spymaster_of_trest.jpg",
+      "mtgjson_id": "44b326a1525461da0b0da15656361764f12804b2",
+      "multiverseid": 338443,
+      "name": "Edric, Spymaster of Trest",
+      "near_mint_id": "cm1_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.",
+      "originalType": "Legendary Creature — Elf Rogue",
+      "power": "2",
+      "printings": [
+        "cmd_196",
+        "cns_187"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2011-09-22",
+          "text": "A creature controlled by an opponent that deals combat damage to another opponent will cause Edric's ability to trigger. The creature's controller chooses whether to draw a card."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "When a creature you control deals combat damage to one of your opponents, you may draw a card."
+        }
+      ],
+      "subtypes": [
+        "Elf",
+        "Rogue"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.",
+      "toughness": "2",
+      "type": "Legendary Creature — Elf Rogue",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Michael Komarck",
+      "cmc": 4,
+      "colorIdentity": [
+        "W",
+        "B",
+        "R"
+      ],
+      "colors": "WBR",
+      "flavor": "\"I'll have my revenge if I have to call on every force from above and below.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kaalia of the vast",
+      "images": {
+        "en": "/cm1/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}{B}{R}",
+      "mkm_product_id": 259322,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/kaalia_of_the_vast.jpg",
+      "mtgjson_id": "5c502074bb38401c885f97111fc59f0533b2e145",
+      "multiverseid": 338444,
+      "name": "Kaalia of the Vast",
+      "near_mint_id": "cm1_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Flying\nWhenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
+      "originalType": "Legendary Creature — Human Cleric",
+      "power": "2",
+      "printings": [
+        "cmd_206"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2011-09-22",
+          "text": "Kaalia's ability doesn't trigger if it attacks a planeswalker."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "The creature card is already tapped and attacking as it's put onto the battlefield. Any abilities that trigger when a creature becomes tapped or when a creature attacks won't trigger for that card."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "If the opponent Kaalia attacked is no longer in the game when its ability resolves, you may put an Angel, Demon, or Dragon creature card onto the battlefield tapped, but it won't be attacking anyone and it won't be an attacking creature."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
+      "toughness": "2",
+      "type": "Legendary Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Solomon Au Yeung",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "loyal retainers",
+      "images": {
+        "en": "/cm1/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 259304,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/loyal_retainers.jpg",
+      "mtgjson_id": "8b2f340a58da06fdcca64a7388a782a98ac4ca1f",
+      "multiverseid": 338450,
+      "name": "Loyal Retainers",
+      "near_mint_id": "cm1_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate this ability only during your turn, before attackers are declared.",
+      "originalType": "Creature — Human Advisor",
+      "power": "1",
+      "printings": [],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-09-20",
+          "text": "If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Advisor"
+      ],
+      "text": "Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate this ability only during your turn, before attackers are declared.",
+      "toughness": "1",
+      "type": "Creature — Human Advisor",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Thomas M. Baxa",
+      "cmc": 8,
+      "colorIdentity": [
+        "U",
+        "R",
+        "G"
+      ],
+      "colors": "URG",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "maelstrom wanderer",
+      "images": {
+        "en": "/cm1/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{U}{R}{G}",
+      "mkm_product_id": 259316,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/maelstrom_wanderer.jpg",
+      "mtgjson_id": "8aa5299c043566ab8be5101014390feaf94f8350",
+      "multiverseid": 338447,
+      "name": "Maelstrom Wanderer",
+      "near_mint_id": "cm1_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Creatures you control have haste.\nCascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again.)",
+      "originalType": "Legendary Creature — Elemental",
+      "power": "7",
+      "printings": [],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2012-06-01",
+          "text": "Maelstrom Wanderer gives itself haste."
+        },
+        {
+          "date": "2012-06-01",
+          "text": "Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability. Casting that spell may cause additional cascade abilities to trigger."
+        },
+        {
+          "date": "2012-06-01",
+          "text": "No matter what spell you cast with the first cascade trigger (or any cascade triggers that result from casting that spell), the second cascade trigger will look for a spell with converted mana cost less than Maelstrom Wanderer's converted mana cost of 8."
+        }
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Creatures you control have haste.\nCascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again.)",
+      "toughness": "5",
+      "type": "Legendary Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Karl Kopinski",
+      "cmc": 5,
+      "colors": "C",
+      "flavor": "\"Ideas drift like petals on the wind. I have only to lift my face to the breeze.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mind's eye",
+      "images": {
+        "en": "/cm1/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}",
+      "mkm_product_id": 259310,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/minds_eye.jpg",
+      "mtgjson_id": "ac0689c2e9828d1fb1aed6f1446f53aa358eb64f",
+      "multiverseid": 338452,
+      "name": "Mind's Eye",
+      "near_mint_id": "cm1_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.",
+      "originalType": "Artifact",
+      "printings": [
+        "mrd_205"
+      ],
+      "rarity": "Rare",
+      "text": "Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 5,
+      "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": "WG",
+      "flavor": "Even after a false god tore the magic from Dominaria, power still radiated from the Mirari sword that slew her.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mirari's wake",
+      "images": {
+        "en": "/cm1/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}{W}",
+      "mkm_product_id": 259311,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/miraris_wake.jpg",
+      "mtgjson_id": "55b6611f0160baff3c7ecdd25b1bfda24c5e73e7",
+      "multiverseid": 338455,
+      "name": "Mirari's Wake",
+      "near_mint_id": "cm1_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Creatures you control get +1/+1.\nWhenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",
+      "originalType": "Enchantment",
+      "printings": [
+        "cns_189",
+        "jud_139"
+      ],
+      "rarity": "Rare",
+      "text": "Creatures you control get +1/+1.\nWhenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Friends teach what you want to know. Enemies teach what you need to know.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rhystic study",
+      "images": {
+        "en": "/cm1/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}",
+      "mkm_product_id": 259321,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/rhystic_study.jpg",
+      "mtgjson_id": "581efc1e5608ed5077b9b8c3000ad3b2ab052df0",
+      "multiverseid": 338457,
+      "name": "Rhystic Study",
+      "near_mint_id": "cm1_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+      "originalType": "Enchantment",
+      "printings": [
+        "pcy_045"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The player gets the option to pay when this triggered ability resolves. This will be after the spell is announced, but before it resolves."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You don't have to decide whether or not you are drawing until after the player decides whether or not to pay."
+        }
+      ],
+      "text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Heather Hudson",
+      "cmc": 2,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "scroll rack",
+      "images": {
+        "en": "/cm1/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mkm_product_id": 259314,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/scroll_rack.jpg",
+      "mtgjson_id": "33e285b1559e81e033247ab71090ad36a27cd1c7",
+      "multiverseid": 338458,
+      "name": "Scroll Rack",
+      "near_mint_id": "cm1_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "{1}, {T}: Exile any number of cards from your hand face down. Put that many cards from the top of your library into your hand. Then look at the exiled cards and put them on top of your library in any order.",
+      "originalType": "Artifact",
+      "printings": [
+        "tmp_298"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If there are not enough cards in the library, you do not lose. This is not a draw effect. You just get as many cards as are there, even if there are zero cards in the library."
+        }
+      ],
+      "text": "{1}, {T}: Exile any number of cards from your hand face down. Put that many cards from the top of your library into your hand. Then look at the exiled cards and put them on top of your library in any order.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Yeong-Hao Han",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sylvan library",
+      "images": {
+        "en": "/cm1/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 259294,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/sylvan_library.jpg",
+      "mtgjson_id": "b9901ec7a1bbab53b3dad60cf08bdec239e574ea",
+      "multiverseid": 338456,
+      "name": "Sylvan Library",
+      "near_mint_id": "cm1_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.",
+      "originalType": "Enchantment",
+      "printings": [
+        "4ed_157",
+        "5ed_191",
+        "leg_121"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If you have drawn cards prior to your draw step, they can be ones chosen to be put back using this effect. For example, a cantrip draw or an instant used during upkeep."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Spells and abilities are resolved one at a time, so if you use multiple Sylvan Libraries in one stack, each will resolve in sequence. You do not get to draw all the cards at once then put them all back at once."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You can return zero, one, or two cards."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This will count as 2 draws for anything that affects \"drawn cards\"."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If you are going to draw cards due to triggered abilities during your draw step, your regular draw resolves first, but you can choose to order the Sylvan Library before or after any other draws."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "If you choose to draw two cards, then replace one or more of those draws with some other effect, the rest of Sylvan Library's ability still happens. If you've actually drawn only one card that turn, you must choose that card and either pay 4 life or put it on top of your library. If you haven't actually drawn any cards that turn, the rest of the ability has no effect."
+        },
+        {
+          "date": "2013-04-15",
+          "text": "You always perform your normal draw before this ability because the normal draw occurs before anything is placed on the stack."
+        }
+      ],
+      "text": "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Svetlin Velinov",
+      "cmc": 5,
+      "colorIdentity": [
+        "U",
+        "B",
+        "G"
+      ],
+      "colors": "UBG",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "the mimeoplasm",
+      "images": {
+        "en": "/cm1/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}{U}{B}",
+      "mkm_product_id": 259324,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/the_mimeoplasm.jpg",
+      "mtgjson_id": "451100b4a92d944d3cbbd6bd51387b9a599fd32c",
+      "multiverseid": 338445,
+      "name": "The Mimeoplasm",
+      "near_mint_id": "cm1_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "As The Mimeoplasm enters the battlefield, you may exile two creature cards from graveyards. If you do, it enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.",
+      "originalType": "Legendary Creature — Ooze",
+      "power": "0",
+      "printings": [
+        "cmd_210"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2011-09-22",
+          "text": "You can't choose to exile just one creature card."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "The two creature cards may come from the same graveyard or different graveyards."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "You choose which one The Mimeoplasm is copying and which one determines how many +1/+1 counters are placed on The Mimeoplasm as The Mimeoplasm enters the battlefield."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "Treat The Mimeoplasm as though it were the creature card it's copying entering the battlefield. Any \"As [this card] enters the battlefield,\" \"[This card] enters the battlefield with,\" and \"When [this card] enters the battlefield\" abilities of that creature card will work."
+        },
+        {
+          "date": "2011-09-22",
+          "text": "Specifically, if The Mimeoplasm enters the battlefield as a copy of a creature card that enters the battlefield with a number of +1/+1 counters, The Mimeoplasm will enter the battlefield with those +1/+1 counters and +1/+1 counters equal to the power of the other exiled card."
+        }
+      ],
+      "subtypes": [
+        "Ooze"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "As The Mimeoplasm enters the battlefield, you may exile two creature cards from graveyards. If you do, it enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.",
+      "toughness": "0",
+      "type": "Legendary Creature — Ooze",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Allen Williams",
+      "cmc": 6,
+      "colorIdentity": [
+        "U",
+        "B"
+      ],
+      "colors": "UB",
+      "flavor": "Vela snuffs out every trace of Krond's reign, leaving pure nightfall in her wake.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "vela the night-clad",
+      "images": {
+        "en": "/cm1/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}{B}",
+      "mkm_product_id": 259317,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Commanders_Arsenal/vela_the_night_clad.jpg",
+      "mtgjson_id": "6930db07d49d217aab12f95d8f080da8c013eb28",
+      "multiverseid": 338448,
+      "name": "Vela the Night-Clad",
+      "near_mint_id": "cm1_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "Intimidate\nOther creatures you control have intimidate.\nWhenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.",
+      "originalType": "Legendary Creature — Human Wizard",
+      "power": "4",
+      "printings": [],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2012-06-01",
+          "text": "If Vela leaves the battlefield at the same time as other creatures you control, its ability will trigger for each of those creatures."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)\nOther creatures you control have intimidate.\nWhenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.",
+      "toughness": "4",
+      "type": "Legendary Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "normal"
+}

@@ -1,0 +1,3120 @@
+{
+  "name": "Premium Deck Series: Fire and Lightning",
+  "code": "PD2",
+  "magicCardsInfoCode": "pd2",
+  "releaseDate": "2010-11-19",
+  "border": "black",
+  "type": "premium deck",
+  "mkm_name": "Premium Deck Series: Fire & Lightning",
+  "mkm_id": 1218,
+  "card_total": 34,
+  "cards": [
+    {
+      "artist": "Trevor Claxton",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ball lightning",
+      "images": {
+        "en": "/pd2/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}{R}{R}",
+      "mkm_product_id": 244223,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/ball_lightning.jpg",
+      "mtgjson_id": "fde7e138220e27b6f1d57eb98bdabeb65de11693",
+      "multiverseid": 234722,
+      "name": "Ball Lightning",
+      "near_mint_id": "pd2_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Trample, haste\nAt the beginning of the end step, sacrifice Ball Lightning.",
+      "originalType": "Creature — Elemental",
+      "power": "6",
+      "printings": [
+        "4ed_194",
+        "5ed_210",
+        "btd_035",
+        "drk_056",
+        "m10_125"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2007-02-01",
+          "text": "The creature is sacrificed at the end of every turn in which it is on the battlefield. There is no choice about what turn to sacrifice it."
+        }
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)\nHaste (This creature can attack and {T} as soon as it comes under your control.)\nAt the beginning of the end step, sacrifice Ball Lightning.",
+      "toughness": "1",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "barbarian ring",
+      "images": {
+        "en": "/pd2/en/028.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 244220,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/barbarian_ring.jpg",
+      "mtgjson_id": "cec9b2bb1a35b68a2b0056c7da67a615d8080fad",
+      "multiverseid": 234737,
+      "name": "Barbarian Ring",
+      "near_mint_id": "pd2_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "{T}: Add {R} to your mana pool. Barbarian Ring deals 1 damage to you.\nThreshold — {R}, {T}, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to target creature or player. Activate this ability only if seven or more cards are in your graveyard.",
+      "originalType": "Land",
+      "printings": [
+        "ody_313"
+      ],
+      "rarity": "Uncommon",
+      "text": "{T}: Add {R} to your mana pool. Barbarian Ring deals 1 damage to you.\nThreshold — {R}, {T}, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to target creature or player. Activate this ability only if seven or more cards are in your graveyard.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Dave Allsop",
+      "cmc": 3,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "RG",
+      "flavor": "\"We're going to need a bigger gate.\"\n—Bowen, Barrenton guardcaptain",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "boggart ram-gang",
+      "images": {
+        "en": "/pd2/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R/G}{R/G}{R/G}",
+      "mkm_product_id": 244224,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/boggart_ram_gang.jpg",
+      "mtgjson_id": "4fe9dbd2901c1a4e3c74c509c0624eb8db1588df",
+      "multiverseid": 234723,
+      "name": "Boggart Ram-Gang",
+      "near_mint_id": "pd2_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "Haste\nWither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "originalType": "Creature — Goblin Warrior",
+      "power": "3",
+      "printings": [
+        "shm_203"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin",
+        "Warrior"
+      ],
+      "text": "Haste\nWither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "toughness": "3",
+      "type": "Creature — Goblin Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Tedin",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Even the threat of power has power.\"\n—Jeska, warrior adept",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "browbeat",
+      "images": {
+        "en": "/pd2/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 244238,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/browbeat.jpg",
+      "mtgjson_id": "b843be72528a25b9b14602b8ad9fcdda94ccb331",
+      "multiverseid": 234712,
+      "name": "Browbeat",
+      "near_mint_id": "pd2_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.",
+      "originalType": "Sorcery",
+      "printings": [
+        "ddk_066",
+        "jud_082",
+        "tsb_056"
+      ],
+      "rarity": "Uncommon",
+      "text": "Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "chain lightning",
+      "images": {
+        "en": "/pd2/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mkm_product_id": 244219,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/chain_lightning.jpg",
+      "mtgjson_id": "112135987f8b91aecfe31216b9d13905e1903e6e",
+      "multiverseid": 217977,
+      "name": "Chain Lightning",
+      "near_mint_id": "pd2_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.",
+      "originalType": "Sorcery",
+      "printings": [
+        "leg_137"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The copy is a spell, so it can be targeted by other spells and abilities that target a spell."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The player putting the copy spell on the stack controls that spell."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The spell copy has all the text and can result in itself being copied."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "As Chain Lightning resolves, the targeted player, or the controller of the targeted creature, may copy it. The copy has the same text, target, and color of the resolving spell, though the player who's copying it may choose a new target for it. Once that copy is created (or not), the resolving Chain Lightning has finished resolving and leaves the stack."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If the targeted creature or player is an illegal target by the time Chain Lightning resolves, the spell is countered. It won't be copied."
+        }
+      ],
+      "text": "Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"If the whole world burns, I'll never grow cold.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "cinder pyromancer",
+      "images": {
+        "en": "/pd2/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 244225,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/cinder_pyromancer.jpg",
+      "mtgjson_id": "e22edd4bc0bf364673e3342b33755d96f4e5b232",
+      "multiverseid": 234717,
+      "name": "Cinder Pyromancer",
+      "near_mint_id": "pd2_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "{T}: Cinder Pyromancer deals 1 damage to target player.\nWhenever you cast a red spell, you may untap Cinder Pyromancer.",
+      "originalType": "Creature — Elemental Shaman",
+      "power": "0",
+      "printings": [
+        "eve_050"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elemental",
+        "Shaman"
+      ],
+      "text": "{T}: Cinder Pyromancer deals 1 damage to target player.\nWhenever you cast a red spell, you may untap Cinder Pyromancer.",
+      "toughness": "1",
+      "type": "Creature — Elemental Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "cmc": 1,
+      "colorIdentity": [
+        "W",
+        "R"
+      ],
+      "colors": "WR",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "figure of destiny",
+      "images": {
+        "en": "/pd2/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R/W}",
+      "mkm_product_id": 244226,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/figure_of_destiny.jpg",
+      "mtgjson_id": "8b43cd320629887c975129803e30ea4b2e2b2583",
+      "multiverseid": 236456,
+      "name": "Figure of Destiny",
+      "near_mint_id": "pd2_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "{R/W}: Figure of Destiny becomes a 2/2 Kithkin Spirit.\n{R/W}{R/W}{R/W}: If Figure of Destiny is a Spirit, it becomes a 4/4 Kithkin Spirit Warrior.\n{R/W}{R/W}{R/W}{R/W}{R/W}{R/W}: If Figure of Destiny is a Warrior, it becomes an 8/8 Kithkin Spirit Warrior Avatar with flying and first strike.",
+      "originalType": "Creature — Kithkin",
+      "power": "1",
+      "printings": [
+        "ddl_003",
+        "eve_139",
+        "mma_189"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2008-08-01",
+          "text": "None of these abilities has a duration. If one of them resolves, it will remain in effect until the game ends, Figure of Destiny leaves the battlefield, or some subsequent effect changes its characteristics, whichever comes first."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "Figure of Destiny's abilities overwrite its power, toughness, and creature types. Typically, those abilities are activated in the order they appear on the card. However, if Figure of Destiny is an 8/8 Kithkin Spirit Warrior Avatar with flying and first strike, and you activate its first ability, it will become a 2/2 Kithkin Spirit that still has flying and first strike."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "You can activate Figure of Destiny's second and third abilities regardless of what creature types it is. Each of those abilities checks Figure of Destiny's creature types when that ability resolves. If Figure of Destiny isn't the appropriate creature type at that time, the ability does nothing."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "Figure of Destiny's second ability checks whether it's a Spirit, and its third ability checks whether it's a Warrior. It doesn't matter how it became the appropriate creature type."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature's power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+        }
+      ],
+      "subtypes": [
+        "Kithkin"
+      ],
+      "text": "{R/W}: Figure of Destiny becomes a Kithkin Spirit with base power and toughness 2/2.\n{R/W}{R/W}{R/W}: If Figure of Destiny is a Spirit, it becomes a Kithkin Spirit Warrior with base power and toughness 4/4.\n{R/W}{R/W}{R/W}{R/W}{R/W}{R/W}: If Figure of Destiny is a Warrior, it becomes a Kithkin Spirit Warrior Avatar with base power and toughness 8/8, flying, and first strike.",
+      "toughness": "1",
+      "type": "Creature — Kithkin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ryan Yee",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Elemental fire shimmers with rose hues and, unlike terrestrial blazes, smolders long after it's extinguished.\"\n—Jestus Dreya, Of Elements and Eternity",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fire servant",
+      "images": {
+        "en": "/pd2/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}{R}",
+      "mkm_product_id": 244227,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/fire_servant.jpg",
+      "mtgjson_id": "ab309c99c41bd5f5dd8f05424fba41eb595fa14c",
+      "multiverseid": 234702,
+      "name": "Fire Servant",
+      "near_mint_id": "pd2_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "If a red instant or sorcery spell you control would deal damage, it deals double that damage instead.",
+      "originalType": "Creature — Elemental",
+      "power": "4",
+      "printings": [
+        "m11_137"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2010-08-15",
+          "text": "Fire Servant's ability applies no matter who or what the damage would be dealt to: a creature, a player, or a planeswalker."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "If a red instant or sorcery spell you control causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says \"Lightning Bolt deals 3 damage to target creature or player.\" Such a spell is affected by Fire Servant's ability. If the source of the damage is something else (for example, if the spell is Soul's Fire, which says \"Target creature you control on the battlefield deals damage equal to its power to target creature or player\"), it isn't affected by Fire Servant's ability."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the permanent that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, \"Prevent the next 4 damage that would be dealt to target creature or player this turn\" and Lava Axe is a red sorcery that says \"Lava Axe deals 5 damage to target player.\" Suppose a Lava Axe controlled by a player who controls Fire Servant would deal 5 damage to a player who has cast Mending Hands targeting him or herself. The player who would be dealt damage can either (a) prevent 4 damage first and then let Fire Servant's effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "If a red instant or sorcery spell you control divides damage among multiple recipients (such as Fireball does), the damage is divided before Fire Servant's effect doubles it."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "If you control more than one Fire Servant, the effects are cumulative. Two such effects will cause damage from red instant or sorcery spells you control to be multiplied by four; three such effects will cause damage from red instant or sorcery spells you control to be multiplied by eight."
+        }
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "If a red instant or sorcery spell you control would deal damage, it deals double that damage instead.",
+      "toughness": "3",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dave Dorman",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fireball",
+      "images": {
+        "en": "/pd2/en/027.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{R}",
+      "mkm_product_id": 244239,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/fireball.jpg",
+      "mtgjson_id": "63c730f69901c2530212762506706f3e19c74a29",
+      "multiverseid": 234703,
+      "name": "Fireball",
+      "near_mint_id": "pd2_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.\nFireball costs {1} more to cast for each target beyond the first.",
+      "originalType": "Sorcery",
+      "printings": [
+        "2ed_150",
+        "3ed_149",
+        "4ed_210",
+        "5ed_227",
+        "btd_037",
+        "c13_106",
+        "dd2_056",
+        "dd3_jvc_056",
+        "dst_060",
+        "lea_150",
+        "leb_151",
+        "m10_136",
+        "m11_138",
+        "m12_131"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-12-01",
+          "text": "The additional cost is paid when you pay the rest of Fireball's costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward Fireball's converted mana cost."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "If, for example, X is 5 and you choose three target creatures, Fireball has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as Fireball resolves, it deals 1 damage to each of them."
+        },
+        {
+          "date": "2009-05-01",
+          "text": "You may cast Fireball with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Fireball's damage is divided as Fireball resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "You can target more than X creatures. However, if the number of legal targets at the time Fireball resolves is greater than X, none of them will be dealt any damage."
+        }
+      ],
+      "text": "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.\nFireball costs {1} more to cast for each target beyond the first.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Michael Danza",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Embermages aren't well known for their diplomatic skills.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fireblast",
+      "images": {
+        "en": "/pd2/en/026.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{R}{R}",
+      "mkm_product_id": 244240,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/fireblast.jpg",
+      "mtgjson_id": "131f9461b26480186da75b847552be1d21f85d85",
+      "multiverseid": 234736,
+      "name": "Fireblast",
+      "near_mint_id": "pd2_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "You may sacrifice two Mountains rather than pay Fireblast's mana cost.\nFireblast deals 4 damage to target creature or player.",
+      "originalType": "Instant",
+      "printings": [
+        "dd2_055",
+        "dd3_jvc_055",
+        "vis_079"
+      ],
+      "rarity": "Common",
+      "text": "You may sacrifice two Mountains rather than pay Fireblast's mana cost.\nFireblast deals 4 damage to target creature or player.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Aleksi Briclot",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Many ogres extracted blood oaths from the oni they summoned. Others simply extracted blood.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flames of the blood hand",
+      "images": {
+        "en": "/pd2/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 244241,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/flames_of_the_blood_hand.jpg",
+      "mtgjson_id": "ae524d64439668a9efe9b2f7ccb7ee9acc2dfe85",
+      "multiverseid": 234718,
+      "name": "Flames of the Blood Hand",
+      "near_mint_id": "pd2_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "Flames of the Blood Hand deals 4 damage to target player. The damage can't be prevented. If that player would gain life this turn, that player gains no life instead.",
+      "originalType": "Instant",
+      "printings": [
+        "bok_101"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2005-02-01",
+          "text": "The damage is unpreventable, and the targeted player's life gain that turn is replaced with nothing."
+        },
+        {
+          "date": "2005-02-01",
+          "text": "The replacement effect applies only to the target player, not to a creature or player the damage might be redirected to."
+        }
+      ],
+      "text": "Flames of the Blood Hand deals 4 damage to target player. The damage can't be prevented. If that player would gain life this turn, that player gains no life instead.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ghitu encampment",
+      "images": {
+        "en": "/pd2/en/029.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 244221,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/ghitu_encampment.jpg",
+      "mtgjson_id": "85110c26c63c9439770a43b2ecfb9af9c6685820",
+      "multiverseid": 234698,
+      "name": "Ghitu Encampment",
+      "near_mint_id": "pd2_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "Ghitu Encampment enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\n{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land.",
+      "originalType": "Land",
+      "printings": [
+        "10e_353",
+        "ddn_033",
+        "ulg_141"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-08-01",
+          "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply."
+        }
+      ],
+      "text": "Ghitu Encampment enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\n{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Michael Sutfin",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Fools dig for water, corpses, or gold. The earth's real treasure is far deeper.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "grim lavamancer",
+      "images": {
+        "en": "/pd2/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mkm_product_id": 244228,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/grim_lavamancer.jpg",
+      "mtgjson_id": "cbeb094f13aee5cbb284389acb85e8a2f510e803",
+      "multiverseid": 234706,
+      "name": "Grim Lavamancer",
+      "near_mint_id": "pd2_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to target creature or player.",
+      "originalType": "Creature — Human Wizard",
+      "power": "1",
+      "printings": [
+        "m12_145",
+        "tor_100"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2011-09-22",
+          "text": "The two cards are exiled as the cost of Grim Lavamancer's ability is paid. Players can't respond to the paying of costs by trying to move those cards to another zone."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to target creature or player.",
+      "toughness": "1",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hammer of bogardan",
+      "images": {
+        "en": "/pd2/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mkm_product_id": 244242,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/hammer_of_bogardan.jpg",
+      "mtgjson_id": "adf926b2e668d2e890db7e98a3c3a7698d5f0164",
+      "multiverseid": 234721,
+      "name": "Hammer of Bogardan",
+      "near_mint_id": "pd2_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "Hammer of Bogardan deals 3 damage to target creature or player.\n{2}{R}{R}{R}: Return Hammer of Bogardan from your graveyard to your hand. Activate this ability only during your upkeep.",
+      "originalType": "Sorcery",
+      "printings": [
+        "6ed_188",
+        "8ed_193",
+        "mir_181"
+      ],
+      "rarity": "Rare",
+      "text": "Hammer of Bogardan deals 3 damage to target creature or player.\n{2}{R}{R}{R}: Return Hammer of Bogardan from your graveyard to your hand. Activate this ability only during your upkeep.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Justin Sweet",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hellspark elemental",
+      "images": {
+        "en": "/pd2/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 244229,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/hellspark_elemental.jpg",
+      "mtgjson_id": "f9bf8e7d1a0244589e019bf44e304863d58f66bc",
+      "multiverseid": 234711,
+      "name": "Hellspark Elemental",
+      "near_mint_id": "pd2_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Trample, haste\nAt the beginning of the end step, sacrifice Hellspark Elemental.\nUnearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "originalType": "Creature — Elemental",
+      "power": "3",
+      "printings": [
+        "con_065",
+        "ddk_046"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "Trample, haste\nAt the beginning of the end step, sacrifice Hellspark Elemental.\nUnearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "toughness": "1",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "The first morning after acquiring her familiar, the wizard awoke with fleabites and mange.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "jackal pup",
+      "images": {
+        "en": "/pd2/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mkm_product_id": 244230,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/jackal_pup.jpg",
+      "mtgjson_id": "6e4ac33d50b700f07f13dce3713ad70f2413d879",
+      "multiverseid": 217974,
+      "name": "Jackal Pup",
+      "near_mint_id": "pd2_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "Whenever Jackal Pup is dealt damage, it deals that much damage to you.",
+      "originalType": "Creature — Hound",
+      "power": "2",
+      "printings": [
+        "tmp_183"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Hound"
+      ],
+      "text": "Whenever Jackal Pup is dealt damage, it deals that much damage to you.",
+      "toughness": "1",
+      "type": "Creature — Hound",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Cavotta",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "jaya ballard, task mage",
+      "images": {
+        "en": "/pd2/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mkm_product_id": 244231,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/jaya_ballard_task_mage.jpg",
+      "mtgjson_id": "fda41f2c2bf588a41c303e2b931cd6f125bc3582",
+      "multiverseid": 234707,
+      "name": "Jaya Ballard, Task Mage",
+      "near_mint_id": "pd2_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "{R}, {T}, Discard a card: Destroy target blue permanent.\n{1}{R}, {T}, Discard a card: Jaya Ballard, Task Mage deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.\n{5}{R}{R}, {T}, Discard a card: Jaya Ballard deals 6 damage to each creature and each player.",
+      "originalType": "Legendary Creature — Human Spellshaper",
+      "power": "2",
+      "printings": [
+        "tsp_166"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Human",
+        "Spellshaper"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "{R}, {T}, Discard a card: Destroy target blue permanent.\n{1}{R}, {T}, Discard a card: Jaya Ballard, Task Mage deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.\n{5}{R}{R}, {T}, Discard a card: Jaya Ballard deals 6 damage to each creature and each player.",
+      "toughness": "2",
+      "type": "Legendary Creature — Human Spellshaper",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Tedin",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "keldon champion",
+      "images": {
+        "en": "/pd2/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}{R}",
+      "mkm_product_id": 244232,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/keldon_champion.jpg",
+      "mtgjson_id": "b3ef40671bb9470a2e25bb24d924aa57fac81cdd",
+      "multiverseid": 234713,
+      "name": "Keldon Champion",
+      "near_mint_id": "pd2_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Haste\nEcho {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Keldon Champion enters the battlefield, it deals 3 damage to target player.",
+      "originalType": "Creature — Human Barbarian",
+      "power": "3",
+      "printings": [
+        "uds_090"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Human",
+        "Barbarian"
+      ],
+      "text": "Haste\nEcho {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Keldon Champion enters the battlefield, it deals 3 damage to target player.",
+      "toughness": "2",
+      "type": "Creature — Human Barbarian",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Alex Horley-Orlandelli",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "keldon marauders",
+      "images": {
+        "en": "/pd2/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 244233,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/keldon_marauders.jpg",
+      "mtgjson_id": "450e683b3fe32160206eaba0dd380c5d9319e556",
+      "multiverseid": 234709,
+      "name": "Keldon Marauders",
+      "near_mint_id": "pd2_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "Vanishing 2 (This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhen Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.",
+      "originalType": "Creature — Human Warrior",
+      "power": "3",
+      "printings": [
+        "plc_102"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Warrior"
+      ],
+      "text": "Vanishing 2 (This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhen Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.",
+      "toughness": "3",
+      "type": "Creature — Human Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "lightning bolt",
+      "images": {
+        "en": "/pd2/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mkm_product_id": 244243,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/lightning_bolt.jpg",
+      "mtgjson_id": "445834f09a1646d3906ffaeb14c1cd7006ebec6f",
+      "multiverseid": 234704,
+      "name": "Lightning Bolt",
+      "near_mint_id": "pd2_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "Lightning Bolt deals 3 damage to target creature or player.",
+      "originalType": "Instant",
+      "printings": [
+        "2ed_162",
+        "3ed_161",
+        "4ed_226",
+        "btd_041",
+        "lea_162",
+        "leb_163",
+        "m10_146",
+        "m11_149",
+        "mm2_122"
+      ],
+      "rarity": "Common",
+      "text": "Lightning Bolt deals 3 damage to target creature or player.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Brom",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"I got it! I got it! I—\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mogg fanatic",
+      "images": {
+        "en": "/pd2/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mkm_product_id": 244234,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/mogg_fanatic.jpg",
+      "mtgjson_id": "167af45e587dd6fc94f278f54eaf48bab4fbc4ab",
+      "multiverseid": 234699,
+      "name": "Mogg Fanatic",
+      "near_mint_id": "pd2_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player.",
+      "originalType": "Creature — Goblin",
+      "power": "1",
+      "printings": [
+        "10e_219",
+        "dd3_evg_044",
+        "evg_044",
+        "tmp_190"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player.",
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brom",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "They'll attack whatever's in front of them—as long as you tell them where that is.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mogg flunkies",
+      "images": {
+        "en": "/pd2/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 244235,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/mogg_flunkies.jpg",
+      "mtgjson_id": "cf1a0687ed04d96c7bbe8d311678daab2335d075",
+      "multiverseid": 234710,
+      "name": "Mogg Flunkies",
+      "near_mint_id": "pd2_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "Mogg Flunkies can't attack or block alone.",
+      "originalType": "Creature — Goblin",
+      "power": "3",
+      "printings": [
+        "m13_143",
+        "sth_092"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2012-07-01",
+          "text": "Mogg Flunkies can be declared as an attacker only if another creature is declared as an attacker at the same time. Similarly, Mogg Flunkies can be declared as a blocker only if another creature is declared as a blocker at the same time."
+        },
+        {
+          "date": "2012-07-01",
+          "text": "Two or more Mogg Flunkies can attack or block together."
+        },
+        {
+          "date": "2012-07-01",
+          "text": "Although Mogg Flunkies can't attack alone, the other attacking creature(s) doesn't have to attack the same player or planeswalker. For example, Mogg Flunkies could attack an opponent and another creature could attack a planeswalker that opponent controls."
+        },
+        {
+          "date": "2012-07-01",
+          "text": "In a Two-Headed Giant game (or in another format using the shared team turns option), Mogg Flunkies can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking."
+        }
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Mogg Flunkies can't attack or block alone.",
+      "toughness": "3",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain1",
+      "images": {
+        "en": "/pd2/en/031.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 244249,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/mountain1.jpg",
+      "mtgjson_id": "3fa42e75dede708b8606d43e1201596e39daef7a",
+      "multiverseid": 234738,
+      "name": "Mountain",
+      "near_mint_id": "pd2_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd2_032",
+        "pd2_034",
+        "pd2_033"
+      ]
+    },
+    {
+      "artist": "Aleksi Briclot",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain2",
+      "images": {
+        "en": "/pd2/en/032.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 244681,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/mountain2.jpg",
+      "mtgjson_id": "c0899732087b13edd1c765447f0a081f4d9bee58",
+      "multiverseid": 234739,
+      "name": "Mountain",
+      "near_mint_id": "pd2_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd2_031",
+        "pd2_034",
+        "pd2_033"
+      ]
+    },
+    {
+      "artist": "Aleksi Briclot",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain3",
+      "images": {
+        "en": "/pd2/en/033.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 244682,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/mountain3.jpg",
+      "mtgjson_id": "d56586b1f4796fc7b4d3fa9af1fa2702f4458330",
+      "multiverseid": 234740,
+      "name": "Mountain",
+      "near_mint_id": "pd2_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd2_032",
+        "pd2_031",
+        "pd2_034"
+      ]
+    },
+    {
+      "artist": "Richard Wright",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain4",
+      "images": {
+        "en": "/pd2/en/034.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 244683,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/mountain4.jpg",
+      "mtgjson_id": "1a12c22372976a79777ce73fd565bd2488ebe8e6",
+      "multiverseid": 234741,
+      "name": "Mountain",
+      "near_mint_id": "pd2_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd2_032",
+        "pd2_031",
+        "pd2_033"
+      ]
+    },
+    {
+      "artist": "Bradley Williams",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "pillage",
+      "images": {
+        "en": "/pd2/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mkm_product_id": 244244,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/pillage.jpg",
+      "mtgjson_id": "50496ade8ff86fc21d93b793330867611ce042db",
+      "multiverseid": 234720,
+      "name": "Pillage",
+      "near_mint_id": "pd2_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "Destroy target artifact or land. It can't be regenerated.",
+      "originalType": "Sorcery",
+      "printings": [
+        "6ed_198",
+        "7ed_207",
+        "all_113"
+      ],
+      "rarity": "Uncommon",
+      "text": "Destroy target artifact or land. It can't be regenerated.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Richard Kane Ferguson",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Man versus nature is not a fair fight.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "price of progress",
+      "images": {
+        "en": "/pd2/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 244245,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/price_of_progress.jpg",
+      "mtgjson_id": "aecd348f6c8a5a29fbfef4de19702b60e8930cd6",
+      "multiverseid": 234714,
+      "name": "Price of Progress",
+      "near_mint_id": "pd2_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "Price of Progress deals damage to each player equal to twice the number of nonbasic lands that player controls.",
+      "originalType": "Instant",
+      "printings": [
+        "exo_095"
+      ],
+      "rarity": "Uncommon",
+      "text": "Price of Progress deals damage to each player equal to twice the number of nonbasic lands that player controls.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "jD",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"I'm not indecisive. I just don't like to limit my options.\"\n—Maxti, pyromancer",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "reverberate",
+      "images": {
+        "en": "/pd2/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}{R}",
+      "mkm_product_id": 244246,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/reverberate.jpg",
+      "mtgjson_id": "121eaaed247c634b3318964a91e846681e2e0019",
+      "multiverseid": 234705,
+      "name": "Reverberate",
+      "near_mint_id": "pd2_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "Copy target instant or sorcery spell. You may choose new targets for the copy.",
+      "originalType": "Instant",
+      "printings": [
+        "m11_155",
+        "m12_152",
+        "m13_145"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2010-08-15",
+          "text": "Reverberate can target (and copy) any instant or sorcery spell, not just one with targets. It doesn't matter who controls it."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "When Reverberate resolves, it creates a copy of a spell. You control the copy. That copy is created on the stack, so it's not \"cast.\" Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal)."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "If the spell Reverberate copies is modal (that is, it says \"Choose one --\" or the like), the copy will have the same mode. You can't choose a different one."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "If the spell Reverberate copies has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it with Reverberate, the copy of Fling will also deal 3 damage to its target."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "If the copy says that it affects \"you,\" it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an \"opponent,\" it affects an opponent of the copy's controller, not an opponent of the original spell's controller."
+        }
+      ],
+      "text": "Copy target instant or sorcery spell. You may choose new targets for the copy.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Vulshok shamans could never keep them alive for more than a few seconds, yet those few seconds seemed to be enough.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "spark elemental",
+      "images": {
+        "en": "/pd2/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mkm_product_id": 244236,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/spark_elemental.jpg",
+      "mtgjson_id": "e64de4b9f89be32eaffe488fe9980bbb5ad6c148",
+      "multiverseid": 234700,
+      "name": "Spark Elemental",
+      "near_mint_id": "pd2_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Trample, haste\nAt the beginning of the end step, sacrifice Spark Elemental.",
+      "originalType": "Creature — Elemental",
+      "power": "3",
+      "printings": [
+        "10e_237",
+        "5dn_079"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "Trample, haste (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker. This creature can attack and {T} as soon as it comes under your control.)\nAt the beginning of the end step, sacrifice Spark Elemental.",
+      "toughness": "1",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Wayne Reynolds",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Some say it's better to think before you act. While those people are considering all the options, that's usually when I kill them.\"\n—Dravus, lava mage",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sudden impact",
+      "images": {
+        "en": "/pd2/en/025.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}",
+      "mkm_product_id": 244247,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/sudden_impact.jpg",
+      "mtgjson_id": "55e8c78d393b7deacbeadd73926d8ae61b6bdff9",
+      "multiverseid": 234701,
+      "name": "Sudden Impact",
+      "near_mint_id": "pd2_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "Sudden Impact deals damage equal to the number of cards in target player's hand to that player.",
+      "originalType": "Instant",
+      "printings": [
+        "10e_241",
+        "7ed_223",
+        "8ed_226",
+        "9ed_222",
+        "tmp_208"
+      ],
+      "rarity": "Uncommon",
+      "text": "Sudden Impact deals damage to target player equal to the number of cards in that player's hand.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Fred Fields",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "teetering peaks",
+      "images": {
+        "en": "/pd2/en/030.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 244222,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/teetering_peaks.jpg",
+      "mtgjson_id": "677815b1aad73145830d3880bae6df0633cc8408",
+      "multiverseid": 234715,
+      "name": "Teetering Peaks",
+      "near_mint_id": "pd2_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "Teetering Peaks enters the battlefield tapped.\nWhen Teetering Peaks enters the battlefield, target creature gets +2/+0 until end of turn.\n{T}: Add {R} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "zen_226"
+      ],
+      "rarity": "Common",
+      "text": "Teetering Peaks enters the battlefield tapped.\nWhen Teetering Peaks enters the battlefield, target creature gets +2/+0 until end of turn.\n{T}: Add {R} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Dylan Martens",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Most wizards consider a thunderbolt to be a proper retort.\"\n—Ertai, wizard adept",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "thunderbolt",
+      "images": {
+        "en": "/pd2/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 244248,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/thunderbolt.jpg",
+      "mtgjson_id": "0ee2f4ae2fb5c886f092acb55492a46454f60800",
+      "multiverseid": 234716,
+      "name": "Thunderbolt",
+      "near_mint_id": "pd2_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Choose one — Thunderbolt deals 3 damage to target player; or Thunderbolt deals 4 damage to target creature with flying.",
+      "originalType": "Instant",
+      "printings": [
+        "avr_159",
+        "btd_048",
+        "wth_115"
+      ],
+      "rarity": "Common",
+      "text": "Choose one —\n• Thunderbolt deals 3 damage to target player.\n• Thunderbolt deals 4 damage to target creature with flying.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "rk post",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Vulshok sorcerers train by leaping into electrified storm clouds. Dead or alive, they come back down with smiles on their faces.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "vulshok sorcerer",
+      "images": {
+        "en": "/pd2/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mkm_product_id": 244237,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Fire_Lightning/vulshok_sorcerer.jpg",
+      "mtgjson_id": "87bcaad99ba38acea43826399c2d03bfb87d3cc2",
+      "multiverseid": 234719,
+      "name": "Vulshok Sorcerer",
+      "near_mint_id": "pd2_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Haste\n{T}: Vulshok Sorcerer deals 1 damage to target creature or player.",
+      "originalType": "Creature — Human Shaman",
+      "power": "1",
+      "printings": [
+        "5dn_080",
+        "ddi_050"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Shaman"
+      ],
+      "text": "Haste\n{T}: Vulshok Sorcerer deals 1 damage to target creature or player.",
+      "toughness": "1",
+      "type": "Creature — Human Shaman",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "foil"
+}

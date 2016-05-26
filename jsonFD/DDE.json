@@ -1,0 +1,6480 @@
+{
+  "name": "Duel Decks: Phyrexia vs. the Coalition",
+  "code": "DDE",
+  "magicCardsInfoCode": "pvc",
+  "releaseDate": "2010-03-19",
+  "border": "black",
+  "type": "duel deck",
+  "translations": {
+    "jp": "Duel Decks: Phyrexia vs. The Coalition"
+  },
+  "mkm_name": "Duel Decks: Phyrexia vs. The Coalition",
+  "mkm_id": 119,
+  "magic_ville_name": "Phyrexia vs. The Coalition",
+  "card_total": 71,
+  "cards": [
+    {
+      "artist": "Paolo Parente",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Each commander looked at the others and wondered who would be first to break the alliance.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "allied strategies",
+      "images": {
+        "en": "/dde/en/063.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}",
+      "mkm_product_id": 22314,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/allied_strategies.jpg",
+      "mtgjson_id": "c3ac6ca62b6c50a4a12c4389eba4dc249cfbd665",
+      "multiverseid": 209148,
+      "name": "Allied Strategies",
+      "near_mint_id": "dde_063",
+      "number": 63,
+      "numberSpecial": "063",
+      "originalText": "Domain — Target player draws a card for each basic land type among lands he or she controls.",
+      "originalType": "Sorcery",
+      "printings": [
+        "pls_020"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You draw one card per basic land type, not for each basic land. This makes it a maximum of 5 cards."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control -- they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+        }
+      ],
+      "text": "Domain — Target player draws a card for each basic land type among lands he or she controls.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Wayne Reynolds",
+      "cmc": 3,
+      "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": "WG",
+      "flavor": "\"Don't laugh. It works.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "armadillo cloak",
+      "images": {
+        "en": "/dde/en/058.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}{W}",
+      "mkm_product_id": 22315,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/armadillo_cloak.jpg",
+      "mtgjson_id": "e758a242abfec5e8bc696a9de91b77abb5046838",
+      "multiverseid": 207890,
+      "name": "Armadillo Cloak",
+      "near_mint_id": "dde_058",
+      "number": 58,
+      "numberSpecial": "058",
+      "originalText": "Enchant creature\nEnchanted creature gets +2/+2 and has trample.\nWhenever enchanted creature deals damage, you gain that much life.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "inv_229"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nEnchanted creature gets +2/+2 and has trample.\nWhenever enchanted creature deals damage, you gain that much life.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "bone shredder",
+      "images": {
+        "en": "/dde/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 22267,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/bone_shredder.jpg",
+      "mtgjson_id": "5e64c10756e2241e459d4b149a989ca35c73e749",
+      "multiverseid": 209123,
+      "name": "Bone Shredder",
+      "near_mint_id": "dde_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "Flying\nEcho {2}{B} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Bone Shredder enters the battlefield, destroy target nonartifact, nonblack creature.",
+      "originalType": "Creature — Minion",
+      "power": "1",
+      "printings": [
+        "ulg_049"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Minion"
+      ],
+      "text": "Flying\nEcho {2}{B} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Bone Shredder enters the battlefield, destroy target nonartifact, nonblack creature.",
+      "toughness": "1",
+      "type": "Creature — Minion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brian Snõddy",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Stinking of rot, it leaps between gravestones in search of its next meal.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "carrion feeder",
+      "images": {
+        "en": "/dde/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 22268,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/carrion_feeder.jpg",
+      "mtgjson_id": "d76f3299fe200fbae594de33bf2af79a265bca93",
+      "multiverseid": 210133,
+      "name": "Carrion Feeder",
+      "near_mint_id": "dde_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "Carrion Feeder can't block.\nSacrifice a creature: Put a +1/+1 counter on Carrion Feeder.",
+      "originalType": "Creature — Zombie",
+      "power": "1",
+      "printings": [
+        "scg_059"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Zombie"
+      ],
+      "text": "Carrion Feeder can't block.\nSacrifice a creature: Put a +1/+1 counter on Carrion Feeder.",
+      "toughness": "1",
+      "type": "Creature — Zombie",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dave Dorman",
+      "cmc": 4,
+      "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": "WG",
+      "flavor": "They stop for nothing, not even the end of a battle.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "charging troll",
+      "images": {
+        "en": "/dde/en/045.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}{W}",
+      "mkm_product_id": 22301,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/charging_troll.jpg",
+      "mtgjson_id": "d81d610180acc0d34206fb017e8b2c8e9ab2fae3",
+      "multiverseid": 210556,
+      "name": "Charging Troll",
+      "near_mint_id": "dde_045",
+      "number": 45,
+      "numberSpecial": "045",
+      "originalText": "Vigilance\n{G}: Regenerate Charging Troll.",
+      "originalType": "Creature — Troll",
+      "power": "3",
+      "printings": [
+        "inv_239"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Troll"
+      ],
+      "text": "Vigilance\n{G}: Regenerate Charging Troll.",
+      "toughness": "3",
+      "type": "Creature — Troll",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Donato Giancola",
+      "cmc": 3,
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "coalition relic",
+      "images": {
+        "en": "/dde/en/054.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 22316,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/coalition_relic.jpg",
+      "mtgjson_id": "2fe773a9c051a98aa6103cbb7f8278b9c0d77928",
+      "multiverseid": 209158,
+      "name": "Coalition Relic",
+      "near_mint_id": "dde_054",
+      "number": 54,
+      "numberSpecial": "054",
+      "originalText": "{T}: Add one mana of any color to your mana pool.\n{T}: Put a charge counter on Coalition Relic.\nAt the beginning of your precombat main phase, remove all charge counters from Coalition Relic. Add one mana of any color to your mana pool for each counter removed this way.",
+      "originalType": "Artifact",
+      "printings": [
+        "fut_161"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2007-05-01",
+          "text": "If you remove multiple charge counters from Coalition Relic at once, you may add a different color of mana to your mana pool for each one."
+        },
+        {
+          "date": "2007-05-01",
+          "text": "Only the first main phase each turn is considered a precombat main phase, even if other combat phases are created (with Relentless Assault, for example)."
+        }
+      ],
+      "text": "{T}: Add one mana of any color to your mana pool.\n{T}: Put a charge counter on Coalition Relic.\nAt the beginning of your precombat main phase, remove all charge counters from Coalition Relic. Add one mana of any color to your mana pool for each charge counter removed this way.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Mark Zug",
+      "cmc": 6,
+      "colorIdentity": [
+        "B",
+        "R",
+        "G"
+      ],
+      "colors": "BRG",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "darigaaz, the igniter",
+      "images": {
+        "en": "/dde/en/047.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}{R}{G}",
+      "mkm_product_id": 22302,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/darigaaz_the_igniter.jpg",
+      "mtgjson_id": "508048d005c3330af13383c44643603f409e61e5",
+      "multiverseid": 209111,
+      "name": "Darigaaz, the Igniter",
+      "near_mint_id": "dde_047",
+      "number": 47,
+      "numberSpecial": "047",
+      "originalText": "Flying\nWhenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals his or her hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.",
+      "originalType": "Legendary Creature — Dragon",
+      "power": "6",
+      "printings": [
+        "inv_243"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals his or her hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.",
+      "toughness": "6",
+      "type": "Legendary Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "David Martin",
+      "cmc": 3,
+      "colorIdentity": [
+        "B",
+        "R",
+        "G"
+      ],
+      "colors": "BRG",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "darigaaz's charm",
+      "images": {
+        "en": "/dde/en/059.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}{R}{G}",
+      "mkm_product_id": 22317,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/darigaazs_charm.jpg",
+      "mtgjson_id": "8e3c1e2dc134a9d669ead3318c5d0de45b51e35d",
+      "multiverseid": 209149,
+      "name": "Darigaaz's Charm",
+      "near_mint_id": "dde_059",
+      "number": 59,
+      "numberSpecial": "059",
+      "originalText": "Choose one — Return target creature card from your graveyard to your hand; or Darigaaz's Charm deals 3 damage to target creature or player; or target creature gets +3/+3 until end of turn.",
+      "originalType": "Instant",
+      "printings": [
+        "pls_100"
+      ],
+      "rarity": "Uncommon",
+      "text": "Choose one —\n• Return target creature card from your graveyard to your hand.\n• Darigaaz's Charm deals 3 damage to target creature or player.\n• Target creature gets +3/+3 until end of turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Tom Fleming",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"From void evolved Phyrexia. Great Yawgmoth, Father of Machines, saw its perfection. Thus the Grand Evolution began.\"\n—Phyrexian Scriptures",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dark ritual",
+      "images": {
+        "en": "/dde/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 22283,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/dark_ritual.jpg",
+      "mtgjson_id": "797e97d978300a23a616815c70a23bba899b22b6",
+      "multiverseid": 209137,
+      "name": "Dark Ritual",
+      "near_mint_id": "dde_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "Add {B}{B}{B} to your mana pool.",
+      "originalType": "Instant",
+      "printings": [
+        "2ed_007",
+        "3ed_007",
+        "4ed_013",
+        "5ed_015",
+        "brb_018",
+        "btd_021",
+        "dd3_dvd_045",
+        "ddc_045",
+        "ice_008",
+        "lea_007",
+        "leb_007",
+        "mir_014",
+        "mmq_129",
+        "tmp_012",
+        "usg_127",
+        "v13_001"
+      ],
+      "rarity": "Common",
+      "text": "Add {B}{B}{B} to your mana pool.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Jerry Tiritilli",
+      "cmc": 0,
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": "C",
+      "flavor": "Llanowar has seven elfhames, or kingdoms, each with its own ruler. Their palaces are objects of awe, wonder, and envy.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "elfhame palace",
+      "images": {
+        "en": "/dde/en/064.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22298,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/elfhame_palace.jpg",
+      "mtgjson_id": "f3b5ee73d5ffbb58001181568e477469c3c602fa",
+      "multiverseid": 209112,
+      "name": "Elfhame Palace",
+      "near_mint_id": "dde_064",
+      "number": 64,
+      "numberSpecial": "064",
+      "originalText": "Elfhame Palace enters the battlefield tapped.\n{T}: Add {G} or {W} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "8ed_324",
+        "inv_322"
+      ],
+      "rarity": "Uncommon",
+      "text": "Elfhame Palace enters the battlefield tapped.\n{T}: Add {G} or {W} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Brian Snõddy",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Effective use of terrain is a lesson good commanders learn quickly.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "evasive action",
+      "images": {
+        "en": "/dde/en/050.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mkm_product_id": 22318,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/evasive_action.jpg",
+      "mtgjson_id": "9af28662d1cbfa1447aede4df50e2491191fb36a",
+      "multiverseid": 210153,
+      "name": "Evasive Action",
+      "near_mint_id": "dde_050",
+      "number": 50,
+      "numberSpecial": "050",
+      "originalText": "Domain — Counter target spell unless its controller pays {1} for each basic land type among lands you control.",
+      "originalType": "Instant",
+      "printings": [
+        "apc_023"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control -- they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+        }
+      ],
+      "text": "Domain — Counter target spell unless its controller pays {1} for each basic land type among lands you control.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Dany Orizio",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Fouler than a necromancer's kiss.\n—Jamuraan expression",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "exotic curse",
+      "images": {
+        "en": "/dde/en/056.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 22319,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/exotic_curse.jpg",
+      "mtgjson_id": "a929853cc6864d7d1678acde13dc9729e0b90c83",
+      "multiverseid": 210143,
+      "name": "Exotic Curse",
+      "near_mint_id": "dde_056",
+      "number": 56,
+      "numberSpecial": "056",
+      "originalText": "Enchant creature\nDomain — Enchanted creature gets -1/-1 for each basic land type among lands you control.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "inv_105"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control -- they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+        }
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nDomain — Enchanted creature gets -1/-1 for each basic land type among lands you control.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Carl Critchlow",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "As Phyrexians descended, Multani paused to reflect on the beauty that might never be seen again.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fertile ground",
+      "images": {
+        "en": "/dde/en/052.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 22320,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/fertile_ground.jpg",
+      "mtgjson_id": "67f14736cb63d7f4d2357383a3dda3a005017612",
+      "multiverseid": 209113,
+      "name": "Fertile Ground",
+      "near_mint_id": "dde_052",
+      "number": 52,
+      "numberSpecial": "052",
+      "originalText": "Enchant land\nWhenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "8ed_248",
+        "brb_026",
+        "inv_188",
+        "lrw_211",
+        "usg_252"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The color of mana to be generated is chosen when tapping the land for mana."
+        }
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant land\nWhenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest1",
+      "images": {
+        "en": "/dde/en/070.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22337,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/forest1.jpg",
+      "mtgjson_id": "571512573c738c059437998bb8d2ab431cc41ba9",
+      "multiverseid": 210509,
+      "name": "Forest",
+      "near_mint_id": "dde_070",
+      "number": 70,
+      "numberSpecial": "070",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dde_071"
+      ]
+    },
+    {
+      "artist": "Alan Pollack",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest2",
+      "images": {
+        "en": "/dde/en/071.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22338,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/forest2.jpg",
+      "mtgjson_id": "ddb7e7f29d3166ed9c69431a0f9ea60c9d5acab6",
+      "multiverseid": 210510,
+      "name": "Forest",
+      "near_mint_id": "dde_071",
+      "number": 71,
+      "numberSpecial": "071",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dde_070"
+      ]
+    },
+    {
+      "artist": "Brom",
+      "cmc": 5,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gerrard capashen",
+      "images": {
+        "en": "/dde/en/046.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}{W}",
+      "mkm_product_id": 22303,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/gerrard_capashen.jpg",
+      "mtgjson_id": "5b1c000e52cf32f8c6b53c122fdd7828040c1d75",
+      "multiverseid": 209157,
+      "name": "Gerrard Capashen",
+      "near_mint_id": "dde_046",
+      "number": 46,
+      "numberSpecial": "046",
+      "originalText": "At the beginning of your upkeep, you gain 1 life for each card in target opponent's hand.\n{3}{W}: Tap target creature. Activate this ability only if Gerrard Capashen is attacking.",
+      "originalType": "Legendary Creature — Human Soldier",
+      "power": "3",
+      "printings": [
+        "apc_011"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "At the beginning of your upkeep, you gain 1 life for each card in target opponent's hand.\n{3}{W}: Tap target creature. Activate this ability only if Gerrard Capashen is attacking.",
+      "toughness": "4",
+      "type": "Legendary Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Roger Raupp",
+      "cmc": 2,
+      "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": "WG",
+      "flavor": "\"Unless you like the idea of becoming some goblin's lunch, get up and move!\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gerrard's command",
+      "images": {
+        "en": "/dde/en/053.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}{W}",
+      "mkm_product_id": 22321,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/gerrards_command.jpg",
+      "mtgjson_id": "f786c2ed8a57cc00fe82a40175eaf33a826a079b",
+      "multiverseid": 210559,
+      "name": "Gerrard's Command",
+      "near_mint_id": "dde_053",
+      "number": 53,
+      "numberSpecial": "053",
+      "originalText": "Untap target creature. It gets +3/+3 until end of turn.",
+      "originalType": "Instant",
+      "printings": [
+        "pls_109"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "This can target a creature which is already untapped."
+        }
+      ],
+      "text": "Untap target creature. It gets +3/+3 until end of turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "No spot in nature is truly barren.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "harrow",
+      "images": {
+        "en": "/dde/en/057.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mkm_product_id": 22322,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/harrow.jpg",
+      "mtgjson_id": "1ca9ac2ad20bb7c0bf2e40f85a9308501c54757c",
+      "multiverseid": 209114,
+      "name": "Harrow",
+      "near_mint_id": "dde_057",
+      "number": 57,
+      "numberSpecial": "057",
+      "originalText": "As an additional cost to cast Harrow, sacrifice a land.\nSearch your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.",
+      "originalType": "Instant",
+      "printings": [
+        "c14_199",
+        "ddp_016",
+        "inv_189",
+        "tmp_124",
+        "zen_165"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The sacrifice of a land is part of the cost of casting Harrow. You can't pay this cost more than once to get a multiple effect."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The two lands do not count toward your normal one land you can play each turn."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Because the \"search\" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to."
+        }
+      ],
+      "text": "As an additional cost to cast Harrow, sacrifice a land.\nSearch your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Death is a generous author, always willing to grant a stirring final chapter.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hideous end",
+      "images": {
+        "en": "/dde/en/026.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}{B}",
+      "mkm_product_id": 22284,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/hideous_end.jpg",
+      "mtgjson_id": "60edf5edb7c9e51e1ad4578afa0cc81136016b50",
+      "multiverseid": 210141,
+      "name": "Hideous End",
+      "near_mint_id": "dde_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "Destroy target nonblack creature. Its controller loses 2 life.",
+      "originalType": "Instant",
+      "printings": [
+        "dd3_gvl_052",
+        "ddd_052",
+        "zen_098"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "If the targeted creature is an illegal target by the time Hideous End resolves, the entire spell is countered. No one loses life."
+        }
+      ],
+      "text": "Destroy target nonblack creature. Its controller loses 2 life.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 0,
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Hornet",
+          "powerToughness": "1/1",
+          "name": "Frelon",
+          "type": "Créature-artefact : insecte",
+          "magic_ville_id": "pvc072"
+        }
+      ],
+      "imageName": "hornet",
+      "images": {
+        "en": "/dde/en/to001.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 22349,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/hornet_token_artifact_11.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDE_T1-Hornet.jpg",
+      "name": "Hornet",
+      "near_mint_id": "dde_to001",
+      "number": 1,
+      "numberSpecial": "to001",
+      "originalText": "Flying, haste",
+      "originalType": "Artifact Creature — Insect",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Insect"
+      ],
+      "text": "Flying, haste",
+      "toughness": "1",
+      "type": "Artifact Creature — Insect",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 4,
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hornet cannon",
+      "images": {
+        "en": "/dde/en/028.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mkm_product_id": 22285,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/hornet_cannon.jpg",
+      "mtgjson_id": "a20955ec89388ed5e59dacd2dff30f50f1e13756",
+      "multiverseid": 209146,
+      "name": "Hornet Cannon",
+      "near_mint_id": "dde_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "{3}, {T}: Put a 1/1 colorless Insect artifact creature token with flying and haste named Hornet onto the battlefield. Destroy it at the beginning of the next end step.",
+      "originalType": "Artifact",
+      "printings": [
+        "sth_130"
+      ],
+      "rarity": "Uncommon",
+      "text": "{3}, {T}: Put a 1/1 colorless Insect artifact creature token with flying and haste named Hornet onto the battlefield. Destroy it at the beginning of the next end step.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island",
+      "images": {
+        "en": "/dde/en/068.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22339,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/island.jpg",
+      "mtgjson_id": "60ab679ae9d44e4932846717250e8780dc5c2dbd",
+      "multiverseid": 210511,
+      "name": "Island",
+      "near_mint_id": "dde_068",
+      "number": 68,
+      "numberSpecial": "068",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_032",
+        "dd3_jvc_033",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_061",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "h09_038",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Jeremy Jarvis",
+      "cmc": 2,
+      "colors": "C",
+      "flavor": "After lightning struck the cliffs, the ore became iron, the iron became steel, and the steel became greaves. The lightning never left.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "lightning greaves",
+      "images": {
+        "en": "/dde/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mkm_product_id": 22286,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/lightning_greaves.jpg",
+      "mtgjson_id": "d78253a90518d57a6c90477ed0f76caba3e0579a",
+      "multiverseid": 209141,
+      "name": "Lightning Greaves",
+      "near_mint_id": "dde_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Equipped creature has shroud and haste.\nEquip {0}",
+      "originalType": "Artifact — Equipment",
+      "printings": [
+        "c15_257",
+        "cmd_253",
+        "mrd_199"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "You are not allowed to \"unequip\" equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature onto which you can move Lightning Greaves."
+        }
+      ],
+      "subtypes": [
+        "Equipment"
+      ],
+      "text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "type": "Artifact — Equipment",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Charles Gillespie",
+      "cmc": 5,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "living death",
+      "images": {
+        "en": "/dde/en/031.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}{B}",
+      "mkm_product_id": 22287,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/living_death.jpg",
+      "mtgjson_id": "e7b869145c02b34cdc5ea6bb7aed3330be5b8759",
+      "multiverseid": 210138,
+      "name": "Living Death",
+      "near_mint_id": "dde_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield.",
+      "originalType": "Sorcery",
+      "printings": [
+        "brb_038",
+        "cmd_088",
+        "tmp_036",
+        "v14_008"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The creatures which are sacrificed can't be regenerated."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Both players exile their creature cards at once. Then both players sacrifice all creatures they control at once. Then both players put all creatures they exiled onto the battlefield. If there are any choices involved for a given step, the current player makes their choices first, then the other player, and finally you do the action all at once."
+        },
+        {
+          "date": "2013-09-20",
+          "text": "\"All cards he or she exiled this way\" refers only to the cards exiled in the first part of the effect. If a replacement effect (such as Leyline of the Void) exiles any of the sacrificed creatures instead of putting them into the graveyard, those cards aren't returned to the battlefield."
+        }
+      ],
+      "text": "Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Dave Kendall",
+      "cmc": 0,
+      "color": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Minion",
+          "powerToughness": "*/*",
+          "name": "Mignon",
+          "type": "Créature : mignon",
+          "magic_ville_id": "pvc073"
+        }
+      ],
+      "imageName": "minion",
+      "images": {
+        "en": "/dde/en/to002.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 22348,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/minion_token_black_xx.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDE_T2-Minion.jpg",
+      "name": "Minion",
+      "near_mint_id": "dde_to002",
+      "number": 2,
+      "numberSpecial": "to002",
+      "originalType": "Creature — Minion",
+      "power": "*",
+      "rarity": "Token",
+      "subtypes": [
+        "Minion"
+      ],
+      "toughness": "*",
+      "type": "Creature — Minion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott Bailey",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain",
+      "images": {
+        "en": "/dde/en/069.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22340,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/mountain.jpg",
+      "mtgjson_id": "702093127eb9ce34fa06482ee1975580b19b640d",
+      "multiverseid": 210512,
+      "name": "Mountain",
+      "near_mint_id": "dde_069",
+      "number": 69,
+      "numberSpecial": "069",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Karl Kopinski",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "He could find no strength left to budge, no power left to fight, no will left to live. Luckily, they could find him.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "narrow escape",
+      "images": {
+        "en": "/dde/en/055.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 22323,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/narrow_escape.jpg",
+      "mtgjson_id": "6d1acb3a8a38450d07c3298ee697000156a46506",
+      "multiverseid": 210152,
+      "name": "Narrow Escape",
+      "near_mint_id": "dde_055",
+      "number": 55,
+      "numberSpecial": "055",
+      "originalText": "Return target permanent you control to its owner's hand. You gain 4 life.",
+      "originalType": "Instant",
+      "printings": [
+        "zen_027"
+      ],
+      "rarity": "Common",
+      "text": "Return target permanent you control to its owner's hand. You gain 4 life.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "D. J. Cleland-Hura",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"I've journeyed across Dominaria. Phyrexians are everywhere. Plague is everywhere. There's no place left to hide.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "nomadic elf",
+      "images": {
+        "en": "/dde/en/038.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 22304,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/nomadic_elf.jpg",
+      "mtgjson_id": "50a02897dae879a064a4ee246d499d470409a2e9",
+      "multiverseid": 209115,
+      "name": "Nomadic Elf",
+      "near_mint_id": "dde_038",
+      "number": 38,
+      "numberSpecial": "038",
+      "originalText": "{1}{G}: Add one mana of any color to your mana pool.",
+      "originalType": "Creature — Elf Nomad",
+      "power": "2",
+      "printings": [
+        "inv_200"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf",
+        "Nomad"
+      ],
+      "text": "{1}{G}: Add one mana of any color to your mana pool.",
+      "toughness": "2",
+      "type": "Creature — Elf Nomad",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Chippy",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "order of yawgmoth",
+      "images": {
+        "en": "/dde/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}",
+      "mkm_product_id": 22269,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/order_of_yawgmoth.jpg",
+      "mtgjson_id": "7db68449c5ffd0e9a4e05fa20fa4ecdecf48eaac",
+      "multiverseid": 209128,
+      "name": "Order of Yawgmoth",
+      "near_mint_id": "dde_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever Order of Yawgmoth deals damage to a player, that player discards a card.",
+      "originalType": "Creature — Zombie Knight",
+      "power": "2",
+      "printings": [
+        "usg_144"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Zombie",
+        "Knight"
+      ],
+      "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever Order of Yawgmoth deals damage to a player, that player discards a card.",
+      "toughness": "2",
+      "type": "Creature — Zombie Knight",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "An audience of one with the malice of thousands.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian arena",
+      "images": {
+        "en": "/dde/en/027.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}{B}",
+      "mkm_product_id": 22288,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_arena.jpg",
+      "mtgjson_id": "64490305f088cd7a0e294d9b14208d0625dad739",
+      "multiverseid": 209132,
+      "name": "Phyrexian Arena",
+      "near_mint_id": "dde_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "At the beginning of your upkeep, you draw a card and you lose 1 life.",
+      "originalType": "Enchantment",
+      "printings": [
+        "8ed_152",
+        "9ed_152",
+        "apc_047",
+        "c15_130"
+      ],
+      "rarity": "Rare",
+      "text": "At the beginning of your upkeep, you draw a card and you lose 1 life.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Dan Frazier",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "After encountering them, Squee finally lost his appetite for bugs.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian battleflies",
+      "images": {
+        "en": "/dde/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 22270,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_battleflies.jpg",
+      "mtgjson_id": "78abb8d838e72b2458557d30501f3218e48d2b18",
+      "multiverseid": 209116,
+      "name": "Phyrexian Battleflies",
+      "near_mint_id": "dde_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Flying\n{B}: Phyrexian Battleflies gets +1/+0 until end of turn. Activate this ability no more than twice each turn.",
+      "originalType": "Creature — Insect",
+      "power": "0",
+      "printings": [
+        "inv_114"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Insect"
+      ],
+      "text": "Flying\n{B}: Phyrexian Battleflies gets +1/+0 until end of turn. Activate this ability no more than twice each turn.",
+      "toughness": "1",
+      "type": "Creature — Insect",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Daren Bader",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "With limited resources and near unlimited time, Kerrick used parts from one beast to build another.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian broodlings",
+      "images": {
+        "en": "/dde/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}{B}",
+      "mkm_product_id": 22271,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_broodlings.jpg",
+      "mtgjson_id": "6d0c900baa3cb4268001bfaee52704627761fcea",
+      "multiverseid": 210134,
+      "name": "Phyrexian Broodlings",
+      "near_mint_id": "dde_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "{1}, Sacrifice a creature: Put a +1/+1 counter on Phyrexian Broodlings.",
+      "originalType": "Creature — Minion",
+      "power": "2",
+      "printings": [
+        "ulg_058"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Minion"
+      ],
+      "text": "{1}, Sacrifice a creature: Put a +1/+1 counter on Phyrexian Broodlings.",
+      "toughness": "2",
+      "type": "Creature — Minion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Tedin",
+      "cmc": 7,
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian colossus",
+      "images": {
+        "en": "/dde/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{7}",
+      "mkm_product_id": 22272,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_colossus.jpg",
+      "mtgjson_id": "6cc0e6716bebfdea65ea2355b6765aa49b8cfff8",
+      "multiverseid": 209160,
+      "name": "Phyrexian Colossus",
+      "near_mint_id": "dde_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "Phyrexian Colossus doesn't untap during your untap step.\nPay 8 life: Untap Phyrexian Colossus.\nPhyrexian Colossus can't be blocked except by three or more creatures.",
+      "originalType": "Artifact Creature — Golem",
+      "power": "8",
+      "printings": [
+        "7ed_311",
+        "8ed_309",
+        "usg_305"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Golem"
+      ],
+      "text": "Phyrexian Colossus doesn't untap during your untap step.\nPay 8 life: Untap Phyrexian Colossus.\nPhyrexian Colossus can't be blocked except by three or more creatures.",
+      "toughness": "8",
+      "type": "Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Tedin",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"The second stage of the illness: high fever and severe infectiousness.\"\n—Phyrexian progress notes",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian debaser",
+      "images": {
+        "en": "/dde/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}",
+      "mkm_product_id": 22273,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_debaser.jpg",
+      "mtgjson_id": "fff1a5a06409b1d95df37bb82375018647997dc0",
+      "multiverseid": 209124,
+      "name": "Phyrexian Debaser",
+      "near_mint_id": "dde_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Flying\n{T}, Sacrifice Phyrexian Debaser: Target creature gets -2/-2 until end of turn.",
+      "originalType": "Creature — Carrier",
+      "power": "2",
+      "printings": [
+        "ulg_059"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Carrier"
+      ],
+      "text": "Flying\n{T}, Sacrifice Phyrexian Debaser: Target creature gets -2/-2 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Carrier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "DiTerlizzi",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"The third stage of the illness: muscle aches and persistent cough.\"\n—Phyrexian progress notes",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian defiler",
+      "images": {
+        "en": "/dde/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}",
+      "mkm_product_id": 22274,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_defiler.jpg",
+      "mtgjson_id": "8a13d9db646aa66b310dbe844c1f6419c5ec5451",
+      "multiverseid": 209125,
+      "name": "Phyrexian Defiler",
+      "near_mint_id": "dde_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "{T}, Sacrifice Phyrexian Defiler: Target creature gets -3/-3 until end of turn.",
+      "originalType": "Creature — Carrier",
+      "power": "3",
+      "printings": [
+        "ulg_060"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Carrier"
+      ],
+      "text": "{T}, Sacrifice Phyrexian Defiler: Target creature gets -3/-3 until end of turn.",
+      "toughness": "3",
+      "type": "Creature — Carrier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brian Snõddy",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"The first stage of the illness: rash and nausea.\"\n—Phyrexian progress notes",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian denouncer",
+      "images": {
+        "en": "/dde/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 22275,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_denouncer.jpg",
+      "mtgjson_id": "7621e5875178705899164434ee4f606e5174fc07",
+      "multiverseid": 209126,
+      "name": "Phyrexian Denouncer",
+      "near_mint_id": "dde_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "{T}, Sacrifice Phyrexian Denouncer: Target creature gets -1/-1 until end of turn.",
+      "originalType": "Creature — Carrier",
+      "power": "1",
+      "printings": [
+        "ulg_061"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Carrier"
+      ],
+      "text": "{T}, Sacrifice Phyrexian Denouncer: Target creature gets -1/-1 until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Carrier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Carl Critchlow",
+      "cmc": 6,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Other Phyrexians have nightmares about the gargantua.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian gargantua",
+      "images": {
+        "en": "/dde/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{B}{B}",
+      "mkm_product_id": 22276,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_gargantua.jpg",
+      "mtgjson_id": "a3d5f5ac6fe992edb28d9c99501ac9a3078c556c",
+      "multiverseid": 210135,
+      "name": "Phyrexian Gargantua",
+      "near_mint_id": "dde_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "When Phyrexian Gargantua enters the battlefield, you draw two cards and you lose 2 life.",
+      "originalType": "Creature — Horror",
+      "power": "4",
+      "printings": [
+        "9ed_153",
+        "apc_048",
+        "c13_087",
+        "c14_154"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Horror"
+      ],
+      "text": "When Phyrexian Gargantua enters the battlefield, you draw two cards and you lose 2 life.",
+      "toughness": "4",
+      "type": "Creature — Horror",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Phyrexia wastes nothing. Its food chain is a spiraling cycle.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian ghoul",
+      "images": {
+        "en": "/dde/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 22277,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_ghoul.jpg",
+      "mtgjson_id": "f8e5250212c514716874668ee360f15da2358515",
+      "multiverseid": 209129,
+      "name": "Phyrexian Ghoul",
+      "near_mint_id": "dde_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Sacrifice a creature: Phyrexian Ghoul gets +2/+2 until end of turn.",
+      "originalType": "Creature — Zombie",
+      "power": "2",
+      "printings": [
+        "brb_050",
+        "usg_148"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Zombie"
+      ],
+      "text": "Sacrifice a creature: Phyrexian Ghoul gets +2/+2 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Zombie",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matthew D. Wilson",
+      "cmc": 6,
+      "colors": "C",
+      "flavor": "It doesn't think. It doesn't feel.\nIt doesn't laugh or cry.\nAll it does from dusk till dawn\nIs make the soldiers die.\n—Onean children's rhyme",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian hulk",
+      "images": {
+        "en": "/dde/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}",
+      "mkm_product_id": 22278,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_hulk.jpg",
+      "mtgjson_id": "a6e84d3a379f7fa32118b20d01f002ff56d50003",
+      "multiverseid": 209133,
+      "name": "Phyrexian Hulk",
+      "near_mint_id": "dde_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalType": "Artifact Creature — Golem",
+      "power": "5",
+      "printings": [
+        "7ed_312",
+        "8ed_310",
+        "9ed_306",
+        "m13_209",
+        "nph_150",
+        "tmp_292"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Golem"
+      ],
+      "toughness": "4",
+      "type": "Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jim Murray",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "They exist to cease.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian negator",
+      "images": {
+        "en": "/dde/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 22279,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_negator.jpg",
+      "mtgjson_id": "d3d5f564087464af4439c438dc840a13ef1d1ea1",
+      "multiverseid": 207891,
+      "name": "Phyrexian Negator",
+      "near_mint_id": "dde_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "Trample\nWhenever Phyrexian Negator is dealt damage, sacrifice that many permanents.",
+      "originalType": "Creature — Horror",
+      "power": "5",
+      "printings": [
+        "uds_065"
+      ],
+      "rarity": "Mythic Rare",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Sacrificing this card does not prevent you from having to make the other sacrifices."
+        }
+      ],
+      "subtypes": [
+        "Horror"
+      ],
+      "text": "Trample\nWhenever Phyrexian Negator is dealt damage, sacrifice that many permanents.",
+      "toughness": "5",
+      "type": "Creature — Horror",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 5,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"The final stage of the illness: delirium, convulsions, and death.\"\n—Phyrexian progress notes",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian plaguelord",
+      "images": {
+        "en": "/dde/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}{B}",
+      "mkm_product_id": 22280,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_plaguelord.jpg",
+      "mtgjson_id": "4ebe9f9836ebded32807ec41c19aa21a74c0a99a",
+      "multiverseid": 209127,
+      "name": "Phyrexian Plaguelord",
+      "near_mint_id": "dde_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "{T}, Sacrifice Phyrexian Plaguelord: Target creature gets -4/-4 until end of turn.\nSacrifice a creature: Target creature gets -1/-1 until end of turn.",
+      "originalType": "Creature — Carrier",
+      "power": "4",
+      "printings": [
+        "8ed_153",
+        "c15_131",
+        "ulg_062"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Carrier"
+      ],
+      "text": "{T}, Sacrifice Phyrexian Plaguelord: Target creature gets -4/-4 until end of turn.\nSacrifice a creature: Target creature gets -1/-1 until end of turn.",
+      "toughness": "4",
+      "type": "Creature — Carrier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dave Kendall",
+      "cmc": 4,
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian processor",
+      "images": {
+        "en": "/dde/en/029.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mkm_product_id": 22289,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_processor.jpg",
+      "mtgjson_id": "1b6285d85eef1a4a7ba9232b9fa39a073ed27497",
+      "multiverseid": 207888,
+      "name": "Phyrexian Processor",
+      "near_mint_id": "dde_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "As Phyrexian Processor enters the battlefield, pay any amount of life.\n{4}, {T}: Put an X/X black Minion creature token onto the battlefield, where X is the life paid as Phyrexian Processor entered the battlefield.",
+      "originalType": "Artifact",
+      "printings": [
+        "usg_306"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You can pay 0 life if you want, but it's not useful most of the time."
+        }
+      ],
+      "text": "As Phyrexian Processor enters the battlefield, pay any amount of life.\n{4}, {T}: Put an X/X black Minion creature token onto the battlefield, where X is the life paid as Phyrexian Processor entered the battlefield.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "John Zeleznik",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian totem",
+      "images": {
+        "en": "/dde/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 22290,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_totem.jpg",
+      "mtgjson_id": "9bba97f65efadac6bac1fe949254943522237ea2",
+      "multiverseid": 209142,
+      "name": "Phyrexian Totem",
+      "near_mint_id": "dde_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "{T}: Add {B} to your mana pool.\n{2}{B}: Phyrexian Totem becomes a 5/5 black Horror artifact creature with trample until end of turn.\nWhenever Phyrexian Totem is dealt damage, if it's a creature, sacrifice that many permanents.",
+      "originalType": "Artifact",
+      "printings": [
+        "tsp_261"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2006-09-25",
+          "text": "When damage is dealt to Phyrexian Totem, its triggered ability will trigger. A number of permanents equal to the amount of damage dealt will be sacrificed when the ability resolves. It doesn't matter if Phyrexian Totem isn't on the battlefield when the ability resolves, as long as Phyrexian Totem was a creature as it left the battlefield. If one of the permanents sacrificed is Phyrexian Totem itself, the requisite number of other permanents must still be sacrificed."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature."
+        }
+      ],
+      "text": "{T}: Add {B} to your mana pool.\n{2}{B}: Phyrexian Totem becomes a 5/5 black Horror artifact creature with trample until end of turn.\nWhenever Phyrexian Totem is dealt damage, if it's a creature, sacrifice that many permanents.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Hannibal King",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "\"The secrets of Phyrexia are expensive. You will pay in brass and bone, steel and sinew.\"\n—Kaervek",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "phyrexian vault",
+      "images": {
+        "en": "/dde/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 22291,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/phyrexian_vault.jpg",
+      "mtgjson_id": "d031c1f43f3330a963fddacb212600d9a3297c2f",
+      "multiverseid": 210136,
+      "name": "Phyrexian Vault",
+      "near_mint_id": "dde_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "{2}, {T}, Sacrifice a creature: Draw a card.",
+      "originalType": "Artifact",
+      "printings": [
+        "10e_337",
+        "6ed_307",
+        "mir_281"
+      ],
+      "rarity": "Uncommon",
+      "text": "{2}, {T}, Sacrifice a creature: Draw a card.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "D. J. Cleland-Hura",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains",
+      "images": {
+        "en": "/dde/en/067.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22341,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/plains.jpg",
+      "mtgjson_id": "9a5766576f25e685463fd066629e2516e033d8bd",
+      "multiverseid": 210513,
+      "name": "Plains",
+      "near_mint_id": "dde_067",
+      "number": 67,
+      "numberSpecial": "067",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Doug Chaffee",
+      "cmc": 4,
+      "colors": "C",
+      "flavor": "\"Great peril demands formidable weaponry.\"\n—Urza",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "power armor",
+      "images": {
+        "en": "/dde/en/062.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mkm_product_id": 22324,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/power_armor.jpg",
+      "mtgjson_id": "72c836985db7f5c40cb635899951c6030849fba0",
+      "multiverseid": 209117,
+      "name": "Power Armor",
+      "near_mint_id": "dde_062",
+      "number": 62,
+      "numberSpecial": "062",
+      "originalText": "Domain — {3}, {T}: Target creature gets +1/+1 until end of turn for each basic land type among lands you control.",
+      "originalType": "Artifact",
+      "printings": [
+        "inv_309"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control -- they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+        }
+      ],
+      "text": "Domain — {3}, {T}: Target creature gets +1/+1 until end of turn for each basic land type among lands you control.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Brian Despain",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Gix doesn't want a people to rule but puppets to entertain his madness.\"\n—Xantcha, Phyrexian outcast",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "priest of gix",
+      "images": {
+        "en": "/dde/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 22281,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/priest_of_gix.jpg",
+      "mtgjson_id": "4bb3ceaed95dc6e11cf0cfdc7623d78f7375001d",
+      "multiverseid": 209130,
+      "name": "Priest of Gix",
+      "near_mint_id": "dde_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "When Priest of Gix enters the battlefield, add {B}{B}{B} to your mana pool.",
+      "originalType": "Creature — Human Cleric Minion",
+      "power": "2",
+      "printings": [
+        "usg_150"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2011-01-25",
+          "text": "You get the mana whether you want it or not. If you don't spend it, it will disappear at the end of the current step (or phase)."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric",
+        "Minion"
+      ],
+      "text": "When Priest of Gix enters the battlefield, add {B}{B}{B} to your mana pool.",
+      "toughness": "1",
+      "type": "Creature — Human Cleric Minion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott Kirschner",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "\"Have no illusions,\" Volrath warned Greven, \"about free will.\"",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "puppet strings",
+      "images": {
+        "en": "/dde/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 22292,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/puppet_strings.jpg",
+      "mtgjson_id": "e258ad944907b67e621d200e5e5c0c6e4dc5d906",
+      "multiverseid": 209139,
+      "name": "Puppet Strings",
+      "near_mint_id": "dde_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "{2}, {T}: You may tap or untap target creature.",
+      "originalType": "Artifact",
+      "printings": [
+        "tmp_294"
+      ],
+      "rarity": "Uncommon",
+      "text": "{2}, {T}: You may tap or untap target creature.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Douglas Shuler",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "quirion elves",
+      "images": {
+        "en": "/dde/en/039.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 22305,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/quirion_elves.jpg",
+      "mtgjson_id": "ed0f34f1efa93fb44e37d529d4469bfd1d41c96a",
+      "multiverseid": 210557,
+      "name": "Quirion Elves",
+      "near_mint_id": "dde_039",
+      "number": 39,
+      "numberSpecial": "039",
+      "originalText": "As Quirion Elves enters the battlefield, choose a color.\n{T}: Add {G} to your mana pool.\n{T}: Add one mana of the chosen color to your mana pool.",
+      "originalType": "Creature — Elf Druid",
+      "power": "1",
+      "printings": [
+        "btd_060",
+        "inv_203",
+        "mir_132"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf",
+        "Druid"
+      ],
+      "text": "As Quirion Elves enters the battlefield, choose a color.\n{T}: Add {G} to your mana pool.\n{T}: Add one mana of the chosen color to your mana pool.",
+      "toughness": "1",
+      "type": "Creature — Elf Druid",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Carl Critchlow",
+      "cmc": 6,
+      "colorIdentity": [
+        "W",
+        "R",
+        "G"
+      ],
+      "colors": "WRG",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rith, the awakener",
+      "images": {
+        "en": "/dde/en/048.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}{G}{W}",
+      "mkm_product_id": 22306,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/rith_the_awakener.jpg",
+      "mtgjson_id": "9f9268332bc607dd0acd0cb005cd22cfe5953757",
+      "multiverseid": 209118,
+      "name": "Rith, the Awakener",
+      "near_mint_id": "dde_048",
+      "number": 48,
+      "numberSpecial": "048",
+      "originalText": "Flying\nWhenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color, then put a 1/1 green Saproling creature token onto the battlefield for each permanent of that color.",
+      "originalType": "Legendary Creature — Dragon",
+      "power": "6",
+      "printings": [
+        "drb_012",
+        "inv_267"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color, then put a 1/1 green Saproling creature token onto the battlefield for each permanent of that color.",
+      "toughness": "6",
+      "type": "Legendary Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "David Martin",
+      "cmc": 3,
+      "colorIdentity": [
+        "W",
+        "R",
+        "G"
+      ],
+      "colors": "WRG",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rith's charm",
+      "images": {
+        "en": "/dde/en/060.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}{G}{W}",
+      "mkm_product_id": 22325,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/riths_charm.jpg",
+      "mtgjson_id": "3d70d12e53684fbfa4caed922ff8438ac716fecd",
+      "multiverseid": 209152,
+      "name": "Rith's Charm",
+      "near_mint_id": "dde_060",
+      "number": 60,
+      "numberSpecial": "060",
+      "originalText": "Choose one — Destroy target nonbasic land; or put three 1/1 green Saproling creature tokens onto the battlefield; or prevent all damage a source of your choice would deal this turn.",
+      "originalType": "Instant",
+      "printings": [
+        "pls_122"
+      ],
+      "rarity": "Uncommon",
+      "text": "Choose one —\n• Destroy target nonbasic land.\n• Put three 1/1 green Saproling creature tokens onto the battlefield.\n• Prevent all damage a source of your choice would deal this turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Father of Machines! Your filigree gaze carves us, and the scars dance upon our grateful flesh.\"\n—Phyrexian Scriptures",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sanguine guard",
+      "images": {
+        "en": "/dde/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}{B}",
+      "mkm_product_id": 22282,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/sanguine_guard.jpg",
+      "mtgjson_id": "a779da2e5b1250edcb526e90f6e255fccab7ddd8",
+      "multiverseid": 209161,
+      "name": "Sanguine Guard",
+      "near_mint_id": "dde_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "First strike\n{1}{B}: Regenerate Sanguine Guard.",
+      "originalType": "Creature — Zombie Knight",
+      "power": "2",
+      "printings": [
+        "usg_155"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Zombie",
+        "Knight"
+      ],
+      "text": "First strike\n{1}{B}: Regenerate Sanguine Guard.",
+      "toughness": "2",
+      "type": "Creature — Zombie Knight",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Warren Mahy",
+      "cmc": 0,
+      "color": [
+        "G"
+      ],
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Saproling",
+          "powerToughness": "1/1",
+          "name": "Saprobionte",
+          "type": "Créature : saprobionte",
+          "magic_ville_id": "pvc074"
+        }
+      ],
+      "imageName": "saproling",
+      "images": {
+        "en": "/dde/en/to003.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 22346,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/saproling_token_green_11.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDE_T3-Saproling.jpg",
+      "name": "Saproling",
+      "near_mint_id": "dde_to003",
+      "number": 3,
+      "numberSpecial": "to003",
+      "originalType": "Creature — Saproling",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Saproling"
+      ],
+      "toughness": "1",
+      "type": "Creature — Saproling",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "C",
+      "flavor": "Only the hardiest explorers survive to eat the fruit.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "shivan oasis",
+      "images": {
+        "en": "/dde/en/065.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22299,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/shivan_oasis.jpg",
+      "mtgjson_id": "6508622a5cb335052b8d0b80307461ead5148f63",
+      "multiverseid": 209119,
+      "name": "Shivan Oasis",
+      "near_mint_id": "dde_065",
+      "number": 65,
+      "numberSpecial": "065",
+      "originalText": "Shivan Oasis enters the battlefield tapped.\n{T}: Add {R} or {G} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "8ed_326",
+        "inv_327"
+      ],
+      "rarity": "Uncommon",
+      "text": "Shivan Oasis enters the battlefield tapped.\n{T}: Add {R} or {G} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Ben Thompson",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The elves had the edge in guile, skill, and valor. But in the end, only sheer numbers mattered.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "slay",
+      "images": {
+        "en": "/dde/en/025.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 22293,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/slay.jpg",
+      "mtgjson_id": "791ee328dc935beccf0679069e0602cd46c29131",
+      "multiverseid": 209134,
+      "name": "Slay",
+      "near_mint_id": "dde_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "Destroy target green creature. It can't be regenerated.\nDraw a card.",
+      "originalType": "Instant",
+      "printings": [
+        "8ed_164",
+        "9ed_163",
+        "pls_055"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You don't draw a card if this spell is countered."
+        }
+      ],
+      "text": "Destroy target green creature. It can't be regenerated.\nDraw a card.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Tony Szczudlo",
+      "cmc": 3,
+      "colorIdentity": [
+        "W",
+        "G",
+        "U"
+      ],
+      "colors": "W",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sunscape battlemage",
+      "images": {
+        "en": "/dde/en/040.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 22307,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/sunscape_battlemage.jpg",
+      "mtgjson_id": "90801b3698a52240915a0ab0a2ce44f564a8925f",
+      "multiverseid": 209153,
+      "name": "Sunscape Battlemage",
+      "near_mint_id": "dde_040",
+      "number": 40,
+      "numberSpecial": "040",
+      "originalText": "Kicker {1}{G} and/or {2}{U} (You may pay an additional {1}{G} and/or {2}{U} as you cast this spell.)\nWhen Sunscape Battlemage enters the battlefield, if it was kicked with its {1}{G} kicker, destroy target creature with flying.\nWhen Sunscape Battlemage enters the battlefield, if it was kicked with its {2}{U} kicker, draw two cards.",
+      "originalType": "Creature — Human Wizard",
+      "power": "2",
+      "printings": [
+        "pls_016"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "Kicker {1}{G} and/or {2}{U} (You may pay an additional {1}{G} and/or {2}{U} as you cast this spell.)\nWhen Sunscape Battlemage enters the battlefield, if it was kicked with its {1}{G} kicker, destroy target creature with flying.\nWhen Sunscape Battlemage enters the battlefield, if it was kicked with its {2}{U} kicker, draw two cards.",
+      "toughness": "2",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp1",
+      "images": {
+        "en": "/dde/en/032.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22342,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/swamp1.jpg",
+      "mtgjson_id": "9a7cf2f734e40177b494e89b2f3a1c91ec6b3895",
+      "multiverseid": 210507,
+      "name": "Swamp",
+      "near_mint_id": "dde_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dde_034",
+        "dde_035",
+        "dde_033"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp2",
+      "images": {
+        "en": "/dde/en/033.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22343,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/swamp2.jpg",
+      "mtgjson_id": "a90655ca707cceeb70ce88f09d5600ec4bcd744f",
+      "multiverseid": 210506,
+      "name": "Swamp",
+      "near_mint_id": "dde_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dde_034",
+        "dde_035",
+        "dde_032"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp3",
+      "images": {
+        "en": "/dde/en/034.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22344,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/swamp3.jpg",
+      "mtgjson_id": "5e176422862461e1f72ee774cf15dd2b5e13dec6",
+      "multiverseid": 210505,
+      "name": "Swamp",
+      "near_mint_id": "dde_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dde_035",
+        "dde_032",
+        "dde_033"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp4",
+      "images": {
+        "en": "/dde/en/035.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22345,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/swamp4.jpg",
+      "mtgjson_id": "8fc03c196cff1e5cb1b8b5d8b51998f992a6f9d8",
+      "multiverseid": 210508,
+      "name": "Swamp",
+      "near_mint_id": "dde_035",
+      "number": 35,
+      "numberSpecial": "035",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dde_034",
+        "dde_032",
+        "dde_033"
+      ]
+    },
+    {
+      "artist": "Vance Kovacs",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Darkness doesn't always send its minions to do its dirty work.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "tendrils of corruption",
+      "images": {
+        "en": "/dde/en/030.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}",
+      "mkm_product_id": 22294,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/tendrils_of_corruption.jpg",
+      "mtgjson_id": "0803b9331f182adbe0db77e7f66c26a18c48e1b4",
+      "multiverseid": 210139,
+      "name": "Tendrils of Corruption",
+      "near_mint_id": "dde_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.",
+      "originalType": "Instant",
+      "printings": [
+        "c14_166",
+        "dd3_gvl_054",
+        "ddd_054",
+        "m10_114",
+        "tsp_136"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The amount of life you gain is equal to the number of Swamps you control, not the amount of damage Tendrils of Corruption deals (in case some of it is prevented)."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If the targeted creature is an illegal target by the time Tendrils of Corruption would resolve, the entire spell is countered. You won't gain any life."
+        }
+      ],
+      "text": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Dan Scott",
+      "cmc": 0,
+      "colors": "C",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "terramorphic expanse",
+      "images": {
+        "en": "/dde/en/066.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22300,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/terramorphic_expanse.jpg",
+      "mtgjson_id": "a5798ff4dd6b24a752742db2806add51d3325a3a",
+      "multiverseid": 209159,
+      "name": "Terramorphic Expanse",
+      "near_mint_id": "dde_066",
+      "number": 66,
+      "numberSpecial": "066",
+      "originalText": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "10e_360",
+        "c13_328",
+        "c14_315",
+        "c15_314",
+        "cmd_291",
+        "ddh_076",
+        "ddn_074",
+        "h09_034",
+        "m10_229",
+        "m11_229",
+        "mma_224",
+        "tsp_279"
+      ],
+      "rarity": "Common",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Randy Gallegos",
+      "cmc": 1,
+      "colorIdentity": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colors": "G",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "thornscape apprentice",
+      "images": {
+        "en": "/dde/en/037.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}",
+      "mkm_product_id": 22308,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/thornscape_apprentice.jpg",
+      "mtgjson_id": "3b242b615d1c3a4bd7e59048e312dc04997272e3",
+      "multiverseid": 209120,
+      "name": "Thornscape Apprentice",
+      "near_mint_id": "dde_037",
+      "number": 37,
+      "numberSpecial": "037",
+      "originalText": "{W}, {T}: Tap target creature.\n{R}, {T}: Target creature gains first strike until end of turn.",
+      "originalType": "Creature — Human Wizard",
+      "power": "1",
+      "printings": [
+        "inv_215"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "{R}, {T}: Target creature gains first strike until end of turn.\n{W}, {T}: Tap target creature.",
+      "toughness": "1",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Cavotta",
+      "cmc": 3,
+      "colorIdentity": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colors": "G",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "thornscape battlemage",
+      "images": {
+        "en": "/dde/en/042.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mkm_product_id": 22309,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/thornscape_battlemage.jpg",
+      "mtgjson_id": "19aa85a6a24c56ce8c3811b5e5ece7e308907b8e",
+      "multiverseid": 209144,
+      "name": "Thornscape Battlemage",
+      "near_mint_id": "dde_042",
+      "number": 42,
+      "numberSpecial": "042",
+      "originalText": "Kicker {R} and/or {W}(You may pay an additional {R} and/or {W} as you cast this spell.)\nWhen Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to target creature or player.\nWhen Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact.",
+      "originalType": "Creature — Elf Wizard",
+      "power": "2",
+      "printings": [
+        "pls_094",
+        "tsb_087"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elf",
+        "Wizard"
+      ],
+      "text": "Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)\nWhen Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to target creature or player.\nWhen Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact.",
+      "toughness": "2",
+      "type": "Creature — Elf Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mike Ploog",
+      "cmc": 3,
+      "colorIdentity": [
+        "R",
+        "B",
+        "G"
+      ],
+      "colors": "R",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "thunderscape battlemage",
+      "images": {
+        "en": "/dde/en/041.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 22310,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/thunderscape_battlemage.jpg",
+      "mtgjson_id": "27a82e850fa032aff13f0e65373a1cf9922cb143",
+      "multiverseid": 209155,
+      "name": "Thunderscape Battlemage",
+      "near_mint_id": "dde_041",
+      "number": 41,
+      "numberSpecial": "041",
+      "originalText": "Kicker {1}{B} and/or {G} (You may pay an additional {1}{B} and/or {G} as you cast this spell.)\nWhen Thunderscape Battlemage enters the battlefield, if it was kicked with its {1}{B} kicker, target player discards two cards.\nWhen Thunderscape Battlemage enters the battlefield, if it was kicked with its {G} kicker, destroy target enchantment.",
+      "originalType": "Creature — Human Wizard",
+      "power": "2",
+      "printings": [
+        "pls_075"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "Kicker {1}{B} and/or {G} (You may pay an additional {1}{B} and/or {G} as you cast this spell.)\nWhen Thunderscape Battlemage enters the battlefield, if it was kicked with its {1}{B} kicker, target player discards two cards.\nWhen Thunderscape Battlemage enters the battlefield, if it was kicked with its {G} kicker, destroy target enchantment.",
+      "toughness": "2",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ciruelo",
+      "cmc": 6,
+      "colorIdentity": [
+        "W",
+        "U",
+        "G"
+      ],
+      "colors": "WUG",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "treva, the renewer",
+      "images": {
+        "en": "/dde/en/049.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}{W}{U}",
+      "mkm_product_id": 22311,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/treva_the_renewer.jpg",
+      "mtgjson_id": "f03fa66fbc68ef8de924032504127cde7c7cff5e",
+      "multiverseid": 209121,
+      "name": "Treva, the Renewer",
+      "near_mint_id": "dde_049",
+      "number": 49,
+      "numberSpecial": "049",
+      "originalText": "Flying\nWhenever Treva, the Renewer deals combat damage to a player, you may pay {2}{W}. If you do, choose a color, then you gain 1 life for each permanent of that color.",
+      "originalType": "Legendary Creature — Dragon",
+      "power": "6",
+      "printings": [
+        "inv_280"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhenever Treva, the Renewer deals combat damage to a player, you may pay {2}{W}. If you do, choose a color, then you gain 1 life for each permanent of that color.",
+      "toughness": "6",
+      "type": "Legendary Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "David Martin",
+      "cmc": 3,
+      "colorIdentity": [
+        "W",
+        "U",
+        "G"
+      ],
+      "colors": "WUG",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "treva's charm",
+      "images": {
+        "en": "/dde/en/061.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}{W}{U}",
+      "mkm_product_id": 22326,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/trevas_charm.jpg",
+      "mtgjson_id": "ba346b04ee643fa027025896fc7de8d1587d94f7",
+      "multiverseid": 209156,
+      "name": "Treva's Charm",
+      "near_mint_id": "dde_061",
+      "number": 61,
+      "numberSpecial": "061",
+      "originalText": "Choose one — Destroy target enchantment; or exile target attacking creature; or draw a card, then discard a card.",
+      "originalType": "Instant",
+      "printings": [
+        "pls_129"
+      ],
+      "rarity": "Uncommon",
+      "text": "Choose one —\n• Destroy target enchantment.\n• Exile target attacking creature.\n• Draw a card, then discard a card.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Tony Szczudlo",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Fire is the universal language.\"\n—Jhoira, master artificer",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "tribal flames",
+      "images": {
+        "en": "/dde/en/051.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 22327,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/tribal_flames.jpg",
+      "mtgjson_id": "0b280e621635ab367eaa01e7afa5fe9385bd83c0",
+      "multiverseid": 209145,
+      "name": "Tribal Flames",
+      "near_mint_id": "dde_051",
+      "number": 51,
+      "numberSpecial": "051",
+      "originalText": "Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control.",
+      "originalType": "Sorcery",
+      "printings": [
+        "inv_176",
+        "mm2_132",
+        "mma_138",
+        "tsb_070"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control -- they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+        }
+      ],
+      "text": "Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Jim Murray",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "urza's rage",
+      "images": {
+        "en": "/dde/en/036.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 22328,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/urzas_rage.jpg",
+      "mtgjson_id": "46ef255899b7f171b7053b0e35a6b09183d50e35",
+      "multiverseid": 207886,
+      "name": "Urza's Rage",
+      "near_mint_id": "dde_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)\nUrza's Rage can't be countered by spells or abilities.\nUrza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead Urza's Rage deals 10 damage to that creature or player and the damage can't be prevented.",
+      "originalType": "Instant",
+      "printings": [
+        "c15_169",
+        "inv_178"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "This spell has a self-replacement in it . This means that if Urza's Rage is kicked, the 3 damage is replaced with 10 unpreventable damage before any other replacements can be applied. For example, you can't use Healing Salve to prevent the 3 damage before it gets changed."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You can target this spell with spells and abilities, so you can change its target. Those spells and abilities just can't counter it."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The damage is unpreventable, but it can be affected by replacement effects."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "It can be countered by game rules, such as by having all its targets be illegal. Game rules are neither spells or abilities."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Counterspells can be cast that target it, but when they resolve they simply don't counter it since it can't be countered."
+        }
+      ],
+      "text": "Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)\nUrza's Rage can't be countered by spells or abilities.\nUrza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead it deals 10 damage to that creature or player and the damage can't be prevented.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Alton Lawson",
+      "cmc": 3,
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "colors": "G",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "verduran emissary",
+      "images": {
+        "en": "/dde/en/043.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mkm_product_id": 22312,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/verduran_emissary.jpg",
+      "mtgjson_id": "a724ccbb065086012650953fb0aeaa99bc5bc307",
+      "multiverseid": 210558,
+      "name": "Verduran Emissary",
+      "near_mint_id": "dde_043",
+      "number": 43,
+      "numberSpecial": "043",
+      "originalText": "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)\nWhen Verduran Emissary enters the battlefield, if it was kicked, destroy target artifact. It can't be regenerated.",
+      "originalType": "Creature — Human Wizard",
+      "power": "2",
+      "printings": [
+        "inv_221"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)\nWhen Verduran Emissary enters the battlefield, if it was kicked, destroy target artifact. It can't be regenerated.",
+      "toughness": "3",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "cmc": 1,
+      "colors": "C",
+      "flavor": "The key did not work on a single lock, yet it opened many doors.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "voltaic key",
+      "images": {
+        "en": "/dde/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 22295,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/voltaic_key.jpg",
+      "mtgjson_id": "18e69c23b2bcb4db8e15b15cf59a2dbb90a1c065",
+      "multiverseid": 207889,
+      "name": "Voltaic Key",
+      "near_mint_id": "dde_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "{1}, {T}: Untap target artifact.",
+      "originalType": "Artifact",
+      "printings": [
+        "m11_219",
+        "usg_314"
+      ],
+      "rarity": "Uncommon",
+      "text": "{1}, {T}: Untap target artifact.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Daren Bader",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "Such cloaks are in high demand both by assassins and by those who fear them.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "whispersilk cloak",
+      "images": {
+        "en": "/dde/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 22296,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/whispersilk_cloak.jpg",
+      "mtgjson_id": "85b69f0c25679af457e77452b87d95eb4549e51e",
+      "multiverseid": 210140,
+      "name": "Whispersilk Cloak",
+      "near_mint_id": "dde_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "Equipped creature is unblockable and has shroud.\nEquip {2}",
+      "originalType": "Artifact — Equipment",
+      "printings": [
+        "10e_345",
+        "dst_160",
+        "m10_221",
+        "m11_221"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Equipment"
+      ],
+      "text": "Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)\nEquip {2}",
+      "type": "Artifact — Equipment",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Henry G. Higgenbotham",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "worn powerstone",
+      "images": {
+        "en": "/dde/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 22297,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/worn_powerstone.jpg",
+      "mtgjson_id": "49ff5cad3afca110051a8f50cd7ee5fb8a3bd4c9",
+      "multiverseid": 210137,
+      "name": "Worn Powerstone",
+      "near_mint_id": "dde_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "Worn Powerstone enters the battlefield tapped.\n{T}: Add {2} to your mana pool.",
+      "originalType": "Artifact",
+      "printings": [
+        "c14_282",
+        "c15_275",
+        "usg_318"
+      ],
+      "rarity": "Uncommon",
+      "text": "Worn Powerstone enters the battlefield tapped.\n{T}: Add {2} to your mana pool.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Matt Cavotta",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "foreignNames": [],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "yavimaya elder",
+      "images": {
+        "en": "/dde/en/044.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}{G}",
+      "mkm_product_id": 22313,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Phyrexia_vs._The_Coalition/yavimaya_elder.jpg",
+      "mtgjson_id": "5ebad8ba7694e6b2e41b0d4504ea1894e4e6e6f3",
+      "multiverseid": 207887,
+      "name": "Yavimaya Elder",
+      "near_mint_id": "dde_044",
+      "number": 44,
+      "numberSpecial": "044",
+      "originalText": "When Yavimaya Elder is put into a graveyard from the battlefield, you may search your library for up to two basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.\n{2}, Sacrifice Yavimaya Elder: Draw a card.",
+      "originalType": "Creature — Human Druid",
+      "power": "2",
+      "printings": [
+        "cmd_179",
+        "uds_124"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Druid"
+      ],
+      "text": "When Yavimaya Elder dies, you may search your library for up to two basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.\n{2}, Sacrifice Yavimaya Elder: Draw a card.",
+      "toughness": "1",
+      "type": "Creature — Human Druid",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English",
+    "Japanese"
+  ],
+  "finition": "both"
+}

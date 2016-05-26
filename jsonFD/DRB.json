@@ -1,0 +1,968 @@
+{
+  "name": "From the Vault: Dragons",
+  "code": "DRB",
+  "magicCardsInfoCode": "fvd",
+  "releaseDate": "2008-08-29",
+  "border": "black",
+  "type": "from the vault",
+  "mkm_name": "From the Vault: Dragons",
+  "mkm_id": 100,
+  "card_total": 15,
+  "cards": [
+    {
+      "artist": "Kev Walker",
+      "cmc": 7,
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "colors": "BR",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "bladewing the risen",
+      "images": {
+        "en": "/drb/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}{B}{R}{R}",
+      "mkm_product_id": 19656,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/bladewing_the_risen.jpg",
+      "mtgjson_id": "af70813f8b3d43d041df2c57f183667e1fa964fc",
+      "multiverseid": 178014,
+      "name": "Bladewing the Risen",
+      "near_mint_id": "drb_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "Flying\nWhen Bladewing the Risen comes into play, you may return target Dragon permanent card from your graveyard to play.\n{B}{R}: Dragon creatures get +1/+1 until end of turn.",
+      "originalType": "Legendary Creature — Zombie Dragon",
+      "power": "4",
+      "printings": [
+        "cmd_185",
+        "scg_136"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Zombie",
+        "Dragon"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhen Bladewing the Risen enters the battlefield, you may return target Dragon permanent card from your graveyard to the battlefield.\n{B}{R}: Dragon creatures get +1/+1 until end of turn.",
+      "toughness": "4",
+      "type": "Legendary Creature — Zombie Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "cmc": 8,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Cleansing the world, one breath at a time.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "bogardan hellkite",
+      "images": {
+        "en": "/drb/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{R}{R}",
+      "mkm_product_id": 19657,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/bogardan_hellkite.jpg",
+      "mtgjson_id": "d34ffb961c0a77bafd7c7d7449d6d28c63a7a734",
+      "multiverseid": 178017,
+      "name": "Bogardan Hellkite",
+      "near_mint_id": "drb_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "Flash\nFlying\nWhen Bogardan Hellkite comes into play, it deals 5 damage divided as you choose among any number of target creatures and/or players.",
+      "originalType": "Creature — Dragon",
+      "power": "5",
+      "printings": [
+        "c14_173",
+        "ddg_047",
+        "m10_127",
+        "tsp_147"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The number of targets chosen for the enters-the-battlefield ability must be at least 1 and at most 5. You divide the damage as you put the ability on the stack, not as it resolves. Each target must be assigned at least 1 damage."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flash\nFlying\nWhen Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players.",
+      "toughness": "5",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Sam Wood",
+      "cmc": 16,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "draco",
+      "images": {
+        "en": "/drb/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{16}",
+      "mkm_product_id": 19658,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/draco.jpg",
+      "mtgjson_id": "a034aecff0ce091c26f61be3e9d42b11f91dfb28",
+      "multiverseid": 178018,
+      "name": "Draco",
+      "near_mint_id": "drb_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Draco costs {2} less to play for each basic land type among lands you control.\nFlying\nAt the beginning of your upkeep, sacrifice Draco unless you pay {10}. This cost is reduced by {2} for each basic land type among lands you control.",
+      "originalType": "Artifact Creature — Dragon",
+      "power": "9",
+      "printings": [
+        "pls_131"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control -- they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Domain — Draco costs {2} less to cast for each basic land type among lands you control.\nFlying\nDomain — At the beginning of your upkeep, sacrifice Draco unless you pay {10}. This cost is reduced by {2} for each basic land type among lands you control.",
+      "toughness": "9",
+      "type": "Artifact Creature — Dragon",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Dragon whelps face few threats besides their own enthusiasm.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dragon whelp",
+      "images": {
+        "en": "/drb/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}{R}",
+      "mkm_product_id": 19659,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/dragon_whelp.jpg",
+      "mtgjson_id": "23eba96da790d1822ef8b08eadf5203bb45b82a8",
+      "multiverseid": 178019,
+      "name": "Dragon Whelp",
+      "near_mint_id": "drb_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Flying\n{R}: Dragon Whelp gets +1/+0 until end of turn. At end of turn, if this ability has been played four or more times this turn, sacrifice Dragon Whelp.",
+      "originalType": "Creature — Dragon",
+      "power": "2",
+      "printings": [
+        "2ed_142",
+        "3ed_142",
+        "4ed_204",
+        "cmd_120",
+        "ddg_054",
+        "lea_142",
+        "leb_143",
+        "m10_133",
+        "tsb_059"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The first three times Dragon Whelp's ability is activated in a turn will do nothing other than give it +1/+0 until end of turn. Any subsequent activations will also cause its delayed triggered ability to trigger. That means if you activate Dragon Whelp's ability five times, for example, two different delayed triggered abilities will trigger at the beginning of the next end step and cause you to sacrifice Dragon Whelp."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If the fourth (or more) time Dragon Whelp's ability is activated during the same turn happens to be during that turn's end step, the delayed triggered ability won't trigger until the beginning of the next turn's end step. You'll have to sacrifice Dragon Whelp at that time."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying\n{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.",
+      "toughness": "3",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 9,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Dragons come not in packs or in herds but in storms.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dragonstorm",
+      "images": {
+        "en": "/drb/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{8}{R}",
+      "mkm_product_id": 19660,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/dragonstorm.jpg",
+      "mtgjson_id": "61504157c57aad588ca2ad049a82e77a87b4e4cc",
+      "multiverseid": 178015,
+      "name": "Dragonstorm",
+      "near_mint_id": "drb_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "Search your library for a Dragon permanent card and put it into play. Then shuffle your library.\nStorm (When you play this spell, copy it for each spell played before it this turn.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "mma_111",
+        "scg_090",
+        "tsb_060"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2013-06-07",
+          "text": "The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+        }
+      ],
+      "text": "Search your library for a Dragon permanent card and put it onto the battlefield. Then shuffle your library.\nStorm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Donato Giancola",
+      "cmc": 7,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"The dragon wing of night o'erspreads the earth.\"\n—Troilus and Cressida, William Shakespeare",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ebon dragon",
+      "images": {
+        "en": "/drb/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{B}{B}",
+      "mkm_product_id": 19661,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/ebon_dragon.jpg",
+      "mtgjson_id": "cb9e5fbf9354847df83a7427a72ab8643a8de609",
+      "multiverseid": 178021,
+      "name": "Ebon Dragon",
+      "near_mint_id": "drb_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Flying\nWhen Ebon Dragon comes into play, you may have target opponent discard a card.",
+      "originalType": "Creature — Dragon",
+      "power": "5",
+      "printings": [],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying\nWhen Ebon Dragon enters the battlefield, you may have target opponent discard a card.",
+      "toughness": "4",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Daarken",
+      "cmc": 7,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "form of the dragon",
+      "images": {
+        "en": "/drb/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{R}{R}{R}",
+      "mkm_product_id": 19662,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/form_of_the_dragon.jpg",
+      "mtgjson_id": "2ab6ca3f600e108cecaa69e464c307e83c57b943",
+      "multiverseid": 178016,
+      "name": "Form of the Dragon",
+      "near_mint_id": "drb_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "At the beginning of your upkeep, Form of the Dragon deals 5 damage to target creature or player.\nAt the end of each turn, your life total becomes 5.\nCreatures without flying can't attack you.",
+      "originalType": "Enchantment",
+      "printings": [
+        "9ed_187",
+        "scg_093"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If you life total was above 5 at end of turn, then you lose life to make your total 5. If it was less than 5, you gain life to bring it to 5."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "It sets your life total at the beginning of the end step of every player's turn, not just your own."
+        },
+        {
+          "date": "2014-02-01",
+          "text": "Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control."
+        }
+      ],
+      "text": "At the beginning of your upkeep, Form of the Dragon deals 5 damage to target creature or player.\nAt the beginning of each end step, your life total becomes 5.\nCreatures without flying can't attack you.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Justin Sweet",
+      "cmc": 8,
+      "colorIdentity": [
+        "B",
+        "R",
+        "G"
+      ],
+      "colors": "BRG",
+      "flavor": "\"The dragon has no pretense of compassion, no false mask of civilization—just hunger, heat, and need.\"\n—Sarkhan Vol",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hellkite overlord",
+      "images": {
+        "en": "/drb/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{B}{R}{R}{G}",
+      "mkm_product_id": 19663,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/hellkite_overlord.jpg",
+      "mtgjson_id": "c4b37f84111e8c84b2dd0ed6153892e0ebe3cdb8",
+      "multiverseid": 178028,
+      "name": "Hellkite Overlord",
+      "near_mint_id": "drb_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "Flying, trample, haste\n{R}: Hellkite Overlord gets +1/+0 until end of turn.\n{B}{G}: Regenerate Hellkite Overlord.",
+      "originalType": "Creature — Dragon",
+      "power": "8",
+      "printings": [
+        "ala_172"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying, trample, haste\n{R}: Hellkite Overlord gets +1/+0 until end of turn.\n{B}{G}: Regenerate Hellkite Overlord.",
+      "toughness": "8",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Tsutomu Kawade",
+      "cmc": 6,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The fall of the evening star never heralds a gentle dawn.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kokusho, the evening star",
+      "images": {
+        "en": "/drb/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{B}{B}",
+      "mkm_product_id": 19664,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/kokusho_the_evening_star.jpg",
+      "mtgjson_id": "915f46d09ab7934c3c29d36d7aee8edb127ad0e7",
+      "multiverseid": 178022,
+      "name": "Kokusho, the Evening Star",
+      "near_mint_id": "drb_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Flying\nWhen Kokusho, the Evening Star is put into a graveyard from play, each opponent loses 5 life. You gain life equal to the life lost this way.",
+      "originalType": "Legendary Creature — Dragon Spirit",
+      "power": "5",
+      "printings": [
+        "chk_122",
+        "mma_089"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon",
+        "Spirit"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhen Kokusho, the Evening Star dies, each opponent loses 5 life. You gain life equal to the life lost this way.",
+      "toughness": "5",
+      "type": "Legendary Creature — Dragon Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "D. Alexander Gregory",
+      "cmc": 8,
+      "colorIdentity": [
+        "U",
+        "B",
+        "R"
+      ],
+      "colors": "UBR",
+      "flavor": "Dominaria's most ancient evil.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "nicol bolas",
+      "images": {
+        "en": "/drb/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}{U}{B}{B}{R}{R}",
+      "mkm_product_id": 19665,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/nicol_bolas.jpg",
+      "mtgjson_id": "847e71a2d44b22ac0436e6892d6be901d951e12c",
+      "multiverseid": 178020,
+      "name": "Nicol Bolas",
+      "near_mint_id": "drb_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Flying\nAt the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.\nWhenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.",
+      "originalType": "Legendary Creature — Elder Dragon",
+      "power": "7",
+      "printings": [
+        "chr_116",
+        "leg_286",
+        "tsb_098"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "Nicol Bolas's third ability triggers whenever it deals damage to an opponent for any reason. It's not limited to combat damage."
+        }
+      ],
+      "subtypes": [
+        "Elder",
+        "Dragon"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nAt the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.\nWhenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.",
+      "toughness": "7",
+      "type": "Legendary Creature — Elder Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Todd Lockwood",
+      "cmc": 6,
+      "colorIdentity": [
+        "U",
+        "R"
+      ],
+      "colors": "UR",
+      "flavor": "As brilliant as a cut diamond, and with just as cruel an edge.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "niv-mizzet, the firemind",
+      "images": {
+        "en": "/drb/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}{U}{R}{R}",
+      "mkm_product_id": 19666,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/niv_mizzet_the_firemind.jpg",
+      "mtgjson_id": "b35a969f1f4f4025bc7f3376e34ae85dbfdbe882",
+      "multiverseid": 178023,
+      "name": "Niv-Mizzet, the Firemind",
+      "near_mint_id": "drb_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Flying\nWhenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.\n{T}: Draw a card.",
+      "originalType": "Legendary Creature — Dragon Wizard",
+      "power": "4",
+      "printings": [
+        "ddj_001",
+        "gpt_123",
+        "mm2_182"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon",
+        "Wizard"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.\n{T}: Draw a card.",
+      "toughness": "4",
+      "type": "Legendary Creature — Dragon Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Todd Lockwood",
+      "cmc": 6,
+      "colorIdentity": [
+        "W",
+        "R",
+        "G"
+      ],
+      "colors": "WRG",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rith, the awakener",
+      "images": {
+        "en": "/drb/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}{G}{W}",
+      "mkm_product_id": 19667,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/rith_the_awakener.jpg",
+      "mtgjson_id": "8d0e40ebbe5061bbf70514c43f83230df4f9f5a0",
+      "multiverseid": 178024,
+      "name": "Rith, the Awakener",
+      "near_mint_id": "drb_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Flying\nWhenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color. Put a 1/1 green Saproling creature token into play for each permanent of that color.",
+      "originalType": "Legendary Creature — Dragon",
+      "power": "6",
+      "printings": [
+        "dde_048",
+        "inv_267"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color, then put a 1/1 green Saproling creature token onto the battlefield for each permanent of that color.",
+      "toughness": "6",
+      "type": "Legendary Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Justin Sweet",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "The undisputed master of the mountains of Shiv.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "shivan dragon",
+      "images": {
+        "en": "/drb/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{R}{R}",
+      "mkm_product_id": 19668,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/shivan_dragon.jpg",
+      "mtgjson_id": "2d7473881c61517329f5ca4e4a84398fd8ada86b",
+      "multiverseid": 178025,
+      "name": "Shivan Dragon",
+      "near_mint_id": "drb_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "Flying\n{R}: Shivan Dragon gets +1/+0 until end of turn.",
+      "originalType": "Creature — Dragon",
+      "power": "5",
+      "printings": [
+        "10e_230",
+        "2ed_175",
+        "3ed_176",
+        "4ed_238",
+        "5ed_267",
+        "7ed_218",
+        "8ed_221",
+        "9ed_219",
+        "btd_044",
+        "lea_175",
+        "leb_176",
+        "m10_156",
+        "m14_154"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{R}: Shivan Dragon gets +1/+0 until end of turn.",
+      "toughness": "5",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Chris Rahn",
+      "cmc": 7,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Sometimes primitive cultures attributed natural phenomena to monsters. Sometimes they were right.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "thunder dragon",
+      "images": {
+        "en": "/drb/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{R}{R}",
+      "mkm_product_id": 19669,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/thunder_dragon.jpg",
+      "mtgjson_id": "e7e979679e91fdb167e03ae8c1a85804cda53ea7",
+      "multiverseid": 178026,
+      "name": "Thunder Dragon",
+      "near_mint_id": "drb_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Flying\nWhen Thunder Dragon comes into play, it deals 3 damage to each creature without flying.",
+      "originalType": "Creature — Dragon",
+      "power": "5",
+      "printings": [
+        "ddg_061"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying\nWhen Thunder Dragon enters the battlefield, it deals 3 damage to each creature without flying.",
+      "toughness": "5",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Sam Wood",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "two-headed dragon",
+      "images": {
+        "en": "/drb/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{R}{R}",
+      "mkm_product_id": 19670,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Dragons/two_headed_dragon.jpg",
+      "mtgjson_id": "66c228f137e60757d5d42a9122c548248cb8de77",
+      "multiverseid": 178027,
+      "name": "Two-Headed Dragon",
+      "near_mint_id": "drb_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "Flying\n{1}{R}: Two-Headed Dragon gets +2/+0 until end of turn.\nTwo-Headed Dragon can't be blocked except by two or more creatures.\nTwo-Headed Dragon may block an additional creature.",
+      "originalType": "Creature — Dragon",
+      "power": "4",
+      "printings": [
+        "8ed_229",
+        "mmq_221"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Dragon"
+      ],
+      "text": "Flying\nMenace (This creature can't be blocked except by two or more creatures.)\nTwo-Headed Dragon can block an additional creature.\n{1}{R}: Two-Headed Dragon gets +2/+0 until end of turn.",
+      "toughness": "4",
+      "type": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "foil"
+}

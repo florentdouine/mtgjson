@@ -1,0 +1,2542 @@
+{
+  "name": "Ugin's Fate promos",
+  "code": "FRF_UGIN",
+  "magicCardsInfoCode": "ugin",
+  "releaseDate": "2015-01-17",
+  "border": "black",
+  "type": "promo",
+  "translations": {
+    "de": "Ugin's Fate",
+    "fr": "Ugin's Fate",
+    "it": "Ugin's Fate",
+    "es": "Ugin's Fate​",
+    "pt": "Ugin's Fate",
+    "jp": "Ugin's Fate",
+    "cn": "Ugin's Fate",
+    "ru": "Ugin's Fate",
+    "tw": "Ugin's Fate",
+    "ko": "Ugin's Fate"
+  },
+  "mkm_name": "Ugin's Fate Promos",
+  "mkm_id": 1587,
+  "card_total": 220,
+  "cards": [
+    {
+      "artist": "Evan Shipard",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"The ainok are wild dogs, not fit to join us around the fire.\"\n—Surrak, the Hunt Caller",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Traqueur aïnok",
+          "multiverseid": 394169,
+          "text": "Initiative\nMue {4}{R} (Vous pouvez lancer cette carte face cachée comme une créature 2/2 pour {3}. Retournez-la à tout moment pour son coût de mue.)",
+          "flavor": "« Les aïnoks sont des chiens sauvages qui n'ont pas leur place avec nous près du feu. »\n—Surrak, le Grand veneur",
+          "type": "Créature : chien de chasse et éclaireur"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ainok tracker",
+      "images": {
+        "en": "/frf_ugin/en/096.jpg",
+        "fr": "/frf_ugin/fr/096.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{R}",
+      "mkm_product_id": 271988,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/ainok_tracker.jpg",
+      "mtgjson_id": "a74395af6519efcef41490c3f5d2cebd71902809",
+      "multiverseid": 394065,
+      "name": "Ainok Tracker",
+      "near_mint_id": "frf_ugin_096",
+      "number": 96,
+      "numberSpecial": "096",
+      "originalText": "First strike\nMorph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "originalType": "Creature — Hound Scout",
+      "power": "3",
+      "printings": [
+        "ktk_096"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the creature can still grant it any of these characteristics."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        }
+      ],
+      "subtypes": [
+        "Hound",
+        "Scout"
+      ],
+      "text": "First strike\nMorph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "toughness": "3",
+      "type": "Creature — Hound Scout",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Erica Yang",
+      "cmc": 1,
+      "colors": "C",
+      "flavor": "Supplicants offer flesh and silver, flowers and blood. The altar takes what it will, eyes gleaming with unspoken promises.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Autel de la Couvée",
+          "multiverseid": 394170,
+          "text": "À chaque fois qu'un autre permanent arrive le champ de bataille sous votre contrôle, chaque adversaire met la carte du dessus de sa bibliothèque dans son cimetière.",
+          "flavor": "Les quémandeurs déposent de la chair et de l'argent, des fleurs et du sang. L'autel prend ce qui lui convient, les yeux luisants de promesses inexprimées.",
+          "type": "Artefact"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "altar of the brood",
+      "images": {
+        "en": "/frf_ugin/en/216.jpg",
+        "fr": "/frf_ugin/fr/216.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 271982,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/altar_of_the_brood.jpg",
+      "mtgjson_id": "8bed3dbfc2eb3ed2c1d44121dd94c1c6d1a498ff",
+      "multiverseid": 394066,
+      "name": "Altar of the Brood",
+      "near_mint_id": "frf_ugin_216",
+      "number": 216,
+      "numberSpecial": "216",
+      "originalText": "Whenever another permanent enters the battlefield under your control, each opponent puts the top card of his or her library into his or her graveyard.",
+      "originalType": "Artifact",
+      "printings": [
+        "ktk_216"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "If Altar of the Brood enters the battlefield under your control at the same time as other permanents, its ability will trigger for each of those permanents."
+        }
+      ],
+      "text": "Whenever another permanent enters the battlefield under your control, each opponent puts the top card of his or her library into his or her graveyard.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Eric Deschamps",
+      "cmc": 7,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Bête de guerre d'Arashin",
+          "multiverseid": 394171,
+          "text": "À chaque fois que la Bête de guerre d'Arashin inflige des blessures de combat à au moins une créature bloqueuse, manifestez la carte du dessus de votre bibliothèque. (Mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "type": "Créature : bête"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "arashin war beast",
+      "images": {
+        "en": "/frf_ugin/en/123.jpg",
+        "fr": "/frf_ugin/fr/123.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{G}{G}",
+      "mkm_product_id": 272048,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/arashin_war_beast.jpg",
+      "mtgjson_id": "80df1373c38862c05f25d4bab65c4c90d15e27fe",
+      "multiverseid": 394067,
+      "name": "Arashin War Beast",
+      "near_mint_id": "frf_ugin_123",
+      "number": 123,
+      "numberSpecial": "123",
+      "originalText": "Whenever Arashin War Beast deals combat damage to one or more blocking creatures, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Creature — Beast",
+      "power": "6",
+      "printings": [
+        "frf_123"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "Arashin War Beast’s ability will trigger only once per combat damage step, no matter how many creatures are blocking it."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "subtypes": [
+        "Beast"
+      ],
+      "text": "Whenever Arashin War Beast deals combat damage to one or more blocking creatures, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "toughness": "6",
+      "type": "Creature — Beast",
+      "types": [
+        "Creature"
+      ],
+      "watermark": "Temur"
+    },
+    {
+      "artist": "Seb McKinnon",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Lightning burns the dragon's path.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Arc électrique",
+          "multiverseid": 394172,
+          "text": "L'Arc électrique inflige 3 blessures réparties de la manière que vous choisissez entre une, deux ou trois cibles, créatures et/ou joueurs.",
+          "flavor": "L'éclair ouvre la voie au dragon.",
+          "type": "Rituel"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "arc lightning",
+      "images": {
+        "en": "/frf_ugin/en/097.jpg",
+        "fr": "/frf_ugin/fr/097.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 271989,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/arc_lightning.jpg",
+      "mtgjson_id": "063ecd6ee969dc81c82ec67f24af705be031fffd",
+      "multiverseid": 394068,
+      "name": "Arc Lightning",
+      "near_mint_id": "frf_ugin_097",
+      "number": 97,
+      "numberSpecial": "097",
+      "originalText": "Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.",
+      "originalType": "Sorcery",
+      "printings": [
+        "brb_005",
+        "ktk_097",
+        "usg_174"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "You choose how many targets Arc Lightning has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If some of the creatures are illegal targets as Arc Lightning tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, Arc Lightning is countered."
+        }
+      ],
+      "text": "Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Steve Argyle",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "The bigger the hand, the higher the price.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Bourse du corrupteur",
+          "multiverseid": 394173,
+          "text": "La Bourse du corrupteur arrive sur le champ de bataille avec X marqueurs « gemme » sur elle.\n{1}, {T}, retirez un marqueur « gemme » de la Bourse du corrupteur : La créature ciblée ne peut ni attaquer, ni bloquer ce tour-ci.",
+          "flavor": "Plus la main est grande, plus le prix est élevé.",
+          "type": "Artefact"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "briber's purse",
+      "images": {
+        "en": "/frf_ugin/en/217.jpg",
+        "fr": "/frf_ugin/fr/217.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}",
+      "mkm_product_id": 271981,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/bribers_purse.jpg",
+      "mtgjson_id": "5222bf192a9d83d4d9e2e9aaf926701a3e9da66b",
+      "multiverseid": 394069,
+      "name": "Briber's Purse",
+      "near_mint_id": "frf_ugin_217",
+      "number": 217,
+      "numberSpecial": "217",
+      "originalText": "Briber's Purse enters the battlefield with X gem counters on it.\n{1}, {T}, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.",
+      "originalType": "Artifact",
+      "printings": [
+        "ktk_217"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Activating the ability targeting a creature that’s already attacking or blocking won’t remove it from combat or affect that attack or block."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If Briber’s Purse has no gem counters on it, it remains on the battlefield, although you can’t activate its last ability."
+        }
+      ],
+      "text": "Briber's Purse enters the battlefield with X gem counters on it.\n{1}, {T}, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Slawomir Maniak",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Weakness exists within all who are not dragons.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Blessure incapacitante",
+          "multiverseid": 394174,
+          "text": "Enchanter : créature\nLa créature enchantée gagne -2/-2.",
+          "flavor": "La faiblesse afflige quiconque n'est pas un dragon.",
+          "type": "Enchantement : aura"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "debilitating injury",
+      "images": {
+        "en": "/frf_ugin/en/068.jpg",
+        "fr": "/frf_ugin/fr/068.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 271987,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/debilitating_injury.jpg",
+      "mtgjson_id": "25133ba82117a792f8852b92ce421578562e58c3",
+      "multiverseid": 394070,
+      "name": "Debilitating Injury",
+      "near_mint_id": "frf_ugin_068",
+      "number": 68,
+      "numberSpecial": "068",
+      "originalText": "Enchant creature\nEnchanted creature gets -2/-2.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "ktk_068"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nEnchanted creature gets -2/-2.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Mark Winters",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "Only those who have proved themselves worthy are granted a dragon's scale.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Faveur d'écailledragon",
+          "multiverseid": 394175,
+          "text": "Mettez deux marqueurs +1/+1 sur une créature ciblée et dégagez-la.",
+          "flavor": "Seuls ceux qui s'en montrent dignes reçoivent une écaille de dragon.",
+          "type": "Éphémère"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dragonscale boon",
+      "images": {
+        "en": "/frf_ugin/en/131.jpg",
+        "fr": "/frf_ugin/fr/131.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}",
+      "mkm_product_id": 271980,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/dragonscale_boon.jpg",
+      "mtgjson_id": "d4ceb04f1fb742e7431809128e50f851c4ac0074",
+      "multiverseid": 394071,
+      "name": "Dragonscale Boon",
+      "near_mint_id": "frf_ugin_131",
+      "number": 131,
+      "numberSpecial": "131",
+      "originalText": "Put two +1/+1 counters on target creature and untap it.",
+      "originalType": "Instant",
+      "printings": [
+        "ktk_131"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Dragonscale Boon can target any creature, including one that’s already untapped."
+        }
+      ],
+      "text": "Put two +1/+1 counters on target creature and untap it.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Tyler Jacobson",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Anger can empower those who embrace it.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Invocation violente",
+          "multiverseid": 394176,
+          "text": "Manifestez la carte du dessus de votre bibliothèque, puis mettez deux marqueurs +1/+1 sur elle. (Pour manifester une carte, mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "flavor": "La colère peut offrir son pouvoir à ceux qui s'y abandonnent.",
+          "type": "Rituel"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fierce invocation",
+      "images": {
+        "en": "/frf_ugin/en/098.jpg",
+        "fr": "/frf_ugin/fr/098.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{R}",
+      "mkm_product_id": 272039,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/fierce_invocation.jpg",
+      "mtgjson_id": "40ad22de617724ec3d85cb7bddd27b378a588e7d",
+      "multiverseid": 394072,
+      "name": "Fierce Invocation",
+      "near_mint_id": "frf_ugin_098",
+      "number": 98,
+      "numberSpecial": "098",
+      "originalText": "Manifest the top card of your library, then put two +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "frf_098"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "text": "Manifest the top card of your library, then put two +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Cliff Childs",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Nourrissage sans forme",
+          "multiverseid": 394177,
+          "text": "Manifestez la carte du dessus de votre bibliothèque, puis mettez un marqueur +1/+1 sur elle. (Pour manifester une carte, mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "type": "Rituel"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "formless nurturing",
+      "images": {
+        "en": "/frf_ugin/en/129.jpg",
+        "fr": "/frf_ugin/fr/129.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}",
+      "mkm_product_id": 272041,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/formless_nurturing.jpg",
+      "mtgjson_id": "e07728140558b2282b24a080b57f5961066d87c2",
+      "multiverseid": 394073,
+      "name": "Formless Nurturing",
+      "near_mint_id": "frf_ugin_129",
+      "number": 129,
+      "numberSpecial": "129",
+      "originalText": "Manifest the top card of your library, then put a +1/+1 counter on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "frf_129"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "text": "Manifest the top card of your library, then put a +1/+1 counter on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Cyril Van Der Haegen",
+      "cmc": 1,
+      "colors": "C",
+      "flavor": "If you fear the dragon's fire, you are unworthy to wield it.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Lame d'ectofeu",
+          "multiverseid": 394178,
+          "text": "La créature équipée gagne +2/+2.\nÉquipement {3}\nLa capacité d'équipement de la Lame d'ectofeu coûte {2} de moins à activer si elle cible une créature incolore.",
+          "flavor": "Si vous craignez la flamme du dragon, vous n'êtes pas digne de la manier.",
+          "type": "Artefact : équipement"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ghostfire blade",
+      "images": {
+        "en": "/frf_ugin/en/220.jpg",
+        "fr": "/frf_ugin/fr/220.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 271986,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/ghostfire_blade.jpg",
+      "mtgjson_id": "40d56fb2c356508881b8b4743000bb066f11e549",
+      "multiverseid": 394074,
+      "name": "Ghostfire Blade",
+      "near_mint_id": "frf_ugin_220",
+      "number": 220,
+      "numberSpecial": "220",
+      "originalText": "Equipped creature gets +2/+2.\nEquip {3}\nGhostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.",
+      "originalType": "Artifact — Equipment",
+      "printings": [
+        "ktk_220"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Face-down creatures and most artifact creatures are colorless."
+        }
+      ],
+      "subtypes": [
+        "Equipment"
+      ],
+      "text": "Equipped creature gets +2/+2.\nEquip {3}\nGhostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.",
+      "type": "Artifact — Equipment",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Seb McKinnon",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Your enemies may be cowardly, my lord, but one should never call them gutless.\"",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Aruspice sinistre",
+          "multiverseid": 394179,
+          "text": "Mue {B} (Vous pouvez lancer cette carte face cachée comme une créature 2/2 pour {3}. Retournez-la à tout moment pour son coût de mue.)\nÀ chaque fois qu'une autre créature non-jeton que vous contrôlez meurt, piochez une carte.",
+          "flavor": "« Vos ennemis sont peut-être couards, mon seigneur, mais on ne peut pas dire qu'ils n'ont rien dans le ventre. »",
+          "type": "Créature : humain et sorcier"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "grim haruspex",
+      "images": {
+        "en": "/frf_ugin/en/073.jpg",
+        "fr": "/frf_ugin/fr/073.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 271979,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/grim_haruspex.jpg",
+      "mtgjson_id": "198cb6e39e36c69503ccc83051dfaa96511f13c1",
+      "multiverseid": 394075,
+      "name": "Grim Haruspex",
+      "near_mint_id": "frf_ugin_073",
+      "number": 73,
+      "numberSpecial": "073",
+      "originalText": "Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever another nontoken creature you control dies, draw a card.",
+      "originalType": "Creature — Human Wizard",
+      "power": "3",
+      "printings": [
+        "ktk_073"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the creature can still grant it any of these characteristics."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "text": "Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever another nontoken creature you control dies, draw a card.",
+      "toughness": "2",
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "David Seguin",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "\"Their origins are shrouded in mystery. I believe they are the protectors of the lost secrets of our world.\"\n—Jilaya, Temur whisperer",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Serviteurs de pierre taillée",
+          "multiverseid": 394180,
+          "text": "Ne lancez les Serviteurs de pierre taillée que si vous avez lancé un autre sort ce tour-ci.",
+          "flavor": "« Leurs origines sont enveloppées de mystère. Je crois qu'ils sont les protecteurs des secrets oubliés de notre monde. »\n—Jilaya, chuchoteuse temurienne",
+          "type": "Créatureartefact : golem"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hewed stone retainers",
+      "images": {
+        "en": "/frf_ugin/en/161.jpg",
+        "fr": "/frf_ugin/fr/161.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 272049,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/hewed_stone_retainers.jpg",
+      "mtgjson_id": "bb7f708f345c8c391f1640da21be6babb2e5f073",
+      "multiverseid": 394076,
+      "name": "Hewed Stone Retainers",
+      "near_mint_id": "frf_ugin_161",
+      "number": 161,
+      "numberSpecial": "161",
+      "originalText": "Cast Hewed Stone Retainers only if you've cast another spell this turn.",
+      "originalType": "Artifact Creature — Golem",
+      "power": "4",
+      "printings": [
+        "frf_161"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "It doesn’t matter whether the other spell resolved. It could have been countered or, if you’ve somehow cast Hewed Stone Retainers as though it had flash, it could still be on the stack."
+        }
+      ],
+      "subtypes": [
+        "Golem"
+      ],
+      "text": "Cast Hewed Stone Retainers only if you've cast another spell this turn.",
+      "toughness": "4",
+      "type": "Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Willian Murai",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Instigateur de moqueries",
+          "multiverseid": 394181,
+          "text": "Mue {2}{R} (Vous pouvez lancer cette carte face cachée comme une créature 2/2 pour {3}. Retournez-la à tout moment pour son coût de mue.)\nQuand l'Instigateur de moqueries est retourné face visible, si c'est votre tour, acquérez le contrôle d'une autre créature ciblée jusqu'à la fin du tour. Dégagez cette créature. Elle acquiert la célérité jusqu'à la fin du tour.",
+          "type": "Créature : gobelin et gredin"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "jeering instigator",
+      "images": {
+        "en": "/frf_ugin/en/113.jpg",
+        "fr": "/frf_ugin/fr/113.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 271985,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/jeering_instigator.jpg",
+      "mtgjson_id": "daac7090b1168adf3b1e83a21736a99eac2f7f95",
+      "multiverseid": 394077,
+      "name": "Jeering Instigator",
+      "near_mint_id": "frf_ugin_113",
+      "number": 113,
+      "numberSpecial": "113",
+      "originalText": "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Jeering Instigator is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+      "originalType": "Creature — Goblin Rogue",
+      "power": "2",
+      "printings": [
+        "ktk_113"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Jeering Instigator’s last ability can target any creature, even one that’s untapped or one you already control."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to that creature."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the creature can still grant it any of these characteristics."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        }
+      ],
+      "subtypes": [
+        "Goblin",
+        "Rogue"
+      ],
+      "text": "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Jeering Instigator is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Goblin Rogue",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Cynthia Sheppard",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Infiltratrice jeskaï",
+          "multiverseid": 394182,
+          "text": "L'Infiltratrice jeskaï ne peut pas être bloquée tant que vous ne contrôlez pas d'autre créature.\nQuand l'Infiltratrice jeskaï inflige des blessures de combat à un joueur, exilez-la ainsi que la carte du dessus de votre bibliothèque dans un tas face cachée, mélangez-le, puis manifestez ces cartes. (Pour manifester une carte, mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "type": "Créature : humain et moine"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "jeskai infiltrator",
+      "images": {
+        "en": "/frf_ugin/en/036.jpg",
+        "fr": "/frf_ugin/fr/036.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}",
+      "mkm_product_id": 272045,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/jeskai_infiltrator.jpg",
+      "mtgjson_id": "dd087a703196ba85157c8b50bdddf1e68e1cb8b1",
+      "multiverseid": 394078,
+      "name": "Jeskai Infiltrator",
+      "near_mint_id": "frf_ugin_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "Jeskai Infiltrator can't be blocked as long as you control no other creatures.\nWhen Jeskai Infiltrator deals combat damage to a player, exile it and the top card of your library in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Creature — Human Monk",
+      "power": "2",
+      "printings": [
+        "frf_036"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The pile is shuffled to disguise from your opponents which manifested creature is which. After you manifest the cards, you can look at them."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If Jeskai Infiltrator isn’t on the battlefield as its triggered ability resolves, you’ll manifest just the top card of your library."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A card’s owner is public information at all times. If the two cards you exile are owned by different players (perhaps because you gained control of a Jeskai Infiltrator owned by your opponent), which card is which is no longer hidden from your opponent. That player will know which face-down creature he or she owns."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If you manifest a card owned by an opponent and you leave the game, that card is exiled."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Monk"
+      ],
+      "text": "Jeskai Infiltrator can't be blocked as long as you control no other creatures.\nWhen Jeskai Infiltrator deals combat damage to a player, exile it and the top card of your library in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "toughness": "3",
+      "type": "Creature — Human Monk",
+      "types": [
+        "Creature"
+      ],
+      "watermark": "Jeskai"
+    },
+    {
+      "artist": "Daniel Ljunggren",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Maîtrise de l'inapparence",
+          "multiverseid": 394183,
+          "text": "À chaque fois qu'un permanent que vous contrôlez est retourné face visible, vous gagnez 1 point de vie pour chaque créature que vous contrôlez.\n{3}{W} : Manifestez la carte du dessus de votre bibliothèque. (Mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "type": "Enchantement"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mastery of the unseen",
+      "images": {
+        "en": "/frf_ugin/en/019.jpg",
+        "fr": "/frf_ugin/fr/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 272051,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/mastery_of_the_unseen.jpg",
+      "mtgjson_id": "6067ff9d574d511fabadac6297344ff3bc1e544a",
+      "multiverseid": 394079,
+      "name": "Mastery of the Unseen",
+      "near_mint_id": "frf_ugin_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Whenever a permanent you control is turned face up, you gain 1 life for each creature you control.\n{3}{W}: Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Enchantment",
+      "printings": [
+        "frf_019"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "text": "Whenever a permanent you control is turned face up, you gain 1 life for each creature you control.\n{3}{W}: Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Ryan Alexander Lee",
+      "cmc": 5,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"There are many different paths. The Great Teacher reveals them all.\"",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Mystique de la Voie secrète",
+          "multiverseid": 394184,
+          "text": "Le Mystique de la Voie secrète ne peut pas être bloqué.\nMue {2}{U} (Vous pouvez lancer cette carte face cachée comme une créature 2/2 pour {3}. Retournez-la à tout moment pour son coût de mue.)",
+          "flavor": "« Il y a bien des voies différentes. Le Grand précepteur les révèle toutes. »",
+          "type": "Créature : humain et moine"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mystic of the hidden way",
+      "images": {
+        "en": "/frf_ugin/en/048.jpg",
+        "fr": "/frf_ugin/fr/048.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{U}",
+      "mkm_product_id": 271978,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/mystic_of_the_hidden_way.jpg",
+      "mtgjson_id": "cf0ae60f3268fd32336a41a24e3fa9237c7d2b60",
+      "multiverseid": 394080,
+      "name": "Mystic of the Hidden Way",
+      "near_mint_id": "frf_ugin_048",
+      "number": 48,
+      "numberSpecial": "048",
+      "originalText": "Mystic of the Hidden Way can't be blocked.\nMorph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "originalType": "Creature — Human Monk",
+      "power": "3",
+      "printings": [
+        "ktk_048"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "If a face-down Mystic of the Hidden Way is blocked and then turned face up, it stays blocked."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the creature can still grant it any of these characteristics."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Monk"
+      ],
+      "text": "Mystic of the Hidden Way can't be blocked.\nMorph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "toughness": "2",
+      "type": "Creature — Human Monk",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Howard Lyon",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Bouleversement de réalité",
+          "multiverseid": 394185,
+          "text": "Exilez la créature ciblée. Son contrôleur manifeste la carte du dessus de sa bibliothèque. (Ce joueur met la carte du dessus de sa bibliothèque sur le champ de bataille face cachée comme une créature 2/2. Si c'est une carte de créature, elle peut être retournée face visible à tout moment pour son coût de mana.)",
+          "type": "Éphémère"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "reality shift",
+      "images": {
+        "en": "/frf_ugin/en/046.jpg",
+        "fr": "/frf_ugin/fr/046.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mkm_product_id": 272050,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/reality_shift.jpg",
+      "mtgjson_id": "cd726f98a087c7fb162d43ad463cc952cce6e6d7",
+      "multiverseid": 394081,
+      "name": "Reality Shift",
+      "near_mint_id": "frf_ugin_046",
+      "number": 46,
+      "numberSpecial": "046",
+      "originalText": "Exile target creature. Its controller manifests the top card of his or her library. (That player puts the top card of his or her library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)",
+      "originalType": "Instant",
+      "printings": [
+        "frf_046"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "text": "Exile target creature. Its controller manifests the top card of his or her library. (That player puts the top card of his or her library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Clint Cearley",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Éventreuse impitoyable",
+          "multiverseid": 394186,
+          "text": "Contact mortel\nMue — Révélez une carte noire de votre main. (Vous pouvez lancer cette carte face cachée comme une créature 2/2 pour {3}. Retournez-la à tout moment pour son coût de mue.)\nQuand l'Éventreuse impitoyable est retournée face visible, le joueur ciblé perd 2 points de vie.",
+          "type": "Créature : humain et assassin"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ruthless ripper",
+      "images": {
+        "en": "/frf_ugin/en/088.jpg",
+        "fr": "/frf_ugin/fr/088.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 271984,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/ruthless_ripper.jpg",
+      "mtgjson_id": "394011c6947a89442f9e8e5e3debbc8fd935707c",
+      "multiverseid": 394082,
+      "name": "Ruthless Ripper",
+      "near_mint_id": "frf_ugin_088",
+      "number": 88,
+      "numberSpecial": "088",
+      "originalText": "Deathtouch\nMorph—Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Ruthless Ripper is turned face up, target player loses 2 life.",
+      "originalType": "Creature — Human Assassin",
+      "power": "1",
+      "printings": [
+        "ktk_088"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the creature can still grant it any of these characteristics."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        }
+      ],
+      "subtypes": [
+        "Human",
+        "Assassin"
+      ],
+      "text": "Deathtouch\nMorph—Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Ruthless Ripper is turned face up, target player loses 2 life.",
+      "toughness": "1",
+      "type": "Creature — Human Assassin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "The changing of a single moment in Tarkir's past altered its future, rewriting its history.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Pourfendre le monstrueux",
+          "multiverseid": 394187,
+          "text": "Détruisez une créature avec une force supérieure ou égale à 4 ciblée.",
+          "flavor": "Il a suffi d'altérer un seul instant du passé de Tarkir pour modifier son futur et réécrire son histoire.",
+          "type": "Éphémère"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "smite the monstrous",
+      "images": {
+        "en": "/frf_ugin/en/024.jpg",
+        "fr": "/frf_ugin/fr/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}",
+      "mkm_product_id": 271977,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/smite_the_monstrous.jpg",
+      "mtgjson_id": "aae3b7af260a2a6ed6032a43c8bce08d347d696e",
+      "multiverseid": 394083,
+      "name": "Smite the Monstrous",
+      "near_mint_id": "frf_ugin_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "Destroy target creature with power 4 or greater.",
+      "originalType": "Instant",
+      "printings": [
+        "bfz_049",
+        "ddl_029",
+        "isd_033",
+        "ktk_024"
+      ],
+      "rarity": "Common",
+      "text": "Destroy target creature with power 4 or greater.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Johann Bodin",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Ugin's magic reaches beyond the dragons. The clans have adapted it for war.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Recrutement d'âme",
+          "multiverseid": 394188,
+          "text": "Manifestez la carte du dessus de votre bibliothèque. (Mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "flavor": "La magie d'Ugin n'est pas destinée qu'aux dragons. Les clans l'ont adaptée pour la guerre.",
+          "type": "Rituel"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "soul summons",
+      "images": {
+        "en": "/frf_ugin/en/026.jpg",
+        "fr": "/frf_ugin/fr/026.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 272043,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/soul_summons.jpg",
+      "mtgjson_id": "8672ad2dbb71903e45140a216d66f572e273e047",
+      "multiverseid": 394084,
+      "name": "Soul Summons",
+      "near_mint_id": "frf_ugin_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "frf_026"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "text": "Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Mathias Kollros",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "To the Sultai, Ugin's power was just one more resource to be exploited.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Émissaire de Sultaï",
+          "multiverseid": 394189,
+          "text": "Quand l'Émissaire de Sultaï meurt, manifestez la carte du dessus de votre bibliothèque. (Mettez cette carte sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "flavor": "Pour les Sultaï, le pouvoir d'Ugin n'était qu'une ressource de plus à exploiter.",
+          "type": "Créature : zombie et guerrier"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sultai emissary",
+      "images": {
+        "en": "/frf_ugin/en/085.jpg",
+        "fr": "/frf_ugin/fr/085.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 272047,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/sultai_emissary.jpg",
+      "mtgjson_id": "5bfd76073cfdbdbf4375a3f9589b6ad9f04ad0b0",
+      "multiverseid": 394085,
+      "name": "Sultai Emissary",
+      "near_mint_id": "frf_ugin_085",
+      "number": 85,
+      "numberSpecial": "085",
+      "originalText": "When Sultai Emissary dies, manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Creature — Zombie Warrior",
+      "power": "1",
+      "printings": [
+        "frf_085"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "subtypes": [
+        "Zombie",
+        "Warrior"
+      ],
+      "text": "When Sultai Emissary dies, manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "toughness": "1",
+      "type": "Creature — Zombie Warrior",
+      "types": [
+        "Creature"
+      ],
+      "watermark": "Sultai"
+    },
+    {
+      "artist": "Chris Rahn",
+      "cmc": 8,
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Ugin, le dragon-esprit",
+          "multiverseid": 394190,
+          "text": "+2 : Ugin, le dragon-esprit inflige 3 blessures à une cible, créature ou joueur.\n−X : Exilez chaque permanent avec un coût converti de mana inférieur ou égal à X qui a au moins une couleur.\n−10 : Vous gagnez 7 points de vie, piochez sept cartes, puis mettez sur le champ de bataille jusqu'à sept cartes de permanent depuis votre main.",
+          "type": "Planeswalker : Ugin"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ugin, the spirit dragon",
+      "images": {
+        "en": "/frf_ugin/en/001.jpg",
+        "fr": "/frf_ugin/fr/001.jpg"
+      },
+      "layout": "normal",
+      "loyalty": 7,
+      "manaCost": "{8}",
+      "mkm_product_id": 271991,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/ugin_the_spirit_dragon.jpg",
+      "mtgjson_id": "942b355efad6f857bfc92730978a4db29f7d35f0",
+      "multiverseid": 394086,
+      "name": "Ugin, the Spirit Dragon",
+      "near_mint_id": "frf_ugin_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "+2: Ugin, the Spirit Dragon deals 3 damage to target creature or player.\n−X: Exile each permanent with converted mana cost X or less that's one or more colors.\n−10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.",
+      "originalType": "Planeswalker — Ugin",
+      "printings": [
+        "frf_001"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "If you choose to put permanent cards with morph onto the battlefield with the third ability, you must put them onto the battlefield face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Ugin, the Spirit Dragon is not a Dragon card; that is, he doesn’t have the creature type Dragon. Spells and abilities that refer to Dragon cards or Dragons don’t apply to Ugin."
+        }
+      ],
+      "subtypes": [
+        "Ugin"
+      ],
+      "text": "+2: Ugin, the Spirit Dragon deals 3 damage to target creature or player.\n−X: Exile each permanent with converted mana cost X or less that's one or more colors.\n−10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.",
+      "type": "Planeswalker — Ugin",
+      "types": [
+        "Planeswalker"
+      ]
+    },
+    {
+      "artist": "Peter Mohrbacher",
+      "cmc": 4,
+      "colors": "C",
+      "flavor": "While trapping the Eldrazi on Zendikar, Ugin learned little from Sorin, but he gleaned the rudiments of lithomancy from Nahiri.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Construction d'Ugin",
+          "multiverseid": 394191,
+          "text": "Quand la Construction d'Ugin arrive sur le champ de bataille, sacrifiez un permanent qui a au moins une couleur.",
+          "flavor": "En emprisonnant les Eldrazi sur Zendikar, Ugin apprit peu de choses de Sorin, mais il glana les rudiments de la lithomancie auprès de Nahiri.",
+          "type": "Créatureartefact : construction"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ugin's construct",
+      "images": {
+        "en": "/frf_ugin/en/164.jpg",
+        "fr": "/frf_ugin/fr/164.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mkm_product_id": 272040,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/ugins_construct.jpg",
+      "mtgjson_id": "0ff7b0cd3fedec026d9ad66e0c3cd5ae7c71d976",
+      "multiverseid": 394087,
+      "name": "Ugin's Construct",
+      "near_mint_id": "frf_ugin_164",
+      "number": 164,
+      "numberSpecial": "164",
+      "originalText": "When Ugin's Construct enters the battlefield, sacrifice a permanent that's one or more colors.",
+      "originalType": "Artifact Creature — Construct",
+      "power": "4",
+      "printings": [
+        "frf_164"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "If you control only colorless permanents as the ability resolves (for example, basic lands and face-down permanents), you won’t sacrifice anything."
+        }
+      ],
+      "subtypes": [
+        "Construct"
+      ],
+      "text": "When Ugin's Construct enters the battlefield, sacrifice a permanent that's one or more colors.",
+      "toughness": "5",
+      "type": "Artifact Creature — Construct",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jack Wang",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Gardien du perchoir",
+          "multiverseid": 394192,
+          "text": "Vol\nMue — Révélez une carte blanche de votre main. (Vous pouvez lancer cette carte face cachée comme une créature 2/2 pour {3}. Retournez-la à tout moment pour son coût de mue.)\nQuand le Gardien du perchoir est retourné face visible, vous gagnez 2 points de vie.",
+          "type": "Créature : oiseau et soldat"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "watcher of the roost",
+      "images": {
+        "en": "/frf_ugin/en/030.jpg",
+        "fr": "/frf_ugin/fr/030.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 271983,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/watcher_of_the_roost.jpg",
+      "mtgjson_id": "bfc18ef0310f184183c29a5144e0ed1f1bd2472d",
+      "multiverseid": 394088,
+      "name": "Watcher of the Roost",
+      "near_mint_id": "frf_ugin_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "Flying\nMorph—Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Watcher of the Roost is turned face up, you gain 2 life.",
+      "originalType": "Creature — Bird Soldier",
+      "power": "2",
+      "printings": [
+        "ktk_030"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2014-09-20",
+          "text": "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the creature can still grant it any of these characteristics."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield."
+        },
+        {
+          "date": "2014-09-20",
+          "text": "If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        }
+      ],
+      "subtypes": [
+        "Bird",
+        "Soldier"
+      ],
+      "text": "Flying\nMorph—Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Watcher of the Roost is turned face up, you gain 2 life.",
+      "toughness": "1",
+      "type": "Creature — Bird Soldier",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "A howl on the wind hides many dangers.",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Appel sauvage",
+          "multiverseid": 394193,
+          "text": "Manifestez la carte du dessus de votre bibliothèque, puis mettez X marqueurs +1/+1 sur elle. (Pour manifester une carte, mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "flavor": "Un hurlement porté par le vent cache de nombreux dangers.",
+          "type": "Rituel"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wildcall",
+      "images": {
+        "en": "/frf_ugin/en/146.jpg",
+        "fr": "/frf_ugin/fr/146.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{G}{G}",
+      "mkm_product_id": 272052,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/wildcall.jpg",
+      "mtgjson_id": "9e42cf06196b4e35384a4706a911b7db7113be74",
+      "multiverseid": 394089,
+      "name": "Wildcall",
+      "near_mint_id": "frf_ugin_146",
+      "number": 146,
+      "numberSpecial": "146",
+      "originalText": "Manifest the top card of your library, then put X +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "frf_146"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "If you choose 0 for X, you’ll just manifest the top card of your library."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Any time you have priority, you may turn a manifested creature face up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it’s a creature card."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Because face-down creatures don’t have names, they can’t have the same name as any other creature, even another face-down creature."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "At any time, you can look at a face-down permanent you control. You can’t look at face-down permanents you don’t control unless an effect allows you to or instructs you to."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on)."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can’t be turned face down."
+        }
+      ],
+      "text": "Manifest the top card of your library, then put X +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Yeong-Hao Han",
+      "cmc": 3,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "name": "Consigner à l'existence",
+          "multiverseid": 394194,
+          "text": "Regardez les deux cartes du dessus de votre bibliothèque. Manifestez une de ces cartes, puis mettez l'autre au-dessus ou au-dessous de votre bibliothèque. (Pour manifester une carte, mettez-la sur le champ de bataille face cachée comme une créature 2/2. Retournez-la face visible à tout moment pour son coût de mana si c'est une carte de créature.)",
+          "type": "Rituel"
+        }
+      ],
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "write into being",
+      "images": {
+        "en": "/frf_ugin/en/059.jpg",
+        "fr": "/frf_ugin/fr/059.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{U}",
+      "mkm_product_id": 272042,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Ugins_Fate_Promos/write_into_being.jpg",
+      "mtgjson_id": "f6e417c3497290a837dc89045b3c75daaaa33b90",
+      "multiverseid": 394090,
+      "name": "Write into Being",
+      "near_mint_id": "frf_ugin_059",
+      "number": 59,
+      "numberSpecial": "059",
+      "originalText": "Look at the top two cards of your library. Manifest one of those cards, then put the other on the top or bottom of your library. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "frf_059"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2014-11-24",
+          "text": "Other players won’t know whether the card you manifest is the top card or second card of that library."
+        },
+        {
+          "date": "2014-11-24",
+          "text": "If you’re playing with the top card of your library revealed, you’ll manifest one of the cards, then the other one will be revealed, then you can choose to put that card on the bottom of your library or leave it on top."
+        }
+      ],
+      "text": "Look at the top two cards of your library. Manifest one of those cards, then put the other on the top or bottom of your library. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    }
+  ],
+  "languages": [
+    "English",
+    "Chinese Traditional",
+    "Chinese Simplified",
+    "French",
+    "German",
+    "Italian",
+    "Japanese",
+    "Korean",
+    "Portuguese (Brazil)",
+    "Russian",
+    "Spanish"
+  ],
+  "finition": "both"
+}

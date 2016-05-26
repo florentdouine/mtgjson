@@ -1,0 +1,2550 @@
+{
+  "name": "Zendikar Expeditions",
+  "finition": "foil",
+  "code": "EXP",
+  "magicCardsInfoCode": "exp",
+  "releaseDate": "2015-10-02",
+  "border": "black",
+  "type": "promo",
+  "mkm_name": "Zendikar Expeditions",
+  "mkm_id": 1669,
+  "card_total": 25,
+  "cards": [
+    {
+      "artist": "Howard Lyon",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ancient tomb",
+      "images": {
+        "en": "/exp/en/036.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287030,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/ancient_tomb.jpg",
+      "mtgjson_id": "67c249a10db93a9107e45d4ab7dfa145dadda464",
+      "multiverseid": 409567,
+      "name": "Ancient Tomb",
+      "near_mint_id": "exp_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "{T}: Add {C}{C} to your mana pool. Ancient Tomb deals 2 damage to you.",
+      "originalType": "Land",
+      "printings": [
+        "tmp_305",
+        "v12_001"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C}{C} to your mana pool. Ancient Tomb deals 2 damage to you.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Ryan Yee",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "arid mesa",
+      "images": {
+        "en": "/exp/en/024.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284325,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/arid_mesa.jpg",
+      "mtgjson_id": "ad142604cb048cfbbea1618e5163050bd5736512",
+      "multiverseid": 405092,
+      "name": "Arid Mesa",
+      "near_mint_id": "exp_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "{T}, Pay 1 life, Sacrifice Arid Mesa: Search your library for a Mountain or Plains card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "zen_211"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Arid Mesa: Search your library for a Mountain or Plains card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Min Yum",
+      "cmc": 0,
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "blood crypt",
+      "images": {
+        "en": "/exp/en/008.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284406,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/blood_crypt.jpg",
+      "mtgjson_id": "c4bb37e0e192105ae64c7918fbf5d2935a893aad",
+      "multiverseid": 405093,
+      "name": "Blood Crypt",
+      "near_mint_id": "exp_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.",
+      "originalType": "Land — Swamp Mountain",
+      "printings": [
+        "dis_171",
+        "rtr_238"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Swamp",
+        "Mountain"
+      ],
+      "text": "({T}: Add {B} or {R} to your mana pool.)\nAs Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.",
+      "type": "Land — Swamp Mountain",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "bloodstained mire",
+      "images": {
+        "en": "/exp/en/018.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284415,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/bloodstained_mire.jpg",
+      "mtgjson_id": "97821ea5992328692f5756b61524d1f45fca17e0",
+      "multiverseid": 405094,
+      "name": "Bloodstained Mire",
+      "near_mint_id": "exp_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "ktk_230",
+        "ons_313"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Noah Bradley",
+      "cmc": 0,
+      "colorIdentity": [
+        "U",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "breeding pool",
+      "images": {
+        "en": "/exp/en/015.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284412,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/breeding_pool.jpg",
+      "mtgjson_id": "4ddf713bb536d1ab5ade931e78469dc43f0996e7",
+      "multiverseid": 405095,
+      "name": "Breeding Pool",
+      "near_mint_id": "exp_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.",
+      "originalType": "Land — Forest Island",
+      "printings": [
+        "dis_172",
+        "gtc_240"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Forest",
+        "Island"
+      ],
+      "text": "({T}: Add {G} or {U} to your mana pool.)\nAs Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.",
+      "type": "Land — Forest Island",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Titus Lunter",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "canopy vista",
+      "images": {
+        "en": "/exp/en/005.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284403,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/canopy_vista.jpg",
+      "mtgjson_id": "f9eeee1ef34c90c6a39acf5de384014fd574a513",
+      "multiverseid": 405096,
+      "name": "Canopy Vista",
+      "near_mint_id": "exp_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "Canopy Vista enters the battlefield tapped unless you control two or more basic lands.",
+      "originalType": "Land — Forest Plains",
+      "printings": [
+        "bfz_234"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2015-08-25",
+          "text": "Even though these lands have basic land types, they are not basic lands because “basic” doesn’t appear on their type line. Notably, controlling two or more of them won’t allow others to enter the battlefield untapped."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads “Destroy target Forest” can target Canopy Vista, while one that reads “Destroy target basic Forest” cannot."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped."
+        }
+      ],
+      "subtypes": [
+        "Forest",
+        "Plains"
+      ],
+      "text": "({T}: Add {G} or {W} to your mana pool.)\nCanopy Vista enters the battlefield tapped unless you control two or more basic lands.",
+      "type": "Land — Forest Plains",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Christine Choi",
+      "cmc": 0,
+      "colorIdentity": [
+        "U",
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "cascade bluffs",
+      "images": {
+        "en": "/exp/en/032.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287026,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/cascade_bluffs.jpg",
+      "mtgjson_id": "df56ef2072719e1711cbe0c99780056f3e125a6a",
+      "multiverseid": 409563,
+      "name": "Cascade Bluffs",
+      "near_mint_id": "exp_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "{T}: Add {C} to your mana pool.\n{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "eve_175"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Titus Lunter",
+      "cmc": 0,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "cinder glade",
+      "images": {
+        "en": "/exp/en/004.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284402,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/cinder_glade.jpg",
+      "mtgjson_id": "5ef93ea1575505510cb9ad3ffda173c19d495f04",
+      "multiverseid": 405097,
+      "name": "Cinder Glade",
+      "near_mint_id": "exp_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Cinder Glade enters the battlefield tapped unless you control two or more basic lands.",
+      "originalType": "Land — Mountain Forest",
+      "printings": [
+        "bfz_235"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2015-08-25",
+          "text": "Even though these lands have basic land types, they are not basic lands because “basic” doesn’t appear on their type line. Notably, controlling two or more of them won’t allow others to enter the battlefield untapped."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads “Destroy target Forest” can target Canopy Vista, while one that reads “Destroy target basic Forest” cannot."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped."
+        }
+      ],
+      "subtypes": [
+        "Mountain",
+        "Forest"
+      ],
+      "text": "({T}: Add {R} or {G} to your mana pool.)\nCinder Glade enters the battlefield tapped unless you control two or more basic lands.",
+      "type": "Land — Mountain Forest",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Florian de Gesincourt",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dust bowl",
+      "images": {
+        "en": "/exp/en/037.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287031,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/dust_bowl.jpg",
+      "mtgjson_id": "306c2b896fdcc1182b74541898e4b8a65fdd7d6f",
+      "multiverseid": 409568,
+      "name": "Dust Bowl",
+      "near_mint_id": "exp_037",
+      "number": 37,
+      "numberSpecial": "037",
+      "originalText": "{T}: Add {C} to your mana pool.\n{3}, {T}, Sacrifice a land: Destroy target nonbasic land.",
+      "originalType": "Land",
+      "printings": [
+        "mmq_316"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{3}, {T}, Sacrifice a land: Destroy target nonbasic land.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "James Paick",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "eye of ugin",
+      "images": {
+        "en": "/exp/en/038.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287032,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/eye_of_ugin.jpg",
+      "mtgjson_id": "844caf39a36d082c2e18276e504dc99571ca7177",
+      "multiverseid": 409569,
+      "name": "Eye of Ugin",
+      "near_mint_id": "exp_038",
+      "number": 38,
+      "numberSpecial": "038",
+      "originalText": "Colorless Eldrazi spells you cast cost {2} less to cast.\n{7}, {T}: Search your library for a colorless creature card, reveal it, and put it into your hand. Then shuffle your library.",
+      "originalType": "Legendary Land",
+      "printings": [
+        "mm2_242",
+        "wwk_136"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2010-03-01",
+          "text": "Eye of Ugin doesn’t have a mana ability."
+        },
+        {
+          "date": "2010-03-01",
+          "text": "Eye of Ugin’s second ability lets you find any colorless creature card in your deck, such as an artifact creature card that has no colored mana symbols in its mana cost, or a creature card that’s become colorless due to Mycosynth Lattice."
+        },
+        {
+          "date": "2013-04-15",
+          "text": "Mistform Ultimus and creatures with changeling are Eldrazi. If they become colorless, possibly due to Mycosynth Lattice, Eye of Ugin would reduce the cost to cast them by {2}."
+        }
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Colorless Eldrazi spells you cast cost {2} less to cast.\n{7}, {T}: Search your library for a colorless creature card, reveal it, and put it into your hand. Then shuffle your library.",
+      "type": "Legendary Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Christine Choi",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fetid heath",
+      "images": {
+        "en": "/exp/en/031.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287025,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/fetid_heath.jpg",
+      "mtgjson_id": "64cd45e681560c0c40dd35e94fbafe6131a0a4d1",
+      "multiverseid": 409562,
+      "name": "Fetid Heath",
+      "near_mint_id": "exp_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "{T}: Add {C} to your mana pool.\n{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "eve_176"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fire-lit thicket",
+      "images": {
+        "en": "/exp/en/029.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287023,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/fire_lit_thicket.jpg",
+      "mtgjson_id": "45a8bfbeae0b6750632b5af8acfbdcdc96954c70",
+      "multiverseid": 409560,
+      "name": "Fire-Lit Thicket",
+      "near_mint_id": "exp_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "{T}: Add {C} to your mana pool.\n{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "shm_271"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Christine Choi",
+      "cmc": 0,
+      "colorIdentity": [
+        "G",
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flooded grove",
+      "images": {
+        "en": "/exp/en/035.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287029,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/flooded_grove.jpg",
+      "mtgjson_id": "10b111e25272ecf0721686857db2e4b6585117ad",
+      "multiverseid": 409566,
+      "name": "Flooded Grove",
+      "near_mint_id": "exp_035",
+      "number": 35,
+      "numberSpecial": "035",
+      "originalText": "{T}: Add {C} to your mana pool.\n{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "eve_177"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flooded strand",
+      "images": {
+        "en": "/exp/en/016.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284413,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/flooded_strand.jpg",
+      "mtgjson_id": "1c84f2089626f36ee93f9b9f7f5184d3fec5faec",
+      "multiverseid": 405098,
+      "name": "Flooded Strand",
+      "near_mint_id": "exp_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "ktk_233",
+        "ons_316"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forbidden orchard",
+      "images": {
+        "en": "/exp/en/039.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287033,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/forbidden_orchard.jpg",
+      "mtgjson_id": "c9a9bbb8cd05b1580d44d8e350811c1c46a47780",
+      "multiverseid": 409570,
+      "name": "Forbidden Orchard",
+      "near_mint_id": "exp_039",
+      "number": 39,
+      "numberSpecial": "039",
+      "originalText": "{T}: Add one mana of any color to your mana pool.\nWhenever you tap Forbidden Orchard for mana, target opponent puts a 1/1 colorless Spirit creature token onto the battlefield.",
+      "originalType": "Land",
+      "printings": [
+        "chk_276",
+        "v12_006"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add one mana of any color to your mana pool.\nWhenever you tap Forbidden Orchard for mana, target opponent puts a 1/1 colorless Spirit creature token onto the battlefield.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Noah Bradley",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "godless shrine",
+      "images": {
+        "en": "/exp/en/011.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284409,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/godless_shrine.jpg",
+      "mtgjson_id": "020cc61838deffeb370b16b3b39bb09716cdada0",
+      "multiverseid": 405099,
+      "name": "Godless Shrine",
+      "near_mint_id": "exp_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped.",
+      "originalType": "Land — Plains Swamp",
+      "printings": [
+        "gpt_157",
+        "gtc_242"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Plains",
+        "Swamp"
+      ],
+      "text": "({T}: Add {W} or {B} to your mana pool.)\nAs Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped.",
+      "type": "Land — Plains Swamp",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "graven cairns",
+      "images": {
+        "en": "/exp/en/028.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287022,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/graven_cairns.jpg",
+      "mtgjson_id": "7418cdad4017b41b8185d093f37642af89a7ed19",
+      "multiverseid": 409559,
+      "name": "Graven Cairns",
+      "near_mint_id": "exp_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "{T}: Add {C} to your mana pool.\n{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "fut_175",
+        "shm_272"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2007-05-01",
+          "text": "{(b/r)}, {T}” is the same as saying “{B}, {T} or {R}, {T}."
+        }
+      ],
+      "text": "{T}: Add {C} to your mana pool.\n{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Min Yum",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hallowed fountain",
+      "images": {
+        "en": "/exp/en/006.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284404,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/hallowed_fountain.jpg",
+      "mtgjson_id": "00aa87bd1a15d7a6e32d7f18d4ca12d255005d1e",
+      "multiverseid": 405100,
+      "name": "Hallowed Fountain",
+      "near_mint_id": "exp_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.",
+      "originalType": "Land — Plains Island",
+      "printings": [
+        "dis_174",
+        "rtr_241"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Plains",
+        "Island"
+      ],
+      "text": "({T}: Add {W} or {U} to your mana pool.)\nAs Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.",
+      "type": "Land — Plains Island",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Florian de Gesincourt",
+      "cmc": 0,
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "horizon canopy",
+      "images": {
+        "en": "/exp/en/040.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287034,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/horizon_canopy.jpg",
+      "mtgjson_id": "b7dcbf072b05b4700409818e767220433a87b655",
+      "multiverseid": 409571,
+      "name": "Horizon Canopy",
+      "near_mint_id": "exp_040",
+      "number": 40,
+      "numberSpecial": "040",
+      "originalText": "{T}, Pay 1 life: Add {G} or {W} to your mana pool.\n{1}, {T}, Sacrifice Horizon Canopy: Draw a card.",
+      "originalType": "Land",
+      "printings": [
+        "fut_177"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life: Add {G} or {W} to your mana pool.\n{1}, {T}, Sacrifice Horizon Canopy: Draw a card.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Jonas De Ro",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kor haven",
+      "images": {
+        "en": "/exp/en/041.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287035,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/kor_haven.jpg",
+      "mtgjson_id": "77a370fd57a877294602c7f684c1d02a010d4ef4",
+      "multiverseid": 409572,
+      "name": "Kor Haven",
+      "near_mint_id": "exp_041",
+      "number": 41,
+      "numberSpecial": "041",
+      "originalText": "{T}: Add {C} to your mana pool.\n{1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn.",
+      "originalType": "Legendary Land",
+      "printings": [
+        "nms_141"
+      ],
+      "rarity": "Mythic Rare",
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "{T}: Add {C} to your mana pool.\n{1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn.",
+      "type": "Legendary Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Howard Lyon",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mana confluence",
+      "images": {
+        "en": "/exp/en/042.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287036,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/mana_confluence.jpg",
+      "mtgjson_id": "31d483c505b5c975f27a201290974aa69e020ba4",
+      "multiverseid": 409573,
+      "name": "Mana Confluence",
+      "near_mint_id": "exp_042",
+      "number": 42,
+      "numberSpecial": "042",
+      "originalText": "{T}, Pay 1 life: Add one mana of any color to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "jou_163"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life: Add one mana of any color to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Ryan Yee",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "marsh flats",
+      "images": {
+        "en": "/exp/en/021.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284418,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/marsh_flats.jpg",
+      "mtgjson_id": "edb9ca8df40d6c59029f72417ea48f59fc6a4ec6",
+      "multiverseid": 405101,
+      "name": "Marsh Flats",
+      "near_mint_id": "exp_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "zen_219"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Ryan Yee",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "misty rainforest",
+      "images": {
+        "en": "/exp/en/025.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284421,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/misty_rainforest.jpg",
+      "mtgjson_id": "e08d84be1ea42db0175d0f0d7542ef7854380fa9",
+      "multiverseid": 405102,
+      "name": "Misty Rainforest",
+      "near_mint_id": "exp_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "{T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "zen_220"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mystic gate",
+      "images": {
+        "en": "/exp/en/026.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287020,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/mystic_gate.jpg",
+      "mtgjson_id": "35256ce399c6eb5e9086cf0c6b283d6a87340993",
+      "multiverseid": 409557,
+      "name": "Mystic Gate",
+      "near_mint_id": "exp_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "{T}: Add {C} to your mana pool.\n{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "shm_277"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Noah Bradley",
+      "cmc": 0,
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "overgrown tomb",
+      "images": {
+        "en": "/exp/en/013.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284410,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/overgrown_tomb.jpg",
+      "mtgjson_id": "c65d663a5e9b197cea6409beaba2eded2be75b01",
+      "multiverseid": 405103,
+      "name": "Overgrown Tomb",
+      "near_mint_id": "exp_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.",
+      "originalType": "Land — Swamp Forest",
+      "printings": [
+        "rav_279",
+        "rtr_243"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Swamp",
+        "Forest"
+      ],
+      "text": "({T}: Add {B} or {G} to your mana pool.)\nAs Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.",
+      "type": "Land — Swamp Forest",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "polluted delta",
+      "images": {
+        "en": "/exp/en/017.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284414,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/polluted_delta.jpg",
+      "mtgjson_id": "c3472574b7ab36b315af28b7f8e08f3e3f22da88",
+      "multiverseid": 405104,
+      "name": "Polluted Delta",
+      "near_mint_id": "exp_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "ktk_239",
+        "ons_321"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Titus Lunter",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "prairie stream",
+      "images": {
+        "en": "/exp/en/001.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284399,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/prairie_stream.jpg",
+      "mtgjson_id": "843b5445c1d60f2b9347135735bc186fc8c4dda4",
+      "multiverseid": 405105,
+      "name": "Prairie Stream",
+      "near_mint_id": "exp_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "Prairie Stream enters the battlefield tapped unless you control two or more basic lands.",
+      "originalType": "Land — Plains Island",
+      "printings": [
+        "bfz_241"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2015-08-25",
+          "text": "Even though these lands have basic land types, they are not basic lands because “basic” doesn’t appear on their type line. Notably, controlling two or more of them won’t allow others to enter the battlefield untapped."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads “Destroy target Forest” can target Canopy Vista, while one that reads “Destroy target basic Forest” cannot."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped."
+        }
+      ],
+      "subtypes": [
+        "Plains",
+        "Island"
+      ],
+      "text": "({T}: Add {W} or {U} to your mana pool.)\nPrairie Stream enters the battlefield tapped unless you control two or more basic lands.",
+      "type": "Land — Plains Island",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Christine Choi",
+      "cmc": 0,
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rugged prairie",
+      "images": {
+        "en": "/exp/en/034.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287028,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/rugged_prairie.jpg",
+      "mtgjson_id": "08da05f75afa836775af4fa406ab693d2a34dc01",
+      "multiverseid": 409565,
+      "name": "Rugged Prairie",
+      "near_mint_id": "exp_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "{T}: Add {C} to your mana pool.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "eve_178"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Noah Bradley",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sacred foundry",
+      "images": {
+        "en": "/exp/en/014.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284411,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/sacred_foundry.jpg",
+      "mtgjson_id": "9cf179b4d5fa96385266a319f0107c179515486e",
+      "multiverseid": 405106,
+      "name": "Sacred Foundry",
+      "near_mint_id": "exp_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.",
+      "originalType": "Land — Mountain Plains",
+      "printings": [
+        "gtc_245",
+        "rav_280"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Mountain",
+        "Plains"
+      ],
+      "text": "({T}: Add {R} or {W} to your mana pool.)\nAs Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.",
+      "type": "Land — Mountain Plains",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Ryan Yee",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "scalding tarn",
+      "images": {
+        "en": "/exp/en/022.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284419,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/scalding_tarn.jpg",
+      "mtgjson_id": "eb01ba5d98e2fca1479a39e89cfbfaab86938e56",
+      "multiverseid": 405107,
+      "name": "Scalding Tarn",
+      "near_mint_id": "exp_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "zen_223"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Titus Lunter",
+      "cmc": 0,
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "smoldering marsh",
+      "images": {
+        "en": "/exp/en/003.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284401,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/smoldering_marsh.jpg",
+      "mtgjson_id": "064549bef3befb5c0cbd8345f953552ea3054c0b",
+      "multiverseid": 405108,
+      "name": "Smoldering Marsh",
+      "near_mint_id": "exp_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Smoldering Marsh enters the battlefield tapped unless you control two or more basic lands.",
+      "originalType": "Land — Swamp Mountain",
+      "printings": [
+        "bfz_247"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2015-08-25",
+          "text": "Even though these lands have basic land types, they are not basic lands because “basic” doesn’t appear on their type line. Notably, controlling two or more of them won’t allow others to enter the battlefield untapped."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads “Destroy target Forest” can target Canopy Vista, while one that reads “Destroy target basic Forest” cannot."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped."
+        }
+      ],
+      "subtypes": [
+        "Swamp",
+        "Mountain"
+      ],
+      "text": "({T}: Add {B} or {R} to your mana pool.)\nSmoldering Marsh enters the battlefield tapped unless you control two or more basic lands.",
+      "type": "Land — Swamp Mountain",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Noah Bradley",
+      "cmc": 0,
+      "colorIdentity": [
+        "U",
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "steam vents",
+      "images": {
+        "en": "/exp/en/012.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284326,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/steam_vents.jpg",
+      "mtgjson_id": "ed8f569d8df8864c440ac4c68402e0f4b1bda2c3",
+      "multiverseid": 405109,
+      "name": "Steam Vents",
+      "near_mint_id": "exp_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped.",
+      "originalType": "Land — Island Mountain",
+      "printings": [
+        "gpt_164",
+        "rtr_247"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Island",
+        "Mountain"
+      ],
+      "text": "({T}: Add {U} or {R} to your mana pool.)\nAs Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped.",
+      "type": "Land — Island Mountain",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Min Yum",
+      "cmc": 0,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "stomping ground",
+      "images": {
+        "en": "/exp/en/009.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284407,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/stomping_ground.jpg",
+      "mtgjson_id": "00cc80de61ed73eb60f74e431d9ef705d599fa71",
+      "multiverseid": 405110,
+      "name": "Stomping Ground",
+      "near_mint_id": "exp_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Stomping Ground enters the battlefield tapped.",
+      "originalType": "Land — Mountain Forest",
+      "printings": [
+        "gpt_165",
+        "gtc_247"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Mountain",
+        "Forest"
+      ],
+      "text": "({T}: Add {R} or {G} to your mana pool.)\nAs Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Stomping Ground enters the battlefield tapped.",
+      "type": "Land — Mountain Forest",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Howard Lyon",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Banned",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Restricted",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "strip mine",
+      "images": {
+        "en": "/exp/en/043.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287037,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/strip_mine.jpg",
+      "mtgjson_id": "47e1a5391bc529fd926be9f7237a6b99039d571c",
+      "multiverseid": 409574,
+      "name": "Strip Mine",
+      "near_mint_id": "exp_043",
+      "number": 43,
+      "numberSpecial": "043",
+      "originalText": "{T}: Add {C} to your mana pool.\n{T}, Sacrifice Strip Mine: Destroy target land.",
+      "originalType": "Land",
+      "printings": [
+        "4ed_189",
+        "atq_071",
+        "atq_072",
+        "atq_073",
+        "atq_074",
+        "v09_013"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{T}, Sacrifice Strip Mine: Destroy target land.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Titus Lunter",
+      "cmc": 0,
+      "colorIdentity": [
+        "U",
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sunken hollow",
+      "images": {
+        "en": "/exp/en/002.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284400,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/sunken_hollow.jpg",
+      "mtgjson_id": "92b6611d64d3289140bef4327620bffb5b251327",
+      "multiverseid": 405111,
+      "name": "Sunken Hollow",
+      "near_mint_id": "exp_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "Sunken Hollow enters the battlefield tapped unless you control two or more basic lands.",
+      "originalType": "Land — Island Swamp",
+      "printings": [
+        "bfz_249"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2015-08-25",
+          "text": "Even though these lands have basic land types, they are not basic lands because “basic” doesn’t appear on their type line. Notably, controlling two or more of them won’t allow others to enter the battlefield untapped."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads “Destroy target Forest” can target Canopy Vista, while one that reads “Destroy target basic Forest” cannot."
+        },
+        {
+          "date": "2015-08-25",
+          "text": "If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped."
+        }
+      ],
+      "subtypes": [
+        "Island",
+        "Swamp"
+      ],
+      "text": "({T}: Add {U} or {B} to your mana pool.)\nSunken Hollow enters the battlefield tapped unless you control two or more basic lands.",
+      "type": "Land — Island Swamp",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "U",
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sunken ruins",
+      "images": {
+        "en": "/exp/en/027.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287021,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/sunken_ruins.jpg",
+      "mtgjson_id": "617479eceec83c8263268851db18217c8424c2e0",
+      "multiverseid": 409558,
+      "name": "Sunken Ruins",
+      "near_mint_id": "exp_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "{T}: Add {C} to your mana pool.\n{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "shm_280"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Raymond Swanland",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "tectonic edge",
+      "images": {
+        "en": "/exp/en/044.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287038,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/tectonic_edge.jpg",
+      "mtgjson_id": "dade719158831f5da41018234166f07bf6859bb9",
+      "multiverseid": 409575,
+      "name": "Tectonic Edge",
+      "near_mint_id": "exp_044",
+      "number": 44,
+      "numberSpecial": "044",
+      "originalText": "{T}: Add {C} to your mana pool.\n{1}, {T}, Sacrifice Tectonic Edge: Destroy target nonbasic land. Activate this ability only if an opponent controls four or more lands.",
+      "originalType": "Land",
+      "printings": [
+        "c14_313",
+        "wwk_145"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2010-03-01",
+          "text": "Tectonic Edge’s second ability checks how many lands an opponent controls only at the time you activate the ability."
+        },
+        {
+          "date": "2010-03-01",
+          "text": "Assuming you can activate Tectonic Edge’s second ability, you can target any nonbasic land with it (not just one controlled by an opponent that controls four or more lands)."
+        }
+      ],
+      "text": "{T}: Add {C} to your mana pool.\n{1}, {T}, Sacrifice Tectonic Edge: Destroy target nonbasic land. Activate this ability only if an opponent controls four or more lands.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Min Yum",
+      "cmc": 0,
+      "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "temple garden",
+      "images": {
+        "en": "/exp/en/010.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284408,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/temple_garden.jpg",
+      "mtgjson_id": "ac47ccf4b62757e08b9abfb7c261a35b86d4f8ef",
+      "multiverseid": 405112,
+      "name": "Temple Garden",
+      "near_mint_id": "exp_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.",
+      "originalType": "Land — Forest Plains",
+      "printings": [
+        "rav_284",
+        "rtr_248"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Forest",
+        "Plains"
+      ],
+      "text": "({T}: Add {G} or {W} to your mana pool.)\nAs Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.",
+      "type": "Land — Forest Plains",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Christine Choi",
+      "cmc": 0,
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "twilight mire",
+      "images": {
+        "en": "/exp/en/033.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287027,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/twilight_mire.jpg",
+      "mtgjson_id": "19e599b9e6f42902f0cd3f24df6160d20ebfa6cb",
+      "multiverseid": 409564,
+      "name": "Twilight Mire",
+      "near_mint_id": "exp_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "{T}: Add {C} to your mana pool.\n{B/G}, {T}: Add {B}{B}, {B}{G}, or {G}{G} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "eve_180"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{B/G}, {T}: Add {B}{B}, {B}{G}, or {G}{G} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Ryan Yee",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "verdant catacombs",
+      "images": {
+        "en": "/exp/en/023.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284420,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/verdant_catacombs.jpg",
+      "mtgjson_id": "268bfaee16d00a6c2d8af5e99fdc63ba74474de3",
+      "multiverseid": 405113,
+      "name": "Verdant Catacombs",
+      "near_mint_id": "exp_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "{T}, Pay 1 life, Sacrifice Verdant Catacombs: Search your library for a Swamp or Forest card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "zen_229"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Verdant Catacombs: Search your library for a Swamp or Forest card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "William Wu",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wasteland",
+      "images": {
+        "en": "/exp/en/045.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287039,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/wasteland.jpg",
+      "mtgjson_id": "155a6b8844434a823934d4a59dc4b1fe8029a03b",
+      "multiverseid": 409576,
+      "name": "Wasteland",
+      "near_mint_id": "exp_045",
+      "number": 45,
+      "numberSpecial": "045",
+      "originalText": "{T}: Add {C} to your mana pool.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land.",
+      "originalType": "Land",
+      "printings": [
+        "tmp_340"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Min Yum",
+      "cmc": 0,
+      "colorIdentity": [
+        "U",
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "watery grave",
+      "images": {
+        "en": "/exp/en/007.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284405,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/watery_grave.jpg",
+      "mtgjson_id": "fa63b8fabe778f0d2789665c98772bdfcbecd859",
+      "multiverseid": 405114,
+      "name": "Watery Grave",
+      "near_mint_id": "exp_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.",
+      "originalType": "Land — Island Swamp",
+      "printings": [
+        "gtc_249",
+        "rav_286"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Has basic land types, but isn’t a basic land. Things that affect basic lands don’t affect it. For example, you can’t find it with Civic Wayfinder."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If another effect (such as Loxodon Gatekeeper’s ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not."
+        },
+        {
+          "date": "2005-10-01",
+          "text": "If multiple permanents with “as enters the battlefield” effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you’re at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both."
+        }
+      ],
+      "subtypes": [
+        "Island",
+        "Swamp"
+      ],
+      "text": "({T}: Add {U} or {B} to your mana pool.)\nAs Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.",
+      "type": "Land — Island Swamp",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "windswept heath",
+      "images": {
+        "en": "/exp/en/020.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284417,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/windswept_heath.jpg",
+      "mtgjson_id": "39c4723707efd6932a56d8d58930fc01947dc28b",
+      "multiverseid": 405115,
+      "name": "Windswept Heath",
+      "near_mint_id": "exp_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "ktk_248",
+        "ons_328"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Adam Paquette",
+      "cmc": 0,
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wooded bastion",
+      "images": {
+        "en": "/exp/en/030.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 287024,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/wooded_bastion.jpg",
+      "mtgjson_id": "03f4e2087e30f22b7d99ad08b47135b58bd47c25",
+      "multiverseid": 409561,
+      "name": "Wooded Bastion",
+      "near_mint_id": "exp_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "{T}: Add {C} to your mana pool.\n{G/W}, {T}: Add {G}{G}, {G}{W}, or {W}{W} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "shm_281"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C} to your mana pool.\n{G/W}, {T}: Add {G}{G}, {G}{W}, or {W}{W} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Véronique Meignaud",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wooded foothills",
+      "images": {
+        "en": "/exp/en/019.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 284416,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Zendikar_Expeditions/wooded_foothills.jpg",
+      "mtgjson_id": "15281e97b15a2fb579b4d069e5f3dfb388c9a659",
+      "multiverseid": 405116,
+      "name": "Wooded Foothills",
+      "near_mint_id": "exp_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "ktk_249",
+        "ons_330"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ]
+}

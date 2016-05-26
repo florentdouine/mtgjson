@@ -1,0 +1,3836 @@
+{
+  "name": "Premium Deck Series: Slivers",
+  "code": "H09",
+  "magicCardsInfoCode": "pds",
+  "releaseDate": "2009-11-20",
+  "border": "black",
+  "type": "premium deck",
+  "mkm_name": "Premium Deck Series: Slivers",
+  "mkm_id": 116,
+  "card_total": 41,
+  "cards": [
+    {
+      "artist": "Jeff Miracola",
+      "cmc": 2,
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "colors": "BR",
+      "flavor": "The first sliver burst against the cave wall, and others piled in behind to deepen the new tunnel.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "acidic sliver",
+      "images": {
+        "en": "/h09/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}{R}",
+      "mkm_product_id": 22053,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/acidic_sliver.jpg",
+      "mtgjson_id": "401c3ad41762953538191df1d69ead08c1b54c8b",
+      "multiverseid": 207897,
+      "name": "Acidic Sliver",
+      "near_mint_id": "h09_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "All Slivers have \"{2}, Sacrifice this permanent: This permanent deals 2 damage to target creature or player.\"",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "sth_138"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Slivers have \"{2}, Sacrifice this permanent: This permanent deals 2 damage to target creature or player.\"",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Nils Hamm",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "amoeboid changeling",
+      "images": {
+        "en": "/h09/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mkm_product_id": 22054,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/amoeboid_changeling.jpg",
+      "mtgjson_id": "0048a083d8ac55248b0cce79fc74e03c9b507723",
+      "multiverseid": 207921,
+      "name": "Amoeboid Changeling",
+      "near_mint_id": "h09_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Changeling (This card is every creature type at all times.)\n{T}: Target creature gains all creature types until end of turn.\n{T}: Target creature loses all creature types until end of turn.",
+      "originalType": "Creature — Shapeshifter",
+      "power": "1",
+      "printings": [
+        "lrw_051"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "If a creature loses all creature types but then gains a new creature type later in the turn, it will be that new creature type."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Examples of creature types include Sliver, Goblin, and Soldier. Creature types appear after the dash on the type line of creatures."
+        }
+      ],
+      "subtypes": [
+        "Shapeshifter"
+      ],
+      "text": "Changeling (This card is every creature type.)\n{T}: Target creature gains all creature types until end of turn.\n{T}: Target creature loses all creature types until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Shapeshifter",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "Built in honor of Alara's creatures, the ziggurat vanished long ago. When Progenitus awakened, the temple emerged again.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ancient ziggurat",
+      "images": {
+        "en": "/h09/en/031.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22047,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/ancient_ziggurat.jpg",
+      "mtgjson_id": "9f9dd85fee0fa6f4e6cb7482130070906bf8a702",
+      "multiverseid": 207930,
+      "name": "Ancient Ziggurat",
+      "near_mint_id": "h09_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "{T}: Add one mana of any color to your mana pool. Spend this mana only to cast creature spells.",
+      "originalType": "Land",
+      "printings": [
+        "con_141"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "Mana produced by Ancient Ziggurat can be spent on any part of a creature spell's total cost. This includes additional costs (such as kicker) and alternative costs (such as evoke or Worldheart Phoenix's alternative cost)."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "Mana produced by Ancient Ziggurat can't be spent on activated abilities that put a creature card directly onto the battlefield, such as unearth or ninjutsu."
+        }
+      ],
+      "text": "{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Monte Michael Moore",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Phage became both executioner and savior, helping others to the same rebirth she had found.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "aphetto dredging",
+      "images": {
+        "en": "/h09/en/028.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}",
+      "mkm_product_id": 22078,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/aphetto_dredging.jpg",
+      "mtgjson_id": "5bbe81278c0d7a7fc734cb3f8d336d0ddf2f2c8a",
+      "multiverseid": 207925,
+      "name": "Aphetto Dredging",
+      "near_mint_id": "h09_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "Return up to three target creature cards of the creature type of your choice from your graveyard to your hand.",
+      "originalType": "Sorcery",
+      "printings": [
+        "ons_125"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You need to choose the creature type before choosing the targets."
+        }
+      ],
+      "text": "Return up to three target creature cards of the creature type of your choice from your graveyard to your hand.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Scott Kirschner",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Hanna: \"We must learn how they protect each other.\"\nMirri: \"After they're done trying to kill us, all right?\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "armor sliver",
+      "images": {
+        "en": "/h09/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 22055,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/armor_sliver.jpg",
+      "mtgjson_id": "427c2bac0a8ac2990583ec6209b9d8436d7497d8",
+      "multiverseid": 207898,
+      "name": "Armor Sliver",
+      "near_mint_id": "h09_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "All Sliver creatures have \"{2}: This creature gets +0/+1 until end of turn.\"",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "tmp_216"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have \"{2}: This creature gets +0/+1 until end of turn.\"",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott Kirschner",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Spans of spines leapt from one sliver to the next, forming a deadly hedge around the Weatherlight.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "barbed sliver",
+      "images": {
+        "en": "/h09/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 22056,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/barbed_sliver.jpg",
+      "mtgjson_id": "7b2bbde8a04928e3a1d00a4c0adaa44701f0322e",
+      "multiverseid": 207899,
+      "name": "Barbed Sliver",
+      "near_mint_id": "h09_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "All Sliver creatures have \"{2}: This creature gets +1/+0 until end of turn.\"",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "tmp_163"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have \"{2}: This creature gets +1/+0 until end of turn.\"",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spears",
+      "cmc": 5,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "Within weeks, more slivers nested in Otaria than ever existed on Rath.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "brood sliver",
+      "images": {
+        "en": "/h09/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{G}",
+      "mkm_product_id": 22057,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/brood_sliver.jpg",
+      "mtgjson_id": "aace2bef0ccbd5fed8c46431e41b0e9f00634d07",
+      "multiverseid": 208039,
+      "name": "Brood Sliver",
+      "near_mint_id": "h09_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "Whenever a Sliver deals combat damage to a player, its controller may put a 1/1 colorless Sliver creature token onto the battlefield.",
+      "originalType": "Creature — Sliver",
+      "power": "3",
+      "printings": [
+        "lgn_120"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "This card's controller controls the triggered ability, but the controller of the Sliver that deals damage to a player decides whether or not to put the token onto the battlefield under their control."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "Whenever a Sliver deals combat damage to a player, its controller may put a 1/1 colorless Sliver creature token onto the battlefield.",
+      "toughness": "3",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jeff Laubenstein",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"One would think I would be accustomed to unexpected returns.\"\n—Hanna, Weatherlight navigator",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "clot sliver",
+      "images": {
+        "en": "/h09/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 22058,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/clot_sliver.jpg",
+      "mtgjson_id": "605143e1b090968b0e46c5234e43b6715d51b727",
+      "multiverseid": 207900,
+      "name": "Clot Sliver",
+      "near_mint_id": "h09_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "All Slivers have \"{2}: Regenerate this permanent.\"",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "tmp_006"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Slivers have \"{2}: Regenerate this permanent.\"",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "cmc": 5,
+      "colors": "C",
+      "flavor": "\"Hup, two, three, four,\nDunno how to count no more.\"\n—Mogg march",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "coat of arms",
+      "images": {
+        "en": "/h09/en/029.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}",
+      "mkm_product_id": 22079,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/coat_of_arms.jpg",
+      "mtgjson_id": "3911d08224bd30e5b80888286e1e4dc9bf21bda4",
+      "multiverseid": 207927,
+      "name": "Coat of Arms",
+      "near_mint_id": "h09_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it.",
+      "originalType": "Artifact",
+      "printings": [
+        "10e_316",
+        "7ed_290",
+        "8ed_294",
+        "9ed_291",
+        "exo_131",
+        "m10_207"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If a creature has more than one creature type, and one of those types matches the creature you are calculating for, then count that creature. Only one type needs to match in order to get counted."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If you have a creature with more than one creature type, count all creatures which have either creature type."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Sharing multiple creature types doesn't give an additional bonus. Coat of Arms counts creatures, not creature types."
+        }
+      ],
+      "text": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "L. A. Williams",
+      "cmc": 2,
+      "colorIdentity": [
+        "W",
+        "U"
+      ],
+      "colors": "WU",
+      "flavor": "Bred as living shields, these slivers have proven unruly—they know they cannot be caught.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "crystalline sliver",
+      "images": {
+        "en": "/h09/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}{U}",
+      "mkm_product_id": 22059,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/crystalline_sliver.jpg",
+      "mtgjson_id": "21228aaf636a445b5d6faabe9dc0ae168fef7d7e",
+      "multiverseid": 207901,
+      "name": "Crystalline Sliver",
+      "near_mint_id": "h09_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "All Slivers have shroud.",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "sth_139"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The ability only applies while this card is on the battlefield."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Slivers have shroud. (They can't be the targets of spells or abilities.)",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Omar Rayyan",
+      "cmc": 4,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "Oona's song is like a twisted dinner chime. All the faeries return home, but it is Oona who feasts—on the stolen dreams and rumors they serve her.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "distant melody",
+      "images": {
+        "en": "/h09/en/027.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}",
+      "mkm_product_id": 22080,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/distant_melody.jpg",
+      "mtgjson_id": "b6aa2e023c179637be17221da71264b1ca04aedb",
+      "multiverseid": 207926,
+      "name": "Distant Melody",
+      "near_mint_id": "h09_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "Choose a creature type. Draw a card for each permanent you control of that type.",
+      "originalType": "Sorcery",
+      "printings": [
+        "mor_032"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-04-01",
+          "text": "Note that this spell counts the number of permanents you control of the chosen type, not just the number of creatures you control. It will also take your tribal permanents into account."
+        }
+      ],
+      "text": "Choose a creature type. Draw a card for each permanent you control of that type.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Douglas Shuler",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest",
+      "images": {
+        "en": "/h09/en/041.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22083,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/forest.jpg",
+      "mtgjson_id": "ef5b7d421940405b4d45bef7bad7721555d2c828",
+      "multiverseid": 207934,
+      "name": "Forest",
+      "near_mint_id": "h09_041",
+      "number": 41,
+      "numberSpecial": "041",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Glen Angus",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The Arturan conjurers took the strange, alien fossil and patterned their own twisted creations in its image.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "frenzy sliver",
+      "images": {
+        "en": "/h09/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 22060,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/frenzy_sliver.jpg",
+      "mtgjson_id": "a284828d7b3843fde8581b35b031dd6aacf94000",
+      "multiverseid": 207902,
+      "name": "Frenzy Sliver",
+      "near_mint_id": "h09_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "All Sliver creatures have frenzy 1. (Whenever a Sliver attacks and isn't blocked, it gets +1/+0 until end of turn.)",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "fut_085"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "An ability that triggers when something \"attacks and isn't blocked\" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have frenzy 1. (Whenever a Sliver attacks and isn't blocked, it gets +1/+0 until end of turn.)",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Daniel Gelon",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"When a sliver of this breed enters the hive, the others claw each other in frenzied fits, thereby ensuring their rapid growth.\"\n—Rukarumel, field journal",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fungus sliver",
+      "images": {
+        "en": "/h09/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}",
+      "mkm_product_id": 22061,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/fungus_sliver.jpg",
+      "mtgjson_id": "c4a42211af89a7992d929cca39d1ede8feb4cc58",
+      "multiverseid": 207903,
+      "name": "Fungus Sliver",
+      "near_mint_id": "h09_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "All Sliver creatures have \"Whenever this creature is dealt damage, put a +1/+1 counter on it.\"",
+      "originalType": "Creature — Fungus Sliver",
+      "power": "2",
+      "printings": [
+        "tsp_195"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Fungus",
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have \"Whenever this creature is dealt damage, put a +1/+1 counter on it.\" (The damage is dealt before the counter is put on.)",
+      "toughness": "2",
+      "type": "Creature — Fungus Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Paolo Parente",
+      "cmc": 6,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"A rift opened, and our arrows were abruptly stilled. To move was to push the world. But the sliver's claw still twitched, red wounds appeared in Thed's chest, and ribbons of blood hung in the air.\"\n—Adom Capashen, Benalish hero",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fury sliver",
+      "images": {
+        "en": "/h09/en/025.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{R}",
+      "mkm_product_id": 22062,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/fury_sliver.jpg",
+      "mtgjson_id": "ec0fd6cce75e66329bbb1815037cac912b3b1bda",
+      "multiverseid": 207904,
+      "name": "Fury Sliver",
+      "near_mint_id": "h09_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "All Sliver creatures have double strike.",
+      "originalType": "Creature — Sliver",
+      "power": "3",
+      "printings": [
+        "tsp_157"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have double strike.",
+      "toughness": "3",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Matson",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"The land is weary. Even Skyshroud is depleted. We must find another source of mana—one that is growing despite our withering world.\"\n—Freyalise",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gemhide sliver",
+      "images": {
+        "en": "/h09/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 22063,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/gemhide_sliver.jpg",
+      "mtgjson_id": "1eb1b0bc53e138553ae37bf78cbbde0cc67e0228",
+      "multiverseid": 207905,
+      "name": "Gemhide Sliver",
+      "near_mint_id": "h09_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "All Slivers have \"{T}: Add one mana of any color to your mana pool.\"",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "tsp_196"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Slivers have \"{T}: Add one mana of any color to your mana pool.\"",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Gerrard looked all around for the source of the mysterious pulse, and at that moment the slivers boiled forth from the crevasses.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "heart sliver",
+      "images": {
+        "en": "/h09/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mkm_product_id": 22064,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/heart_sliver.jpg",
+      "mtgjson_id": "6eb0c4bbef5b0fd2e50473311ac920f2c9effe44",
+      "multiverseid": 207906,
+      "name": "Heart Sliver",
+      "near_mint_id": "h09_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "All Sliver creatures have haste.",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "tmp_182"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have haste.",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "John Matson",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "\"Finding a true heartstone is even harder than finding a true heart.\"\n—Hanna, Weatherlight navigator",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "heartstone",
+      "images": {
+        "en": "/h09/en/026.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 22081,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/heartstone.jpg",
+      "mtgjson_id": "7975f329cdce04b5495bc7f02894af17f342c8ce",
+      "multiverseid": 207924,
+      "name": "Heartstone",
+      "near_mint_id": "h09_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "Activated abilities of creatures cost {1} less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.",
+      "originalType": "Artifact",
+      "printings": [
+        "sth_128"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The cost reduction can be applied to additional costs."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "It will not add a {1} to abilities with no generic mana in their activation cost."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "It will never reduce any colored mana portion of an activation cost."
+        },
+        {
+          "date": "2006-07-15",
+          "text": "Can't reduce Snow mana costs."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Activated abilities contain a colon. They're generally written \"[Cost]: [Effect].\" Some keywords are activated abilities and will have colons in their reminder texts."
+        }
+      ],
+      "text": "Activated abilities of creatures cost {1} less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Scott Kirschner",
+      "cmc": 2,
+      "colorIdentity": [
+        "U",
+        "B"
+      ],
+      "colors": "UB",
+      "flavor": "Mogglings have been known to play ball with hibernating slivers, completely unaware of their true nature.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hibernation sliver",
+      "images": {
+        "en": "/h09/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{U}{B}",
+      "mkm_product_id": 22065,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/hibernation_sliver.jpg",
+      "mtgjson_id": "5e34db77cf5be8e43ac8e5a511a65439accfce93",
+      "multiverseid": 207907,
+      "name": "Hibernation Sliver",
+      "near_mint_id": "h09_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "All Slivers have \"Pay 2 life: Return this permanent to its owner's hand.\"",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "sth_140"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Slivers have \"Pay 2 life: Return this permanent to its owner's hand.\"",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Trevor Hairsine",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "homing sliver",
+      "images": {
+        "en": "/h09/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mkm_product_id": 22066,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/homing_sliver.jpg",
+      "mtgjson_id": "cd59ef88cf3ecf363b42a6329d88c187c469242f",
+      "multiverseid": 207908,
+      "name": "Homing Sliver",
+      "near_mint_id": "h09_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Each Sliver card in each player's hand has slivercycling {3}.\nSlivercycling {3} ({3}, Discard this card: Search your library for a Sliver card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "fut_118"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "Unlike the normal cycling ability, Slivercycling doesn't allow you to draw a card. Instead, it lets you search your library for a Sliver card. After you find a Sliver card in your library, you reveal it, put it into your hand, then shuffle your library."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "Slivercycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Slivercycling this card. Any ability that stops a cycling ability from being activated also stops Plainscycling from being activated."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "Slivercycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Slivercycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "You can choose to find any card with the Sliver creature type, even if it isn't a creature card. This includes, for example, Tribal cards with the Changeling ability. You can also choose not to find a card, even if there is a Sliver card in your graveyard."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "Each Sliver card in each player's hand has slivercycling {3}.\nSlivercycling {3} ({3}, Discard this card: Search your library for a Sliver card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Randy Gallegos",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "island",
+      "images": {
+        "en": "/h09/en/038.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22086,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/island.jpg",
+      "mtgjson_id": "d7ca32369426cbaf5b96b73346788a4f4ad9d3d7",
+      "multiverseid": 207935,
+      "name": "Island",
+      "near_mint_id": "h09_038",
+      "number": 38,
+      "numberSpecial": "038",
+      "originalText": "U",
+      "originalType": "Basic Land — Island",
+      "printings": [
+        "10e_368",
+        "10e_369",
+        "10e_370",
+        "10e_371",
+        "2ed_283",
+        "2ed_284",
+        "2ed_285",
+        "3ed_287",
+        "3ed_288",
+        "3ed_289",
+        "4ed_178",
+        "4ed_179",
+        "4ed_180",
+        "5ed_425",
+        "5ed_426",
+        "5ed_427",
+        "5ed_428",
+        "6ed_335",
+        "6ed_336",
+        "6ed_337",
+        "6ed_338",
+        "7ed_332",
+        "7ed_333",
+        "7ed_334",
+        "7ed_335",
+        "8ed_335",
+        "8ed_336",
+        "8ed_337",
+        "8ed_338",
+        "9ed_335",
+        "9ed_336",
+        "9ed_337",
+        "9ed_338",
+        "ala_234",
+        "ala_235",
+        "ala_236",
+        "ala_237",
+        "avr_233",
+        "avr_234",
+        "avr_235",
+        "bfz_255a",
+        "bfz_255b",
+        "bfz_256a",
+        "bfz_256b",
+        "bfz_257a",
+        "bfz_257b",
+        "bfz_258a",
+        "bfz_258b",
+        "bfz_259a",
+        "bfz_259b",
+        "brb_110",
+        "brb_111",
+        "brb_112",
+        "brb_113",
+        "brb_114",
+        "btd_079",
+        "btd_080",
+        "btd_081",
+        "c13_341",
+        "c13_342",
+        "c13_343",
+        "c13_344",
+        "c14_322",
+        "c14_323",
+        "c14_324",
+        "c14_325",
+        "c15_327",
+        "c15_328",
+        "c15_329",
+        "c15_330",
+        "chk_291",
+        "chk_292",
+        "chk_293",
+        "chk_294",
+        "cmd_303",
+        "cmd_304",
+        "cmd_305",
+        "cmd_306",
+        "dd2_030",
+        "dd2_031",
+        "dd2_032",
+        "dd2_033",
+        "dd3_jvc_030",
+        "dd3_jvc_031",
+        "dd3_jvc_032",
+        "dd3_jvc_033",
+        "dde_068",
+        "ddf_076",
+        "ddf_077",
+        "ddf_078",
+        "ddf_079",
+        "ddh_079",
+        "ddi_041",
+        "ddi_042",
+        "ddi_043",
+        "ddj_037",
+        "ddj_038",
+        "ddj_039",
+        "ddj_040",
+        "ddm_037",
+        "ddm_038",
+        "ddm_039",
+        "ddm_040",
+        "ddm_041",
+        "ddn_075",
+        "ddn_076",
+        "ddn_077",
+        "ddo_060",
+        "ddo_061",
+        "ddo_062",
+        "dtk_253",
+        "dtk_254",
+        "dtk_255",
+        "frf_178",
+        "frf_179",
+        "ice_334",
+        "ice_335",
+        "ice_336",
+        "inv_335",
+        "inv_336",
+        "inv_337",
+        "inv_338",
+        "isd_253",
+        "isd_254",
+        "isd_255",
+        "ktk_254",
+        "ktk_255",
+        "ktk_256",
+        "ktk_257",
+        "lea_281",
+        "lea_282",
+        "leb_283",
+        "leb_284",
+        "leb_285",
+        "lrw_286",
+        "lrw_287",
+        "lrw_288",
+        "lrw_289",
+        "m10_234",
+        "m10_235",
+        "m10_236",
+        "m10_237",
+        "m11_234",
+        "m11_235",
+        "m11_236",
+        "m11_237",
+        "m12_234",
+        "m12_235",
+        "m12_236",
+        "m12_237",
+        "m13_234",
+        "m13_235",
+        "m13_236",
+        "m13_237",
+        "m14_234",
+        "m14_235",
+        "m14_236",
+        "m14_237",
+        "m15_254",
+        "m15_255",
+        "m15_256",
+        "m15_257",
+        "mbs_148",
+        "mbs_149",
+        "mir_297",
+        "mir_298",
+        "mir_299",
+        "mir_300",
+        "mmq_335",
+        "mmq_336",
+        "mmq_337",
+        "mmq_338",
+        "mrd_291",
+        "mrd_292",
+        "mrd_293",
+        "mrd_294",
+        "nph_168",
+        "nph_169",
+        "ody_335",
+        "ody_336",
+        "ody_337",
+        "ody_338",
+        "ons_335",
+        "ons_336",
+        "ons_337",
+        "ons_338",
+        "ori_257",
+        "ori_258",
+        "ori_259",
+        "ori_260",
+        "rav_291",
+        "rav_292",
+        "rav_293",
+        "rav_294",
+        "roe_233",
+        "roe_234",
+        "roe_235",
+        "roe_236",
+        "rtr_255",
+        "rtr_256",
+        "rtr_257",
+        "rtr_258",
+        "rtr_259",
+        "shm_286",
+        "shm_287",
+        "shm_288",
+        "shm_289",
+        "som_234",
+        "som_235",
+        "som_236",
+        "som_237",
+        "ths_234",
+        "ths_235",
+        "ths_236",
+        "ths_237",
+        "tmp_313",
+        "tmp_314",
+        "tmp_315",
+        "tmp_316",
+        "tsp_286",
+        "tsp_287",
+        "tsp_288",
+        "tsp_289",
+        "usg_335",
+        "usg_336",
+        "usg_337",
+        "usg_338",
+        "zen_234",
+        "zen_235",
+        "zen_236",
+        "zen_237",
+        "zen_254",
+        "zen_255",
+        "zen_256",
+        "zen_257"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Island"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Island",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "L. A. Williams",
+      "cmc": 1,
+      "colors": "C",
+      "flavor": "When the clever counterfeit was accepted by the hive, Volrath's influence upon the slivers grew even stronger.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "metallic sliver",
+      "images": {
+        "en": "/h09/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 22067,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/metallic_sliver.jpg",
+      "mtgjson_id": "11ca7585c30a8058eaf8a2ea6dfdc5044768795f",
+      "multiverseid": 208040,
+      "name": "Metallic Sliver",
+      "near_mint_id": "h09_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalType": "Artifact Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "tmp_287"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "toughness": "1",
+      "type": "Artifact Creature — Sliver",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jeff Miracola",
+      "cmc": 5,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"The colossal thing rumbled over the ridge, tree husks crumbling before it. The ones we were already fighting howled as it came, their muscles suddenly surging, and we knew it was time to flee.\"\n—Llanach, Skyshroud ranger",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "might sliver",
+      "images": {
+        "en": "/h09/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{G}",
+      "mkm_product_id": 22068,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/might_sliver.jpg",
+      "mtgjson_id": "3163361a582bed62a2c54b6c5a7b18e36b982b75",
+      "multiverseid": 207910,
+      "name": "Might Sliver",
+      "near_mint_id": "h09_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "All Sliver creatures get +2/+2.",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "tsp_205"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures get +2/+2.",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Poole",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain",
+      "images": {
+        "en": "/h09/en/040.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22084,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/mountain.jpg",
+      "mtgjson_id": "0ca4dd5a2fa9d452d4ad9b04ae48f1ed9270c1ce",
+      "multiverseid": 207936,
+      "name": "Mountain",
+      "near_mint_id": "h09_040",
+      "number": 40,
+      "numberSpecial": "040",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Richard Kane Ferguson",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "The air was filled with the cracks and snaps of flesh hardening as the new sliver joined the battle.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "muscle sliver",
+      "images": {
+        "en": "/h09/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 22069,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/muscle_sliver.jpg",
+      "mtgjson_id": "aee1f43ce21caf58226b0092c05c78ee18939d9f",
+      "multiverseid": 207911,
+      "name": "Muscle Sliver",
+      "near_mint_id": "h09_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "All Sliver creatures get +1/+1.",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "tmp_132"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Yes, it does give the +1/+1 bonus to itself."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures get +1/+1.",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dave Allsop",
+      "cmc": 3,
+      "colorIdentity": [
+        "W",
+        "B"
+      ],
+      "colors": "WB",
+      "flavor": "Though Volrath is long dead, the slivers have become everything he wanted them to be: mindless instruments of destruction and despair.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "necrotic sliver",
+      "images": {
+        "en": "/h09/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}{B}",
+      "mkm_product_id": 22070,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/necrotic_sliver.jpg",
+      "mtgjson_id": "00b8813b679a0d419c6646b0ce2db5f38f43e394",
+      "multiverseid": 207912,
+      "name": "Necrotic Sliver",
+      "near_mint_id": "h09_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "All Slivers have \"{3}, Sacrifice this permanent: Destroy target permanent.\"",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "plc_159"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Slivers have \"{3}, Sacrifice this permanent: Destroy target permanent.\"",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains",
+      "images": {
+        "en": "/h09/en/037.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22087,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/plains.jpg",
+      "mtgjson_id": "0b968bb952560550a9621c39bc1c509ae3203e68",
+      "multiverseid": 207937,
+      "name": "Plains",
+      "near_mint_id": "h09_037",
+      "number": 37,
+      "numberSpecial": "037",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "The directors of the Riptide Project wanted instant results on the sliver experiments. They got their wish.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "quick sliver",
+      "images": {
+        "en": "/h09/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mkm_product_id": 22071,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/quick_sliver.jpg",
+      "mtgjson_id": "5b70db881021587e0fe56e94da1c575d725fd4d9",
+      "multiverseid": 207913,
+      "name": "Quick Sliver",
+      "near_mint_id": "h09_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Flash\nAny player may cast Sliver cards as though they had flash.",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "lgn_136"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The first ability applies when this card is not on the battlefield. The second ability applies when this card is on the battlefield."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "Flash\nAny player may play Sliver cards as though they had flash.",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Stewart",
+      "cmc": 0,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rootbound crag",
+      "images": {
+        "en": "/h09/en/032.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22048,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/rootbound_crag.jpg",
+      "mtgjson_id": "63fbd76da797df4515a022633fb2b008f48334fd",
+      "multiverseid": 208042,
+      "name": "Rootbound Crag",
+      "near_mint_id": "h09_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "m10_227",
+        "m11_227",
+        "m12_228",
+        "m13_228"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "This checks for lands you control with the land type Mountain or Forest, not for lands named Mountain or Forest. The lands it checks for don't have to be basic lands. For example, if you control Temple Garden (a nonbasic land with the land types Forest and Plains), Rootbound Crag will enter the battlefield untapped."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "As this is entering the battlefield, it checks for lands that are already on the battlefield. It won't see lands that are entering the battlefield at the same time (due to Warp World, for example)."
+        }
+      ],
+      "text": "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Jaime Jones",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "rupture spire",
+      "images": {
+        "en": "/h09/en/033.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22049,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/rupture_spire.jpg",
+      "mtgjson_id": "be1a22a0a795523e99b8de84d8549c01bbf11eff",
+      "multiverseid": 207933,
+      "name": "Rupture Spire",
+      "near_mint_id": "h09_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "Rupture Spire enters the battlefield tapped.\nWhen Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "c13_315",
+        "cmd_285",
+        "con_144",
+        "ddh_075"
+      ],
+      "rarity": "Common",
+      "text": "Rupture Spire enters the battlefield tapped.\nWhen Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Tony Szczudlo",
+      "cmc": 5,
+      "colorIdentity": [
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ],
+      "colors": "WUBRG",
+      "flavor": "The end of evolution.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sliver overlord",
+      "images": {
+        "en": "/h09/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}{U}{B}{R}{G}",
+      "mkm_product_id": 22072,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/sliver_overlord.jpg",
+      "mtgjson_id": "064ea9f5b0b6577480b6eb944bc563ff6ef18feb",
+      "multiverseid": 207915,
+      "name": "Sliver Overlord",
+      "near_mint_id": "h09_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "{3}: Search your library for a Sliver card, reveal that card, and put it into your hand. Then shuffle your library.\n{3}: Gain control of target Sliver.",
+      "originalType": "Legendary Creature — Sliver Mutant",
+      "power": "7",
+      "printings": [
+        "scg_139"
+      ],
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "Sliver",
+        "Mutant"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "{3}: Search your library for a Sliver card, reveal that card, and put it into your hand. Then shuffle your library.\n{3}: Gain control of target Sliver. (This effect lasts indefinitely.)",
+      "toughness": "7",
+      "type": "Legendary Creature — Sliver Mutant",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Sure, I've seen agents of the Cabal here and there. Well, not here, and certainly not in any of the sliver labs. Oh dear, I've said too much.\"\n—Apprentice researcher",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "spectral sliver",
+      "images": {
+        "en": "/h09/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 22073,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/spectral_sliver.jpg",
+      "mtgjson_id": "6196ebdc7b8a9a1cd5f27b45754f77919c4fe872",
+      "multiverseid": 207916,
+      "name": "Spectral Sliver",
+      "near_mint_id": "h09_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "All Sliver creatures have \"{2}: This creature gets +1/+1 until end of turn.\"",
+      "originalType": "Creature — Sliver Spirit",
+      "power": "2",
+      "printings": [
+        "lgn_083"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver",
+        "Spirit"
+      ],
+      "text": "All Sliver creatures have \"{2}: This creature gets +1/+1 until end of turn.\"",
+      "toughness": "2",
+      "type": "Creature — Sliver Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 2,
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "colors": "RG",
+      "flavor": "\"Slivers are evil and slivers are sly;\nAnd if you get eaten, then no one will cry.\"\n—Mogg children's rhyme",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "spined sliver",
+      "images": {
+        "en": "/h09/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}{G}",
+      "mkm_product_id": 22074,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/spined_sliver.jpg",
+      "mtgjson_id": "c5c843ab4a255e9e23400f6d0bbe0f3c52ff979f",
+      "multiverseid": 208041,
+      "name": "Spined Sliver",
+      "near_mint_id": "h09_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "sth_142",
+        "tsb_101"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If two Spined Slivers are on the battlefield then each blocked sliver gets +2/+2 for each creature blocking it."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brom",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp",
+      "images": {
+        "en": "/h09/en/039.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22085,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/swamp.jpg",
+      "mtgjson_id": "a6e0c67696e2e28d163b37ca3494e6b38fc5d252",
+      "multiverseid": 207938,
+      "name": "Swamp",
+      "near_mint_id": "h09_039",
+      "number": 39,
+      "numberSpecial": "039",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Dan Scott",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "terramorphic expanse",
+      "images": {
+        "en": "/h09/en/034.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22050,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/terramorphic_expanse.jpg",
+      "mtgjson_id": "f3c87191127cb1873f27861641dfec3653063784",
+      "multiverseid": 207928,
+      "name": "Terramorphic Expanse",
+      "near_mint_id": "h09_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "originalType": "Land",
+      "printings": [
+        "10e_360",
+        "c13_328",
+        "c14_315",
+        "c15_314",
+        "cmd_291",
+        "dde_066",
+        "ddh_076",
+        "ddn_074",
+        "m10_229",
+        "m11_229",
+        "mma_224",
+        "tsp_279"
+      ],
+      "rarity": "Common",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 2,
+      "colorIdentity": [
+        "W",
+        "G"
+      ],
+      "colors": "WG",
+      "flavor": "\"We are kinfolk,\" explained Karn to the sliver queen. \"Just as you need your progeny to complete you, so do I need the pieces of the Legacy to make me whole.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "victual sliver",
+      "images": {
+        "en": "/h09/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}{W}",
+      "mkm_product_id": 22075,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/victual_sliver.jpg",
+      "mtgjson_id": "3244466cd8446ebfe91ec056b5af9360e9112086",
+      "multiverseid": 207918,
+      "name": "Victual Sliver",
+      "near_mint_id": "h09_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "All Slivers have \"{2}, Sacrifice this permanent: You gain 4 life.\"",
+      "originalType": "Creature — Sliver",
+      "power": "2",
+      "printings": [
+        "sth_143"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Slivers have \"{2}, Sacrifice this permanent: You gain 4 life.\"",
+      "toughness": "2",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Franz Vohwinkel",
+      "cmc": 1,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "virulent sliver",
+      "images": {
+        "en": "/h09/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}",
+      "mkm_product_id": 22076,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/virulent_sliver.jpg",
+      "mtgjson_id": "1ce47933ee36a016476a38db18ab856b2b56c091",
+      "multiverseid": 207919,
+      "name": "Virulent Sliver",
+      "near_mint_id": "h09_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "All Sliver creatures have poisonous 1. (Whenever a Sliver deals combat damage to a player, that player gets a poison counter. A player with ten or more poison counters loses the game.)",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "fut_155"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have poisonous 1. (Whenever a Sliver deals combat damage to a player, that player gets a poison counter. A player with ten or more poison counters loses the game.)",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Fred Fields",
+      "cmc": 0,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "vivid creek",
+      "images": {
+        "en": "/h09/en/035.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22051,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/vivid_creek.jpg",
+      "mtgjson_id": "fde598d2e84017175f2d8fb5312ff831ad8c8748",
+      "multiverseid": 208043,
+      "name": "Vivid Creek",
+      "near_mint_id": "h09_035",
+      "number": 35,
+      "numberSpecial": "035",
+      "originalText": "Vivid Creek enters the battlefield tapped with two charge counters on it.\n{T}: Add {U} to your mana pool.\n{T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "c13_334",
+        "c15_317",
+        "cmd_294",
+        "lrw_276",
+        "mma_226"
+      ],
+      "rarity": "Uncommon",
+      "text": "Vivid Creek enters the battlefield tapped with two charge counters on it.\n{T}: Add {U} to your mana pool.\n{T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Howard Lyon",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "vivid grove",
+      "images": {
+        "en": "/h09/en/036.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 22052,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/vivid_grove.jpg",
+      "mtgjson_id": "fcf0d3cbaec6a51ad7efa893ffcf0780687e04b7",
+      "multiverseid": 207922,
+      "name": "Vivid Grove",
+      "near_mint_id": "h09_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "Vivid Grove enters the battlefield tapped with two charge counters on it.\n{T}: Add {G} to your mana pool.\n{T}, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "c13_335",
+        "c15_318",
+        "cmd_295",
+        "lrw_277",
+        "mma_227"
+      ],
+      "rarity": "Uncommon",
+      "text": "Vivid Grove enters the battlefield tapped with two charge counters on it.\n{T}: Add {G} to your mana pool.\n{T}, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Mark Brill",
+      "cmc": 6,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wild pair",
+      "images": {
+        "en": "/h09/en/030.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{G}{G}",
+      "mkm_product_id": 22082,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/wild_pair.jpg",
+      "mtgjson_id": "d0b42637edd484ab8bb741df51616aa252e861da",
+      "multiverseid": 207929,
+      "name": "Wild Pair",
+      "near_mint_id": "h09_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness, put it onto the battlefield, then shuffle your library.",
+      "originalType": "Enchantment",
+      "printings": [
+        "plc_144"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2007-02-01",
+          "text": "If you cast a 2/2 Grizzly Bears, for example, you may then search for any creature with total power and toughness 4. It can be 0/4, 1/3, 2/2, or 3/1."
+        },
+        {
+          "date": "2007-02-01",
+          "text": "The game checks the power and toughness of the creature that just entered the battlefield as it exists on the battlefield. That might mean it's impossible to get another copy of that same card. For example, a Triskelion on the battlefield is 4/4, but a Triskelion in your library is 1/1. The power and toughness might also have been affected while the triggered ability was on the stack (such as with Giant Growth, Sudden Death, or Ovinize)."
+        },
+        {
+          "date": "2007-02-01",
+          "text": "If the creature that entered the battlefield has left the battlefield by the time the ability resolves, use the power and toughness of that creature as it last appeared before leaving the battlefield."
+        },
+        {
+          "date": "2007-02-01",
+          "text": "If the total power and toughness of the creature that entered the battlefield is less than 0 (due to Bewilder or Sudden Death, for example), it is treated as 0 by Wild Pair. For example, if a creature was -2/1, you could search for a creature with total power and toughness of 0. If either the power or toughness is less than 0, but the total is greater than 0, use the actual total. For example, if the creature is -1/3, you could search for a creature with total power and toughness of 2."
+        }
+      ],
+      "text": "Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness and put it onto the battlefield. If you do, shuffle your library.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Anthony S. Waters",
+      "cmc": 2,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Everything around here has cut a deal with gravity.\"\n—Gerrard of the Weatherlight",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "winged sliver",
+      "images": {
+        "en": "/h09/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{U}",
+      "mkm_product_id": 22077,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Slivers/winged_sliver.jpg",
+      "mtgjson_id": "ea347ecfcf72ae0dd86158bdc4079441933fae76",
+      "multiverseid": 207920,
+      "name": "Winged Sliver",
+      "near_mint_id": "h09_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "All Sliver creatures have flying.",
+      "originalType": "Creature — Sliver",
+      "power": "1",
+      "printings": [
+        "tmp_106"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-07-01",
+          "text": "Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures."
+        }
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "text": "All Sliver creatures have flying.",
+      "toughness": "1",
+      "type": "Creature — Sliver",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "foil"
+}

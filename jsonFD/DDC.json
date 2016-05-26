@@ -1,0 +1,6009 @@
+{
+  "name": "Duel Decks: Divine vs. Demonic",
+  "code": "DDC",
+  "magicCardsInfoCode": "dvd",
+  "releaseDate": "2009-04-10",
+  "border": "black",
+  "type": "duel deck",
+  "mkm_name": "Duel Decks: Divine vs. Demonic",
+  "mkm_id": 107,
+  "magic_ville_name": "Divine vs. Demonic",
+  "card_total": 62,
+  "cards": [
+    {
+      "artist": "Mark Tedin",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"There are two ways for me to pass this gate. One involves you remaining conscious.\"\n—Gerrard of the Weatherlight",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "abyssal gatekeeper",
+      "images": {
+        "en": "/ddc/en/031.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 20843,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/abyssal_gatekeeper.jpg",
+      "mtgjson_id": "786575d70ae58dd133d126bc95bc092868acae3e",
+      "multiverseid": 197037,
+      "name": "Abyssal Gatekeeper",
+      "near_mint_id": "ddc_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "When Abyssal Gatekeeper is put into a graveyard from play, each player sacrifices a creature.",
+      "originalType": "Creature — Horror",
+      "power": "1",
+      "printings": [
+        "dd3_dvd_031",
+        "wth_001"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The \"sacrifice a creature\" effect is not targeted. It can affect creatures with protection from black, for example."
+        },
+        {
+          "date": "2008-04-01",
+          "text": "The player whose turn it is chooses a creature to sacrifice, then each other player in turn order chooses a creature to sacrifice, then all chosen creatures are sacrificed at the same time."
+        }
+      ],
+      "subtypes": [
+        "Horror"
+      ],
+      "text": "When Abyssal Gatekeeper dies, each player sacrifices a creature.",
+      "toughness": "1",
+      "type": "Creature — Horror",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Michael Sutfin",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "To gaze under its hood is to invite death.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "abyssal specter",
+      "images": {
+        "en": "/ddc/en/040.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}",
+      "mkm_product_id": 20844,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/abyssal_specter.jpg",
+      "mtgjson_id": "53398a59065a0b30cb669e983eaa28acd94e2471",
+      "multiverseid": 197008,
+      "name": "Abyssal Specter",
+      "near_mint_id": "ddc_040",
+      "number": 40,
+      "numberSpecial": "040",
+      "originalText": "Flying\nWhenever Abyssal Specter deals damage to a player, that player discards a card.",
+      "originalType": "Creature — Specter",
+      "power": "2",
+      "printings": [
+        "5ed_001",
+        "6ed_110",
+        "7ed_116",
+        "8ed_117",
+        "brb_001",
+        "dd3_dvd_040",
+        "ice_001"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Specter"
+      ],
+      "text": "Flying\nWhenever Abyssal Specter deals damage to a player, that player discards a card.",
+      "toughness": "3",
+      "type": "Creature — Specter",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Chippy",
+      "cmc": 8,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Wrath is no vice when inflicted upon the deserving.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "akroma, angel of wrath",
+      "images": {
+        "en": "/ddc/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{W}{W}{W}",
+      "mkm_product_id": 20814,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/akroma_angel_of_wrath.jpg",
+      "mtgjson_id": "736bad736ee92a1e71d3ecc649baaee289338be5",
+      "multiverseid": 193871,
+      "name": "Akroma, Angel of Wrath",
+      "near_mint_id": "ddc_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "Flying, first strike, vigilance, trample, haste, protection from black and from red",
+      "originalType": "Legendary Creature — Angel",
+      "power": "6",
+      "printings": [
+        "dd3_dvd_001",
+        "lgn_001",
+        "tsb_001",
+        "v15_002"
+      ],
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "Angel"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying, first strike, vigilance, trample, haste, protection from black and from red",
+      "toughness": "6",
+      "type": "Legendary Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 5,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Every tear shed is a drop of immortality.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "angel of mercy",
+      "images": {
+        "en": "/ddc/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{W}",
+      "mkm_product_id": 20815,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/angel_of_mercy.jpg",
+      "mtgjson_id": "8ac13a70f9b169f337945b864b22aa5ce304c248",
+      "multiverseid": 196990,
+      "name": "Angel of Mercy",
+      "near_mint_id": "ddc_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Flying\nWhen Angel of Mercy comes into play, you gain 3 life.",
+      "originalType": "Creature — Angel",
+      "power": "3",
+      "printings": [
+        "10e_002",
+        "8ed_001",
+        "9ed_001",
+        "dd3_dvd_009",
+        "inv_002"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying\nWhen Angel of Mercy enters the battlefield, you gain 3 life.",
+      "toughness": "3",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Alan Pollack",
+      "cmc": 2,
+      "colors": "C",
+      "flavor": "If taken, it cuts the hand that clutches it. If given, it heals the hand that holds it.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "angel's feather",
+      "images": {
+        "en": "/ddc/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mkm_product_id": 20828,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/angels_feather.jpg",
+      "mtgjson_id": "339906d8aa11ba76358a2aedd0e47151753e47d8",
+      "multiverseid": 196991,
+      "name": "Angel's Feather",
+      "near_mint_id": "ddc_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "Whenever a player plays a white spell, you may gain 1 life.",
+      "originalType": "Artifact",
+      "printings": [
+        "10e_311",
+        "9ed_287",
+        "dd3_dvd_023",
+        "dst_092",
+        "m10_206",
+        "m11_201",
+        "m12_202"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The ability triggers whenever any player, not just you, casts a white spell."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If a player casts a white spell, Angel's Feather's ability triggers and is put on the stack on top of that spell. Angel's Feather's ability will resolve (causing you to gain 1 life) before the spell does."
+        }
+      ],
+      "text": "Whenever a player casts a white spell, you may gain 1 life.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Michael Komarck",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Even in single combat, I am never alone.\"\n—Rafiq of the Many",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "angelic benediction",
+      "images": {
+        "en": "/ddc/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}",
+      "mkm_product_id": 20827,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/angelic_benediction.jpg",
+      "mtgjson_id": "59828d1e8d14e1d9bb3fe80076d71a2335072c79",
+      "multiverseid": 197013,
+      "name": "Angelic Benediction",
+      "near_mint_id": "ddc_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhenever a creature you control attacks alone, you may tap target creature.",
+      "originalType": "Enchantment",
+      "printings": [
+        "ala_003",
+        "dd3_dvd_019",
+        "m13_004"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "Exalted abilities will resolve before blockers are declared."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "In a Two-Headed Giant game, a creature \"attacks alone\" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't."
+        },
+        {
+          "date": "2012-07-01",
+          "text": "The creature you target with the last ability will become tapped before blockers are declared."
+        }
+      ],
+      "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\nWhenever a creature you control attacks alone, you may tap target creature.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Marc Fishman",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "If only every message were as perfect as its bearer.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "angelic page",
+      "images": {
+        "en": "/ddc/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 20816,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/angelic_page.jpg",
+      "mtgjson_id": "6891dec3243ff6eefb3ac83ec831c65edf72d4e4",
+      "multiverseid": 197009,
+      "name": "Angelic Page",
+      "near_mint_id": "ddc_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Flying\n{T}: Target attacking or blocking creature gets +1/+1 until end of turn.",
+      "originalType": "Creature — Angel Spirit",
+      "power": "1",
+      "printings": [
+        "7ed_001",
+        "8ed_002",
+        "brb_004",
+        "dd3_dvd_003",
+        "usg_004"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Angel",
+        "Spirit"
+      ],
+      "text": "Flying\n{T}: Target attacking or blocking creature gets +1/+1 until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Angel Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "DiTerlizzi",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"My family sheltered in her light, the dark was content to wait.\"\n—Crovax",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "angelic protector",
+      "images": {
+        "en": "/ddc/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}",
+      "mkm_product_id": 20817,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/angelic_protector.jpg",
+      "mtgjson_id": "831c708c3fdbeae233fd45d743648395bedeca0b",
+      "multiverseid": 197035,
+      "name": "Angelic Protector",
+      "near_mint_id": "ddc_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Flying\nWhenever Angelic Protector becomes the target of a spell or ability, Angelic Protector gets +0/+3 until end of turn.",
+      "originalType": "Creature — Angel",
+      "power": "2",
+      "printings": [
+        "dd3_dvd_006",
+        "tmp_214"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The ability triggers when Angelic Protector is chosen as a target for a spell or ability. The Protectors ability will be put on the stack above that spell or ability, and so resolve first."
+        }
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying\nWhenever Angelic Protector becomes the target of a spell or ability, Angelic Protector gets +0/+3 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Sal Villagran",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Clash of sword and cry of beast fall mute when angels sound the call to prayer.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "angelsong",
+      "images": {
+        "en": "/ddc/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 20829,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/angelsong.jpg",
+      "mtgjson_id": "47bfe926826812ed4efa0e2d87af39cc90f7c4e3",
+      "multiverseid": 197014,
+      "name": "Angelsong",
+      "near_mint_id": "ddc_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "Prevent all combat damage that would be dealt this turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+      "originalType": "Instant",
+      "printings": [
+        "ala_004",
+        "dd3_dvd_015"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        }
+      ],
+      "text": "Prevent all combat damage that would be dealt this turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Heather Hudson",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "barren moor",
+      "images": {
+        "en": "/ddc/en/058.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20838,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/barren_moor.jpg",
+      "mtgjson_id": "057a1d772600c819047886992600f98ec9531d17",
+      "multiverseid": 197029,
+      "name": "Barren Moor",
+      "near_mint_id": "ddc_058",
+      "number": 58,
+      "numberSpecial": "058",
+      "originalText": "Barren Moor comes into play tapped.\n{T}: Add {B} to your mana pool.\nCycling {B} ({B}, Discard this card: Draw a card.)",
+      "originalType": "Land",
+      "printings": [
+        "c13_277",
+        "c14_284",
+        "c15_277",
+        "cmd_266",
+        "dd3_dvd_058",
+        "ddj_078",
+        "ons_312"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        }
+      ],
+      "text": "Barren Moor enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {B} ({B}, Discard this card: Draw a card.)",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Paolo Parente",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"In the game of conquest, who cares about the pawns if the king yet reigns?\"\n—Geth, keeper of the Vault",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "barter in blood",
+      "images": {
+        "en": "/ddc/en/052.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}",
+      "mkm_product_id": 20858,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/barter_in_blood.jpg",
+      "mtgjson_id": "ebf8e180e5f2c27b88285ce391268549a7253181",
+      "multiverseid": 197025,
+      "name": "Barter in Blood",
+      "near_mint_id": "ddc_052",
+      "number": 52,
+      "numberSpecial": "052",
+      "originalText": "Each player sacrifices two creatures.",
+      "originalType": "Sorcery",
+      "printings": [
+        "avr_085",
+        "c15_115",
+        "dd3_dvd_052",
+        "mrd_057"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2012-05-01",
+          "text": "The active player chooses which creatures will be sacrificed first, then each other player in turn order does the same. Then all creatures are sacrificed simultaneously."
+        },
+        {
+          "date": "2012-05-01",
+          "text": "If a player controls only one creature, that creature is sacrificed."
+        },
+        {
+          "date": "2012-05-01",
+          "text": "Barter in Blood doesn't target any creatures and may be cast even if a player controls fewer than two creatures."
+        }
+      ],
+      "text": "Each player sacrifices two creatures.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Adrian Smith",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The thrulls bred at a terrifying pace. In the end, they overwhelmed the Order of the Ebon Hand.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "breeding pit",
+      "images": {
+        "en": "/ddc/en/053.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}",
+      "mkm_product_id": 20859,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/breeding_pit.jpg",
+      "mtgjson_id": "a22f2e11a0be80a6e79f1b0bebcb7b59f730dc8a",
+      "multiverseid": 197024,
+      "name": "Breeding Pit",
+      "near_mint_id": "ddc_053",
+      "number": 53,
+      "numberSpecial": "053",
+      "originalText": "At the beginning of your upkeep, sacrifice Breeding Pit unless you pay {B}{B}.\nAt the end of your turn, put a 0/1 black Thrull creature token into play.",
+      "originalType": "Enchantment",
+      "printings": [
+        "5ed_010",
+        "dd3_dvd_053",
+        "fem_009"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Breeding Pit must actually be on the battlefield at the beginning of the endstep in order for you to get a Thrull. The getting of the Thrull is not part of paying the upkeep, it is part of having the card on the battlefield."
+        }
+      ],
+      "text": "At the beginning of your upkeep, sacrifice Breeding Pit unless you pay {B}{B}.\nAt the beginning of your end step, put a 0/1 black Thrull creature token onto the battlefield.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Matt Thompson",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Its laughter drives needles through your mind.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "cackling imp",
+      "images": {
+        "en": "/ddc/en/041.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}",
+      "mkm_product_id": 20845,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/cackling_imp.jpg",
+      "mtgjson_id": "86108289e46022c6781c6ff26f3ff208c6f1a0ca",
+      "multiverseid": 197003,
+      "name": "Cackling Imp",
+      "near_mint_id": "ddc_041",
+      "number": 41,
+      "numberSpecial": "041",
+      "originalText": "Flying\n{T}: Target player loses 1 life.",
+      "originalType": "Creature — Imp",
+      "power": "2",
+      "printings": [
+        "5dn_044",
+        "dd3_dvd_041"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Imp"
+      ],
+      "text": "Flying\n{T}: Target player loses 1 life.",
+      "toughness": "2",
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ciruelo",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Hope shall be the blade that severs our bonds.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "charging paladin",
+      "images": {
+        "en": "/ddc/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 20818,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/charging_paladin.jpg",
+      "mtgjson_id": "aa44fed5a31f61d8af4b9482a98b4a7a7baac595",
+      "multiverseid": 197021,
+      "name": "Charging Paladin",
+      "near_mint_id": "ddc_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "Whenever Charging Paladin attacks, it gets +0/+3 until end of turn.",
+      "originalType": "Creature — Human Knight",
+      "power": "2",
+      "printings": [
+        "dd3_dvd_004",
+        "exo_004"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Knight"
+      ],
+      "text": "Whenever Charging Paladin attacks, it gets +0/+3 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Human Knight",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Thompson",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Your blood, your marrow, your spirit—all are mine.\"\n—Mayvar, minion of Geth",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "consume spirit",
+      "images": {
+        "en": "/ddc/en/056.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{X}{1}{B}",
+      "mkm_product_id": 20860,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/consume_spirit.jpg",
+      "mtgjson_id": "b412a35f474b44996dc74cf7040f204a38a48e1d",
+      "multiverseid": 196992,
+      "name": "Consume Spirit",
+      "near_mint_id": "ddc_056",
+      "number": 56,
+      "numberSpecial": "056",
+      "originalText": "Spend only black mana on X.\nConsume Spirit deals X damage to target creature or player and you gain X life.",
+      "originalType": "Sorcery",
+      "printings": [
+        "10e_131",
+        "9ed_119",
+        "dd3_dvd_056",
+        "m10_089",
+        "m12_088",
+        "mrd_060"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The amount of life you gain is equal to the number chosen for X, not the amount of damage Consume Spirit deals (in case some of it is prevented)."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If the targeted creature or player is an illegal target by the time Consume Spirit would resolve, the entire spell is countered. You won't gain any life."
+        }
+      ],
+      "text": "Spend only black mana on X.\nConsume Spirit deals X damage to target creature or player and you gain X life.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Dave Allsop",
+      "cmc": 6,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "There are things beneath the murk for whom the bog is a stew, a thin broth in need of meat.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "corrupt",
+      "images": {
+        "en": "/ddc/en/055.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{B}",
+      "mkm_product_id": 20861,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/corrupt.jpg",
+      "mtgjson_id": "261855c92df37aeaa43c0f25ddd523e7a2c6e562",
+      "multiverseid": 197033,
+      "name": "Corrupt",
+      "near_mint_id": "ddc_055",
+      "number": 55,
+      "numberSpecial": "055",
+      "originalText": "Corrupt deals damage equal to the number of Swamps you control to target creature or player. You gain life equal to the damage dealt this way.",
+      "originalType": "Sorcery",
+      "printings": [
+        "7ed_124",
+        "dd3_dvd_055",
+        "dd3_gvl_057",
+        "ddd_057",
+        "m11_089",
+        "m14_091",
+        "shm_062",
+        "usg_124"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The swamps are counted on resolution."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "The life you gain is equal to the damage dealt by Corrupt, not necessarily to the number of Swamps you control (if some or all of the damage is prevented, for example)."
+        },
+        {
+          "date": "2010-08-15",
+          "text": "The amount of damage dealt to a creature is not bounded by its toughness, and the amount of damage dealt to a player is not bounded by that player's life total. For example, if Corrupt deals 6 damage to a 2/2 creature, you'll gain 6 life."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Corrupt counts any land you control with the subtype Swamp, not just ones named Swamp."
+        }
+      ],
+      "text": "Corrupt deals damage equal to the number of Swamps you control to target creature or player. You gain life equal to the damage dealt this way.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Michael Sutfin",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Choose your next words carefully. They will be your last.\"\n—Phage the Untouchable",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "cruel edict",
+      "images": {
+        "en": "/ddc/en/048.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 20862,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/cruel_edict.jpg",
+      "mtgjson_id": "a2555db92f6d6cc10c09be19692a948a59f1de5b",
+      "multiverseid": 196993,
+      "name": "Cruel Edict",
+      "near_mint_id": "ddc_048",
+      "number": 48,
+      "numberSpecial": "048",
+      "originalText": "Target opponent sacrifices a creature.",
+      "originalType": "Sorcery",
+      "printings": [
+        "10e_133",
+        "9ed_121",
+        "dd3_dvd_048"
+      ],
+      "rarity": "Uncommon",
+      "text": "Target opponent sacrifices a creature.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The Simic use the claws as scalpels, while the Rakdos use them for tattooing and torture. The Gruul use them to pick their teeth after lunching on the rest of the carcass.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "daggerclaw imp",
+      "images": {
+        "en": "/ddc/en/033.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 20846,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/daggerclaw_imp.jpg",
+      "mtgjson_id": "06cabc398a9c6692be12cfe3125e98256afe2a21",
+      "multiverseid": 197022,
+      "name": "Daggerclaw Imp",
+      "near_mint_id": "ddc_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "Flying\nDaggerclaw Imp can't block.",
+      "originalType": "Creature — Imp",
+      "power": "3",
+      "printings": [
+        "dd3_dvd_033",
+        "gpt_048",
+        "mm2_074"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Imp"
+      ],
+      "text": "Flying\nDaggerclaw Imp can't block.",
+      "toughness": "1",
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dermot Power",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Ha, banishment? Be merciful, say ‘death,'\nFor exile hath more terror in his look,\nMuch more than death.\"\n—William Shakespeare, Romeo and Juliet",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dark banishing",
+      "images": {
+        "en": "/ddc/en/050.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 20863,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/dark_banishing.jpg",
+      "mtgjson_id": "4b895346ce167fef948ab2c403db894a191cdfcf",
+      "multiverseid": 197023,
+      "name": "Dark Banishing",
+      "near_mint_id": "ddc_050",
+      "number": 50,
+      "numberSpecial": "050",
+      "originalText": "Destroy target nonblack creature. It can't be regenerated.",
+      "originalType": "Instant",
+      "printings": [
+        "7ed_127",
+        "8ed_123",
+        "9ed_122",
+        "dd3_dvd_050",
+        "ice_007",
+        "mir_013",
+        "tmp_011"
+      ],
+      "rarity": "Common",
+      "text": "Destroy target nonblack creature. It can't be regenerated.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Clint Langley",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Leshrac, my liege, grant me the power I am due.\"\n—Lim-Dûl, the Necromancer",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dark ritual",
+      "images": {
+        "en": "/ddc/en/045.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 20864,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/dark_ritual.jpg",
+      "mtgjson_id": "94b95f5d37a4dce5e057404afce95b3d7f5809a4",
+      "multiverseid": 197019,
+      "name": "Dark Ritual",
+      "near_mint_id": "ddc_045",
+      "number": 45,
+      "numberSpecial": "045",
+      "originalText": "Add {B}{B}{B} to your mana pool.",
+      "originalType": "Instant",
+      "printings": [
+        "2ed_007",
+        "3ed_007",
+        "4ed_013",
+        "5ed_015",
+        "brb_018",
+        "btd_021",
+        "dd3_dvd_045",
+        "dde_018",
+        "ice_008",
+        "lea_007",
+        "leb_007",
+        "mir_014",
+        "mmq_129",
+        "tmp_012",
+        "usg_127",
+        "v13_001"
+      ],
+      "rarity": "Common",
+      "text": "Add {B}{B}{B} to your mana pool.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 0,
+      "color": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Demon",
+          "powerToughness": "*/*",
+          "name": "Démon",
+          "type": "Créature : démon",
+          "magic_ville_id": "dvd064"
+        }
+      ],
+      "imageName": "demon",
+      "images": {
+        "en": "/ddc/en/to002.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 20871,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/demon_token_black_xx.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDC_T2-Demon.jpg",
+      "name": "Demon",
+      "near_mint_id": "ddc_to002",
+      "number": 2,
+      "numberSpecial": "to002",
+      "originalText": "Flying",
+      "originalType": "Creature — Demon",
+      "power": "*",
+      "rarity": "Token",
+      "subtypes": [
+        "Demon"
+      ],
+      "text": "Flying",
+      "toughness": "*",
+      "type": "Creature — Demon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Alan Pollack",
+      "cmc": 2,
+      "colors": "C",
+      "flavor": "Its curve mimics the twists of life and death.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "demon's horn",
+      "images": {
+        "en": "/ddc/en/057.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mkm_product_id": 20866,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/demons_horn.jpg",
+      "mtgjson_id": "5a2a2ffc81910adcb0344c02ce6fb932a49a3ac2",
+      "multiverseid": 196994,
+      "name": "Demon's Horn",
+      "near_mint_id": "ddc_057",
+      "number": 57,
+      "numberSpecial": "057",
+      "originalText": "Whenever a player plays a black spell, you may gain 1 life.",
+      "originalType": "Artifact",
+      "printings": [
+        "10e_320",
+        "9ed_294",
+        "dd3_dvd_057",
+        "dst_116",
+        "m10_209",
+        "m11_204",
+        "m12_205"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The ability triggers whenever any player, not just you, casts a black spell."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If a player casts a black spell, Demon's Horn's ability triggers and is put on the stack on top of that spell. Demon's Horn's ability will resolve (causing you to gain 1 life) before the spell does."
+        }
+      ],
+      "text": "Whenever a player casts a black spell, you may gain 1 life.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "They knock 'em dead, with or without the punch line.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "demon's jester",
+      "images": {
+        "en": "/ddc/en/038.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}",
+      "mkm_product_id": 20847,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/demons_jester.jpg",
+      "mtgjson_id": "5b663868cf451568cc7baa0397114d5600fa50cb",
+      "multiverseid": 197018,
+      "name": "Demon's Jester",
+      "near_mint_id": "ddc_038",
+      "number": 38,
+      "numberSpecial": "038",
+      "originalText": "Flying\nHellbent — Demon's Jester gets +2/+1 as long as you have no cards in hand.",
+      "originalType": "Creature — Imp",
+      "power": "2",
+      "printings": [
+        "dd3_dvd_038",
+        "dis_042"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Imp"
+      ],
+      "text": "Flying\nHellbent — Demon's Jester gets +2/+1 as long as you have no cards in hand.",
+      "toughness": "2",
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott Chou",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Liliana learned the secrets she sought, but at a price that was etched on her fate.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Banned",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Restricted",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "demonic tutor",
+      "images": {
+        "en": "/ddc/en/049.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 20865,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/demonic_tutor.jpg",
+      "mtgjson_id": "15e96f7b03eb47dbcc5f0dcae27ad8c28c658de9",
+      "multiverseid": 193867,
+      "name": "Demonic Tutor",
+      "near_mint_id": "ddc_049",
+      "number": 49,
+      "numberSpecial": "049",
+      "originalText": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "originalType": "Sorcery",
+      "printings": [
+        "2ed_013",
+        "3ed_013",
+        "dd3_dvd_049",
+        "lea_013",
+        "leb_013"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You pick a card on resolution."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You don't reveal the card to your opponent."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This card is put directly into your hand. It is not drawn."
+        }
+      ],
+      "text": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Change your mind, or I'll change it for you.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "duress",
+      "images": {
+        "en": "/ddc/en/046.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 20867,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/duress.jpg",
+      "mtgjson_id": "6e48c9bc47412da98566234586a6b2740833d44c",
+      "multiverseid": 197004,
+      "name": "Duress",
+      "near_mint_id": "ddc_046",
+      "number": 46,
+      "numberSpecial": "046",
+      "originalText": "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.",
+      "originalType": "Sorcery",
+      "printings": [
+        "7ed_131",
+        "dd3_dvd_046",
+        "dtk_098",
+        "m10_096",
+        "m11_096",
+        "m13_090",
+        "m14_097",
+        "md1_023",
+        "pd3_013",
+        "usg_132"
+      ],
+      "rarity": "Common",
+      "text": "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Imps are just intelligent enough to have an understanding of cruelty.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dusk imp",
+      "images": {
+        "en": "/ddc/en/034.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 20848,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/dusk_imp.jpg",
+      "mtgjson_id": "f1eac53a71a7d49ec1377814f9ef146a17a14f8f",
+      "multiverseid": 196995,
+      "name": "Dusk Imp",
+      "near_mint_id": "ddc_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "Flying",
+      "originalType": "Creature — Imp",
+      "power": "2",
+      "printings": [
+        "10e_140",
+        "8ed_130",
+        "dd3_dvd_034",
+        "ody_131"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Imp"
+      ],
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brian Despain",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "faith's fetters",
+      "images": {
+        "en": "/ddc/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}",
+      "mkm_product_id": 20830,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/faiths_fetters.jpg",
+      "mtgjson_id": "96cca26f3a4f60ad148a33028e16577b8c31516f",
+      "multiverseid": 193869,
+      "name": "Faith's Fetters",
+      "near_mint_id": "ddc_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "Enchant permanent\nWhen Faith's Fetters comes into play, you gain 4 life.\nEnchanted permanent's activated abilities can't be played unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "c15_069",
+        "dd3_dvd_020",
+        "rav_016"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2005-10-01",
+          "text": "Faith's Fetters doesn't stop static abilities, triggered abilities, or mana abilities from working. (A \"mana ability\" is an ability that produces mana, not an ability that costs mana.)"
+        },
+        {
+          "date": "2013-07-01",
+          "text": "Activated abilities contain a colon. They're generally written \"[Cost]: [Effect].\" Some keywords are activated abilities and will have colons in their reminder texts."
+        }
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant permanent\nWhen Faith's Fetters enters the battlefield, you gain 4 life.\nEnchanted permanent's activated abilities can't be activated unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Matthew D. Wilson",
+      "cmc": 5,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Why do you weep for the dead? I rejoice, for they have died for me.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "fallen angel",
+      "images": {
+        "en": "/ddc/en/042.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}{B}",
+      "mkm_product_id": 20849,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/fallen_angel.jpg",
+      "mtgjson_id": "99a013ceaa3ebcbfd790fedba184d3364561603f",
+      "multiverseid": 197010,
+      "name": "Fallen Angel",
+      "near_mint_id": "ddc_042",
+      "number": 42,
+      "numberSpecial": "042",
+      "originalText": "Flying\nSacrifice a creature: Fallen Angel gets +2/+1 until end of turn.",
+      "originalType": "Creature — Angel",
+      "power": "3",
+      "printings": [
+        "5ed_023",
+        "6ed_127",
+        "7ed_134",
+        "8ed_133",
+        "btd_025",
+        "chr_004",
+        "cmd_082",
+        "dd3_dvd_042",
+        "leg_011"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Can sacrifice itself."
+        }
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying\nSacrifice a creature: Fallen Angel gets +2/+1 until end of turn.",
+      "toughness": "3",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The imp, unaware of its own odor, paused to catch its breath . . . and promptly died.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "foul imp",
+      "images": {
+        "en": "/ddc/en/032.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}{B}",
+      "mkm_product_id": 20850,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/foul_imp.jpg",
+      "mtgjson_id": "29a933d37dbfedf6f04462da33bca64ca4a2f1c3",
+      "multiverseid": 197012,
+      "name": "Foul Imp",
+      "near_mint_id": "ddc_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "Flying\nWhen Foul Imp comes into play, you lose 2 life.",
+      "originalType": "Creature — Imp",
+      "power": "2",
+      "printings": [
+        "7ed_136",
+        "9ed_132",
+        "dd3_dvd_032",
+        "sth_009"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You can cast this if you have less than 2 life, since the life is lost as an effect and not a payment."
+        }
+      ],
+      "subtypes": [
+        "Imp"
+      ],
+      "text": "Flying\nWhen Foul Imp enters the battlefield, you lose 2 life.",
+      "toughness": "2",
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg & Tim Hildebrandt",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "healing salve",
+      "images": {
+        "en": "/ddc/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 20831,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/healing_salve.jpg",
+      "mtgjson_id": "6a119d7c69c3e1998ac1ad7072b241b9da063c92",
+      "multiverseid": 197011,
+      "name": "Healing Salve",
+      "near_mint_id": "ddc_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Choose one — Target player gains 3 life; or prevent the next 3 damage that would be dealt to target creature or player this turn.",
+      "originalType": "Instant",
+      "printings": [
+        "2ed_207",
+        "3ed_206",
+        "4ed_278",
+        "5ed_309",
+        "6ed_022",
+        "7ed_018",
+        "8ed_022",
+        "brb_031",
+        "dd3_dvd_014",
+        "lea_206",
+        "leb_208",
+        "mir_224",
+        "usg_016"
+      ],
+      "rarity": "Common",
+      "text": "Choose one —\n• Target player gains 3 life.\n• Prevent the next 3 damage that would be dealt to target creature or player this turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Stephen Tappin",
+      "cmc": 1,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Grelden knelt and felt the cool, dry hand of the priest on his brow. Hours later, when his wits returned, he was covered in his enemies' blood on the field of victory.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "icatian priest",
+      "images": {
+        "en": "/ddc/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{W}",
+      "mkm_product_id": 20819,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/icatian_priest.jpg",
+      "mtgjson_id": "e9b958786d0d964ca1700cd38222ef6185b19df8",
+      "multiverseid": 196996,
+      "name": "Icatian Priest",
+      "near_mint_id": "ddc_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "{1}{W}{W}: Target creature gets +1/+1 until end of turn.",
+      "originalType": "Creature — Human Cleric",
+      "power": "1",
+      "printings": [
+        "10e_024",
+        "dd3_dvd_002",
+        "fem_156"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "text": "{1}{W}{W}: Target creature gets +1/+1 until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jon Foster",
+      "cmc": 9,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "kuro, pitlord",
+      "images": {
+        "en": "/ddc/en/044.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{B}{B}{B}",
+      "mkm_product_id": 20851,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/kuro_pitlord.jpg",
+      "mtgjson_id": "4a15ee230b4ce5712dd796706a543cc2489e3441",
+      "multiverseid": 197015,
+      "name": "Kuro, Pitlord",
+      "near_mint_id": "ddc_044",
+      "number": 44,
+      "numberSpecial": "044",
+      "originalText": "At the beginning of your upkeep, sacrifice Kuro, Pitlord unless you pay {B}{B}{B}{B}.\nPay 1 life: Target creature gets -1/-1 until end of turn.",
+      "originalType": "Legendary Creature — Demon Spirit",
+      "power": "9",
+      "printings": [
+        "chk_123",
+        "dd3_dvd_044"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Demon",
+        "Spirit"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "At the beginning of your upkeep, sacrifice Kuro, Pitlord unless you pay {B}{B}{B}{B}.\nPay 1 life: Target creature gets -1/-1 until end of turn.",
+      "toughness": "9",
+      "type": "Legendary Creature — Demon Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Chippy",
+      "cmc": 7,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"My summoning begins your debt, planeswalker.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "lord of the pit",
+      "images": {
+        "en": "/ddc/en/030.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{B}{B}{B}",
+      "mkm_product_id": 20852,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/lord_of_the_pit.jpg",
+      "mtgjson_id": "661e5de1875539fe317cf792c1f46bb35815b493",
+      "multiverseid": 193868,
+      "name": "Lord of the Pit",
+      "near_mint_id": "ddc_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.",
+      "originalType": "Creature — Demon",
+      "power": "7",
+      "printings": [
+        "10e_154",
+        "2ed_023",
+        "3ed_024",
+        "4ed_028",
+        "5ed_036",
+        "dd3_dvd_030",
+        "lea_023",
+        "leb_023"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You can select creatures with Protection from Black to be sacrificed."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If you have a creature, you must sacrifice it. The 7 damage can only be taken if no creature can be sacrificed."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If you have two Lords of the Pit, you can sacrifice them to each other."
+        }
+      ],
+      "subtypes": [
+        "Demon"
+      ],
+      "text": "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.",
+      "toughness": "7",
+      "type": "Creature — Demon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jason Chan",
+      "cmc": 7,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"The spread of evil's destruction shall always be matched by the rise of the noble fallen.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "luminous angel",
+      "images": {
+        "en": "/ddc/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{W}{W}{W}",
+      "mkm_product_id": 20820,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/luminous_angel.jpg",
+      "mtgjson_id": "1100cde670cba51a048b72d68fd27033334b9386",
+      "multiverseid": 193872,
+      "name": "Luminous Angel",
+      "near_mint_id": "ddc_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Flying\nAt the beginning of your upkeep, you may put a 1/1 white Spirit creature token with flying into play.",
+      "originalType": "Creature — Angel",
+      "power": "4",
+      "printings": [
+        "dd3_dvd_012",
+        "mrd_015"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying\nAt the beginning of your upkeep, you may put a 1/1 white Spirit creature token with flying onto the battlefield.",
+      "toughness": "4",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "David Martin",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "marble diamond",
+      "images": {
+        "en": "/ddc/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mkm_product_id": 20832,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/marble_diamond.jpg",
+      "mtgjson_id": "6488662828a787d42f1f506e4d324e496282bcf7",
+      "multiverseid": 197005,
+      "name": "Marble Diamond",
+      "near_mint_id": "ddc_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "Marble Diamond comes into play tapped.\n{T}: Add {W} to your mana pool.",
+      "originalType": "Artifact",
+      "printings": [
+        "6ed_298",
+        "7ed_306",
+        "c14_248",
+        "dd3_dvd_024",
+        "mir_275"
+      ],
+      "rarity": "Uncommon",
+      "text": "Marble Diamond enters the battlefield tapped.\n{T}: Add {W} to your mana pool.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Aleksi Briclot",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "oni possession",
+      "images": {
+        "en": "/ddc/en/051.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 20868,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/oni_possession.jpg",
+      "mtgjson_id": "9fa6f7056d1e7fd0043db8a5f3c74d030c919e70",
+      "multiverseid": 197016,
+      "name": "Oni Possession",
+      "near_mint_id": "ddc_051",
+      "number": 51,
+      "numberSpecial": "051",
+      "originalText": "Enchant creature\nAt the beginning of your upkeep, sacrifice a creature.\nEnchanted creature gets +3/+3 and has trample.\nEnchanted creature is a Demon Spirit.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "chk_135",
+        "dd3_dvd_051"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nAt the beginning of your upkeep, sacrifice a creature.\nEnchanted creature gets +3/+3 and has trample.\nEnchanted creature is a Demon Spirit.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Vance Kovacs",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"The landscape shimmered and I felt a chill breeze. When my vision cleared, I found myself alone among the corpses of my fallen friends.\"\n—Journal found in Numai",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "otherworldly journey",
+      "images": {
+        "en": "/ddc/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 20833,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/otherworldly_journey.jpg",
+      "mtgjson_id": "942d8d62caca3eed67341804fa3dcb721ae68f70",
+      "multiverseid": 197017,
+      "name": "Otherworldly Journey",
+      "near_mint_id": "ddc_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "Remove target creature from the game. At end of turn, return that card to play under its owner's control with a +1/+1 counter on it.",
+      "originalType": "Instant — Arcane",
+      "printings": [
+        "chk_037",
+        "dd3_dvd_016",
+        "mm2_030",
+        "mma_023"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-12-01",
+          "text": "The creature comes back onto the battlefield as a new creature, with one +1/+1 counter on it (plus any other counters that it would normally enter the battlefield with)."
+        },
+        {
+          "date": "2005-08-01",
+          "text": "Any Aura attached to the creature is put into its owner's graveyard as a state-based action. Equipment attached to the creature become unattached but remain on the battlefield."
+        },
+        {
+          "date": "2005-08-01",
+          "text": "If Otherworldly Journey is cast during an end step, the creature won't return until the beginning of the next end step."
+        }
+      ],
+      "subtypes": [
+        "Arcane"
+      ],
+      "text": "Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.",
+      "type": "Instant — Arcane",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Ray Lago",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Slow and steady may not always win the race, but at least it doesn't end up splattered on the walls.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "overeager apprentice",
+      "images": {
+        "en": "/ddc/en/035.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 20853,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/overeager_apprentice.jpg",
+      "mtgjson_id": "c3ddf952bf74c4a1c66802bfd7c16100ed1c1d1f",
+      "multiverseid": 197028,
+      "name": "Overeager Apprentice",
+      "near_mint_id": "ddc_035",
+      "number": 35,
+      "numberSpecial": "035",
+      "originalText": "Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.",
+      "originalType": "Creature — Human Minion",
+      "power": "1",
+      "printings": [
+        "dd3_dvd_035",
+        "ody_154"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Minion"
+      ],
+      "text": "Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.",
+      "toughness": "2",
+      "type": "Creature — Human Minion",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matthew D. Wilson",
+      "cmc": 2,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Even those born to battle could only lay their blades at Akroma's feet.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "pacifism",
+      "images": {
+        "en": "/ddc/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{W}",
+      "mkm_product_id": 20834,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/pacifism.jpg",
+      "mtgjson_id": "37379c9c90ab696a10514d196a3c618dc45a7712",
+      "multiverseid": 196997,
+      "name": "Pacifism",
+      "near_mint_id": "ddc_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "Enchant creature\nEnchanted creature can't attack or block.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "10e_031",
+        "6ed_033",
+        "7ed_029",
+        "8ed_033",
+        "9ed_031",
+        "brb_048",
+        "dd3_dvd_017",
+        "dtk_029",
+        "m10_022",
+        "m11_023",
+        "m12_028",
+        "m13_024",
+        "m14_025",
+        "mir_236",
+        "ons_047",
+        "tmp_246",
+        "usg_027"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nEnchanted creature can't attack or block.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains1",
+      "images": {
+        "en": "/ddc/en/026.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20809,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/plains1.jpg",
+      "mtgjson_id": "696a951c66ad907f7916ec2fe445c7895c01f25a",
+      "multiverseid": 197254,
+      "name": "Plains",
+      "near_mint_id": "ddc_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_027",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_027",
+        "ddc_029",
+        "ddc_028"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains2",
+      "images": {
+        "en": "/ddc/en/027.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20810,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/plains2.jpg",
+      "mtgjson_id": "1c1067d30cd1397298bbeb8775d7d2e428817090",
+      "multiverseid": 197256,
+      "name": "Plains",
+      "near_mint_id": "ddc_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_028",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_029",
+        "ddc_028",
+        "ddc_026"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains3",
+      "images": {
+        "en": "/ddc/en/028.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20811,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/plains3.jpg",
+      "mtgjson_id": "41d70f58c3acd943e3c9339a1a55286e62c150a3",
+      "multiverseid": 197255,
+      "name": "Plains",
+      "near_mint_id": "ddc_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_029",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_027",
+        "ddc_029",
+        "ddc_026"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "plains4",
+      "images": {
+        "en": "/ddc/en/029.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20812,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/plains4.jpg",
+      "mtgjson_id": "f6afed42592824bf9f94e4aeba076190685999fd",
+      "multiverseid": 197253,
+      "name": "Plains",
+      "near_mint_id": "ddc_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "W",
+      "originalType": "Basic Land — Plains",
+      "printings": [
+        "10e_364",
+        "10e_365",
+        "10e_366",
+        "10e_367",
+        "2ed_289",
+        "2ed_290",
+        "2ed_291",
+        "3ed_293",
+        "3ed_294",
+        "3ed_295",
+        "4ed_186",
+        "4ed_187",
+        "4ed_188",
+        "5ed_434",
+        "5ed_435",
+        "5ed_436",
+        "5ed_437",
+        "6ed_331",
+        "6ed_332",
+        "6ed_333",
+        "6ed_334",
+        "7ed_341",
+        "7ed_342",
+        "7ed_343",
+        "7ed_344",
+        "8ed_331",
+        "8ed_332",
+        "8ed_333",
+        "8ed_334",
+        "9ed_331",
+        "9ed_332",
+        "9ed_333",
+        "9ed_334",
+        "ala_230",
+        "ala_231",
+        "ala_232",
+        "ala_233",
+        "avr_230",
+        "avr_231",
+        "avr_232",
+        "bfz_250a",
+        "bfz_250b",
+        "bfz_251a",
+        "bfz_251b",
+        "bfz_252a",
+        "bfz_252b",
+        "bfz_253a",
+        "bfz_253b",
+        "bfz_254a",
+        "bfz_254b",
+        "brb_124",
+        "brb_125",
+        "brb_126",
+        "brb_127",
+        "brb_128",
+        "brb_129",
+        "brb_130",
+        "brb_131",
+        "brb_132",
+        "c13_337",
+        "c13_338",
+        "c13_339",
+        "c13_340",
+        "c14_318",
+        "c14_319",
+        "c14_320",
+        "c14_321",
+        "c15_323",
+        "c15_324",
+        "c15_325",
+        "c15_326",
+        "chk_287",
+        "chk_288",
+        "chk_289",
+        "chk_290",
+        "cmd_299",
+        "cmd_300",
+        "cmd_301",
+        "cmd_302",
+        "dd3_dvd_026",
+        "dd3_dvd_027",
+        "dd3_dvd_028",
+        "dd3_dvd_029",
+        "ddc_026",
+        "ddc_027",
+        "ddc_028",
+        "dde_067",
+        "ddf_035",
+        "ddf_036",
+        "ddf_037",
+        "ddf_038",
+        "ddg_039",
+        "ddg_040",
+        "ddg_041",
+        "ddg_042",
+        "ddh_040",
+        "ddi_038",
+        "ddi_039",
+        "ddi_040",
+        "ddk_038",
+        "ddk_039",
+        "ddk_040",
+        "ddl_039",
+        "ddl_040",
+        "ddl_041",
+        "ddl_042",
+        "ddn_038",
+        "ddn_079",
+        "ddn_080",
+        "ddn_081",
+        "ddo_030",
+        "ddo_031",
+        "ddo_032",
+        "ddo_033",
+        "ddp_035",
+        "ddp_036",
+        "ddp_037",
+        "dtk_250",
+        "dtk_251",
+        "dtk_252",
+        "frf_176",
+        "frf_177",
+        "h09_037",
+        "ice_343",
+        "ice_344",
+        "ice_345",
+        "inv_331",
+        "inv_332",
+        "inv_333",
+        "inv_334",
+        "isd_250",
+        "isd_251",
+        "isd_252",
+        "ktk_250",
+        "ktk_251",
+        "ktk_252",
+        "ktk_253",
+        "lea_285",
+        "lea_286",
+        "leb_289",
+        "leb_290",
+        "leb_291",
+        "lrw_282",
+        "lrw_283",
+        "lrw_284",
+        "lrw_285",
+        "m10_230",
+        "m10_231",
+        "m10_232",
+        "m10_233",
+        "m11_230",
+        "m11_231",
+        "m11_232",
+        "m11_233",
+        "m12_230",
+        "m12_231",
+        "m12_232",
+        "m12_233",
+        "m13_230",
+        "m13_231",
+        "m13_232",
+        "m13_233",
+        "m14_230",
+        "m14_231",
+        "m14_232",
+        "m14_233",
+        "m15_250",
+        "m15_251",
+        "m15_252",
+        "m15_253",
+        "mbs_146",
+        "mbs_147",
+        "md1_019",
+        "mir_306",
+        "mir_307",
+        "mir_308",
+        "mir_309",
+        "mmq_331",
+        "mmq_332",
+        "mmq_333",
+        "mmq_334",
+        "mrd_287",
+        "mrd_288",
+        "mrd_289",
+        "mrd_290",
+        "nph_166",
+        "nph_167",
+        "ody_331",
+        "ody_332",
+        "ody_333",
+        "ody_334",
+        "ons_331",
+        "ons_332",
+        "ons_333",
+        "ons_334",
+        "ori_253",
+        "ori_254",
+        "ori_255",
+        "ori_256",
+        "rav_287",
+        "rav_288",
+        "rav_289",
+        "rav_290",
+        "roe_229",
+        "roe_230",
+        "roe_231",
+        "roe_232",
+        "rtr_250",
+        "rtr_251",
+        "rtr_252",
+        "rtr_253",
+        "rtr_254",
+        "shm_282",
+        "shm_283",
+        "shm_284",
+        "shm_285",
+        "som_230",
+        "som_231",
+        "som_232",
+        "som_233",
+        "ths_230",
+        "ths_231",
+        "ths_232",
+        "ths_233",
+        "tmp_324",
+        "tmp_325",
+        "tmp_326",
+        "tmp_327",
+        "tsp_282",
+        "tsp_283",
+        "tsp_284",
+        "tsp_285",
+        "usg_331",
+        "usg_332",
+        "usg_333",
+        "usg_334",
+        "zen_230",
+        "zen_231",
+        "zen_232",
+        "zen_233",
+        "zen_250",
+        "zen_251",
+        "zen_252",
+        "zen_253"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Plains"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Plains",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_027",
+        "ddc_028",
+        "ddc_026"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 5,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "promise of power",
+      "images": {
+        "en": "/ddc/en/054.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}{B}",
+      "mkm_product_id": 20869,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/promise_of_power.jpg",
+      "mtgjson_id": "b36546aa87841bbfe46083fc991e9dbc10dc0b75",
+      "multiverseid": 197026,
+      "name": "Promise of Power",
+      "near_mint_id": "ddc_054",
+      "number": 54,
+      "numberSpecial": "054",
+      "originalText": "Choose one — You draw five cards and you lose 5 life; or put a black Demon creature token with flying into play with power and toughness each equal to the number of cards in your hand as the token comes into play.\nEntwine {4} (Choose both if you pay the entwine cost.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "c14_157",
+        "dd3_dvd_054",
+        "mrd_074"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The power/toughness of the token is set when this spell resolves."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "The power and toughness of the Demon token are set when Promise of Power resolves. They're unaffected if the number of cards in your hand changes later."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "If you pay the entwine cost, you draw five cards, then lose five life, then put the Demon token onto the battlefield. The five cards you draw count toward the Demon's power and toughness."
+        }
+      ],
+      "text": "Choose one —\n• You draw five cards and you lose 5 life.\n• Put an X/X black Demon creature token with flying onto the battlefield, where X is the number of cards in your hand.\nEntwine {4} (Choose both if you pay the entwine cost.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Brom",
+      "cmc": 8,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "reiver demon",
+      "images": {
+        "en": "/ddc/en/043.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}{B}{B}{B}{B}",
+      "mkm_product_id": 20854,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/reiver_demon.jpg",
+      "mtgjson_id": "38131832a42b774b81138092ffcf02c7d56814ae",
+      "multiverseid": 197027,
+      "name": "Reiver Demon",
+      "near_mint_id": "ddc_043",
+      "number": 43,
+      "numberSpecial": "043",
+      "originalText": "Flying\nWhen Reiver Demon comes into play, if you played it from your hand, destroy all nonartifact, nonblack creatures. They can't be regenerated.",
+      "originalType": "Creature — Demon",
+      "power": "6",
+      "printings": [
+        "cmd_095",
+        "dd3_dvd_043",
+        "mrd_075"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2013-09-20",
+          "text": "If a creature (such as Clone) enters the battlefield as a copy of this creature, the copy's \"enters-the-battlefield\" ability will still trigger as long as you cast that creature spell from your hand."
+        }
+      ],
+      "subtypes": [
+        "Demon"
+      ],
+      "text": "Flying\nWhen Reiver Demon enters the battlefield, if you cast it from your hand, destroy all nonartifact, nonblack creatures. They can't be regenerated.",
+      "toughness": "6",
+      "type": "Creature — Demon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matthew D. Wilson",
+      "cmc": 9,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"You have not died until I consent.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "reya dawnbringer",
+      "images": {
+        "en": "/ddc/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{W}{W}{W}",
+      "mkm_product_id": 20821,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/reya_dawnbringer.jpg",
+      "mtgjson_id": "92e9918f3a6a8d5507c3fb1a8c1d39f29108525b",
+      "multiverseid": 196998,
+      "name": "Reya Dawnbringer",
+      "near_mint_id": "ddc_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "Flying\nAt the beginning of your upkeep, you may return target creature card from your graveyard to play.",
+      "originalType": "Legendary Creature — Angel",
+      "power": "4",
+      "printings": [
+        "10e_035",
+        "cns_079",
+        "dd3_dvd_013",
+        "inv_033"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Angel"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nAt the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield.",
+      "toughness": "6",
+      "type": "Legendary Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "cmc": 5,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Until the world unites in vengeful fury and Phage is destroyed, I will not stay my hand.\"\n—Akroma, angelic avenger",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "righteous cause",
+      "images": {
+        "en": "/ddc/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}{W}",
+      "mkm_product_id": 20835,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/righteous_cause.jpg",
+      "mtgjson_id": "58e0703bf5769b38da96f572e88a214f5727dc0b",
+      "multiverseid": 197030,
+      "name": "Righteous Cause",
+      "near_mint_id": "ddc_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "Whenever a creature attacks, you gain 1 life.",
+      "originalType": "Enchantment",
+      "printings": [
+        "cmd_029",
+        "dd3_dvd_022",
+        "ons_051"
+      ],
+      "rarity": "Uncommon",
+      "text": "Whenever a creature attacks, you gain 1 life.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Heather Hudson",
+      "cmc": 0,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "secluded steppe",
+      "images": {
+        "en": "/ddc/en/025.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20813,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/secluded_steppe.jpg",
+      "mtgjson_id": "14319fc5fee9f2772bac42207e2646e51a3c5d3a",
+      "multiverseid": 197031,
+      "name": "Secluded Steppe",
+      "near_mint_id": "ddc_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "Secluded Steppe comes into play tapped.\n{T}: Add {W} to your mana pool.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+      "originalType": "Land",
+      "printings": [
+        "c13_319",
+        "c14_310",
+        "c15_304",
+        "cmd_286",
+        "dd3_dvd_025",
+        "ddo_029",
+        "ons_324"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        }
+      ],
+      "text": "Secluded Steppe enters the battlefield tapped.\n{T}: Add {W} to your mana pool.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Matthew D. Wilson",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "An angel's blessing prepares a soldier for war better than a thousand military drills.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "serra advocate",
+      "images": {
+        "en": "/ddc/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}",
+      "mkm_product_id": 20822,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/serra_advocate.jpg",
+      "mtgjson_id": "142d82702ea3e28cf019fd7c08f3a93d75694da7",
+      "multiverseid": 197006,
+      "name": "Serra Advocate",
+      "near_mint_id": "ddc_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "Flying\n{T}: Target attacking or blocking creature gets +2/+2 until end of turn.",
+      "originalType": "Creature — Angel",
+      "power": "2",
+      "printings": [
+        "7ed_041",
+        "dd3_dvd_007",
+        "uds_019"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying\n{T}: Target attacking or blocking creature gets +2/+2 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 5,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Her sword sings more beautifully than any choir.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "serra angel",
+      "images": {
+        "en": "/ddc/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}{W}",
+      "mkm_product_id": 20823,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/serra_angel.jpg",
+      "mtgjson_id": "94efcc73a980a3dd41be2f403d4de286ccec88e2",
+      "multiverseid": 196999,
+      "name": "Serra Angel",
+      "near_mint_id": "ddc_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Flying, vigilance",
+      "originalType": "Creature — Angel",
+      "power": "4",
+      "printings": [
+        "10e_039",
+        "2ed_224",
+        "3ed_224",
+        "4ed_300",
+        "7ed_042",
+        "8ed_045",
+        "9ed_043",
+        "cmd_030",
+        "dd3_dvd_010",
+        "lea_223",
+        "leb_225",
+        "m10_029",
+        "m11_027",
+        "m12_033",
+        "m13_031",
+        "m14_032",
+        "v15_014"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nVigilance (Attacking doesn't cause this creature to tap.)",
+      "toughness": "4",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"The light of an angel's glance is warm, but her fixed stare blinds and burns.\"\n—Calexis, deacon of the New Order of Serra",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "serra's boon",
+      "images": {
+        "en": "/ddc/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 20836,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/serras_boon.jpg",
+      "mtgjson_id": "5bf103c513593c28754ef0b2ba667ee165d6cbda",
+      "multiverseid": 197032,
+      "name": "Serra's Boon",
+      "near_mint_id": "ddc_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "Enchant creature\nEnchanted creature gets +1/+2 as long as it's white. Otherwise, it gets -2/-1.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "dd3_dvd_018",
+        "plc_017"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nEnchanted creature gets +1/+2 as long as it's white. Otherwise, it gets -2/-1.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "The touch of Serra's angels bears hopes aloft and empowers noble causes.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "serra's embrace",
+      "images": {
+        "en": "/ddc/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}{W}",
+      "mkm_product_id": 20837,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/serras_embrace.jpg",
+      "mtgjson_id": "9b4cb8fe63a6e5f53d9e23c87a1355ad8db596ed",
+      "multiverseid": 197000,
+      "name": "Serra's Embrace",
+      "near_mint_id": "ddc_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "Enchant creature\nEnchanted creature gets +2/+2 and has flying and vigilance.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "10e_040",
+        "7ed_043",
+        "dd3_dvd_021",
+        "usg_047"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nEnchanted creature gets +2/+2 and has flying and vigilance.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Jesper Ejsing",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"If one gets in your chimney, you're going to need a long wick and a barrel of bangstuff to get it out.\"\n—Hob Heddil",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "soot imp",
+      "images": {
+        "en": "/ddc/en/037.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}{B}",
+      "mkm_product_id": 20855,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/soot_imp.jpg",
+      "mtgjson_id": "656355c43fcbea3d825aabdb769c3adea1b0a73e",
+      "multiverseid": 197020,
+      "name": "Soot Imp",
+      "near_mint_id": "ddc_037",
+      "number": 37,
+      "numberSpecial": "037",
+      "originalText": "Flying\nWhenever a player plays a nonblack spell, that player loses 1 life.",
+      "originalType": "Creature — Imp",
+      "power": "1",
+      "printings": [
+        "dd3_dvd_037",
+        "eve_043"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-08-01",
+          "text": "This ability affects all players, including you."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "A hybrid spell that's black and another color is *not* a nonblack spell. Since it's black, it can't be nonblack!"
+        }
+      ],
+      "subtypes": [
+        "Imp"
+      ],
+      "text": "Flying\nWhenever a player casts a nonblack spell, that player loses 1 life.",
+      "toughness": "2",
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dermot Power",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Don't drink and thrive.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "souldrinker",
+      "images": {
+        "en": "/ddc/en/039.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}",
+      "mkm_product_id": 20856,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/souldrinker.jpg",
+      "mtgjson_id": "ae385e8c269deb086746b9363a90d0c89a226dbd",
+      "multiverseid": 197036,
+      "name": "Souldrinker",
+      "near_mint_id": "ddc_039",
+      "number": 39,
+      "numberSpecial": "039",
+      "originalText": "Pay 3 life: Put a +1/+1 counter on Souldrinker.",
+      "originalType": "Creature — Spirit",
+      "power": "2",
+      "printings": [
+        "dd3_dvd_039",
+        "tmp_052"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Spirit"
+      ],
+      "text": "Pay 3 life: Put a +1/+1 counter on Souldrinker.",
+      "toughness": "2",
+      "type": "Creature — Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Luca Zontini",
+      "cmc": 0,
+      "color": [
+        "W"
+      ],
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Spirit",
+          "powerToughness": "1/1",
+          "name": "Esprit",
+          "type": "Créature : esprit",
+          "magic_ville_id": "dvd063"
+        }
+      ],
+      "imageName": "spirit",
+      "images": {
+        "en": "/ddc/en/to001.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 20872,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/spirit_token_white_11.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDC_T1-Spirit.jpg",
+      "name": "Spirit",
+      "near_mint_id": "ddc_to001",
+      "number": 1,
+      "numberSpecial": "to001",
+      "originalText": "Flying",
+      "originalType": "Creature — Spirit",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Spirit"
+      ],
+      "text": "Flying",
+      "toughness": "1",
+      "type": "Creature — Spirit",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Nils Hamm",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "stinkweed imp",
+      "images": {
+        "en": "/ddc/en/036.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 20857,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/stinkweed_imp.jpg",
+      "mtgjson_id": "b85ba9741027cb4da4e3dd0d8af2e282b429ff4f",
+      "multiverseid": 193870,
+      "name": "Stinkweed Imp",
+      "near_mint_id": "ddc_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "Flying\nWhenever Stinkweed Imp deals combat damage to a creature, destroy that creature.\nDredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)",
+      "originalType": "Creature — Imp",
+      "power": "1",
+      "printings": [
+        "dd3_dvd_036",
+        "ddj_054",
+        "mma_098",
+        "rav_107"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2013-06-07",
+          "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Once you decide to replace a draw using a card's dredge ability, that card can't be removed from your graveyard \"in response.\" (Replacement effects don't use the stack.)"
+        },
+        {
+          "date": "2013-06-07",
+          "text": "You can't use dredge unless you're going to draw a card and the card with dredge is already in your graveyard."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "Notably, Stinkweed Imp's ability isn't deathtouch. It's a triggered ability that triggers only on combat damage."
+        }
+      ],
+      "subtypes": [
+        "Imp"
+      ],
+      "text": "Flying\nWhenever Stinkweed Imp deals combat damage to a creature, destroy that creature.\nDredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)",
+      "toughness": "2",
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Zug",
+      "cmc": 4,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "You may break her shield, but you'll never break her spirit.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sustainer of the realm",
+      "images": {
+        "en": "/ddc/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}{W}",
+      "mkm_product_id": 20824,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/sustainer_of_the_realm.jpg",
+      "mtgjson_id": "5d16cfdf4ade76325a76ad057fc6e58c11263d4c",
+      "multiverseid": 197007,
+      "name": "Sustainer of the Realm",
+      "near_mint_id": "ddc_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "Flying\nWhenever Sustainer of the Realm blocks, it gets +0/+2 until end of turn.",
+      "originalType": "Creature — Angel",
+      "power": "2",
+      "printings": [
+        "7ed_052",
+        "dd3_dvd_008",
+        "ulg_023"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "It gets the bonus only once, not once per creature it blocks."
+        }
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying\nWhenever Sustainer of the Realm blocks, it gets +0/+2 until end of turn.",
+      "toughness": "3",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Tedin",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp1",
+      "images": {
+        "en": "/ddc/en/059.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20839,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/swamp1.jpg",
+      "mtgjson_id": "0becd4e6f67838e454b538397ff9c532bf455178",
+      "multiverseid": 197257,
+      "name": "Swamp",
+      "near_mint_id": "ddc_059",
+      "number": 59,
+      "numberSpecial": "059",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_062",
+        "ddc_060",
+        "ddc_061"
+      ]
+    },
+    {
+      "artist": "Mark Tedin",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp2",
+      "images": {
+        "en": "/ddc/en/060.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20840,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/swamp2.jpg",
+      "mtgjson_id": "9f6ace82997a17c4bb6d4c945c4cd1670dc3c761",
+      "multiverseid": 197258,
+      "name": "Swamp",
+      "near_mint_id": "ddc_060",
+      "number": 60,
+      "numberSpecial": "060",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_059",
+        "ddc_062",
+        "ddc_061"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp3",
+      "images": {
+        "en": "/ddc/en/061.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20841,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/swamp3.jpg",
+      "mtgjson_id": "de7258e58a94ff08b945322908dd02dd680ea6f3",
+      "multiverseid": 197259,
+      "name": "Swamp",
+      "near_mint_id": "ddc_061",
+      "number": 61,
+      "numberSpecial": "061",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_059",
+        "ddc_062",
+        "ddc_060"
+      ]
+    },
+    {
+      "artist": "Vance Kovacs",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp4",
+      "images": {
+        "en": "/ddc/en/062.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 20842,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/swamp4.jpg",
+      "mtgjson_id": "26b17c3f3d2e8da6a939288bbb0e433819380f14",
+      "multiverseid": 197260,
+      "name": "Swamp",
+      "near_mint_id": "ddc_062",
+      "number": 62,
+      "numberSpecial": "062",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "ddc_059",
+        "ddc_060",
+        "ddc_061"
+      ]
+    },
+    {
+      "artist": "Veronique Meignaud",
+      "cmc": 0,
+      "color": [
+        "B"
+      ],
+      "colors": "C",
+      "foreignNames": [
+        {
+          "language": "fr",
+          "englishName": "Thrull",
+          "powerToughness": "0/1",
+          "name": "Srâne",
+          "type": "Créature : srâne",
+          "magic_ville_id": "dvd065"
+        }
+      ],
+      "imageName": "thrull",
+      "images": {
+        "en": "/ddc/en/to003.jpg"
+      },
+      "layout": "token",
+      "mkm_product_id": 20873,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/thrull_token_black_01.jpg",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DDC_T3-Thrull.jpg",
+      "name": "Thrull",
+      "near_mint_id": "ddc_to003",
+      "number": 3,
+      "numberSpecial": "to003",
+      "originalType": "Creature — Thrull",
+      "power": "0",
+      "rarity": "Token",
+      "subtypes": [
+        "Thrull"
+      ],
+      "toughness": "1",
+      "type": "Creature — Thrull",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jason Chan",
+      "cmc": 6,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "twilight shepherd",
+      "images": {
+        "en": "/ddc/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{W}{W}{W}",
+      "mkm_product_id": 20825,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/twilight_shepherd.jpg",
+      "mtgjson_id": "a55ee3ee755410360cc4a977cdba840a07c9f606",
+      "multiverseid": 197034,
+      "name": "Twilight Shepherd",
+      "near_mint_id": "ddc_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Flying, vigilance\nWhen Twilight Shepherd comes into play, return to your hand all cards in your graveyard put there from play this turn.\nPersist (When this creature is put into a graveyard from play, if it had no -1/-1 counters on it, return it to play under its owner's control with a -1/-1 counter on it.)",
+      "originalType": "Creature — Angel",
+      "power": "5",
+      "printings": [
+        "c14_094",
+        "dd3_dvd_011",
+        "shm_025"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2013-06-07",
+          "text": "If a creature with persist stops being a creature, persist will still work."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time."
+        },
+        {
+          "date": "2013-06-07",
+          "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+        }
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "text": "Flying, vigilance\nWhen Twilight Shepherd enters the battlefield, return to your hand all cards in your graveyard that were put there from the battlefield this turn.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+      "toughness": "5",
+      "type": "Creature — Angel",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Such power grows the body as it shrinks the soul.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "unholy strength",
+      "images": {
+        "en": "/ddc/en/047.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 20870,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/unholy_strength.jpg",
+      "mtgjson_id": "db6833748681cc896af0b44c65bf4c827e4ba046",
+      "multiverseid": 197001,
+      "name": "Unholy Strength",
+      "near_mint_id": "ddc_047",
+      "number": 47,
+      "numberSpecial": "047",
+      "originalText": "Enchant creature\nEnchanted creature gets +2/+1.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "10e_185",
+        "2ed_040",
+        "3ed_041",
+        "4ed_050",
+        "5ed_063",
+        "7ed_168",
+        "8ed_169",
+        "9ed_168",
+        "dd3_dvd_047",
+        "lea_040",
+        "leb_040",
+        "m10_116",
+        "m11_119"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature\nEnchanted creature gets +2/+1.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "D. Alexander Gregory",
+      "cmc": 3,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "Age wears the flesh but galvanizes the soul.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "venerable monk",
+      "images": {
+        "en": "/ddc/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{W}",
+      "mkm_product_id": 20826,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Duel_Decks_Divine_vs._Demonic/venerable_monk.jpg",
+      "mtgjson_id": "76186ee53e0d46659b1b7f8a3ef69b2a40cce723",
+      "multiverseid": 197002,
+      "name": "Venerable Monk",
+      "near_mint_id": "ddc_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "When Venerable Monk comes into play, you gain 2 life.",
+      "originalType": "Creature — Human Monk Cleric",
+      "power": "2",
+      "printings": [
+        "10e_055",
+        "6ed_050",
+        "7ed_053",
+        "8ed_055",
+        "9ed_051",
+        "dd3_dvd_005",
+        "sth_121"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Human",
+        "Monk",
+        "Cleric"
+      ],
+      "text": "When Venerable Monk enters the battlefield, you gain 2 life.",
+      "toughness": "2",
+      "type": "Creature — Human Monk Cleric",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "both"
+}

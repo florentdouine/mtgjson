@@ -1,0 +1,2777 @@
+{
+  "name": "Premium Deck Series: Graveborn",
+  "code": "PD3",
+  "magicCardsInfoCode": "pd3",
+  "releaseDate": "2011-11-18",
+  "border": "black",
+  "type": "premium deck",
+  "mkm_name": "Premium Deck Series: Graveborn",
+  "mkm_id": 1337,
+  "card_total": 30,
+  "cards": [
+    {
+      "artist": "Anthony Jones",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "animate dead",
+      "images": {
+        "en": "/pd3/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 251933,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/animate_dead.jpg",
+      "mtgjson_id": "4f5dfbed9372719ff3100a2f88acc307487cc653",
+      "multiverseid": 265167,
+      "name": "Animate Dead",
+      "near_mint_id": "pd3_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "Enchant creature card in a graveyard\nWhen Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0.",
+      "originalType": "Enchantment — Aura",
+      "printings": [
+        "2ed_001",
+        "3ed_001",
+        "4ed_002",
+        "5ed_002",
+        "lea_001",
+        "leb_001"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "When putting a card onto the battlefield that requires a definition for its value or some other choice, you do what is needed to define the value or make the choice."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "This is a new wording. Animate Dead is now an Aura. You target a creature card in a graveyard when you cast it. It enters the battlefield attached to that card. Then it returns that card to the battlefield, and attaches itself to that card again (since the card is treated as a new object on the battlefield)."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "Once the creature is returned to the battlefield, Animate Dead can't be attached to anything other than it (unless Animate Dead somehow manages to put a different creature onto the battlefield). Attempting to move Animate Dead to another creature won't work."
+        },
+        {
+          "date": "2008-04-01",
+          "text": "If the creature card put onto the battlefield has Protection from Black (or anything that prevents this from legally being attached), this won't be able to attach to it. Then this will go to the graveyard as a State-Based Action, causing the creature to be sacrificed."
+        },
+        {
+          "date": "2008-04-01",
+          "text": "A \"creature card\" is any card with the type Creature, even if it has other types such as Artifact, Enchantment, or Land. Older cards of type Summon are also Creature cards."
+        }
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "text": "Enchant creature card in a graveyard\nWhen Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0.",
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "rk post",
+      "cmc": 8,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "avatar of woe",
+      "images": {
+        "en": "/pd3/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{B}{B}",
+      "mkm_product_id": 251959,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/avatar_of_woe.jpg",
+      "mtgjson_id": "7848cbf005c1f2e1a9ca637a00498356016484a8",
+      "multiverseid": 270448,
+      "name": "Avatar of Woe",
+      "near_mint_id": "pd3_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.\nFear (This creature can't be blocked except by artifact creatures and/or black creatures.)\n{T}: Destroy target creature. It can't be regenerated.",
+      "originalType": "Creature — Avatar",
+      "power": "6",
+      "printings": [
+        "cmd_073",
+        "pcy_056",
+        "tsb_037"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The converted mana cost of this card is still 8, even if you only pay {B}{B} to cast it."
+        }
+      ],
+      "subtypes": [
+        "Avatar"
+      ],
+      "text": "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.\nFear (This creature can't be blocked except by artifact creatures and/or black creatures.)\n{T}: Destroy target creature. It can't be regenerated.",
+      "toughness": "5",
+      "type": "Creature — Avatar",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "cmc": 9,
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": "W",
+      "flavor": "\"Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.\"\n—Dravin, Gruul deserter",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "blazing archon",
+      "images": {
+        "en": "/pd3/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{W}{W}{W}",
+      "mkm_product_id": 251938,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/blazing_archon.jpg",
+      "mtgjson_id": "267f9c82c8f99434636e571bc88efd2ca64410c0",
+      "multiverseid": 270449,
+      "name": "Blazing Archon",
+      "near_mint_id": "pd3_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Flying\nCreatures can't attack you.",
+      "originalType": "Creature — Archon",
+      "power": "5",
+      "printings": [
+        "rav_004"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2014-02-01",
+          "text": "Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control."
+        }
+      ],
+      "subtypes": [
+        "Archon"
+      ],
+      "text": "Flying\nCreatures can't attack you.",
+      "toughness": "6",
+      "type": "Creature — Archon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg Staples",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The scrape of shovels and the tumble of cold dirt soon muffled their pleas.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "buried alive",
+      "images": {
+        "en": "/pd3/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 251960,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/buried_alive.jpg",
+      "mtgjson_id": "13b7783bc7053ca051a4faf2230a0b8a16321d64",
+      "multiverseid": 270455,
+      "name": "Buried Alive",
+      "near_mint_id": "pd3_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.",
+      "originalType": "Sorcery",
+      "printings": [
+        "cmd_074",
+        "ody_118",
+        "wth_005"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You can look in your library and then choose to find any number from zero to three creatures after you look at it."
+        }
+      ],
+      "text": "Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Raymond Swanland",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "cabal therapy",
+      "images": {
+        "en": "/pd3/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 251961,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/cabal_therapy.jpg",
+      "mtgjson_id": "6f64194219b263fc899cadd2ceecb2782f9744ef",
+      "multiverseid": 265166,
+      "name": "Cabal Therapy",
+      "near_mint_id": "pd3_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Name a nonland card. Target player reveals his or her hand and discards all cards with that name.\nFlashback—Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "jud_062"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You name the card during resolution, then your opponent reveals their hand and discards if appropriate. There is no way for your opponent to do anything between you naming the card and them discarding."
+        }
+      ],
+      "text": "Name a nonland card. Target player reveals his or her hand and discards all cards with that name.\nFlashback—Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Chris Rahn",
+      "cmc": 6,
+      "colorIdentity": [
+        "U",
+        "B",
+        "R"
+      ],
+      "colors": "UBR",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "crosis, the purger",
+      "images": {
+        "en": "/pd3/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{U}{B}{R}",
+      "mkm_product_id": 251952,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/crosis_the_purger.jpg",
+      "mtgjson_id": "4ad6044202333ca34a2a883f08d74a8e87112f7f",
+      "multiverseid": 270140,
+      "name": "Crosis, the Purger",
+      "near_mint_id": "pd3_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "Flying\nWhenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals his or her hand and discards all cards of that color.",
+      "originalType": "Legendary Creature — Dragon",
+      "power": "6",
+      "printings": [
+        "inv_242"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose."
+        }
+      ],
+      "subtypes": [
+        "Dragon"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Flying\nWhenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals his or her hand and discards all cards of that color.",
+      "toughness": "6",
+      "type": "Legendary Creature — Dragon",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Pat Morrissey",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "crystal vein",
+      "images": {
+        "en": "/pd3/en/024.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 251954,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/crystal_vein.jpg",
+      "mtgjson_id": "d6f97d3818148251b17b26d45e6c221faf9631de",
+      "multiverseid": 270466,
+      "name": "Crystal Vein",
+      "near_mint_id": "pd3_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "{T}: Add {1} to your mana pool.\n{T}, Sacrifice Crystal Vein: Add {2} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "6ed_322",
+        "c14_289",
+        "mir_290"
+      ],
+      "rarity": "Uncommon",
+      "text": "{T}: Add {1} to your mana pool.\n{T}, Sacrifice Crystal Vein: Add {2} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "diabolic servitude",
+      "images": {
+        "en": "/pd3/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{B}",
+      "mkm_product_id": 251939,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/diabolic_servitude.jpg",
+      "mtgjson_id": "4681c6ed2307695b967a2eedc0b9ea5efaf0c3f1",
+      "multiverseid": 270461,
+      "name": "Diabolic Servitude",
+      "near_mint_id": "pd3_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "When Diabolic Servitude enters the battlefield, return target creature card from your graveyard to the battlefield.\nWhen the creature put onto the battlefield with Diabolic Servitude dies, exile it and return Diabolic Servitude to its owner's hand.\nWhen Diabolic Servitude leaves the battlefield, exile the creature put onto the battlefield with Diabolic Servitude.",
+      "originalType": "Enchantment",
+      "printings": [
+        "c15_120",
+        "usg_130"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If the creature is on the battlefield and is returned to its owner's hand or is exiled, this card loses track of the creature and has no further effects in the future."
+        }
+      ],
+      "text": "When Diabolic Servitude enters the battlefield, return target creature card from your graveyard to the battlefield.\nWhen the creature put onto the battlefield with Diabolic Servitude dies, exile it and return Diabolic Servitude to its owner's hand.\nWhen Diabolic Servitude leaves the battlefield, exile the creature put onto the battlefield with Diabolic Servitude.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "Those who forget the horrors of the past are doomed to re-meet them.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Banned",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "dread return",
+      "images": {
+        "en": "/pd3/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}",
+      "mkm_product_id": 251940,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/dread_return.jpg",
+      "mtgjson_id": "2a2f21d119dc6d3664ca6e79cf8c2ba8e920146b",
+      "multiverseid": 270463,
+      "name": "Dread Return",
+      "near_mint_id": "pd3_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "Return target creature card from your graveyard to the battlefield.\nFlashback—Sacrifice three creatures. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "originalType": "Sorcery",
+      "printings": [
+        "c14_142",
+        "tsp_104"
+      ],
+      "rarity": "Uncommon",
+      "text": "Return target creature card from your graveyard to the battlefield.\nFlashback—Sacrifice three creatures. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Don't worry. I'm not going to deprive you of all your secrets. Just your most precious one.\"\n—Liliana Vess",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "duress",
+      "images": {
+        "en": "/pd3/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 251941,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/duress.jpg",
+      "mtgjson_id": "b4b728e8ace5e91dd6c3132339df954d5142cf83",
+      "multiverseid": 270465,
+      "name": "Duress",
+      "near_mint_id": "pd3_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.",
+      "originalType": "Sorcery",
+      "printings": [
+        "7ed_131",
+        "dd3_dvd_046",
+        "ddc_046",
+        "dtk_098",
+        "m10_096",
+        "m11_096",
+        "m13_090",
+        "m14_097",
+        "md1_023",
+        "usg_132"
+      ],
+      "rarity": "Common",
+      "text": "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Liz Danforth",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ebon stronghold",
+      "images": {
+        "en": "/pd3/en/025.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 251956,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/ebon_stronghold.jpg",
+      "mtgjson_id": "b94c46759d270d44c6ff85d0178b253d970649e5",
+      "multiverseid": 270467,
+      "name": "Ebon Stronghold",
+      "near_mint_id": "pd3_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "Ebon Stronghold enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\n{T}, Sacrifice Ebon Stronghold: Add {B}{B} to your mana pool.",
+      "originalType": "Land",
+      "printings": [
+        "5ed_416",
+        "6ed_324",
+        "btd_072",
+        "fem_180"
+      ],
+      "rarity": "Uncommon",
+      "text": "Ebon Stronghold enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\n{T}, Sacrifice Ebon Stronghold: Add {B}{B} to your mana pool.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Ron Spears",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "A grave is the safest place to store ill-gotten treasures.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "entomb",
+      "images": {
+        "en": "/pd3/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 251962,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/entomb.jpg",
+      "mtgjson_id": "78c4edc281d59e05535ad38c76820e691c3706a9",
+      "multiverseid": 270456,
+      "name": "Entomb",
+      "near_mint_id": "pd3_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Search your library for a card and put that card into your graveyard. Then shuffle your library.",
+      "originalType": "Instant",
+      "printings": [
+        "ody_132"
+      ],
+      "rarity": "Rare",
+      "text": "Search your library for a card and put that card into your graveyard. Then shuffle your library.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Carl Critchlow",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"Death—an outmoded concept. We sleep, and we change.\"\n—Sitrik, birth priest",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "exhume",
+      "images": {
+        "en": "/pd3/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 251942,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/exhume.jpg",
+      "mtgjson_id": "084f5f9d2141609b7d0c3fb4262015e4825339af",
+      "multiverseid": 270462,
+      "name": "Exhume",
+      "near_mint_id": "pd3_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "Each player puts a creature card from his or her graveyard onto the battlefield.",
+      "originalType": "Sorcery",
+      "printings": [
+        "brb_024",
+        "usg_134"
+      ],
+      "rarity": "Common",
+      "text": "Each player puts a creature card from his or her graveyard onto the battlefield.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Daren Bader",
+      "cmc": 4,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "faceless butcher",
+      "images": {
+        "en": "/pd3/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}{B}",
+      "mkm_product_id": 251943,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/faceless_butcher.jpg",
+      "mtgjson_id": "25eec8b03f4ed94a556feb4715718097508e79d5",
+      "multiverseid": 270458,
+      "name": "Faceless Butcher",
+      "near_mint_id": "pd3_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "When Faceless Butcher enters the battlefield, exile target creature other than Faceless Butcher.\nWhen Faceless Butcher leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
+      "originalType": "Creature — Nightmare Horror",
+      "power": "2",
+      "printings": [
+        "tor_060",
+        "tsb_043"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2006-09-25",
+          "text": "Three Faceless Butchers cast in succession with no other creatures on the battlefield will result in an infinite loop and the game will be a draw, unless a player somehow interrupts the loop."
+        }
+      ],
+      "subtypes": [
+        "Nightmare",
+        "Horror"
+      ],
+      "text": "When Faceless Butcher enters the battlefield, exile target creature other than Faceless Butcher.\nWhen Faceless Butcher leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
+      "toughness": "3",
+      "type": "Creature — Nightmare Horror",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brom",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "If the presence of evil were obvious, it wouldn't be nearly as dangerous.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "hidden horror",
+      "images": {
+        "en": "/pd3/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}{B}",
+      "mkm_product_id": 251944,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/hidden_horror.jpg",
+      "mtgjson_id": "7d86d2c7cf8ff81843269d016f52058964268af2",
+      "multiverseid": 270464,
+      "name": "Hidden Horror",
+      "near_mint_id": "pd3_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "When Hidden Horror enters the battlefield, sacrifice it unless you discard a creature card.",
+      "originalType": "Creature — Horror",
+      "power": "4",
+      "printings": [
+        "10e_149",
+        "6ed_137",
+        "wth_014"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-04-01",
+          "text": "When the ability resolves, you choose whether to sacrifice the creature or perform the other action. If you can't perform the other action, then you must sacrifice the creature."
+        },
+        {
+          "date": "2008-04-01",
+          "text": "If the creature is no longer on the battlefield when the ability resolves, you may still perform the action if you want."
+        }
+      ],
+      "subtypes": [
+        "Horror"
+      ],
+      "text": "When Hidden Horror enters the battlefield, sacrifice it unless you discard a creature card.",
+      "toughness": "4",
+      "type": "Creature — Horror",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Anthony Francisco",
+      "cmc": 9,
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": "U",
+      "flavor": "\"Into its maw went the seventh sea, never to be seen again while the world remains.\"\n—Esper fable",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "inkwell leviathan",
+      "images": {
+        "en": "/pd3/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{7}{U}{U}",
+      "mkm_product_id": 251955,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/inkwell_leviathan.jpg",
+      "mtgjson_id": "2b3a83f5b8410c70ed9bbb3e689f57d2d224c0ba",
+      "multiverseid": 270447,
+      "name": "Inkwell Leviathan",
+      "near_mint_id": "pd3_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Islandwalk, trample, shroud",
+      "originalType": "Artifact Creature — Leviathan",
+      "power": "7",
+      "printings": [
+        "con_030",
+        "ddo_037"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Leviathan"
+      ],
+      "text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nTrample\nShroud (This creature can't be the target of spells or abilities.)",
+      "toughness": "11",
+      "type": "Artifact Creature — Leviathan",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Bradley Williams",
+      "cmc": 3,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "last rites",
+      "images": {
+        "en": "/pd3/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{B}",
+      "mkm_product_id": 251945,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/last_rites.jpg",
+      "mtgjson_id": "2a29079b9123a9a103218b2eff1f76b45a0f47d0",
+      "multiverseid": 270457,
+      "name": "Last Rites",
+      "near_mint_id": "pd3_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "Discard any number of cards. Target player reveals his or her hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards.",
+      "originalType": "Sorcery",
+      "printings": [
+        "ody_146"
+      ],
+      "rarity": "Common",
+      "text": "Discard any number of cards. Target player reveals his or her hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Stephen Daniele",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "polluted mire",
+      "images": {
+        "en": "/pd3/en/026.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 251957,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/polluted_mire.jpg",
+      "mtgjson_id": "7ae765646b8d92d5184f1203480766c6ff492e41",
+      "multiverseid": 270468,
+      "name": "Polluted Mire",
+      "near_mint_id": "pd3_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "Polluted Mire enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+      "originalType": "Land",
+      "printings": [
+        "brb_053",
+        "btd_074",
+        "c14_307",
+        "c15_300",
+        "dd3_gvl_059",
+        "ddd_059",
+        "usg_323"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        }
+      ],
+      "text": "Polluted Mire enters the battlefield tapped.\n{T}: Add {B} to your mana pool.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Wayne England",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "putrid imp",
+      "images": {
+        "en": "/pd3/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 251958,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/putrid_imp.jpg",
+      "mtgjson_id": "06fcab889fdf594012b126efa6a2be27c3da42f5",
+      "multiverseid": 270459,
+      "name": "Putrid Imp",
+      "near_mint_id": "pd3_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "Discard a card: Putrid Imp gains flying until end of turn.\nThreshold — As long as seven or more cards are in your graveyard, Putrid Imp gets +1/+1 and can't block.",
+      "originalType": "Creature — Zombie Imp",
+      "power": "1",
+      "printings": [
+        "tor_077"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Zombie",
+        "Imp"
+      ],
+      "text": "Discard a card: Putrid Imp gains flying until end of turn.\nThreshold — As long as seven or more cards are in your graveyard, Putrid Imp gets +1/+1 and can't block.",
+      "toughness": "1",
+      "type": "Creature — Zombie Imp",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Robert Bliss",
+      "cmc": 1,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "\"You will learn to earn death.\"\n—Volrath",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "reanimate",
+      "images": {
+        "en": "/pd3/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{B}",
+      "mkm_product_id": 251946,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/reanimate.jpg",
+      "mtgjson_id": "8b9169ebdadbd1a1f4ba85a7ad2a4d72e6d03ac3",
+      "multiverseid": 270452,
+      "name": "Reanimate",
+      "near_mint_id": "pd3_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.",
+      "originalType": "Sorcery",
+      "printings": [
+        "brb_057",
+        "tmp_045"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-12-01",
+          "text": "You lose life equal to the converted mana cost of the card you're bringing back, so if you Reanimate Volrath's Shapeshifter, you lose three life, regardless of what the next card down is."
+        }
+      ],
+      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The Patriarch dreams of vile plague.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sickening dreams",
+      "images": {
+        "en": "/pd3/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 251947,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/sickening_dreams.jpg",
+      "mtgjson_id": "beca27ac3c2408f6ff7ad63acf18cba934f7af8d",
+      "multiverseid": 270460,
+      "name": "Sickening Dreams",
+      "near_mint_id": "pd3_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "As an additional cost to cast Sickening Dreams, discard X cards.\nSickening Dreams deals X damage to each creature and each player.",
+      "originalType": "Sorcery",
+      "printings": [
+        "tor_083"
+      ],
+      "rarity": "Uncommon",
+      "text": "As an additional cost to cast Sickening Dreams, discard X cards.\nSickening Dreams deals X damage to each creature and each player.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 8,
+      "colorIdentity": [
+        "W",
+        "U",
+        "B"
+      ],
+      "colors": "WUB",
+      "flavor": "No one has properly answered her favorite riddle: \"Why should I spare your life?\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sphinx of the steel wind",
+      "images": {
+        "en": "/pd3/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{W}{U}{B}",
+      "mkm_product_id": 251953,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/sphinx_of_the_steel_wind.jpg",
+      "mtgjson_id": "174164f5238f29da648edc6b47eb7de22c8ad2d1",
+      "multiverseid": 270446,
+      "name": "Sphinx of the Steel Wind",
+      "near_mint_id": "pd3_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Flying, first strike, vigilance, lifelink, protection from red and from green",
+      "originalType": "Artifact Creature — Sphinx",
+      "power": "6",
+      "printings": [
+        "arb_110",
+        "c13_217"
+      ],
+      "rarity": "Mythic Rare",
+      "subtypes": [
+        "Sphinx"
+      ],
+      "text": "Flying, first strike, vigilance, lifelink, protection from red and from green",
+      "toughness": "6",
+      "type": "Artifact Creature — Sphinx",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Aleksi Briclot",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp1",
+      "images": {
+        "en": "/pd3/en/027.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 251934,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/swamp1.jpg",
+      "mtgjson_id": "de7e2b3d75a1a430e45c973d1550971cfb6ec2a5",
+      "multiverseid": 270475,
+      "name": "Swamp",
+      "near_mint_id": "pd3_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_028",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd3_030",
+        "pd3_029",
+        "pd3_028"
+      ]
+    },
+    {
+      "artist": "James Paick",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp2",
+      "images": {
+        "en": "/pd3/en/028.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 251935,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/swamp2.jpg",
+      "mtgjson_id": "b07d138c085b6eec3a8033ad1090a15bb80e35a0",
+      "multiverseid": 270473,
+      "name": "Swamp",
+      "near_mint_id": "pd3_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_029",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd3_027",
+        "pd3_030",
+        "pd3_029"
+      ]
+    },
+    {
+      "artist": "Jung Park",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp3",
+      "images": {
+        "en": "/pd3/en/029.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 251936,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/swamp3.jpg",
+      "mtgjson_id": "fb3f594559208f640c9e89a9907b7e6f03358efb",
+      "multiverseid": 270474,
+      "name": "Swamp",
+      "near_mint_id": "pd3_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_030",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd3_027",
+        "pd3_030",
+        "pd3_028"
+      ]
+    },
+    {
+      "artist": "Alan Pollack",
+      "cmc": 0,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "swamp4",
+      "images": {
+        "en": "/pd3/en/030.jpg"
+      },
+      "layout": "normal",
+      "mkm_product_id": 251937,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/swamp4.jpg",
+      "mtgjson_id": "492fa82f3e0c4a9279ec5560474e5ca5319cc9e9",
+      "multiverseid": 270476,
+      "name": "Swamp",
+      "near_mint_id": "pd3_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "B",
+      "originalType": "Basic Land — Swamp",
+      "printings": [
+        "10e_372",
+        "10e_373",
+        "10e_374",
+        "10e_375",
+        "2ed_295",
+        "2ed_296",
+        "2ed_297",
+        "3ed_299",
+        "3ed_300",
+        "3ed_301",
+        "4ed_190",
+        "4ed_191",
+        "4ed_192",
+        "5ed_442",
+        "5ed_443",
+        "5ed_444",
+        "5ed_445",
+        "6ed_339",
+        "6ed_340",
+        "6ed_341",
+        "6ed_342",
+        "7ed_346",
+        "7ed_347",
+        "7ed_348",
+        "7ed_349",
+        "8ed_339",
+        "8ed_340",
+        "8ed_341",
+        "8ed_342",
+        "9ed_339",
+        "9ed_340",
+        "9ed_341",
+        "9ed_342",
+        "ala_238",
+        "ala_239",
+        "ala_240",
+        "ala_241",
+        "avr_236",
+        "avr_237",
+        "avr_238",
+        "bfz_260a",
+        "bfz_260b",
+        "bfz_261a",
+        "bfz_261b",
+        "bfz_262a",
+        "bfz_262b",
+        "bfz_263a",
+        "bfz_263b",
+        "bfz_264a",
+        "bfz_264b",
+        "brb_133",
+        "brb_134",
+        "brb_135",
+        "brb_136",
+        "btd_082",
+        "btd_083",
+        "btd_084",
+        "c13_345",
+        "c13_346",
+        "c13_347",
+        "c13_348",
+        "c14_326",
+        "c14_327",
+        "c14_328",
+        "c14_329",
+        "c15_331",
+        "c15_332",
+        "c15_333",
+        "c15_334",
+        "chk_295",
+        "chk_296",
+        "chk_297",
+        "chk_298",
+        "cmd_307",
+        "cmd_308",
+        "cmd_309",
+        "cmd_310",
+        "dd3_dvd_059",
+        "dd3_dvd_060",
+        "dd3_dvd_061",
+        "dd3_dvd_062",
+        "dd3_gvl_060",
+        "dd3_gvl_061",
+        "dd3_gvl_062",
+        "dd3_gvl_063",
+        "ddc_059",
+        "ddc_060",
+        "ddc_061",
+        "ddc_062",
+        "ddd_060",
+        "ddd_061",
+        "ddd_062",
+        "ddd_063",
+        "dde_032",
+        "dde_033",
+        "dde_034",
+        "dde_035",
+        "ddh_077",
+        "ddh_078",
+        "ddj_083",
+        "ddj_084",
+        "ddj_085",
+        "ddj_086",
+        "ddk_035",
+        "ddk_036",
+        "ddk_037",
+        "ddk_078",
+        "ddk_079",
+        "ddk_080",
+        "ddm_079",
+        "ddm_080",
+        "ddm_081",
+        "ddm_082",
+        "ddm_083",
+        "ddn_039",
+        "ddn_040",
+        "ddn_041",
+        "ddp_070",
+        "ddp_071",
+        "ddp_072",
+        "dtk_256",
+        "dtk_257",
+        "dtk_258",
+        "frf_180",
+        "frf_181",
+        "h09_039",
+        "ice_353",
+        "ice_354",
+        "ice_355",
+        "inv_339",
+        "inv_340",
+        "inv_341",
+        "inv_342",
+        "isd_256",
+        "isd_257",
+        "isd_258",
+        "ktk_258",
+        "ktk_259",
+        "ktk_260",
+        "ktk_261",
+        "lea_290",
+        "lea_291",
+        "leb_295",
+        "leb_296",
+        "leb_297",
+        "lrw_290",
+        "lrw_291",
+        "lrw_292",
+        "lrw_293",
+        "m10_238",
+        "m10_239",
+        "m10_240",
+        "m10_241",
+        "m11_238",
+        "m11_239",
+        "m11_240",
+        "m11_241",
+        "m12_238",
+        "m12_239",
+        "m12_240",
+        "m12_241",
+        "m13_238",
+        "m13_239",
+        "m13_240",
+        "m13_241",
+        "m14_238",
+        "m14_239",
+        "m14_240",
+        "m14_241",
+        "m15_258",
+        "m15_259",
+        "m15_260",
+        "m15_261",
+        "mbs_150",
+        "mbs_151",
+        "md1_020",
+        "mir_311",
+        "mir_312",
+        "mir_313",
+        "mir_314",
+        "mmq_339",
+        "mmq_340",
+        "mmq_341",
+        "mmq_342",
+        "mrd_295",
+        "mrd_296",
+        "mrd_297",
+        "mrd_298",
+        "nph_170",
+        "nph_171",
+        "ody_339",
+        "ody_340",
+        "ody_341",
+        "ody_342",
+        "ons_339",
+        "ons_340",
+        "ons_341",
+        "ons_342",
+        "ori_261",
+        "ori_262",
+        "ori_263",
+        "ori_264",
+        "pd3_027",
+        "pd3_028",
+        "pd3_029",
+        "rav_295",
+        "rav_296",
+        "rav_297",
+        "rav_298",
+        "roe_237",
+        "roe_238",
+        "roe_239",
+        "roe_240",
+        "rtr_260",
+        "rtr_261",
+        "rtr_262",
+        "rtr_263",
+        "rtr_264",
+        "shm_290",
+        "shm_291",
+        "shm_292",
+        "shm_293",
+        "som_238",
+        "som_239",
+        "som_240",
+        "som_241",
+        "ths_238",
+        "ths_239",
+        "ths_240",
+        "ths_241",
+        "tmp_334",
+        "tmp_335",
+        "tmp_336",
+        "tmp_337",
+        "tsp_290",
+        "tsp_291",
+        "tsp_292",
+        "tsp_293",
+        "usg_339",
+        "usg_340",
+        "usg_341",
+        "usg_342",
+        "zen_238",
+        "zen_239",
+        "zen_240",
+        "zen_241",
+        "zen_258",
+        "zen_259",
+        "zen_260",
+        "zen_261"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Swamp"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Swamp",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "pd3_027",
+        "pd3_029",
+        "pd3_028"
+      ]
+    },
+    {
+      "artist": "Lars Grant-West",
+      "cmc": 8,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "terastodon",
+      "images": {
+        "en": "/pd3/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{6}{G}{G}",
+      "mkm_product_id": 251950,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/terastodon.jpg",
+      "mtgjson_id": "81de715c4c4df4076fd45cb879af37ab9dc6f718",
+      "multiverseid": 270451,
+      "name": "Terastodon",
+      "near_mint_id": "pd3_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "When Terastodon enters the battlefield, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller puts a 3/3 green Elephant creature token onto the battlefield.",
+      "originalType": "Creature — Elephant",
+      "power": "9",
+      "printings": [
+        "c14_218",
+        "c15_204",
+        "cns_181",
+        "wwk_115"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2010-03-01",
+          "text": "The targeted permanents may be controlled by different players."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "If a targeted permanent has indestructible or regenerates, its controller won't get an Elephant token for it. Similarly, if the targeted permanent is destroyed but a replacement effect moves it to a different zone instead of its owner's graveyard, its controller won't get an Elephant token for it."
+        }
+      ],
+      "subtypes": [
+        "Elephant"
+      ],
+      "text": "When Terastodon enters the battlefield, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller puts a 3/3 green Elephant creature token onto the battlefield.",
+      "toughness": "9",
+      "type": "Creature — Elephant",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Daren Bader",
+      "cmc": 6,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "twisted abomination",
+      "images": {
+        "en": "/pd3/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{B}",
+      "mkm_product_id": 251948,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/twisted_abomination.jpg",
+      "mtgjson_id": "21c07e383f06f2f0d04d43213661cb648faa67b0",
+      "multiverseid": 270453,
+      "name": "Twisted Abomination",
+      "near_mint_id": "pd3_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "{B}: Regenerate Twisted Abomination.\nSwampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "originalType": "Creature — Zombie Mutant",
+      "power": "5",
+      "printings": [
+        "cns_129",
+        "dd3_gvl_045",
+        "ddd_045",
+        "scg_076",
+        "tsb_050"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "Unlike the normal cycling ability, Swampcycling doesn't allow you to draw a card. Instead, it lets you search your library for a Swamp card. After you find a Swamp card in your library, you reveal it, put it into your hand, then shuffle your library."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "Swampcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Swampcycling this card. Any ability that stops a cycling ability from being activated also stops Swampcycling from being activated."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "Swampcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Swampcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2009-02-01",
+          "text": "You can choose to find any card with the Swamp land type, including nonbasic lands. You can also choose not to find a card, even if there is a Swamp card in your library."
+        }
+      ],
+      "subtypes": [
+        "Zombie",
+        "Mutant"
+      ],
+      "text": "{B}: Regenerate Twisted Abomination.\nSwampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.)",
+      "toughness": "3",
+      "type": "Creature — Zombie Mutant",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "DiTerlizzi",
+      "cmc": 8,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "Left to itself, nature overflows any container, overthrows any restriction, and overreaches any boundary.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "verdant force",
+      "images": {
+        "en": "/pd3/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{G}{G}{G}",
+      "mkm_product_id": 251951,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/verdant_force.jpg",
+      "mtgjson_id": "dd4b94f897c03239442516978e1d4d1b3730d750",
+      "multiverseid": 270450,
+      "name": "Verdant Force",
+      "near_mint_id": "pd3_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "At the beginning of each upkeep, put a 1/1 green Saproling creature token onto the battlefield.",
+      "originalType": "Creature — Elemental",
+      "power": "7",
+      "printings": [
+        "10e_307",
+        "9ed_278",
+        "c15_207",
+        "tmp_157"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Verdant Force's controller gets the tokens. That is the controller at the beginning of upkeep."
+        },
+        {
+          "date": "2005-08-01",
+          "text": "Once created, the tokens are independent of Verdant Force. If Verdant Force changes controllers, the new controller will put tokens onto the battlefield, but existing tokens will stay where they are."
+        },
+        {
+          "date": "2006-05-01",
+          "text": "In Two-Headed Giant, triggers only once per upkeep, not once for each player."
+        }
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "At the beginning of each upkeep, put a 1/1 green Saproling creature token onto the battlefield.",
+      "toughness": "7",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Thomas M. Baxa",
+      "cmc": 2,
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": "B",
+      "flavor": "The nomads' funeral pyres are more practical than ceremonial.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "zombie infestation",
+      "images": {
+        "en": "/pd3/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{B}",
+      "mkm_product_id": 251949,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/Premium_Deck_Series_Graveborn/zombie_infestation.jpg",
+      "mtgjson_id": "eddeb3f2982a634f1cde8e56d4be2f7d7ef3b57c",
+      "multiverseid": 270454,
+      "name": "Zombie Infestation",
+      "near_mint_id": "pd3_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "Discard two cards: Put a 2/2 black Zombie creature token onto the battlefield.",
+      "originalType": "Enchantment",
+      "printings": [
+        "m12_120",
+        "ody_170"
+      ],
+      "rarity": "Uncommon",
+      "text": "Discard two cards: Put a 2/2 black Zombie creature token onto the battlefield.",
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "foil"
+}

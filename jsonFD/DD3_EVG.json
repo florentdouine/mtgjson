@@ -1,0 +1,5715 @@
+{
+  "name": "Duel Decks Anthology, Elves vs. Goblins",
+  "code": "DD3_EVG",
+  "magicCardsInfoCode": "ddaevg",
+  "releaseDate": "2014-12-05",
+  "border": "black",
+  "type": "duel deck",
+  "card_total": 62,
+  "cards": [
+    {
+      "artist": "Nottsuo",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "No matter where you find them, goblins love rocks.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "akki coalflinger",
+      "images": {
+        "en": "/dd3_evg/en/033.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mtgjson_id": "ea0efe9eddfbccc4e158db21e9052de9cc91e268",
+      "multiverseid": 393941,
+      "name": "Akki Coalflinger",
+      "near_mint_id": "dd3_evg_033",
+      "number": 33,
+      "numberSpecial": "033",
+      "originalText": "First strike\n{R}, {T}: Attacking creatures gain first strike until end of turn.",
+      "originalType": "Creature — Goblin Shaman",
+      "power": "2",
+      "printings": [
+        "chk_152",
+        "evg_033"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin",
+        "Shaman"
+      ],
+      "text": "First strike\n{R}, {T}: Attacking creatures gain first strike until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Goblin Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Daren Bader",
+      "cmc": 7,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "allosaurus rider",
+      "images": {
+        "en": "/dd3_evg/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}{G}{G}",
+      "mtgjson_id": "75931c92e63deb429d72a6f439f02d9425327aba",
+      "multiverseid": 393942,
+      "name": "Allosaurus Rider",
+      "near_mint_id": "dd3_evg_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "You may exile two green cards from your hand rather than pay Allosaurus Rider's mana cost.\nAllosaurus Rider's power and toughness are each equal to 1 plus the number of lands you control.",
+      "originalType": "Creature — Elf Warrior",
+      "power": "1+*",
+      "printings": [
+        "csp_101",
+        "evg_002"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2006-07-15",
+          "text": "Paying the alternative cost doesn't change when you can cast the spell. A creature spell you cast this way, for example, can still only be cast during your main phase while the stack is empty."
+        },
+        {
+          "date": "2006-07-15",
+          "text": "You may pay the alternative cost rather than the card's mana cost. Any additional costs are paid as normal."
+        },
+        {
+          "date": "2006-07-15",
+          "text": "If you don't have two cards of the right color in your hand, you can't choose to cast the spell using the alternative cost."
+        },
+        {
+          "date": "2006-07-15",
+          "text": "You can't exile a card from your hand to pay for itself. At the time you would pay costs, that card is on the stack, not in your hand."
+        }
+      ],
+      "subtypes": [
+        "Elf",
+        "Warrior"
+      ],
+      "text": "You may exile two green cards from your hand rather than pay Allosaurus Rider's mana cost.\nAllosaurus Rider's power and toughness are each equal to 1 plus the number of lands you control.",
+      "toughness": "1+*",
+      "type": "Creature — Elf Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Lucio Parrillo",
+      "cmc": 5,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ambush commander",
+      "images": {
+        "en": "/dd3_evg/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}{G}",
+      "mtgjson_id": "eae6c44c66000526b0f0932c44cfcae7fb8babcd",
+      "multiverseid": 393943,
+      "name": "Ambush Commander",
+      "near_mint_id": "dd3_evg_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "Forests you control are 1/1 green Elf creatures that are still lands.\n{1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.",
+      "originalType": "Creature — Elf",
+      "power": "2",
+      "printings": [
+        "evg_001",
+        "scg_111"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2008-08-01",
+          "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature."
+        }
+      ],
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "Forests you control are 1/1 green Elf creatures that are still lands.\n{1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Warren Mahy",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Boggarts revel in discovering new sensations, from the texture of an otter pellet to the squeak of a dying warren mate.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "boggart shenanigans",
+      "images": {
+        "en": "/dd3_evg/en/054.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mtgjson_id": "53760ff0d63bfc97a61b65e628e62c15d4f8de7f",
+      "multiverseid": 393944,
+      "name": "Boggart Shenanigans",
+      "near_mint_id": "dd3_evg_054",
+      "number": 54,
+      "numberSpecial": "054",
+      "originalText": "Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player.",
+      "originalType": "Tribal Enchantment — Goblin",
+      "printings": [
+        "evg_054",
+        "lrw_155"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player.",
+      "type": "Tribal Enchantment — Goblin",
+      "types": [
+        "Tribal",
+        "Enchantment"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "The least popular goblins get the outer caves.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "clickslither",
+      "images": {
+        "en": "/dd3_evg/en/034.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}{R}",
+      "mtgjson_id": "1e1953840e8acdd1156de24aa3555abf9d7f9f6a",
+      "multiverseid": 393945,
+      "name": "Clickslither",
+      "near_mint_id": "dd3_evg_034",
+      "number": 34,
+      "numberSpecial": "034",
+      "originalText": "Haste\nSacrifice a Goblin: Clickslither gets +2/+2 and gains trample until end of turn.",
+      "originalType": "Creature — Insect",
+      "power": "3",
+      "printings": [
+        "evg_034",
+        "lgn_090"
+      ],
+      "rarity": "Rare",
+      "subtypes": [
+        "Insect"
+      ],
+      "text": "Haste\nSacrifice a Goblin: Clickslither gets +2/+2 and gains trample until end of turn.",
+      "toughness": "3",
+      "type": "Creature — Insect",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Anthony S. Waters",
+      "cmc": 0,
+      "color": [
+        "G"
+      ],
+      "colors": "C",
+      "imageName": "elemental",
+      "images": {
+        "en": "/dd3_evg/en/to001.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DD3_EVG_001-Elemental.jpg",
+      "name": "Elemental",
+      "near_mint_id": "dd3_evg_to001",
+      "number": 1,
+      "numberSpecial": "to001",
+      "originalText": "Trample",
+      "originalType": "Creature — Elemental",
+      "power": "7",
+      "rarity": "Token",
+      "subtypes": [
+        "Elemental"
+      ],
+      "text": "Trample",
+      "toughness": "7",
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dominick Domingo",
+      "cmc": 0,
+      "color": [
+        "G"
+      ],
+      "colors": "C",
+      "imageName": "elf warrior",
+      "images": {
+        "en": "/dd3_evg/en/to002.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DD3_EVG_002-Elf-Warrior.jpg",
+      "name": "Elf Warrior",
+      "near_mint_id": "dd3_evg_to002",
+      "number": 2,
+      "numberSpecial": "to002",
+      "originalType": "Creature — Elf Warrior",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Elf",
+        "Warrior"
+      ],
+      "toughness": "1",
+      "type": "Creature — Elf Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ben Thompson",
+      "cmc": 1,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"No matter how adept our artistic skill, our effigies can never hope to capture the vibrant beauty of a living elf. Perhaps that is truly why we mourn.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "elvish eulogist",
+      "images": {
+        "en": "/dd3_evg/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}",
+      "mtgjson_id": "49783dff936136c0f554f19013eee410434715d5",
+      "multiverseid": 393946,
+      "name": "Elvish Eulogist",
+      "near_mint_id": "dd3_evg_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Sacrifice Elvish Eulogist: You gain 1 life for each Elf card in your graveyard.",
+      "originalType": "Creature — Elf Shaman",
+      "power": "1",
+      "printings": [
+        "evg_003",
+        "lrw_205"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2007-10-01",
+          "text": "By the time this ability resolves, Elvish Eulogist will most likely be in your graveyard, so it will be counted by its own ability."
+        }
+      ],
+      "subtypes": [
+        "Elf",
+        "Shaman"
+      ],
+      "text": "Sacrifice Elvish Eulogist: You gain 1 life for each Elf card in your graveyard.",
+      "toughness": "1",
+      "type": "Creature — Elf Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Larry MacDougall",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "elvish harbinger",
+      "images": {
+        "en": "/dd3_evg/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mtgjson_id": "76ef87b80ed2c45d37b997523af70e39c74890e4",
+      "multiverseid": 393947,
+      "name": "Elvish Harbinger",
+      "near_mint_id": "dd3_evg_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "When Elvish Harbinger enters the battlefield, you may search your library for an Elf card, reveal it, then shuffle your library and put that card on top of it.\n{T}: Add one mana of any color to your mana pool.",
+      "originalType": "Creature — Elf Druid",
+      "power": "1",
+      "printings": [
+        "evg_004",
+        "lrw_207"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elf",
+        "Druid"
+      ],
+      "text": "When Elvish Harbinger enters the battlefield, you may search your library for an Elf card, reveal it, then shuffle your library and put that card on top of it.\n{T}: Add one mana of any color to your mana pool.",
+      "toughness": "2",
+      "type": "Creature — Elf Druid",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Steve Ellis",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "The faultless and immaculate castes form the lower tiers of elvish society, with the exquisite caste above them. At the pinnacle is the perfect, a consummate blend of aristocrat and predator.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "elvish promenade",
+      "images": {
+        "en": "/dd3_evg/en/020.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}",
+      "mtgjson_id": "9970ff4b05c2be02cbe69697d28ce99b3de92a43",
+      "multiverseid": 393948,
+      "name": "Elvish Promenade",
+      "near_mint_id": "dd3_evg_020",
+      "number": 20,
+      "numberSpecial": "020",
+      "originalText": "Put a 1/1 green Elf Warrior creature token onto the battlefield for each Elf you control.",
+      "originalType": "Tribal Sorcery — Elf",
+      "printings": [
+        "evg_020",
+        "lrw_208"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "Put a 1/1 green Elf Warrior creature token onto the battlefield for each Elf you control.",
+      "type": "Tribal Sorcery — Elf",
+      "types": [
+        "Tribal",
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"My tales of war are the stories most asked for around the fires at night, but they're the ones I care least to tell.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "elvish warrior",
+      "images": {
+        "en": "/dd3_evg/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}{G}",
+      "mtgjson_id": "b33b19cc2688111c3a110a45d77f32765041a1d6",
+      "multiverseid": 393949,
+      "name": "Elvish Warrior",
+      "near_mint_id": "dd3_evg_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalType": "Creature — Elf Warrior",
+      "power": "2",
+      "printings": [
+        "9ed_240",
+        "evg_005",
+        "mor_120",
+        "ons_260"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf",
+        "Warrior"
+      ],
+      "toughness": "3",
+      "type": "Creature — Elf Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brandon Kitkouski",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Legends say a djinn gave the goblins a gift they could never hope to master.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "emberwilde augur",
+      "images": {
+        "en": "/dd3_evg/en/035.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "1e0ee54a84574f34bc593ab70cc9bbad0938658c",
+      "multiverseid": 393950,
+      "name": "Emberwilde Augur",
+      "near_mint_id": "dd3_evg_035",
+      "number": 35,
+      "numberSpecial": "035",
+      "originalText": "Sacrifice Emberwilde Augur: Emberwilde Augur deals 3 damage to target player. Activate this ability only during your upkeep.",
+      "originalType": "Creature — Goblin Shaman",
+      "power": "2",
+      "printings": [
+        "evg_035",
+        "fut_097"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin",
+        "Shaman"
+      ],
+      "text": "Sacrifice Emberwilde Augur: Emberwilde Augur deals 3 damage to target player. Activate this ability only during your upkeep.",
+      "toughness": "1",
+      "type": "Creature — Goblin Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Dave Dorman",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Inside even the humblest goblin lurks the potential for far greater things—and far worse.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "flamewave invoker",
+      "images": {
+        "en": "/dd3_evg/en/036.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mtgjson_id": "359337806c2415ee0682d018654b1a224136cc2e",
+      "multiverseid": 393951,
+      "name": "Flamewave Invoker",
+      "near_mint_id": "dd3_evg_036",
+      "number": 36,
+      "numberSpecial": "036",
+      "originalText": "{7}{R}: Flamewave Invoker deals 5 damage to target player.",
+      "originalType": "Creature — Goblin Mutant",
+      "power": "2",
+      "printings": [
+        "10e_202",
+        "dd2_040",
+        "dd3_jvc_040",
+        "evg_036",
+        "lgn_092"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin",
+        "Mutant"
+      ],
+      "text": "{7}{R}: Flamewave Invoker deals 5 damage to target player.",
+      "toughness": "2",
+      "type": "Creature — Goblin Mutant",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Glen Angus",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest1",
+      "images": {
+        "en": "/dd3_evg/en/028.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "830c1e32bdfa5ceaea947388078653563fcf59c4",
+      "multiverseid": 393955,
+      "name": "Forest",
+      "near_mint_id": "dd3_evg_028",
+      "number": 28,
+      "numberSpecial": "028",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_030",
+        "dd3_evg_029",
+        "dd3_evg_031"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest2",
+      "images": {
+        "en": "/dd3_evg/en/029.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "85ec3d42b9963c991f09f98a0c1220dbb5b85ee7",
+      "multiverseid": 393953,
+      "name": "Forest",
+      "near_mint_id": "dd3_evg_029",
+      "number": 29,
+      "numberSpecial": "029",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_030",
+        "dd3_evg_031",
+        "dd3_evg_028"
+      ]
+    },
+    {
+      "artist": "John Avon",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest3",
+      "images": {
+        "en": "/dd3_evg/en/030.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "a627bef02cf01111fc1ddcee5379cd76e299077a",
+      "multiverseid": 393952,
+      "name": "Forest",
+      "near_mint_id": "dd3_evg_030",
+      "number": 30,
+      "numberSpecial": "030",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_031",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_029",
+        "dd3_evg_031",
+        "dd3_evg_028"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forest4",
+      "images": {
+        "en": "/dd3_evg/en/031.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "addcc2787829369784a0361b00cc28572f6f2f9d",
+      "multiverseid": 393954,
+      "name": "Forest",
+      "near_mint_id": "dd3_evg_031",
+      "number": 31,
+      "numberSpecial": "031",
+      "originalText": "G",
+      "originalType": "Basic Land — Forest",
+      "printings": [
+        "10e_380",
+        "10e_381",
+        "10e_382",
+        "10e_383",
+        "2ed_280",
+        "2ed_281",
+        "2ed_282",
+        "3ed_284",
+        "3ed_285",
+        "3ed_286",
+        "4ed_175",
+        "4ed_176",
+        "4ed_177",
+        "5ed_417",
+        "5ed_418",
+        "5ed_419",
+        "5ed_420",
+        "6ed_347",
+        "6ed_348",
+        "6ed_349",
+        "6ed_350",
+        "7ed_328",
+        "7ed_329",
+        "7ed_330",
+        "7ed_331",
+        "8ed_347",
+        "8ed_348",
+        "8ed_349",
+        "8ed_350",
+        "9ed_347",
+        "9ed_348",
+        "9ed_349",
+        "9ed_350",
+        "ala_246",
+        "ala_247",
+        "ala_248",
+        "ala_249",
+        "avr_242",
+        "avr_243",
+        "avr_244",
+        "bfz_270a",
+        "bfz_270b",
+        "bfz_271a",
+        "bfz_271b",
+        "bfz_272a",
+        "bfz_272b",
+        "bfz_273a",
+        "bfz_273b",
+        "bfz_274a",
+        "bfz_274b",
+        "brb_101",
+        "brb_102",
+        "brb_103",
+        "brb_104",
+        "brb_105",
+        "brb_106",
+        "brb_107",
+        "brb_108",
+        "brb_109",
+        "btd_088",
+        "btd_089",
+        "btd_090",
+        "c13_353",
+        "c13_354",
+        "c13_355",
+        "c13_356",
+        "c14_334",
+        "c14_335",
+        "c14_336",
+        "c14_337",
+        "c15_339",
+        "c15_340",
+        "c15_341",
+        "c15_342",
+        "chk_303",
+        "chk_304",
+        "chk_305",
+        "chk_306",
+        "cmd_315",
+        "cmd_316",
+        "cmd_317",
+        "cmd_318",
+        "dd3_evg_028",
+        "dd3_evg_029",
+        "dd3_evg_030",
+        "dd3_gvl_028",
+        "dd3_gvl_029",
+        "dd3_gvl_030",
+        "dd3_gvl_031",
+        "ddd_028",
+        "ddd_029",
+        "ddd_030",
+        "ddd_031",
+        "dde_070",
+        "dde_071",
+        "ddg_043",
+        "ddg_044",
+        "ddg_045",
+        "ddg_046",
+        "ddh_038",
+        "ddh_039",
+        "ddj_087",
+        "ddj_088",
+        "ddj_089",
+        "ddj_090",
+        "ddl_078",
+        "ddl_079",
+        "ddl_080",
+        "ddl_081",
+        "ddm_084",
+        "ddm_085",
+        "ddm_086",
+        "ddm_087",
+        "ddm_088",
+        "ddo_063",
+        "ddo_064",
+        "ddo_065",
+        "ddp_038",
+        "ddp_039",
+        "ddp_040",
+        "dtk_262",
+        "dtk_263",
+        "dtk_264",
+        "evg_028",
+        "evg_029",
+        "evg_030",
+        "evg_031",
+        "frf_184",
+        "frf_185",
+        "h09_041",
+        "ice_328",
+        "ice_329",
+        "ice_330",
+        "inv_347",
+        "inv_348",
+        "inv_349",
+        "inv_350",
+        "isd_262",
+        "isd_263",
+        "isd_264",
+        "ktk_266",
+        "ktk_267",
+        "ktk_268",
+        "ktk_269",
+        "lea_279",
+        "lea_280",
+        "leb_280",
+        "leb_281",
+        "leb_282",
+        "lrw_298",
+        "lrw_299",
+        "lrw_300",
+        "lrw_301",
+        "m10_246",
+        "m10_247",
+        "m10_248",
+        "m10_249",
+        "m11_246",
+        "m11_247",
+        "m11_248",
+        "m11_249",
+        "m12_246",
+        "m12_247",
+        "m12_248",
+        "m12_249",
+        "m13_246",
+        "m13_247",
+        "m13_248",
+        "m13_249",
+        "m14_246",
+        "m14_247",
+        "m14_248",
+        "m14_249",
+        "m15_266",
+        "m15_267",
+        "m15_268",
+        "m15_269",
+        "mbs_154",
+        "mbs_155",
+        "mir_292",
+        "mir_293",
+        "mir_294",
+        "mir_295",
+        "mmq_347",
+        "mmq_348",
+        "mmq_349",
+        "mmq_350",
+        "mrd_303",
+        "mrd_304",
+        "mrd_305",
+        "mrd_306",
+        "nph_174",
+        "nph_175",
+        "ody_347",
+        "ody_348",
+        "ody_349",
+        "ody_350",
+        "ons_347",
+        "ons_348",
+        "ons_349",
+        "ons_350",
+        "ori_269",
+        "ori_270",
+        "ori_271",
+        "ori_272",
+        "rav_303",
+        "rav_304",
+        "rav_305",
+        "rav_306",
+        "roe_245",
+        "roe_246",
+        "roe_247",
+        "roe_248",
+        "rtr_270",
+        "rtr_271",
+        "rtr_272",
+        "rtr_273",
+        "rtr_274",
+        "shm_298",
+        "shm_299",
+        "shm_300",
+        "shm_301",
+        "som_246",
+        "som_247",
+        "som_248",
+        "som_249",
+        "ths_246",
+        "ths_247",
+        "ths_248",
+        "ths_249",
+        "tmp_308",
+        "tmp_309",
+        "tmp_310",
+        "tmp_311",
+        "tsp_298",
+        "tsp_299",
+        "tsp_300",
+        "tsp_301",
+        "usg_347",
+        "usg_348",
+        "usg_349",
+        "usg_350",
+        "zen_246",
+        "zen_247",
+        "zen_248",
+        "zen_249",
+        "zen_266",
+        "zen_267",
+        "zen_268",
+        "zen_269"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Forest"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Forest",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_030",
+        "dd3_evg_029",
+        "dd3_evg_028"
+      ]
+    },
+    {
+      "artist": "Tony Szczudlo",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "forgotten cave",
+      "images": {
+        "en": "/dd3_evg/en/057.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "489f9d905cd77427bb857cf291e4ba56d05e9923",
+      "multiverseid": 393956,
+      "name": "Forgotten Cave",
+      "near_mint_id": "dd3_evg_057",
+      "number": 57,
+      "numberSpecial": "057",
+      "originalText": "Forgotten Cave enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nCycling {R} ({R}, Discard this card: Draw a card.)",
+      "originalType": "Land",
+      "printings": [
+        "c13_289",
+        "c14_296",
+        "c15_284",
+        "cmd_273",
+        "ddj_033",
+        "evg_057",
+        "ons_317"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        }
+      ],
+      "text": "Forgotten Cave enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\nCycling {R} ({R}, Discard this card: Draw a card.)",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Luca Zontini",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gempalm incinerator",
+      "images": {
+        "en": "/dd3_evg/en/037.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mtgjson_id": "1f1da5c4ec5a6536d86f545191256dc210da871e",
+      "multiverseid": 393957,
+      "name": "Gempalm Incinerator",
+      "near_mint_id": "dd3_evg_037",
+      "number": 37,
+      "numberSpecial": "037",
+      "originalText": "Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Incinerator, you may have it deal X damage to target creature, where X is the number of Goblins on the battlefield.",
+      "originalType": "Creature — Goblin",
+      "power": "2",
+      "printings": [
+        "evg_037",
+        "lgn_094"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The target of the ability can't be a creature with Protection from Creatures, with Protection from Goblins, or with Protection from Red."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets."
+        }
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Incinerator, you may have it deal X damage to target creature, where X is the number of Goblins on the battlefield.",
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Tim Hildebrandt",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "gempalm strider",
+      "images": {
+        "en": "/dd3_evg/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mtgjson_id": "2dfbf32af8ec623925e2443102f2c68c65cf9642",
+      "multiverseid": 393958,
+      "name": "Gempalm Strider",
+      "near_mint_id": "dd3_evg_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Cycling {2}{G}{G} ({2}{G}{G}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Strider, Elf creatures get +2/+2 until end of turn.",
+      "originalType": "Creature — Elf",
+      "power": "2",
+      "printings": [
+        "evg_006",
+        "lgn_127"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets."
+        }
+      ],
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "Cycling {2}{G}{G} ({2}{G}{G}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Strider, Elf creatures get +2/+2 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Matt Cavotta",
+      "cmc": 1,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "giant growth",
+      "images": {
+        "en": "/dd3_evg/en/021.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}",
+      "mtgjson_id": "6419bd72fa2470c2d432ce08c1393242363e839b",
+      "multiverseid": 393959,
+      "name": "Giant Growth",
+      "near_mint_id": "dd3_evg_021",
+      "number": 21,
+      "numberSpecial": "021",
+      "originalText": "Target creature gets +3/+3 until end of turn.",
+      "originalType": "Instant",
+      "printings": [
+        "10e_266",
+        "2ed_106",
+        "3ed_106",
+        "4ed_132",
+        "5ed_161",
+        "6ed_233",
+        "7ed_248",
+        "8ed_254",
+        "9ed_243",
+        "brb_029",
+        "btd_057",
+        "dd3_gvl_014",
+        "ddd_014",
+        "evg_021",
+        "ice_134",
+        "lea_106",
+        "leb_106",
+        "m10_184",
+        "m11_178",
+        "m14_174",
+        "rtr_125"
+      ],
+      "rarity": "Common",
+      "text": "Target creature gets +3/+3 until end of turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Dave Kendall",
+      "cmc": 0,
+      "color": [
+        "R"
+      ],
+      "colors": "C",
+      "imageName": "goblin",
+      "images": {
+        "en": "/dd3_evg/en/to003.jpg"
+      },
+      "layout": "token",
+      "mtg_onl_url": "http://tokens.mtg.onl/tokens/DD3_EVG_003-Goblin.jpg",
+      "name": "Goblin",
+      "near_mint_id": "dd3_evg_to003",
+      "number": 3,
+      "numberSpecial": "to003",
+      "originalType": "Creature — Goblin",
+      "power": "1",
+      "rarity": "Token",
+      "subtypes": [
+        "Goblin"
+      ],
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "David Martin",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "goblin burrows",
+      "images": {
+        "en": "/dd3_evg/en/058.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "5c9bc9ddd7a298e8c6f316eacfaf3ccd62afe677",
+      "multiverseid": 393960,
+      "name": "Goblin Burrows",
+      "near_mint_id": "dd3_evg_058",
+      "number": 58,
+      "numberSpecial": "058",
+      "originalText": "{T}: Add {1} to your mana pool.\n{1}{R}, {T}: Target Goblin creature gets +2/+0 until end of turn.",
+      "originalType": "Land",
+      "printings": [
+        "evg_058",
+        "ons_318"
+      ],
+      "rarity": "Uncommon",
+      "text": "{T}: Add {1} to your mana pool.\n{1}{R}, {T}: Target Goblin creature gets +2/+0 until end of turn.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Darrell Riche",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "Akki shells provided good protection when downhill charging became headlong tumbling.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "goblin cohort",
+      "images": {
+        "en": "/dd3_evg/en/038.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "3323be09346ae2d52d0e91ebcdecfd6a6c51ed11",
+      "multiverseid": 393961,
+      "name": "Goblin Cohort",
+      "near_mint_id": "dd3_evg_038",
+      "number": 38,
+      "numberSpecial": "038",
+      "originalText": "Goblin Cohort can't attack unless you've cast a creature spell this turn.",
+      "originalType": "Creature — Goblin Warrior",
+      "power": "2",
+      "printings": [
+        "bok_106",
+        "evg_038"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin",
+        "Warrior"
+      ],
+      "text": "Goblin Cohort can't attack unless you've cast a creature spell this turn.",
+      "toughness": "2",
+      "type": "Creature — Goblin Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Daniel Gelon",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "There's always room for one more.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "goblin matron",
+      "images": {
+        "en": "/dd3_evg/en/039.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mtgjson_id": "4440e3fbc89be394deb5a44ae554e15b71a360d3",
+      "multiverseid": 393962,
+      "name": "Goblin Matron",
+      "near_mint_id": "dd3_evg_039",
+      "number": 39,
+      "numberSpecial": "039",
+      "originalText": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library.",
+      "originalType": "Creature — Goblin",
+      "power": "1",
+      "printings": [
+        "7ed_191",
+        "evg_039",
+        "usg_191"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Because the \"search\" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to."
+        },
+        {
+          "date": "2008-04-01",
+          "text": "You can search for any card with the creature type Goblin, including Creature or Tribal cards. Older cards of type \"Summon Goblin\" and \"Summon Goblins\" also count. You can't search for cards that have Goblin in the name but don't have the creature type Goblin."
+        }
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library.",
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Mark Romanoski",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "goblin ringleader",
+      "images": {
+        "en": "/dd3_evg/en/040.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}",
+      "mtgjson_id": "1af86917c28a18982fc1e0dc4289fc85e16ed47f",
+      "multiverseid": 393963,
+      "name": "Goblin Ringleader",
+      "near_mint_id": "dd3_evg_040",
+      "number": 40,
+      "numberSpecial": "040",
+      "originalText": "Haste\nWhen Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.",
+      "originalType": "Creature — Goblin",
+      "power": "2",
+      "printings": [
+        "apc_062",
+        "evg_040"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Haste\nWhen Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.",
+      "toughness": "2",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Let's play ‘sled.' Here's how it works: you're the sled.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "goblin sledder",
+      "images": {
+        "en": "/dd3_evg/en/041.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "45c526905d3dab76489e8b74cec9ab6fd94fb274",
+      "multiverseid": 393964,
+      "name": "Goblin Sledder",
+      "near_mint_id": "dd3_evg_041",
+      "number": 41,
+      "numberSpecial": "041",
+      "originalText": "Sacrifice a Goblin: Target creature gets +1/+1 until end of turn.",
+      "originalType": "Creature — Goblin",
+      "power": "1",
+      "printings": [
+        "evg_041",
+        "ons_209"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Sacrifice a Goblin: Target creature gets +1/+1 until end of turn.",
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg & Tim Hildebrandt",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "They poured from the Skirk Ridge like lava, burning and devouring everything in their path.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "goblin warchief",
+      "images": {
+        "en": "/dd3_evg/en/042.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mtgjson_id": "25953dd5d755fd57c80363928b9eba9ede372eef",
+      "multiverseid": 393965,
+      "name": "Goblin Warchief",
+      "near_mint_id": "dd3_evg_042",
+      "number": 42,
+      "numberSpecial": "042",
+      "originalText": "Goblin spells you cast cost {1} less to cast.\nGoblin creatures you control have haste.",
+      "originalType": "Creature — Goblin Warrior",
+      "power": "2",
+      "printings": [
+        "ddn_009",
+        "evg_042",
+        "scg_097"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin",
+        "Warrior"
+      ],
+      "text": "Goblin spells you cast cost {1} less to cast.\nGoblin creatures you control have haste.",
+      "toughness": "2",
+      "type": "Creature — Goblin Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"Life's greatest lessons don't come from focus or concentration. They come from breathing and simply noticing.\"\n—Seton, centaur druid",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "harmonize",
+      "images": {
+        "en": "/dd3_evg/en/022.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}{G}",
+      "mtgjson_id": "8be7e6be7aabd4acc0979673c4d40d530920f677",
+      "multiverseid": 393966,
+      "name": "Harmonize",
+      "near_mint_id": "dd3_evg_022",
+      "number": 22,
+      "numberSpecial": "022",
+      "originalText": "Draw three cards.",
+      "originalType": "Sorcery",
+      "printings": [
+        "c13_148",
+        "cmd_158",
+        "dd3_gvl_021",
+        "ddd_021",
+        "evg_022",
+        "plc_149"
+      ],
+      "rarity": "Uncommon",
+      "rulings": [
+        {
+          "date": "2007-02-01",
+          "text": "This is the timeshifted version of Concentrate."
+        }
+      ],
+      "text": "Draw three cards.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Mark Zug",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"Channel your vitality through me.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "heedless one",
+      "images": {
+        "en": "/dd3_evg/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}",
+      "mtgjson_id": "ec86e9601f700b7dfee29353ff311d87a431c82f",
+      "multiverseid": 393967,
+      "name": "Heedless One",
+      "near_mint_id": "dd3_evg_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "Trample\nHeedless One's power and toughness are each equal to the number of Elves on the battlefield.",
+      "originalType": "Creature — Elf Avatar",
+      "power": "*",
+      "printings": [
+        "evg_007",
+        "ons_265"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elf",
+        "Avatar"
+      ],
+      "text": "Trample\nHeedless One's power and toughness are each equal to the number of Elves on the battlefield.",
+      "toughness": "*",
+      "type": "Creature — Elf Avatar",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Wayne Reynolds",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Everybody but me—CHARGE!\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ib halfheart, goblin tactician",
+      "images": {
+        "en": "/dd3_evg/en/043.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}",
+      "mtgjson_id": "ef39547abfe15133bb732a5c26bb8c0d01c447cb",
+      "multiverseid": 393968,
+      "name": "Ib Halfheart, Goblin Tactician",
+      "near_mint_id": "dd3_evg_043",
+      "number": 43,
+      "numberSpecial": "043",
+      "originalText": "Whenever another Goblin you control becomes blocked, sacrifice it. If you do, it deals 4 damage to each creature blocking it.\nSacrifice two Mountains: Put two 1/1 red Goblin creature tokens onto the battlefield.",
+      "originalType": "Legendary Creature — Goblin Advisor",
+      "power": "3",
+      "printings": [
+        "evg_043",
+        "tsp_163"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2006-09-25",
+          "text": "If you don't actually sacrifice the Goblin (because it was removed from the battlefield before the ability resolved, for example), no damage is dealt."
+        }
+      ],
+      "subtypes": [
+        "Goblin",
+        "Advisor"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Whenever another Goblin you control becomes blocked, sacrifice it. If you do, it deals 4 damage to each creature blocking it.\nSacrifice two Mountains: Put two 1/1 red Goblin creature tokens onto the battlefield.",
+      "toughness": "2",
+      "type": "Legendary Creature — Goblin Advisor",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Scott M. Fischer",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "In a culture of beauty, the most beautiful are worshipped as gods.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "imperious perfect",
+      "images": {
+        "en": "/dd3_evg/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mtgjson_id": "6c7e6e446b25d7fa1c8000c40f8d5ef870bb5054",
+      "multiverseid": 393969,
+      "name": "Imperious Perfect",
+      "near_mint_id": "dd3_evg_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "Other Elf creatures you control get +1/+1.\n{G}, {T}: Put a 1/1 green Elf Warrior creature token onto the battlefield.",
+      "originalType": "Creature — Elf Warrior",
+      "power": "2",
+      "printings": [
+        "c14_202",
+        "evg_008",
+        "lrw_220"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elf",
+        "Warrior"
+      ],
+      "text": "Other Elf creatures you control get +1/+1.\n{G}, {T}: Put a 1/1 green Elf Warrior creature token onto the battlefield.",
+      "toughness": "2",
+      "type": "Creature — Elf Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Kev Walker",
+      "cmc": 1,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "One bone broken for every twig snapped underfoot.\n—Llanowar penalty for trespassing",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "llanowar elves",
+      "images": {
+        "en": "/dd3_evg/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}",
+      "mtgjson_id": "04f9bd06a6d115ba5872c56acd194cb63bad8b84",
+      "multiverseid": 393970,
+      "name": "Llanowar Elves",
+      "near_mint_id": "dd3_evg_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "{T}: Add {G} to your mana pool.",
+      "originalType": "Creature — Elf Druid",
+      "power": "1",
+      "printings": [
+        "10e_274",
+        "2ed_119",
+        "3ed_118",
+        "4ed_145",
+        "5ed_175",
+        "6ed_239",
+        "7ed_253",
+        "9ed_253",
+        "brb_039",
+        "btd_058",
+        "c14_204",
+        "evg_009",
+        "lea_119",
+        "leb_119",
+        "m10_189",
+        "m11_184",
+        "m12_182"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf",
+        "Druid"
+      ],
+      "text": "{T}: Add {G} to your mana pool.",
+      "toughness": "1",
+      "type": "Creature — Elf Druid",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "From the highest tiers of Dawn's Light Palace to the deepest shade of Wren's Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "lys alana huntmaster",
+      "images": {
+        "en": "/dd3_evg/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}{G}",
+      "mtgjson_id": "a1f199f97e1f0e29e9abaa7de0f2a151a7789833",
+      "multiverseid": 393971,
+      "name": "Lys Alana Huntmaster",
+      "near_mint_id": "dd3_evg_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.",
+      "originalType": "Creature — Elf Warrior",
+      "power": "3",
+      "printings": [
+        "c14_205",
+        "evg_010",
+        "lrw_229"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf",
+        "Warrior"
+      ],
+      "text": "Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.",
+      "toughness": "3",
+      "type": "Creature — Elf Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Brom",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"I got it! I got it! I—\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mogg fanatic",
+      "images": {
+        "en": "/dd3_evg/en/044.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "7bc399f8645db568fa800b0e243d9a08a2dca938",
+      "multiverseid": 393972,
+      "name": "Mogg Fanatic",
+      "near_mint_id": "dd3_evg_044",
+      "number": 44,
+      "numberSpecial": "044",
+      "originalText": "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player.",
+      "originalType": "Creature — Goblin",
+      "power": "1",
+      "printings": [
+        "10e_219",
+        "evg_044",
+        "pd2_003",
+        "tmp_190"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player.",
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Wayne England",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mogg war marshal",
+      "images": {
+        "en": "/dd3_evg/en/045.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "c81bc2872e79a1e8aedbb3386a93ef83cbe46b40",
+      "multiverseid": 393973,
+      "name": "Mogg War Marshal",
+      "near_mint_id": "dd3_evg_045",
+      "number": 45,
+      "numberSpecial": "045",
+      "originalText": "Echo {1}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Mogg War Marshal enters the battlefield or dies, put a 1/1 red Goblin creature token onto the battlefield.",
+      "originalType": "Creature — Goblin Warrior",
+      "power": "1",
+      "printings": [
+        "evg_045",
+        "mma_122",
+        "tsp_170"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin",
+        "Warrior"
+      ],
+      "text": "Echo {1}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Mogg War Marshal enters the battlefield or dies, put a 1/1 red Goblin creature token onto the battlefield.",
+      "toughness": "1",
+      "type": "Creature — Goblin Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Terese Nielsen",
+      "cmc": 3,
+      "colors": "C",
+      "flavor": "Diluted, moonglove can etch living tissue. Concentrated, a drop will kill a giant.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "moonglove extract",
+      "images": {
+        "en": "/dd3_evg/en/024.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mtgjson_id": "90d1834260eab13b8d32cb99d4e9b75fa7a80bf1",
+      "multiverseid": 393974,
+      "name": "Moonglove Extract",
+      "near_mint_id": "dd3_evg_024",
+      "number": 24,
+      "numberSpecial": "024",
+      "originalText": "Sacrifice Moonglove Extract: Moonglove Extract deals 2 damage to target creature or player.",
+      "originalType": "Artifact",
+      "printings": [
+        "ddf_067",
+        "evg_024",
+        "lrw_258"
+      ],
+      "rarity": "Common",
+      "text": "Sacrifice Moonglove Extract: Moonglove Extract deals 2 damage to target creature or player.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "David Day",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain1",
+      "images": {
+        "en": "/dd3_evg/en/059.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "430ba4e6e250804f2933ac0cd09e2219c4af2cff",
+      "multiverseid": 393978,
+      "name": "Mountain",
+      "near_mint_id": "dd3_evg_059",
+      "number": 59,
+      "numberSpecial": "059",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_062",
+        "dd3_evg_060",
+        "dd3_evg_061"
+      ]
+    },
+    {
+      "artist": "Jeff Miracola",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain2",
+      "images": {
+        "en": "/dd3_evg/en/060.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "fd3c5517f4a2258fc7d67ba0e16f77fb3cee3b9b",
+      "multiverseid": 393976,
+      "name": "Mountain",
+      "near_mint_id": "dd3_evg_060",
+      "number": 60,
+      "numberSpecial": "060",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_061",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_062",
+        "dd3_evg_061",
+        "dd3_evg_059"
+      ]
+    },
+    {
+      "artist": "Rob Alexander",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain3",
+      "images": {
+        "en": "/dd3_evg/en/061.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "d4c0b3c6a9bba06d89baaaba8343b413e079bbc2",
+      "multiverseid": 393977,
+      "name": "Mountain",
+      "near_mint_id": "dd3_evg_061",
+      "number": 61,
+      "numberSpecial": "061",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_062",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_062",
+        "dd3_evg_060",
+        "dd3_evg_059"
+      ]
+    },
+    {
+      "artist": "Sam Wood",
+      "cmc": 0,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mountain4",
+      "images": {
+        "en": "/dd3_evg/en/062.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "3c9c81c3a10de4ad5e426054f390104dd57cff4e",
+      "multiverseid": 393975,
+      "name": "Mountain",
+      "near_mint_id": "dd3_evg_062",
+      "number": 62,
+      "numberSpecial": "062",
+      "originalText": "R",
+      "originalType": "Basic Land — Mountain",
+      "printings": [
+        "10e_376",
+        "10e_377",
+        "10e_378",
+        "10e_379",
+        "2ed_286",
+        "2ed_287",
+        "2ed_288",
+        "3ed_290",
+        "3ed_291",
+        "3ed_292",
+        "4ed_182",
+        "4ed_183",
+        "4ed_184",
+        "5ed_430",
+        "5ed_431",
+        "5ed_432",
+        "5ed_433",
+        "6ed_343",
+        "6ed_344",
+        "6ed_345",
+        "6ed_346",
+        "7ed_337",
+        "7ed_338",
+        "7ed_339",
+        "7ed_340",
+        "8ed_343",
+        "8ed_344",
+        "8ed_345",
+        "8ed_346",
+        "9ed_343",
+        "9ed_344",
+        "9ed_345",
+        "9ed_346",
+        "ala_242",
+        "ala_243",
+        "ala_244",
+        "ala_245",
+        "arn_091",
+        "avr_239",
+        "avr_240",
+        "avr_241",
+        "bfz_265a",
+        "bfz_265b",
+        "bfz_266a",
+        "bfz_266b",
+        "bfz_267a",
+        "bfz_267b",
+        "bfz_268a",
+        "bfz_268b",
+        "bfz_269a",
+        "bfz_269b",
+        "brb_115",
+        "brb_116",
+        "brb_117",
+        "brb_118",
+        "brb_119",
+        "brb_120",
+        "brb_121",
+        "brb_122",
+        "brb_123",
+        "btd_085",
+        "btd_086",
+        "btd_087",
+        "c13_349",
+        "c13_350",
+        "c13_351",
+        "c13_352",
+        "c14_330",
+        "c14_331",
+        "c14_332",
+        "c14_333",
+        "c15_335",
+        "c15_336",
+        "c15_337",
+        "c15_338",
+        "chk_299",
+        "chk_300",
+        "chk_301",
+        "chk_302",
+        "cmd_311",
+        "cmd_312",
+        "cmd_313",
+        "cmd_314",
+        "dd2_059",
+        "dd2_060",
+        "dd2_061",
+        "dd2_062",
+        "dd3_evg_059",
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_jvc_059",
+        "dd3_jvc_060",
+        "dd3_jvc_061",
+        "dd3_jvc_062",
+        "dde_069",
+        "ddg_078",
+        "ddg_079",
+        "ddg_080",
+        "ddg_081",
+        "ddh_041",
+        "ddh_080",
+        "ddi_074",
+        "ddi_075",
+        "ddi_076",
+        "ddi_077",
+        "ddj_041",
+        "ddj_042",
+        "ddj_043",
+        "ddj_044",
+        "ddk_075",
+        "ddk_076",
+        "ddk_077",
+        "ddl_035",
+        "ddl_036",
+        "ddl_037",
+        "ddl_038",
+        "ddl_074",
+        "ddl_075",
+        "ddl_076",
+        "ddl_077",
+        "ddn_035",
+        "ddn_036",
+        "ddn_037",
+        "ddn_078",
+        "ddp_073",
+        "ddp_074",
+        "ddp_075",
+        "dtk_259",
+        "dtk_260",
+        "dtk_261",
+        "evg_059",
+        "evg_060",
+        "evg_061",
+        "evg_062",
+        "frf_182",
+        "frf_183",
+        "h09_040",
+        "ice_340",
+        "ice_341",
+        "ice_342",
+        "inv_343",
+        "inv_344",
+        "inv_345",
+        "inv_346",
+        "isd_259",
+        "isd_260",
+        "isd_261",
+        "ktk_262",
+        "ktk_263",
+        "ktk_264",
+        "ktk_265",
+        "lea_283",
+        "lea_284",
+        "leb_286",
+        "leb_287",
+        "leb_288",
+        "lrw_294",
+        "lrw_295",
+        "lrw_296",
+        "lrw_297",
+        "m10_242",
+        "m10_243",
+        "m10_244",
+        "m10_245",
+        "m11_242",
+        "m11_243",
+        "m11_244",
+        "m11_245",
+        "m12_242",
+        "m12_243",
+        "m12_244",
+        "m12_245",
+        "m13_242",
+        "m13_243",
+        "m13_244",
+        "m13_245",
+        "m14_242",
+        "m14_243",
+        "m14_244",
+        "m14_245",
+        "m15_262",
+        "m15_263",
+        "m15_264",
+        "m15_265",
+        "mbs_152",
+        "mbs_153",
+        "mir_301",
+        "mir_302",
+        "mir_303",
+        "mir_304",
+        "mmq_343",
+        "mmq_344",
+        "mmq_345",
+        "mmq_346",
+        "mrd_299",
+        "mrd_300",
+        "mrd_301",
+        "mrd_302",
+        "nph_172",
+        "nph_173",
+        "ody_343",
+        "ody_344",
+        "ody_345",
+        "ody_346",
+        "ons_343",
+        "ons_344",
+        "ons_345",
+        "ons_346",
+        "ori_265",
+        "ori_266",
+        "ori_267",
+        "ori_268",
+        "pd2_031",
+        "pd2_032",
+        "pd2_033",
+        "pd2_034",
+        "rav_299",
+        "rav_300",
+        "rav_301",
+        "rav_302",
+        "roe_241",
+        "roe_242",
+        "roe_243",
+        "roe_244",
+        "rtr_265",
+        "rtr_266",
+        "rtr_267",
+        "rtr_268",
+        "rtr_269",
+        "shm_294",
+        "shm_295",
+        "shm_296",
+        "shm_297",
+        "som_242",
+        "som_243",
+        "som_244",
+        "som_245",
+        "ths_242",
+        "ths_243",
+        "ths_244",
+        "ths_245",
+        "tmp_319",
+        "tmp_320",
+        "tmp_321",
+        "tmp_322",
+        "tsp_294",
+        "tsp_295",
+        "tsp_296",
+        "tsp_297",
+        "usg_343",
+        "usg_344",
+        "usg_345",
+        "usg_346",
+        "zen_242",
+        "zen_243",
+        "zen_244",
+        "zen_245",
+        "zen_262",
+        "zen_263",
+        "zen_264",
+        "zen_265"
+      ],
+      "rarity": "Basic Land",
+      "subtypes": [
+        "Mountain"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "type": "Basic Land — Mountain",
+      "types": [
+        "Land"
+      ],
+      "variations": [
+        "dd3_evg_060",
+        "dd3_evg_061",
+        "dd3_evg_059"
+      ]
+    },
+    {
+      "artist": "Steve Ellis",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "The oil sloshes against his skull as he nears his destination: the Frogtosser Games and the lighting of the Flaming Boggart.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mudbutton torchrunner",
+      "images": {
+        "en": "/dd3_evg/en/046.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{R}",
+      "mtgjson_id": "6f8afe7f37147ad254261bd78bc2f1c2eb9e8671",
+      "multiverseid": 393979,
+      "name": "Mudbutton Torchrunner",
+      "near_mint_id": "dd3_evg_046",
+      "number": 46,
+      "numberSpecial": "046",
+      "originalText": "When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player.",
+      "originalType": "Creature — Goblin Warrior",
+      "power": "1",
+      "printings": [
+        "ddg_052",
+        "evg_046",
+        "lrw_185"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin",
+        "Warrior"
+      ],
+      "text": "When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player.",
+      "toughness": "1",
+      "type": "Creature — Goblin Warrior",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jeff Miracola",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "He raged at the world, at his family, at his life. But mostly he just raged.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "raging goblin",
+      "images": {
+        "en": "/dd3_evg/en/047.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "e8186ff7e7d529a04bca1efee1d73df6df27d07f",
+      "multiverseid": 393980,
+      "name": "Raging Goblin",
+      "near_mint_id": "dd3_evg_047",
+      "number": 47,
+      "numberSpecial": "047",
+      "originalText": "Haste",
+      "originalType": "Creature — Goblin Berserker",
+      "power": "1",
+      "printings": [
+        "10e_224",
+        "6ed_200",
+        "7ed_211",
+        "8ed_212",
+        "9ed_209",
+        "brb_055",
+        "btd_043",
+        "evg_047",
+        "exo_096",
+        "m10_153"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin",
+        "Berserker"
+      ],
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)",
+      "toughness": "1",
+      "type": "Creature — Goblin Berserker",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Ron Spencer",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Release chaos with me!\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "reckless one",
+      "images": {
+        "en": "/dd3_evg/en/048.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}",
+      "mtgjson_id": "c8a8fb1f3aa8d47425480b8607e7d7433592e6d4",
+      "multiverseid": 393981,
+      "name": "Reckless One",
+      "near_mint_id": "dd3_evg_048",
+      "number": 48,
+      "numberSpecial": "048",
+      "originalText": "Haste\nReckless One's power and toughness are each equal to the number of Goblins on the battlefield.",
+      "originalType": "Creature — Goblin Avatar",
+      "power": "*",
+      "printings": [
+        "evg_048",
+        "ons_222"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin",
+        "Avatar"
+      ],
+      "text": "Haste\nReckless One's power and toughness are each equal to the number of Goblins on the battlefield.",
+      "toughness": "*",
+      "type": "Creature — Goblin Avatar",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Lucio Parrillo",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "siege-gang commander",
+      "images": {
+        "en": "/dd3_evg/en/032.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}{R}",
+      "mtgjson_id": "c91e18ab701fb23602e95dab18cf4de76537decf",
+      "multiverseid": 393982,
+      "name": "Siege-Gang Commander",
+      "near_mint_id": "dd3_evg_032",
+      "number": 32,
+      "numberSpecial": "032",
+      "originalText": "When Siege-Gang Commander enters the battlefield, put three 1/1 red Goblin creature tokens onto the battlefield.\n{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to target creature or player.",
+      "originalType": "Creature — Goblin",
+      "power": "2",
+      "printings": [
+        "10e_234",
+        "evg_032",
+        "m10_157",
+        "scg_103"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "You can sacrifice any Goblin you control to activate Siege-Gang Commander's activated ability, not just the ones its triggered ability puts onto the battlefield. You can even sacrifice Siege-Gang Commander itself."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If you sacrifice an attacking or blocking Goblin during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that Goblin has been dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it."
+        }
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "When Siege-Gang Commander enters the battlefield, put three 1/1 red Goblin creature tokens onto the battlefield.\n{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to target creature or player.",
+      "toughness": "2",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Alex Horley-Orlandelli",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"I order you to volunteer.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "skirk drill sergeant",
+      "images": {
+        "en": "/dd3_evg/en/049.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "d80184f724888d17d1625bb839c075fe56d4f952",
+      "multiverseid": 393983,
+      "name": "Skirk Drill Sergeant",
+      "near_mint_id": "dd3_evg_049",
+      "number": 49,
+      "numberSpecial": "049",
+      "originalText": "Whenever Skirk Drill Sergeant or another Goblin dies, you may pay {2}{R}. If you do, reveal the top card of your library. If it's a Goblin permanent card, put it onto the battlefield. Otherwise, put it into your graveyard.",
+      "originalType": "Creature — Goblin",
+      "power": "2",
+      "printings": [
+        "evg_049",
+        "lgn_112"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Whenever Skirk Drill Sergeant or another Goblin dies, you may pay {2}{R}. If you do, reveal the top card of your library. If it's a Goblin permanent card, put it onto the battlefield. Otherwise, put it into your graveyard.",
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Greg & Tim Hildebrandt",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "He's boss because he's smart enough to get out of the way.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "skirk fire marshal",
+      "images": {
+        "en": "/dd3_evg/en/050.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}{R}",
+      "mtgjson_id": "17e996ac08c2ce79c468cad9788fa321f7ea686c",
+      "multiverseid": 393984,
+      "name": "Skirk Fire Marshal",
+      "near_mint_id": "dd3_evg_050",
+      "number": 50,
+      "numberSpecial": "050",
+      "originalText": "Protection from red\nTap five untapped Goblins you control: Skirk Fire Marshal deals 10 damage to each creature and each player.",
+      "originalType": "Creature — Goblin",
+      "power": "2",
+      "printings": [
+        "evg_050",
+        "ons_229"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Since the ability does not have the {Tap} symbol, you can use the ability before this creature begins a turn under your control."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "It can tap itself but is not required to do so."
+        }
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Protection from red\nTap five untapped Goblins you control: Skirk Fire Marshal deals 10 damage to each creature and each player.",
+      "toughness": "2",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Doug Chaffee",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"I like goblins. They make funny little popping sounds when they die.\"\n—Braids, dementia summoner",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "skirk prospector",
+      "images": {
+        "en": "/dd3_evg/en/051.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "98f2dd466d3b5e1f11be49987fb7155482c7275f",
+      "multiverseid": 393985,
+      "name": "Skirk Prospector",
+      "near_mint_id": "dd3_evg_051",
+      "number": 51,
+      "numberSpecial": "051",
+      "originalText": "Sacrifice a Goblin: Add {R} to your mana pool.",
+      "originalType": "Creature — Goblin",
+      "power": "1",
+      "printings": [
+        "ddg_049",
+        "evg_051",
+        "ons_230"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Sacrifice a Goblin: Add {R} to your mana pool.",
+      "toughness": "1",
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Chippy",
+      "cmc": 3,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "In a shaman's grimy hands, a concoction of dried Skirk Ridge herbs can become the face of panic.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "skirk shaman",
+      "images": {
+        "en": "/dd3_evg/en/052.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}{R}",
+      "mtgjson_id": "f296c9b76ed3495ea8f348b6232ab7eb304e1e8e",
+      "multiverseid": 393986,
+      "name": "Skirk Shaman",
+      "near_mint_id": "dd3_evg_052",
+      "number": 52,
+      "numberSpecial": "052",
+      "originalText": "Skirk Shaman can't be blocked except by artifact creatures and/or red creatures.",
+      "originalType": "Creature — Goblin Shaman",
+      "power": "2",
+      "printings": [
+        "evg_052",
+        "plc_123"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2007-02-01",
+          "text": "This is the timeshifted version of Severed Legion."
+        }
+      ],
+      "subtypes": [
+        "Goblin",
+        "Shaman"
+      ],
+      "text": "Skirk Shaman can't be blocked except by artifact creatures and/or red creatures.",
+      "toughness": "2",
+      "type": "Creature — Goblin Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Corey D. Macourek",
+      "cmc": 4,
+      "colors": "C",
+      "flavor": "The pattern of life can be studied like a book, if you know how to read it.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "slate of ancestry",
+      "images": {
+        "en": "/dd3_evg/en/025.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mtgjson_id": "232480943700ce002d3852516d600fad21c74f85",
+      "multiverseid": 393987,
+      "name": "Slate of Ancestry",
+      "near_mint_id": "dd3_evg_025",
+      "number": 25,
+      "numberSpecial": "025",
+      "originalText": "{4}, {T}, Discard your hand: Draw a card for each creature you control.",
+      "originalType": "Artifact",
+      "printings": [
+        "9ed_308",
+        "evg_025",
+        "ons_310"
+      ],
+      "rarity": "Rare",
+      "text": "{4}, {T}, Discard your hand: Draw a card for each creature you control.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Michael Koelsch",
+      "cmc": 2,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Within each of you is the strength of a landslide.\"\n—Kumano, to his pupils",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "spitting earth",
+      "images": {
+        "en": "/dd3_evg/en/055.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{R}",
+      "mtgjson_id": "d3eaf6136f49a790a0b5e7ca654132bb409b2ffe",
+      "multiverseid": 393988,
+      "name": "Spitting Earth",
+      "near_mint_id": "dd3_evg_055",
+      "number": 55,
+      "numberSpecial": "055",
+      "originalText": "Spitting Earth deals damage to target creature equal to the number of Mountains you control.",
+      "originalType": "Sorcery",
+      "printings": [
+        "10e_238",
+        "6ed_208",
+        "7ed_220",
+        "ddg_067",
+        "evg_055",
+        "mir_193"
+      ],
+      "rarity": "Common",
+      "text": "Spitting Earth deals damage to target creature equal to the number of Mountains you control.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ]
+    },
+    {
+      "artist": "Eric Peterson",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "The Mirari pulses in his veins.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "stonewood invoker",
+      "images": {
+        "en": "/dd3_evg/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mtgjson_id": "3596690f209f6d2d4f9fbf389dbfe6e926142839",
+      "multiverseid": 393989,
+      "name": "Stonewood Invoker",
+      "near_mint_id": "dd3_evg_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "{7}{G}: Stonewood Invoker gets +5/+5 until end of turn.",
+      "originalType": "Creature — Elf Mutant",
+      "power": "2",
+      "printings": [
+        "evg_011",
+        "lgn_139"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf",
+        "Mutant"
+      ],
+      "text": "{7}{G}: Stonewood Invoker gets +5/+5 until end of turn.",
+      "toughness": "2",
+      "type": "Creature — Elf Mutant",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Heather Hudson",
+      "cmc": 4,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sylvan messenger",
+      "images": {
+        "en": "/dd3_evg/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}",
+      "mtgjson_id": "650ec3d5bf7faecdd7a91ab687a4b7884a24dc6c",
+      "multiverseid": 393990,
+      "name": "Sylvan Messenger",
+      "near_mint_id": "dd3_evg_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "Trample\nWhen Sylvan Messenger enters the battlefield, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order.",
+      "originalType": "Creature — Elf",
+      "power": "2",
+      "printings": [
+        "apc_087",
+        "evg_012",
+        "ori_199"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)\nWhen Sylvan Messenger enters the battlefield, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order.",
+      "toughness": "2",
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Omar Rayyan",
+      "cmc": 4,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"Auntie Grub had caught a goat, a bleating doe that still squirmed in her arms. At the same time, her warren decided to share with her a sensory greeting of hot tar . . . .\"\n—A tale of Auntie Grub",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "tar pitcher",
+      "images": {
+        "en": "/dd3_evg/en/053.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{R}",
+      "mtgjson_id": "0edf8d4931d8c9c0fd8d6b171e3e1f3e22ce459c",
+      "multiverseid": 393991,
+      "name": "Tar Pitcher",
+      "near_mint_id": "dd3_evg_053",
+      "number": 53,
+      "numberSpecial": "053",
+      "originalText": "{T}, Sacrifice a Goblin: Tar Pitcher deals 2 damage to target creature or player.",
+      "originalType": "Creature — Goblin Shaman",
+      "power": "2",
+      "printings": [
+        "evg_053",
+        "lrw_193",
+        "mma_134"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Goblin",
+        "Shaman"
+      ],
+      "text": "{T}, Sacrifice a Goblin: Tar Pitcher deals 2 damage to target creature or player.",
+      "toughness": "2",
+      "type": "Creature — Goblin Shaman",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Omar Rayyan",
+      "cmc": 1,
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": "R",
+      "flavor": "\"After Auntie brushed the soot from her eyes, she discovered something wonderful: the fire had turned the goat into something that smelled delicious.\"\n—A tale of Auntie Grub",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "tarfire",
+      "images": {
+        "en": "/dd3_evg/en/056.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{R}",
+      "mtgjson_id": "75d6ddd0e6c5707ae8c290539ac2500e67e9d00d",
+      "multiverseid": 393992,
+      "name": "Tarfire",
+      "near_mint_id": "dd3_evg_056",
+      "number": 56,
+      "numberSpecial": "056",
+      "originalText": "Tarfire deals 2 damage to target creature or player.",
+      "originalType": "Tribal Instant — Goblin",
+      "printings": [
+        "evg_056",
+        "lrw_194"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Goblin"
+      ],
+      "text": "Tarfire deals 2 damage to target creature or player.",
+      "type": "Tribal Instant — Goblin",
+      "types": [
+        "Tribal",
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Dave Dorman",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "Even through the Mirari's voice, the elves still hear the call of their kinship.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "timberwatch elf",
+      "images": {
+        "en": "/dd3_evg/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mtgjson_id": "c69b9e92c45d9490124c794cfdd1291d318cb47b",
+      "multiverseid": 393993,
+      "name": "Timberwatch Elf",
+      "near_mint_id": "dd3_evg_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "{T}: Target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield.",
+      "originalType": "Creature — Elf",
+      "power": "1",
+      "printings": [
+        "c14_220",
+        "evg_013",
+        "lgn_140"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "{T}: Target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield.",
+      "toughness": "2",
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Heather Hudson",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "tranquil thicket",
+      "images": {
+        "en": "/dd3_evg/en/026.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "9eb1051d7ee5a697f52d45007e8272c26003cf62",
+      "multiverseid": 393994,
+      "name": "Tranquil Thicket",
+      "near_mint_id": "dd3_evg_026",
+      "number": 26,
+      "numberSpecial": "026",
+      "originalText": "Tranquil Thicket enters the battlefield tapped.\n{T}: Add {G} to your mana pool.\nCycling {G} ({G}, Discard this card: Draw a card.)",
+      "originalType": "Land",
+      "printings": [
+        "c13_329",
+        "c14_316",
+        "cmd_292",
+        "ddj_082",
+        "evg_027",
+        "ons_326"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+        }
+      ],
+      "text": "Tranquil Thicket enters the battlefield tapped.\n{T}: Add {G} to your mana pool.\nCycling {G} ({G}, Discard this card: Draw a card.)",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Pete Venters",
+      "cmc": 5,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "The ritual of making draws upon the elves' memories and pasts. And elves have long memories and ancient pasts.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "voice of the woods",
+      "images": {
+        "en": "/dd3_evg/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}{G}{G}",
+      "mtgjson_id": "76f288eb77bed7e591b4ca2bda77c8c65b2ba514",
+      "multiverseid": 393995,
+      "name": "Voice of the Woods",
+      "near_mint_id": "dd3_evg_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Tap five untapped Elves you control: Put a 7/7 green Elemental creature token with trample onto the battlefield.",
+      "originalType": "Creature — Elf",
+      "power": "2",
+      "printings": [
+        "evg_014",
+        "ons_297"
+      ],
+      "rarity": "Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Since the ability does not have the {Tap} symbol, you can use the ability before this creature begins a turn under your control."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "It can tap itself but is not required to do so."
+        }
+      ],
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "Tap five untapped Elves you control: Put a 7/7 green Elemental creature token with trample onto the battlefield.",
+      "toughness": "2",
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Christopher Rush",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "\"Close your ears to the voice of greed, and you can turn a gift for one into a gift for many.\"",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wellwisher",
+      "images": {
+        "en": "/dd3_evg/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mtgjson_id": "badeb7976bfc244fdb64e8ea2b9936b0a9c7d340",
+      "multiverseid": 393996,
+      "name": "Wellwisher",
+      "near_mint_id": "dd3_evg_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "{T}: You gain 1 life for each Elf on the battlefield.",
+      "originalType": "Creature — Elf",
+      "power": "1",
+      "printings": [
+        "c14_223",
+        "evg_015",
+        "ons_300"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "{T}: You gain 1 life for each Elf on the battlefield.",
+      "toughness": "1",
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Jim Murray",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "Two times the size, four times the smell.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wildsize",
+      "images": {
+        "en": "/dd3_evg/en/023.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mtgjson_id": "6707c6d9e01ac16e24a628e83f7e8601f4d24cce",
+      "multiverseid": 393997,
+      "name": "Wildsize",
+      "near_mint_id": "dd3_evg_023",
+      "number": 23,
+      "numberSpecial": "023",
+      "originalText": "Target creature gets +2/+2 and gains trample until end of turn.\nDraw a card.",
+      "originalType": "Instant",
+      "printings": [
+        "evg_023",
+        "gpt_098"
+      ],
+      "rarity": "Common",
+      "text": "Target creature gets +2/+2 and gains trample until end of turn.\nDraw a card.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ]
+    },
+    {
+      "artist": "Alex Horley-Orlandelli",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "The goblins laughed as the elf ran away, until more came back.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wirewood herald",
+      "images": {
+        "en": "/dd3_evg/en/016.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mtgjson_id": "9dc46adebd348cb7ed038a2943b14e71e06a83ed",
+      "multiverseid": 393998,
+      "name": "Wirewood Herald",
+      "near_mint_id": "dd3_evg_016",
+      "number": 16,
+      "numberSpecial": "016",
+      "originalText": "When Wirewood Herald dies, you may search your library for an Elf card, reveal that card, put it into your hand, then shuffle your library.",
+      "originalType": "Creature — Elf",
+      "power": "1",
+      "printings": [
+        "evg_016",
+        "ons_302"
+      ],
+      "rarity": "Common",
+      "subtypes": [
+        "Elf"
+      ],
+      "text": "When Wirewood Herald dies, you may search your library for an Elf card, reveal that card, put it into your hand, then shuffle your library.",
+      "toughness": "1",
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Anthony S. Waters",
+      "cmc": 0,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wirewood lodge",
+      "images": {
+        "en": "/dd3_evg/en/027.jpg"
+      },
+      "layout": "normal",
+      "mtgjson_id": "8ffcf84bb3d84ba58bb9217ff08c020c81504901",
+      "multiverseid": 393999,
+      "name": "Wirewood Lodge",
+      "near_mint_id": "dd3_evg_027",
+      "number": 27,
+      "numberSpecial": "027",
+      "originalText": "{T}: Add {1} to your mana pool.\n{G}, {T}: Untap target Elf.",
+      "originalType": "Land",
+      "printings": [
+        "evg_026",
+        "ons_329"
+      ],
+      "rarity": "Uncommon",
+      "text": "{T}: Add {1} to your mana pool.\n{G}, {T}: Untap target Elf.",
+      "type": "Land",
+      "types": [
+        "Land"
+      ]
+    },
+    {
+      "artist": "Thomas M. Baxa",
+      "cmc": 1,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "It drinks fatigue.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wirewood symbiote",
+      "images": {
+        "en": "/dd3_evg/en/017.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{G}",
+      "mtgjson_id": "59d37db253ee90a2e1df68a7bcd5ea75c06ea74d",
+      "multiverseid": 394000,
+      "name": "Wirewood Symbiote",
+      "near_mint_id": "dd3_evg_017",
+      "number": 17,
+      "numberSpecial": "017",
+      "originalText": "Return an Elf you control to its owner's hand: Untap target creature. Activate this ability only once each turn.",
+      "originalType": "Creature — Insect",
+      "power": "1",
+      "printings": [
+        "evg_017",
+        "scg_133"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Insect"
+      ],
+      "text": "Return an Elf you control to its owner's hand: Untap target creature. Activate this ability only once each turn.",
+      "toughness": "1",
+      "type": "Creature — Insect",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Christopher Moeller",
+      "cmc": 3,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "flavor": "Every branch a crossroads, every vine a swift steed.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wood elves",
+      "images": {
+        "en": "/dd3_evg/en/018.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}{G}",
+      "mtgjson_id": "1de19083a364679aff53c0c823fdb6f59aee11fe",
+      "multiverseid": 394001,
+      "name": "Wood Elves",
+      "near_mint_id": "dd3_evg_018",
+      "number": 18,
+      "numberSpecial": "018",
+      "originalText": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "originalType": "Creature — Elf Scout",
+      "power": "1",
+      "printings": [
+        "7ed_284",
+        "8ed_289",
+        "9ed_283",
+        "c14_226",
+        "c15_212",
+        "evg_018",
+        "exo_130"
+      ],
+      "rarity": "Common",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Because the \"search\" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to."
+        }
+      ],
+      "subtypes": [
+        "Elf",
+        "Scout"
+      ],
+      "text": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "toughness": "1",
+      "type": "Creature — Elf Scout",
+      "types": [
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Paolo Parente",
+      "cmc": 2,
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": "G",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "wren's run vanquisher",
+      "images": {
+        "en": "/dd3_evg/en/019.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}{G}",
+      "mtgjson_id": "bbe7b8c194dd224d9077f1bccdb2c5dd74fd7662",
+      "multiverseid": 394002,
+      "name": "Wren's Run Vanquisher",
+      "near_mint_id": "dd3_evg_019",
+      "number": 19,
+      "numberSpecial": "019",
+      "originalText": "As an additional cost to cast Wren's Run Vanquisher, reveal an Elf card from your hand or pay {3}.\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "originalType": "Creature — Elf Warrior",
+      "power": "3",
+      "printings": [
+        "evg_019",
+        "lrw_245"
+      ],
+      "rarity": "Uncommon",
+      "subtypes": [
+        "Elf",
+        "Warrior"
+      ],
+      "text": "As an additional cost to cast Wren's Run Vanquisher, reveal an Elf card from your hand or pay {3}.\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "toughness": "3",
+      "type": "Creature — Elf Warrior",
+      "types": [
+        "Creature"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "both"
+}

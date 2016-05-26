@@ -73,7 +73,7 @@ shared.getSetsToDo(3).serialForEach(
 function buildLang(lang, setCode, callback) {
 	console.log(setCode);
 
-	fs.readFile(path.join(__dirname, '..', 'json', setCode.toUpperCase() + '.json'), 'utf8', function(err, data) {
+	fs.readFile(path.join(__dirname, '..', "jsonFD", setCode.toUpperCase() + '.json'), 'utf8', function(err, data) {
 		if (err) {
 			console.error(err);
 			return(setImmediate(function() { callback(err); }));

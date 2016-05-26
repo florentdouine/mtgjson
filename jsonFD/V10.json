@@ -1,0 +1,913 @@
+{
+  "name": "From the Vault: Relics",
+  "code": "V10",
+  "magicCardsInfoCode": "fvr",
+  "releaseDate": "2010-08-27",
+  "border": "black",
+  "type": "from the vault",
+  "mkm_name": "From the Vault: Relics",
+  "mkm_id": 1202,
+  "card_total": 15,
+  "cards": [
+    {
+      "artist": "Karl Kopinski",
+      "cmc": 1,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "aether vial",
+      "images": {
+        "en": "/v10/en/001.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 242229,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/aether_vial.jpg",
+      "mtgjson_id": "29bbbbf56c26d33991cff42f308823d33824c57d",
+      "multiverseid": 212630,
+      "name": "Æther Vial",
+      "near_mint_id": "v10_001",
+      "number": 1,
+      "numberSpecial": "001",
+      "originalText": "At the beginning of your upkeep, you may put a charge counter on Æther Vial.\n{T}: You may put a creature card with converted mana cost equal to the number of charge counters on Æther Vial from your hand onto the battlefield.",
+      "originalType": "Artifact",
+      "printings": [
+        "dst_091",
+        "mma_197"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "At the beginning of your upkeep, you may put a charge counter on Æther Vial.\n{T}: You may put a creature card with converted mana cost equal to the number of charge counters on Æther Vial from your hand onto the battlefield.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Dan Scott",
+      "cmc": 1,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "black vise",
+      "images": {
+        "en": "/v10/en/002.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 242230,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/black_vise.jpg",
+      "mtgjson_id": "f56f318dda8f29ed0045d4a21a1bdd816ef0109a",
+      "multiverseid": 212636,
+      "name": "Black Vise",
+      "near_mint_id": "v10_002",
+      "number": 2,
+      "numberSpecial": "002",
+      "originalText": "As Black Vise enters the battlefield, choose an opponent.\nAt the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.",
+      "originalType": "Artifact",
+      "printings": [
+        "2ed_234",
+        "3ed_236",
+        "4ed_317",
+        "lea_233",
+        "leb_235"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You choose one opposing player as it enters the battlefield and it only affects that one player. This choice is not changed even if Black Vise changes controllers. It becomes useless but stays on the battlefield if that player leaves the game."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If the chosen player has four or fewer cards in his or her hand as Black Vise's ability resolves, the ability just won't do anything that turn."
+        }
+      ],
+      "text": "As Black Vise enters the battlefield, choose an opponent.\nAt the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Chippy",
+      "cmc": 2,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "isochron scepter",
+      "images": {
+        "en": "/v10/en/003.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{2}",
+      "mkm_product_id": 242232,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/isochron_scepter.jpg",
+      "mtgjson_id": "e1ebacd63c3a241bdf99af78aaf040c165b8ffad",
+      "multiverseid": 212626,
+      "name": "Isochron Scepter",
+      "near_mint_id": "v10_003",
+      "number": 3,
+      "numberSpecial": "003",
+      "originalText": "Imprint — When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.\n{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+      "originalType": "Artifact",
+      "printings": [
+        "ddj_016",
+        "mrd_188"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If the imprinted card leaves the Exile zone while the ability to make a copy is on the stack, then no copy will be made."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If this card leaves the battlefield while the ability to make a copy is on the stack, the ability will still make a copy using the last-known-information rule."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "Isochron Scepter's second ability creates a copy of the imprinted card in the Exile zone (that's where the imprinted instant card is), then allows you to cast it without paying its mana cost."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "You cast the copy while this ability is resolving, and still on the stack. Normally, you're not allowed to cast spells or activate abilities at this time. Isochron Scepter's ability provides an exception."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "You don't pay the spell's mana cost. If the spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can't use any alternative costs."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "If the copied card is a split card, you may choose to cast either side of the split card, but not both. The split cards Fire/Ice, Illusion/Reality, Night/Day, Stand/Deliver, and Wax/Wane all have at least one side with converted mana cost 2 or less.)"
+        },
+        {
+          "date": "2004-12-01",
+          "text": "You can't cast the copy if an effect prevents you from casting instants or from casting that particular instant."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "You can't cast the copy unless all of its targets can be chosen."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked."
+        },
+        {
+          "date": "2005-03-01",
+          "text": "The creation of the copy and then the casting of the copy are both optional."
+        }
+      ],
+      "text": "Imprint — When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.\n{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Jason Chan",
+      "cmc": 1,
+      "colors": "C",
+      "flavor": "Valuing scholarship above all else, the inhabitants of the Ivory Tower reward those who sacrifice power for knowledge.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "ivory tower",
+      "images": {
+        "en": "/v10/en/004.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 242233,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/ivory_tower.jpg",
+      "mtgjson_id": "9ee94cce5af6103cf5a02d220d0cafc126eee984",
+      "multiverseid": 212639,
+      "name": "Ivory Tower",
+      "near_mint_id": "v10_004",
+      "number": 4,
+      "numberSpecial": "004",
+      "originalText": "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus four.",
+      "originalType": "Artifact",
+      "printings": [
+        "3ed_254",
+        "4ed_346",
+        "atq_018"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If you have four or fewer cards in your hand when Ivory Tower's ability resolves, the ability has no effect."
+        }
+      ],
+      "text": "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus 4.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "D. Alexander Gregory",
+      "cmc": 4,
+      "colors": "C",
+      "flavor": "\"Know your foes' strengths as well as their weaknesses.\"\n—Arcum Dagsson, Soldevi machinist",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "jester's cap",
+      "images": {
+        "en": "/v10/en/005.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mkm_product_id": 242234,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/jesters_cap.jpg",
+      "mtgjson_id": "e13f0e853012904871b79042cb78b8ab4487ea99",
+      "multiverseid": 212627,
+      "name": "Jester's Cap",
+      "near_mint_id": "v10_005",
+      "number": 5,
+      "numberSpecial": "005",
+      "originalText": "{2}, {T}, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles his or her library.",
+      "originalType": "Artifact",
+      "printings": [
+        "5ed_385",
+        "9ed_301",
+        "ice_299"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If the player has less than 3 cards in their library, just exile all the cards that are there."
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles his or her library.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Mark Zug",
+      "cmc": 5,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "karn, silver golem",
+      "images": {
+        "en": "/v10/en/006.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}",
+      "mkm_product_id": 242231,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/karn_silver_golem.jpg",
+      "mtgjson_id": "225e9a390e34cfe10a16c64476c8c5e0486fecc5",
+      "multiverseid": 212632,
+      "name": "Karn, Silver Golem",
+      "near_mint_id": "v10_006",
+      "number": 6,
+      "numberSpecial": "006",
+      "originalText": "Whenever Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.\n{1}: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost until end of turn.",
+      "originalType": "Legendary Artifact Creature — Golem",
+      "power": "4",
+      "printings": [
+        "usg_298"
+      ],
+      "rarity": "Mythic Rare",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The blocking ability triggers only once no matter how many blockers are declared."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature."
+        }
+      ],
+      "subtypes": [
+        "Golem"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Whenever Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.\n{1}: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost until end of turn.",
+      "toughness": "4",
+      "type": "Legendary Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Steven Belledin",
+      "cmc": 4,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "masticore",
+      "images": {
+        "en": "/v10/en/007.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mkm_product_id": 242235,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/masticore.jpg",
+      "mtgjson_id": "397878f5591bf74bbd62763759272b4cfa2f40f7",
+      "multiverseid": 212629,
+      "name": "Masticore",
+      "near_mint_id": "v10_007",
+      "number": 7,
+      "numberSpecial": "007",
+      "originalText": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.\n{2}: Masticore deals 1 damage to target creature.\n{2}: Regenerate Masticore.",
+      "originalType": "Artifact Creature — Masticore",
+      "power": "4",
+      "printings": [
+        "uds_134"
+      ],
+      "rarity": "Mythic Rare",
+      "reserved": true,
+      "subtypes": [
+        "Masticore"
+      ],
+      "text": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.\n{2}: Masticore deals 1 damage to target creature.\n{2}: Regenerate Masticore.",
+      "toughness": "4",
+      "type": "Artifact Creature — Masticore",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Donato Giancola",
+      "cmc": 5,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Banned",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Restricted",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "memory jar",
+      "images": {
+        "en": "/v10/en/008.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}",
+      "mkm_product_id": 242236,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/memory_jar.jpg",
+      "mtgjson_id": "d2d0ec30c55996a6bd5a53bf14277c3c9a14b38f",
+      "multiverseid": 212633,
+      "name": "Memory Jar",
+      "near_mint_id": "v10_008",
+      "number": 8,
+      "numberSpecial": "008",
+      "originalText": "{T}, Sacrifice Memory Jar: Each player exiles all cards from his or her hand face down and draws seven cards. At the beginning of the next end step, each player discards his or her hand and returns to his or her hand each card he or she exiled this way.",
+      "originalType": "Artifact",
+      "printings": [
+        "ulg_129"
+      ],
+      "rarity": "Mythic Rare",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You can't look at the cards you exiled until they return to your hand."
+        }
+      ],
+      "text": "{T}, Sacrifice Memory Jar: Each player exiles all cards from his or her hand face down and draws seven cards. At the beginning of the next end step, each player discards his or her hand and returns to his or her hand each card he or she exiled this way.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Donato Giancola",
+      "cmc": 5,
+      "colors": "C",
+      "flavor": "\"It offers you what you want, not what you need.\"\n—Braids, dementia summoner",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mirari",
+      "images": {
+        "en": "/v10/en/009.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{5}",
+      "mkm_product_id": 242237,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/mirari.jpg",
+      "mtgjson_id": "1f43aae664dd863c8e8c598be0858f105fd4364e",
+      "multiverseid": 212635,
+      "name": "Mirari",
+      "near_mint_id": "v10_009",
+      "number": 9,
+      "numberSpecial": "009",
+      "originalText": "Whenever you cast an instant or sorcery spell, you may pay {3}. If you do, copy that spell. You may choose new targets for the copy.",
+      "originalType": "Legendary Artifact",
+      "printings": [
+        "c13_246",
+        "ody_303",
+        "tsb_112"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Everything about the original spell is copied, including any decisions made on announcement, such as whether it was kicked or its Buyback cost was paid. Effects on the spell, such as Sleight of Mind or Flashback, are not copied."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If the copied spell requires a target and there are no legal targets, then the copy has the same target (which should be illegal) as the original."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If the spell is countered before the triggered ability resolves, then the ability will make a copy of how the spell looked right before it was countered."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "It triggers once per spell, so you can't get multiple copies of a spell using this card. And since this card is legendary, you can't control more than one."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The copy is not \"cast\" so it will not trigger anything that triggers on a spell being cast."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You choose whether or not to pay when the triggered ability resolves."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You are not required to choose new targets. If you do choose, then the targets must be legal. If you don't change them, the spell is placed on the stack whether or not the targets are legal. The legality of the targets is always checked on resolution of the spell, so the spell may be countered at that time if all of its targets are illegal."
+        }
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, you may pay {3}. If you do, copy that spell. You may choose new targets for the copy.",
+      "type": "Legendary Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Volkan Baga",
+      "cmc": 0,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "mox diamond",
+      "images": {
+        "en": "/v10/en/010.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{0}",
+      "mkm_product_id": 242238,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/mox_diamond.jpg",
+      "mtgjson_id": "09cf56cac476b88b2cf7f781eaa3923c73741dea",
+      "multiverseid": 212634,
+      "name": "Mox Diamond",
+      "near_mint_id": "v10_010",
+      "number": 10,
+      "numberSpecial": "010",
+      "originalText": "If Mox Diamond would enter the battlefield, you may discard a land card instead. If you do, put Mox Diamond onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add one mana of any color to your mana pool.",
+      "originalType": "Artifact",
+      "printings": [
+        "sth_132"
+      ],
+      "rarity": "Mythic Rare",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2008-05-01",
+          "text": "If you don't discard a land card, Mox Diamond never enters the battlefield. It won't trigger abilities that look for something entering the battlefield, and you won't get the opportunity to tap it for mana."
+        }
+      ],
+      "text": "If Mox Diamond would enter the battlefield, you may discard a land card instead. If you do, put Mox Diamond onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add one mana of any color to your mana pool.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Steve Argyle",
+      "cmc": 4,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "nevinyrral's disk",
+      "images": {
+        "en": "/v10/en/011.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{4}",
+      "mkm_product_id": 242239,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/nevinyrrals_disk.jpg",
+      "mtgjson_id": "9879017460a59d61836ac46b05c688c7acd9ea44",
+      "multiverseid": 212637,
+      "name": "Nevinyrral's Disk",
+      "near_mint_id": "v10_011",
+      "number": 11,
+      "numberSpecial": "011",
+      "originalText": "Nevinyrral's Disk enters the battlefield tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments.",
+      "originalType": "Artifact",
+      "printings": [
+        "2ed_267",
+        "3ed_267",
+        "4ed_356",
+        "5ed_391",
+        "c13_248",
+        "c14_257",
+        "lea_266",
+        "leb_268"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2005-08-01",
+          "text": "Creatures can be regenerated although the Auras on the creatures will still be destroyed by the Disk."
+        },
+        {
+          "date": "2013-07-01",
+          "text": "The destruction of the Disk is not a sacrifice. It is destroyed as part of the resolution if it is still on the battlefield. If an effect gives Nevinyrral's Disk indestructible or regenerates it, it won't be destroyed by its ability."
+        }
+      ],
+      "text": "Nevinyrral's Disk enters the battlefield tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Mike Bierek",
+      "cmc": 1,
+      "colors": "C",
+      "flavor": "Lost to time is the artificer's art of trapping light from a distant star in a ring of purest gold.",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Banned",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Restricted",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sol ring",
+      "images": {
+        "en": "/v10/en/012.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{1}",
+      "mkm_product_id": 242240,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/sol_ring.jpg",
+      "mtgjson_id": "adf9f3d44547b48b9159d88ce9fe60836e016961",
+      "multiverseid": 212638,
+      "name": "Sol Ring",
+      "near_mint_id": "v10_012",
+      "number": 12,
+      "numberSpecial": "012",
+      "originalText": "{T}: Add {2} to your mana pool.",
+      "originalType": "Artifact",
+      "printings": [
+        "2ed_270",
+        "3ed_274",
+        "c13_259",
+        "c14_270",
+        "c15_268",
+        "cmd_261",
+        "lea_269",
+        "leb_271"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "{T}: Add {C}{C} to your mana pool.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Jim Murray",
+      "cmc": 8,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Banned",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sundering titan",
+      "images": {
+        "en": "/v10/en/013.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{8}",
+      "mkm_product_id": 242241,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/sundering_titan.jpg",
+      "mtgjson_id": "e4b62510f5ae32392fe9b969393649d5f04f615b",
+      "multiverseid": 212631,
+      "name": "Sundering Titan",
+      "near_mint_id": "v10_013",
+      "number": 13,
+      "numberSpecial": "013",
+      "originalText": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
+      "originalType": "Artifact Creature — Golem",
+      "power": "7",
+      "printings": [
+        "dst_146"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2004-12-01",
+          "text": "Sundering Titan's two abilities aren't targeted. When one of the abilities resolves, the Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest)."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "If a land has more than one basic land type, it can be chosen more than once."
+        },
+        {
+          "date": "2004-12-01",
+          "text": "All the chosen lands are destroyed simultaneously."
+        }
+      ],
+      "subtypes": [
+        "Golem"
+      ],
+      "text": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
+      "toughness": "10",
+      "type": "Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ]
+    },
+    {
+      "artist": "Chris Rahn",
+      "cmc": 3,
+      "colors": "C",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Modern"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "sword of body and mind",
+      "images": {
+        "en": "/v10/en/014.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{3}",
+      "mkm_product_id": 242242,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/sword_of_body_and_mind.jpg",
+      "mtgjson_id": "e58e8313047b368b4ca2f9383360064815d1be49",
+      "multiverseid": 212640,
+      "name": "Sword of Body and Mind",
+      "near_mint_id": "v10_014",
+      "number": 14,
+      "numberSpecial": "014",
+      "originalText": "Equipped creature gets +2/+2 and has protection from green and from blue.\nWhenever equipped creature deals combat damage to a player, you put a 2/2 green Wolf creature token onto the battlefield and that player puts the top ten cards of his or her library into his or her graveyard.\nEquip {2}",
+      "originalType": "Artifact — Equipment",
+      "printings": [
+        "som_208"
+      ],
+      "rarity": "Mythic Rare",
+      "rulings": [
+        {
+          "date": "2011-01-01",
+          "text": "If there are fewer than ten cards in that player's library, that player puts all the cards from his or her library into his or her graveyard."
+        }
+      ],
+      "subtypes": [
+        "Equipment"
+      ],
+      "text": "Equipped creature gets +2/+2 and has protection from green and from blue.\nWhenever equipped creature deals combat damage to a player, you put a 2/2 green Wolf creature token onto the battlefield and that player puts the top ten cards of his or her library into his or her graveyard.\nEquip {2}",
+      "type": "Artifact — Equipment",
+      "types": [
+        "Artifact"
+      ]
+    },
+    {
+      "artist": "Ryan Pancoast",
+      "cmc": 0,
+      "colors": "C",
+      "flavor": "\"I will go to any length to achieve my goal. Eternal life is worth any sacrifice.\"\n—Zur the Enchanter",
+      "formats": [
+        {
+          "legality": "Legal",
+          "name": "Commander"
+        },
+        {
+          "legality": "Legal",
+          "name": "Legacy"
+        },
+        {
+          "legality": "Legal",
+          "name": "Vintage"
+        }
+      ],
+      "imageName": "zuran orb",
+      "images": {
+        "en": "/v10/en/015.jpg"
+      },
+      "layout": "normal",
+      "manaCost": "{0}",
+      "mkm_product_id": 242243,
+      "mkm_url": "http://fr.magiccardmarket.eu/img/cards/From_the_Vault_Relics/zuran_orb.jpg",
+      "mtgjson_id": "2aaaf1d14c2db41fdfc0beffea9237c85cbd0d69",
+      "multiverseid": 212628,
+      "name": "Zuran Orb",
+      "near_mint_id": "v10_015",
+      "number": 15,
+      "numberSpecial": "015",
+      "originalText": "Sacrifice a land: You gain 2 life.",
+      "originalType": "Artifact",
+      "printings": [
+        "ice_325"
+      ],
+      "rarity": "Mythic Rare",
+      "text": "Sacrifice a land: You gain 2 life.",
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ]
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "finition": "foil"
+}
