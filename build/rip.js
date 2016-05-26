@@ -5,6 +5,7 @@ var base = require("xbase"),
 	C = require("C"),
 	fs = require("fs"),
 	url = require("url"),
+	request= require("request"),
 	moment = require("moment"),
 	unicodeUtil = require("xutil").unicode,
 	diffUtil = require("xutil").diff,
@@ -13,8 +14,13 @@ var base = require("xbase"),
 	urlUtil = require("xutil").url,
 	querystring = require("querystring"),
 	tiptoe = require("tiptoe"),
-	async = require('async');
+	auth = require("../util/FD/auth"),
+	sortBy = require('sort-by'),
+	async = require('async')
+;
 
+var cachedMutiverseIds = {};
+exports.cachedMutiverseIds = cachedMutiverseIds;
 
 (function (exports) {
 
@@ -155,7 +161,8 @@ var ripSet = function(setName, cb) {
 			this.data.set.cards = cards;
 			processMultiverseids(cards.map(function (card) { return (card.variations && card.variations.length) ? card.variations : []; }).flatten().unique().subtract(cards.map(function (card) { return card.multiverseid; })), this);
 		},
-		function addAdditionalFields(cards) {
+		function addAdditionalFields(cards)
+		{
 			base.info("Adding additional fields...");
 
 			this.data.set.cards = this.data.set.cards.concat(cards).sort(shared.cardComparator);
@@ -173,65 +180,325 @@ var ripSet = function(setName, cb) {
 			base.info("Adding foreign names to cards...");
 
 			addForeignNamesToCards(this.data.set.cards, this);
+
 		},
-		function addLegalities() {
+		function addForeignTexts()
+		{
+			base.info("Complete foreign texts to cards...");
+
+			ripLang(this.data.set, this);
+
+		},
+		function addLegalities()
+		{
 			base.info("Adding legalities to cards...");
 
 			addLegalitiesToCards(this.data.set.cards, this);
+
 		},
-		function addPrintings() {
+		function addPrintings()
+		{
 			base.info("Adding printings to cards...");
 
 			addPrintingsToCards(this.data.set, this);
+
 		},
-		function performCorrections() {
+		function performCorrections()
+		{
 			base.info("Doing set corrections...");
 			shared.performSetCorrections(shared.getSetCorrections(this.data.set.code), this.data.set);
 
 			this();
 		},
-		function compareToMagicCardsInfo() {
-			if (!this.data.set.magicCardsInfoCode) {
+		function performFDCorrections(){
+			//Change multiverseid variation with near_mint_id
+			this.data.set.cards.forEach(function(card)
+			{
+				if(card.variations){
+					card.variations = card.variations.map(function(variation){
+						if(cachedMutiverseIds[variation]){
+							return cachedMutiverseIds[variation];
+						}
+					});
+				}
+			});
+			this();
+		},
+		function performFDTokensAddition()
+		{
+			base.info("Perform FD tokens additions to cards...");
+
+			performFDTokensAdditionToSet(this.data.set, this);
+		},
+		function performFDTokensTranslation()
+		{
+			base.info("Perform FD tokens translation to cards...");
+
+			performFDTokensTranslationToSet(this.data.set, this);
+		},
+		function performFMCardSpecificRemoval(){
+
+			base.info("Perform FD remove specific cards...");
+			this.data.set.cards = this.data.set.cards.filter(function(card){
+				if (card.hasOwnProperty("starter") && card.starter) return false;
+				if (card.name=="Checklist") return false;
+				if (card.name=="Duelist Counters and Tokens") return false;
+				if (card.name=="Poison Counter") return false;
+				return true;
+			});
+			this();
+		},
+		function performFDSetLanguageAddition()
+		{
+			base.info("Perform FD Set language Corrections to cards...");
+
+			performFDSetLanguageAdditionToSet(this.data.set, this);
+		},
+		function compareToMagicCardsInfo()
+		{
+			if(!this.data.set.magicCardsInfoCode)
+			{
 				base.warn("SKIPPING comparing to MagicCards.info (no MCI code)...");
 				this();
 			}
-			else {
+			else
+			{
 				base.info("Comparing cards to MagicCards.info...");
 				compareCardsToMCI(this.data.set, this);
 			}
 		},
-		function compareToEssentialMagic() {
-			if (!this.data.set.essentialMagicCode) {
+		function performFDNumberCorrections()
+		{
+			base.info("Perform FD Number Corrections to cards...");
+
+			this.data.set.cards = this.data.set.cards.sort(shared.cardComparator);
+
+			performFDNumberCorrectionsToCards(this.data.set, this);
+		},
+		function performFDMKMProductIDAddition()
+		{
+			base.info("Perform FD mkm product id additions to cards...");
+
+			var self = this;
+			performFDMKMProductIDAdditionToSet(this.data.set, function(mkmErrors){
+				if(mkmErrors && mkmErrors.length>0)console.log(mkmErrors);
+				self();
+			});
+		},
+		function performNearMintJSONAdaptation()
+		{
+			base.info("Perform Near Mint JSON Adaptation...");
+
+			performNearMintJSONAdaptationToCards(this.data.set, this);
+		},
+		function compareToEssentialMagic()
+		{
+			if(!this.data.set.essentialMagicCode)
+			{
 				base.warn("SKIPPING comparing to essentialmagic.com (no essentialMagicCode)...");
 				this();
 			}
-			else {
+			else
+			{
 				base.info("Comparing cards to essentialmagic.com...");
 				compareCardsToEssentialMagic(this.data.set, this);
 			}
 		},
-		function finish(err) {
-			if (err) {
+		function finish(err)
+		{
+			if(err)
+			{
 				base.error("Error ripping: %s (%s)", this.data.set.code, setName);
-				return setImmediate(function () { cb(err); });
+				return setImmediate(function() { cb(err); });
 			}
 
 			this.data.set.cards = this.data.set.cards.sort(shared.cardComparator);
 
 			// Warn about missing fields
-			this.data.set.cards.forEach(function (card) {
-				if (!card.rarity)
+			this.data.set.cards.forEach(function(card)
+			{
+				if(!card.rarity)
 					base.warn("Rarity not found for card: %s", card.name);
-				if (!card.artist)
+				if(!card.artist)
 					base.warn("Artist not found for card: %s", card.name);
+				if(!card.number)
+					base.warn("Number not found for card: %s", card.name);
+				if(!card.numberSpecial)
+					base.warn("NumberSpecial not found for card: %s", card.name);
 			});
 
-			setImmediate(cb, err, this.data.set);
+			setImmediate(function () {
+				cb(err, this.data.set);
+			}.bind(this));
+
+
 		}
 	);
-};
+}
 
-var processMultiverseDocs = function(docs, callback) {
+var cacheMultiverseIds = function(cb){
+	console.log("Store multiverse ids in cache");
+	tiptoe(
+		function loadAllJSONs()
+		{
+			var setCodes = shared.getFDSetCodes();
+
+			setCodes.serialForEach(function(code, subcb)
+			{
+				fs.readFile(path.join(__dirname, "..", "json", code + ".json"), "utf8", subcb);
+			}, this);
+		},
+		function cacheMultiverseIds(JSONRaw)
+		{
+			var allSets = JSONRaw.map(function(raw) { return JSON.parse(raw); });
+
+			allSets.forEach(function(set){
+				set.cards.forEach(function(card)
+				{
+
+					if(card.multiverseid && card.numberSpecial){
+						var id = set.code.toLowerCase()+"_"+card.numberSpecial;
+						cachedMutiverseIds[card.multiverseid] = id;
+
+					}
+
+				});
+			});
+			this();
+
+		},
+		function finish(err)
+		{
+			cb();
+		}
+	);
+}
+
+var langCards = {};
+function ripLang(set, cb) {
+
+	langCards = {};
+
+	tiptoe(
+		function prepareIds() {
+			var multiverseids = [];
+
+			set.cards.forEach(function(card) {
+				// Exclude basic lands
+				//if (card.type.toLowerCase().startsWith("basic land"))
+				//	return;
+
+				// Card must have foreignNames entry
+				if (card.foreignNames) {
+					card.foreignNames.forEach(function(fvalue) {
+						//ONLY FRENCH TO BEGIN
+						if(fvalue.language=="French"){
+							multiverseids.push(fvalue.multiverseid);
+						}
+					});
+				}
+			});
+
+			if(multiverseids.length>0){
+				this(null, multiverseids);
+			}else{
+				 cb();
+				return;
+			}
+		},
+		function processMultiverses(multiverseids) {
+			base.info("Processing "+multiverseids.length+"multiverse ids for texts");
+			var cb = this;
+			var idx = 0;
+			tiptoe(
+				function processAllMultiverseIds(){
+					var subCb = this;
+					this.capture();
+					multiverseids.forEach(function(multiverseId){
+						ripCardLand(multiverseId, subCb.parallel());
+					});
+				},
+				function finishParallel(){
+					cb(null, langCards);
+				}
+			);
+		},
+		function updateCards(cards) {
+
+			set.cards.forEach(function(enCard) {
+				if (!enCard.foreignNames) return;
+				enCard.foreignNames.forEach(function(feCard){
+					var mvid = feCard.multiverseid;
+					if (cards[mvid]) {
+						if (cards[mvid].text)
+							feCard.text = cards[mvid].text;
+						if (cards[mvid].flavor)
+							feCard.flavor = cards[mvid].flavor;
+						if (cards[mvid].type)
+							feCard.type = cards[mvid].type;
+					}
+				});
+			});
+			this();
+		},
+		function finish(err) {
+			if (err) {
+				//base.error("Error ripping: %s", set.name);
+				return setImmediate(function() { cb(err); });
+			}
+			setImmediate(function(){
+				cb(null, set)
+			});
+		}
+	);
+}
+
+function ripCardLand(multiverseid, cb){
+	tiptoe(
+		function getDocs() {
+			var url = urlUtil.setQueryParam(shared.buildMultiverseURL(multiverseid), "printed", "true");
+			shared.getURLAsDoc(url, this);
+		},
+		function docRetrieved(err, doc) {
+			var card = {};
+
+			var idPrefix = getCardPartIDPrefix(doc);
+			card.multiverseid = querystring.parse(url.parse(doc.querySelector(idPrefix + '_rightCol a#cardTextSwitchLink1').getAttribute('href')).query).multiverseid.trim();
+
+			// Text
+			// We're not worried about basic lands here. They are filtered out.
+			card.text = processTextBlocks(doc.querySelectorAll(idPrefix + "_textRow .value .cardtextbox")).trim();
+			card.type = processTextBlocks(doc.querySelectorAll(idPrefix + "_typeRow .value")).trim();
+			card.type = card.type.replaceAll("—", "-");
+			if(card.type.indexOf("-")>-1){
+				//Si tiret il faut l'enlever
+				var pos2points = card.type.indexOf(":");//Si 2 points alors on l'enlève juste, sinon on remplace par 2 points)
+				card.type = card.type.replaceAll("-", pos2points>-1 ? "" : ":");
+			}
+			card.type = card.type.replaceAll("  ", " ");
+
+
+			// Flavor
+			var cardFlavor = processTextBlocks(doc.querySelectorAll(idPrefix + "_flavorRow .value .flavortextbox")).trim();
+			if(!cardFlavor)
+				cardFlavor = processTextBlocks(doc.querySelectorAll(idPrefix + "_flavorRow .value .cardtextbox")).trim();
+
+			if(cardFlavor)
+				card.flavor = cardFlavor;
+
+			// Only add the card to the list if we have something to write
+			if (card.text || card.flavor || card.type){
+				langCards[multiverseid] = card;
+			}
+			cb();
+		}
+	);
+
+}
+exports.ripLang = ripLang;
+
+function processMultiverseids(multiverseids, cb)
+{
 	var cards = [];
 
 	var i = 0;
@@ -604,6 +871,10 @@ var addForeignNamesToCard = function (card, cb) {
 			if (card.foreignNames.length === 0)
 				delete card.foreignNames;
 
+			if(C.CARDS_TRANSLATIONS[card.multiverseid]!=null){
+				card.foreignNames = [C.CARDS_TRANSLATIONS[card.multiverseid]];
+			}
+
 			this();
 		},
 		function finish(err) {
@@ -704,9 +975,20 @@ var addPrintingsToCard = function (nonGathererSets, card, cb) {
 
 			delete card.printings;
 
-			nonGathererSets.forEach(function (nonGathererSet) {
-				if (nonGathererSet.cards.map(function (extraSetCard) { return extraSetCard.name; }).contains(card.name))
-					printings.push(nonGathererSet.code);
+			docs.forEach(function(doc)
+			{
+				Array.toArray(doc.querySelectorAll("table.cardList")[0].querySelectorAll("tr.cardItem")).forEach(function(cardRow)
+				{
+					var multiverseID = +querystring.parse(url.parse(cardRow.querySelector("td a").getAttribute("href")).query).multiverseid.trim();
+					if(multiverseID==card.multiverseid) return; //Si c'est la même
+
+					if(cachedMutiverseIds[multiverseID]){
+						printings.push(cachedMutiverseIds[multiverseID]);
+					}else{
+						//SINON LA CARTE N'EST PAS DANS UNE EXTENSION QUE L'ON GÈRE printings.push(multiverseID);
+					}
+
+				});
 			});
 
 			card.printings = printings;
@@ -821,12 +1103,578 @@ var sortCardColors = function (card) {
 		delete card.colors;
 };
 
-var compareCardsToMCI = function(set, cb) {
+function performFDMKMProductIDAdditionToSet(set, cb){
+	if(!set.hasOwnProperty("mkm_name")){
+		console.log("no mkm_name");
+		cb();
+		return;
+	}
+	if(set.cards.length==0){
+		console.log("cards list is empty");
+		cb();
+		return;
+	}
+
 	tiptoe(
-		function getSetCardList() {
+		function getSetCardList()
+		{
+			var method                     = "GET";
+			var path					   = "/ws/v1.1/output.json/expansion/1/"+encodeURIComponent(set.mkm_name).replace(/'/g, "%27");
+			var headerOptions              = auth.getOauth("www.mkmapi.eu", path, method);
+
+			shared.getURLAsJSON("https://www.mkmapi.eu"+path, this, 0, headerOptions, true);
+
+		},
+		function processSetCardList(result)
+		{
+			var json = JSON.parse(result);
+
+			var matchErrors = 0;
+
+			var mkmErrors = [];
+
+			var doubleTokens = [];
+			set.cards.forEach(function(mtgJSONCard){
+				var mtgJSONNumber 	= mtgJSONCard.u ? mtgJSONCard.mciNumber : mtgJSONCard.number;
+				var mtgJSONName		= mtgJSONCard.name.toLowerCase();
+				var mtgJSONisToken	= mtgJSONCard.layout=="token";
+				/*
+				GERER LES CAS PARTICULIERS
+				*/
+
+				if(C.MKM_PRODUCT_ID_CORRECT[set.code]){
+					for(var ci=0; ci<C.MKM_PRODUCT_ID_CORRECT[set.code].length; ci++){
+						var correct = C.MKM_PRODUCT_ID_CORRECT[set.code][ci];
+						if(mtgJSONNumber==correct.mciNumber){
+							mtgJSONCard.mkm_product_id = correct.mkm_product_id;
+							return;
+						}
+					}
+				}
+
+				if(["flip", "double-faced", "split"].indexOf(mtgJSONCard.layout)>-1 && mtgJSONNumber.indexOf("b")>-1){
+					mtgJSONName = mtgJSONCard.names[0].toLowerCase();
+				}
+
+
+				mtgJSONNumber 		= parseInt(mtgJSONNumber);
+
+
+				var matchName = null;
+				var matchNumber = null;
+
+				for(var i=0 ; i<json.card.length; i++){
+
+					var mkmCard = json.card[i];
+					var mkmNumber 		= mkmCard.number ? mkmCard.number : "";
+					var mkmName 		= mkmCard.name[1].productName.toLowerCase();
+
+					var mkmIsToken		= mkmCard.rarity=="Token";
+					if(mkmIsToken && mkmNumber.indexOf("/")>-1){
+						if(doubleTokens.indexOf(mkmCard.number)==-1) doubleTokens.push(mkmCard.number);
+						continue;
+					}
+
+					mkmNumber			= mkmNumber.replaceAll('T', '');
+					mkmNumber 			= mkmNumber.replaceAll('E', '');
+					mkmNumber			= mkmNumber.replace(/^0*/, ""); //Remove every 0 started
+					mkmNumber 			= parseInt(mkmNumber);
+
+					mkmName 			= mkmName.replace(/ \(.*?\)/g, '');
+					mkmName 			= mkmName.replaceAll(" token$", '');
+
+					if(mkmIsToken != mtgJSONisToken) continue; //If not same type, continue
+
+					if(mtgJSONNumber == mkmNumber){
+						matchNumber = mkmCard;
+					}
+					if(mkmName == mtgJSONName){
+						matchName = mkmCard;
+					}
+					if(matchName && matchNumber) break; //Matchs founds we stop loop
+				}
+				var match;
+				if (matchName==matchNumber) match = matchName ; //Si les 2 sont les mêmes, on est sûr
+				else if (matchName!=null) match = matchName; //On teste d'abord le nom, (basic lands)
+				else if (matchNumber!=null) {
+					match = matchNumber;
+					console.log("MKM_MATCHING: Please check match for card "+match.name[1].productName+" compared to "+mtgJSONName);
+				}
+
+				if(matchName!=null && matchNumber!=null && matchName!=matchNumber){
+					//console.log("MKM error on set "+json.expansion.name+", Card "+matchName.name[1].productName+" ("+matchName.number+") must be number "+mtgJSONNumber);
+				}
+
+				if(match!=null){
+					//Remove card from mkm list to gain time (except for doubles cards
+					if(["flip", "split", "double-faced"].indexOf(mtgJSONCard.layout)==-1){
+						json.card.splice(json.card.indexOf(match), 1);
+					}
+
+					mtgJSONCard.mkm_product_id = match.idProduct;
+					mtgJSONCard.mkm_url = "http://fr.magiccardmarket.eu/"+(match.image.replaceAll("./img", "img"));
+
+				}else{
+					matchErrors++;
+					base.warn("MKM_MATCHING: Fail to find match for card "+mtgJSONName+" ("+mtgJSONNumber+"). Please handle this case manually !");
+				}
+			});
+			if(matchErrors==0){
+				base.info("MKMProductIds found for every cards");
+			}else{
+				if(doubleTokens.length>0) base.warn(doubleTokens.length+" double-faced tokens ignored");
+				base.warn(matchErrors+" errors for MKMProductIds matching");
+			}
+			//return setImmediate(cb);
+			cb();
+		},
+		function finish(err)
+		{
+			setImmediate(function() { cb(err); });
+		}
+	);
+}
+
+exports.ripNumber = performFDNumberCorrectionsToCards;
+
+function performFDNumberCorrectionsToCards(set, cb){
+	if(!set.hasOwnProperty("magicCardsInfoCode")){
+		addIdToCards(set, cb);
+		return;
+	}
+	tiptoe(
+		function getSetCardList()
+		{
 			shared.getURLAsDoc("http://magiccards.info/" + set.magicCardsInfoCode.toLowerCase() + "/en.html", this);
 		},
-		function processSetCardList(listDoc) {
+		function processSetCardList(listDoc)
+		{
+			if(!listDoc){
+				this();
+				return;
+			}
+			var mciCardLinks = Array.toArray(listDoc.querySelectorAll("table tr"));
+			set.cards.forEach(function(card)
+			{
+				if(card.layout==="token")
+					return;
+				var mciCardLink = mciCardLinks.filter(function(link) {
+					var a = link.querySelector("td a");
+					if(!a) return false;
+					return a.textContent.trim().toLowerCase()===createMCICardName(card).toLowerCase();
+				});
+
+				if(mciCardLink.length==0 || mciCardLink[0]==null)
+				{
+					base.warn("MISSING: Could not find MagicCards.info match for card: %s", card.name);
+					return;
+				}
+
+				var firstColumn = mciCardLink[0].querySelectorAll("td")[0];
+				//On supprime l'élément du tableau pour gagner du temps et éviter que 2 cartes aient le même numéro
+				mciCardLinks.splice(mciCardLinks.indexOf(mciCardLink[0]), 1);
+				card.mciNumber = firstColumn.textContent;
+
+			});
+
+			addIdToCards(set, this);
+		},
+
+		function finish(err)
+		{
+			setImmediate(function() { cb(err); });
+		}
+	);
+}
+
+function addIdToCards(set, cb){
+	set.cards.forEach(function(card){
+		var number = card.mciNumber ? card.mciNumber : card.number;
+
+		if(!number){
+			return;
+		}
+
+		var numberSpecial = number;
+		if(parseInt(number)<100) numberSpecial = "0"+numberSpecial;
+		if(parseInt(number)<10)  numberSpecial = "0"+numberSpecial;
+
+		if(card.layout=="token") numberSpecial = "to"+numberSpecial;
+
+		card.numberSpecial = numberSpecial;
+		card.number = number;
+		if(card.mciNumber) delete card.mciNumber;
+	});
+
+	cb();
+}
+
+exports.ripNMAdapation = performNearMintJSONAdaptationToCards;
+function performNearMintJSONAdaptationToCards(set, cb){
+	set.cards.forEach(function(card)
+	{
+		card.number = parseInt(card.number);
+		card.near_mint_id = set.code.toLowerCase()+"_"+card.numberSpecial;
+		if(!card.cmc) card.cmc = 0;
+		if(!card.colors) card.colors = "C";
+		else if(Array.isArray(card.colors)) {
+			card.colors = card.colors.map(function(color){
+				if(color=="Blue") return "U";
+				return color.substring(0,1);
+			}).join("");
+		}
+
+		if(card.foreignNames){
+			var alreadyFoundFrench = false;
+			card.foreignNames = card.foreignNames.filter(function(foreignName){
+				if((foreignName.language=="French" || foreignName.language=="fr") && !alreadyFoundFrench) {
+					alreadyFoundFrench = true;
+					return true;
+				}
+				return false;
+			});
+
+			if(card.foreignNames.length>0){
+				card.foreignNames[0].language="fr";
+			}
+		}
+
+		if(card.legalities){
+			card.formats = card.legalities;
+			card.formats.forEach(function(format){
+				format.name = format.format;
+				delete format.format;
+			});
+
+			delete card.legalities;
+		}
+		if(card.formats){
+			card.formats = card.formats.filter(function(f){
+				return ["Commander", "Standard", "Legacy", "Modern", "Vintage"].indexOf(f.name)>-1
+			});
+		}
+
+
+	});
+	cb();
+}
+
+function performFDTokensAdditionToSet(set, cb){
+
+	if(!set.code){
+		return setImmediate(cb);
+	}
+	set.cards = set.cards.filter(function(card) {
+		return (card.layout != "token");
+	});
+
+	var referenceCard = set.cards[0];
+
+	tiptoe(
+		function getSetCardList()
+		{
+			shared.getURLAsJSON("http://tokens.mtg.onl/data/SetsWithTokens.json", this, 0, null, false);
+		},
+		function processSetCardList(listDoc)
+		{
+			var setsWithTokens = JSON.parse(listDoc);
+			var tokenCards = [];
+			for (var code in setsWithTokens){
+				if(code == set.code){
+					var value = setsWithTokens[code];
+					value.tokens.forEach(function(entry) {
+
+
+						var token = entry;
+
+						var shouldRemoveToken = false;
+
+						if(shouldRemoveToken ||
+							token.hasOwnProperty("promo")
+						) return;
+
+
+						if(token.set && token.number && token.name){
+							token.mtg_onl_url = "http://tokens.mtg.onl/tokens/"+token.set+"_"+token.number+"-"+(token.name.replaceAll(" ", "-"))+".jpg";
+						}
+
+						C.TOKENS_TO_CORRECT.forEach(function(correction) {
+							if(correction.extension==set.code && correction.name==token.name && correction.number==token.number){
+								token.number = correction.replacementNumber;
+							}
+						});
+
+
+						/*FORMATAGE DU JSON FACON MTGJSON*/
+						token.layout = "token";
+						token.rarity = "Token";
+						token.border = referenceCard.border;
+						token.originalText = token.text;
+						token.originalType = token.type;
+						//Clean token number
+						/*'89', '90', '91', '92', '93', '94', 'T1', 'T2', 'T3', 'T4', 'T5', 'T6', 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 10, 12, '1a', '1b', '1c', '2', '3', '4', '5', '-', 'T12', 'E1', 'E2', 'T1a', 'T1b', 'T1F', 'T5F', 14, 13, 15, 16, '009', '005', '007', '008', '010', '012', '001', '002', '003', '004', '011', '006', '013', '014', '082', '018', '019', '020', '021', '022', '023', '024', '027', '017', '015', '028', '029', '030', '025', '031', '026', '033', '032', '016', '036', '035', '034', '001T', '067', '066', '076', '078', '077', '079', '080' */
+						token.number = token.number+"";
+						token.number = token.number.replaceAll('T', '');
+						token.number = token.number.replaceAll('E', '');
+						token.number = token.number.replace(/^0*/, ""); //Remove every 0 started
+
+						if(token.hasOwnProperty("power")){
+							token.power = ""+token.power;
+						}
+						if(token.hasOwnProperty("toughness")) {
+							token.toughness = "" + token.toughness;
+						}
+
+						//ON SUPPRIME LES MAJUSCULES
+						if(token.subTypes){
+							token.subtypes = token.subTypes;
+							delete token.subTypes;
+						}
+
+						if(token.superTypes){
+							token.supertypes = token.superTypes;
+							delete token.superTypes;
+						}
+
+						if(token.types && !Array.isArray(token.types)) token.types = [token.types];
+						if(token.subtypes && !Array.isArray(token.subtypes)) token.subtypes = [token.subtypes];
+						if(token.supertypes && !Array.isArray(token.supertypes)) token.supertypes = [token.supertypes];
+						token.imageName = slugImageName(token);
+
+
+						delete token.set;//unused
+
+
+
+						tokenCards.push(token);
+					});
+					break;
+				}
+			}
+
+			set.cards = set.cards.concat(tokenCards);
+
+
+			cb();
+		},
+		function finish(err)
+		{
+			setImmediate(function() { cb(err); });
+		}
+	);
+
+
+}
+
+exports.ripToken = performFDTokensTranslationToSet;
+
+function performFDTokensTranslationToSet(set, cb){
+
+	var setTokens = set.cards.filter(function(card){
+		return (card.layout=="token");
+	});
+	if(setTokens.length==0){
+		cb();
+		return;
+	}
+
+	if(!set.magic_ville_name){
+
+		console.log("Impossible de trouver les traductions car l'extension n'a pas de nom magic ville");
+		cb();
+		return;
+	}
+
+	var code = set.code.toLowerCase();
+	if(code=="dgm") code="";
+	var url = "http://www.magic-ville.com/fr/resultats?spe_options=selected&set_sel["+code+"]=1&type_sel[TK]=1&type_search=1&costx=1&endx=1&forx=1&fra=1&eng=1&graph_aff=1&";
+	tiptoe(
+		function getTokenListFirstPage()
+		{
+			//On met le code du set juste pour éviter de garder du cache incorrect
+			shared.getURLAsDoc(url, this, 0, "windows-1252");
+		},
+		function getAllPages(doc)
+		{
+			if(!doc || doc.innerHTML==null){
+				cb();
+				return;
+			}
+			var indexResultat = doc.innerHTML.indexOf("cartes trouv");
+			if(indexResultat<=0){
+				cb();
+				return;
+			}
+
+			var numResultsString = (doc.innerHTML.substring(indexResultat-4, indexResultat));
+			var numResults = parseInt(numResultsString);
+
+			var numPages = Math.floor(numResults/30);
+			if(numResults%30 != 0) numPages++;
+
+			for(var i=0;i<numPages;i++)
+			{
+				shared.getURLAsDoc(url+"pointeur="+(i*30), this.parallel(), 0, "windows-1252");
+			}
+		},
+		function processSetCardList()
+		{
+			var pages = Array.prototype.slice.apply(arguments);
+
+			var tokens = [];
+			pages.forEach(function(pageDoc) {
+				var results = Array.toArray(pageDoc.querySelectorAll(".results2"));
+				results.forEach(function(result){
+					var cells = result.querySelectorAll("td");
+
+					if(cells.length<11) return;
+
+					var variations  = [];
+					var options = cells[6].querySelectorAll("option");
+					if(options.length==0) {
+						//Si extension seule dans la dernière colonne
+						var url = cells[6].querySelector("a").href;
+						var id = querystring.parse(url.substring(url.indexOf("?")+1)).ref;
+
+						variations.push({
+							extension: cells[6].textContent.trim(),
+							id: id
+						});
+
+					}
+					else{
+						for(var o=1; o<options.length; o++){
+							//Si extension seule dans la dernière colonne
+							var url = options[o].getAttribute("value");
+							var id = querystring.parse(url.substring(url.indexOf("?")+1)).ref;
+
+							variations.push({
+								extension: options[o].textContent.trim(),
+								id: id
+							});
+						}
+					}
+
+					//console.log(variations);
+					variations.forEach(function(variation){
+						if(variation.extension!=set.magic_ville_name) return;
+
+						var card = {};
+						var englishName = cells[2].querySelector("a").textContent;
+						var frenchName  = cells[3].querySelector("a").textContent;
+						var frenchType  = cells[8].textContent;
+						var powerToughness  = cells[10].textContent;
+
+						if(!englishName || !frenchName || !frenchType) return;
+
+						var frenchText = cells[9].textContent;
+
+						card.language = "French";
+						card.englishName = englishName;
+						card.powerToughness = powerToughness;
+						card.name = frenchName.trim();
+						card.type = frenchType.trim();
+						card.magic_ville_id = variation.id;
+						if(card.text) card.text = frenchText;
+
+						if(tokens[variation.extension]==null) {//N'existe pas
+							tokens[variation.extension] = [];
+						}
+
+						tokens[variation.extension].push (card);
+
+					});
+
+
+				});
+
+
+			});
+
+			if(tokens[set.magic_ville_name]!=null){
+				tokens[set.magic_ville_name].sort(sortBy('magic_ville_id'));
+			}
+
+
+			setTokens.forEach(function(token){
+				//SPECIAL CASES
+				if(C.TOKENS_TRANSLATIONS[set.code]){
+					for(var t1=0; t1<C.TOKENS_TRANSLATIONS[set.code].length; t1++){
+						var correct = C.TOKENS_TRANSLATIONS[set.code][t1];
+						if(correct.number == token.number){
+							token.foreignNames = [correct.card];
+							return;
+						}
+					}
+				}
+
+				var magicVilleTokenNumber;
+				if(C.TOKENS_MATCH[set.code]){
+					C.TOKENS_MATCH[set.code].forEach(function(match){
+						if(token.number == match.number){
+							magicVilleTokenNumber = match.magic_ville_number;
+						}
+					});
+				}
+
+				if(tokens[set.magic_ville_name]==null) return;
+				//FIND MATCHES
+				var magicVilleTokens = tokens[set.magic_ville_name].filter(function(magicVilleToken){
+					if(magicVilleTokenNumber){
+						return magicVilleToken.magic_ville_id == magicVilleTokenNumber;
+					}
+
+					var name1 = magicVilleToken.englishName.toLowerCase();
+					var name2 = token.name.toLowerCase();
+
+					if(name1.indexOf("emblem")>-1){
+						name1 = name1.replaceAll("emblem", " ").trim();
+						if(name1.indexOf(",")>-1)name1 = name1.substr(0, name1.indexOf(","));
+						if(name1.indexOf(" ")>-1)name1 = name1.substr(0, name1.indexOf(" "));
+						//console.log(name1);
+						name2 = name2.replaceAll("emblem", " ").trim();
+					}
+
+					var comparePowerToughness = true;
+					if(magicVilleToken.powerToughness){
+						var setPowerToughness = token.power+"/"+token.toughness;
+						comparePowerToughness = (magicVilleToken.powerToughness==setPowerToughness);
+					}
+					return name1 == name2 && comparePowerToughness;
+
+				});
+
+				if(magicVilleTokens.length==0){
+					console.log("No magicVilleToken for token "+token.name+" in set "+set.code);
+				}else if(magicVilleTokens.length>1){
+					console.log("Multi magicVilleToken found for token "+token.name+" in set "+set.code);
+				}else{
+					//On l'a :)
+					var match = magicVilleTokens[0];
+					token.foreignNames = [match];
+
+				}
+			});
+
+			this();
+		},
+		function finish(err)
+		{
+			setImmediate(function() { cb(err); });
+		}
+	);
+}
+
+
+function compareCardsToMCI(set, cb)
+{
+	tiptoe(
+		function getSetCardList()
+		{
+			shared.getURLAsDoc("http://magiccards.info/" + set.magicCardsInfoCode.toLowerCase() + "/en.html", this);
+		},
+		function processSetCardList(listDoc)
+		{
 			var mciCardLinks = Array.toArray(listDoc.querySelectorAll("table tr td a"));
 			async.eachSeries(set.cards, function (card, subcb) {
 				if (card.variations || card.layout==="token")
