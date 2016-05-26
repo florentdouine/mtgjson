@@ -2,12 +2,9 @@
 
 var base = require("xbase");
 
-(function(exports) {
-	exports.SUPERTYPES = ["Basic", "Legendary", "Snow", "World", "Ongoing"];
-	exports.TYPES = ["Instant", "Sorcery", "Artifact", "Creature", "Enchantment", "Land", "Planeswalker", "Tribal", "Plane", "Phenomenon", "Scheme", "Vanguard", "Conspiracy"];
+(function(exports)
+{
 
-	// Unglued/Unhinged types
-	exports.TYPES.push("Enchant", "Player", "Interrupt", "Scariest", "You'll", "Ever", "See", "Eaturecray");
 
 	exports.LAST_PRINTINGS_RESET = "C15";
 
@@ -16,3072 +13,5561 @@ var base = require("xbase");
 	exports.SETS_NOT_ON_GATHERER = ["ATH", "ITP", "DKM", "RQS", "DPA"];
 	exports.SETS_WITH_NO_IMAGES = [];
 
-	exports.SETS = [
-		{
-			name : "Limited Edition Alpha",
-			code : "LEA",
-			gathererCode : "1E",
-			magicCardsInfoCode : "al",
-			releaseDate : "1993-08-05",
-			border : "black",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			mkm_name: "Alpha",
-			mkm_id: 1
-		},
-		{
-			name : "Limited Edition Beta",
-			code : "LEB",
-			gathererCode : "2E",
-			magicCardsInfoCode : "be",
-			releaseDate : "1993-10-01",
-			border : "black",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			mkm_name: "Beta",
-			mkm_id: 2
-		},
-		{
-			name : "Arabian Nights",
-			code : "ARN",
-			gathererCode : "AN",
-			magicCardsInfoCode : "an",
-			releaseDate : "1993-12-01",
-			border : "black",
-			type : "expansion",
-			booster : ["uncommon", "uncommon", "common", "common", "common", "common", "common", "common"],
-			mkm_name : "Arabian Nights",
-			mkm_id : 4
-		},
-		{
-			name : "Unlimited Edition",
-			code : "2ED",
-			gathererCode : "2U",
-			magicCardsInfoCode : "un",
-			releaseDate : "1993-12-01",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			mkm_name : "Unlimited",
-			mkm_id : 3
-		},
-		{
-			name : "Collector's Edition",
-			code : "CED",
-			magicCardsInfoCode : "ced",
-			isMCISet : true,
-			releaseDate : "1993-12-01",
-			border : "black",
-			type : "reprint",
-			mkm_name : "Collectors' Edition",
-			mkm_id : 61
-		},
-		{
-			name : "International Collector's Edition",
-			code : "CEI",
-			magicCardsInfoCode : "cedi",
-			isMCISet : true,
-			releaseDate : "1993-12-01",
-			border : "black",
-			type : "reprint",
-			mkm_name : "International Edition",
-			mkm_id : 77
-		},
-		{
-			name : "Dragon Con",
-			code : "pDRC",
-			magicCardsInfoCode : "drc",
-			isMCISet : true,
-			releaseDate : "1994-01-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Antiquities",
-			code : "ATQ",
-			gathererCode : "AQ",
-			magicCardsInfoCode : "aq",
-			releaseDate : "1994-03-01",
-			border : "black",
-			type : "expansion",
-			booster : ["uncommon", "uncommon", "common", "common", "common", "common", "common", "common"],
-			mkm_name : "Antiquities",
-			mkm_id : 5
-		},
-		{
-			name : "Revised Edition",
-			code : "3ED",
-			gathererCode : "3E",
-			magicCardsInfoCode : "rv",
-			releaseDate : "1994-04-01",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Unlimitierte Auflage',
-				fr: 'Tirage Non Limité',
-				it: 'Seconda Edizione'
-			},
-			mkm_name : "Revised",
-			mkm_id : 6
-		},
-		{
-			name : "Legends",
-			code : "LEG",
-			gathererCode : "LE",
-			magicCardsInfoCode : "lg",
-			releaseDate : "1994-06-01",
-			border : "black",
-			type : "expansion",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				it: 'Leggende'
-			},
-			mkm_name : "Legends",
-			mkm_id : 7
-		},
-		{
-			name : "The Dark",
-			code : "DRK",
-			gathererCode : "DK",
-			magicCardsInfoCode : "dk",
-			releaseDate : "1994-08-01",
-			border : "black",
-			type : "expansion",
-			booster : ["uncommon", "uncommon", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				it: 'L\'Oscurità'
-			},
-			mkm_name : "The Dark",
-			mkm_id : 8
-		},
-		{
-			name : "Media Inserts",
-			code : "pMEI",
-			magicCardsInfoCode : "mbp",
-			magicRaritiesCodes : ["189-rarities-agent-of-artifice-novel-promo-insert", "109-rarities-harperprism-book-inserts", "20-rarities-armada-comics-book-promos", "175-rarities-coro-coro-comic-book-inserts", "296-rarities-dengeki-maoh-magazine-inserts",
-								  "81-rarities-gotta-magazine-cards", "196-rarities-hachette-french-magic-encyclopedia-inserts", "197-rarities-hachette-italian-magic-encyclopedia-inserts", "765-rarities-idw-comics-book-inserts",
-								  "16-rarities-kartefakt-magazine-promo", "121-rarities-players-guide-inserts", "228-rarities-rpg-magazine-inserts", "135-rarities-salvat-magic-encyclopedia-cards", "134-rarities-the-cardz-magazine-inserts",
-								  "22-rarities-the-duelist-cards", "18-rarities-topdeck-cards", "258-rarities-buy-a-box-promos", "787-rarities-holiday-gift-box", "224-rarities-duels-of-the-planeswalkers-software-promos",
-								  "160-rarities-resale-promos", "686-rarities-convention-and-various-promos"],
-			isMCISet : true,
-			releaseDate : "1995-01-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Fallen Empires",
-			code : "FEM",
-			gathererCode : "FE",
-			magicCardsInfoCode : "fe",
-			releaseDate : "1994-11-01",
-			border : "black",
-			type : "expansion",
-			booster : ["uncommon", "uncommon", "common", "common", "common", "common", "common", "common"],
-			mkm_name : "Fallen Empires",
-			mkm_id : 9
-		},
-		{
-			name : "Legend Membership",
-			code : "pLGM",
-			magicCardsInfoCode : "dcilm",
-			magicRaritiesCodes : ["23-rarities-dci-legend-membership-promos"],
-			isMCISet : true,
-			releaseDate : "1995-01-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Fourth Edition",
-			code : "4ED",
-			gathererCode : "4E",
-			magicCardsInfoCode : "4e",
-			essentialMagicCode : "6",
-			releaseDate : "1995-04-01",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Vierte Edition',
-				fr: 'Quatrième Edition',
-				it: 'Quarta Edizione',
-				es: 'Cuarta Edición',
-				pt: 'Quarta Edição'
-			},
-			mkm_name : "Fourth Edition",
-			mkm_id : 10
-		},
-		{
-			name : "Ice Age",
-			code : "ICE",
-			gathererCode : "IA",
-			magicCardsInfoCode : "ia",
-			releaseDate : "1995-06-01",
-			border : "black",
-			type : "expansion",
-			block : "Ice Age",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Eiszeit',
-				fr: 'Ere Glaciaire',
-				it: 'Era Glaciale',
-				es: 'Era Glacial',
-				pt: 'Era Glacial'
-			},
-			mkm_name : "Ice Age",
-			mkm_id : 11
-		},
-		{
-			name : "Chronicles",
-			code : "CHR",
-			gathererCode : "CH",
-			magicCardsInfoCode : "ch",
-			releaseDate : "1995-07-01",
-			border : "white",
-			type : "reprint",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common"],
-			mkm_name : "Chronicles",
-			mkm_id : 12
-		},
-		{
-			name : "Homelands",
-			code : "HML",
-			gathererCode : "HM",
-			magicCardsInfoCode : "hl",
-			releaseDate : "1995-10-01",
-			border : "black",
-			type : "expansion",
-			booster : [["rare", "uncommon"], ["rare", "uncommon"], "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Heimatländer',
-				fr: 'Terres Natales',
-				it: 'Origini',
-				es: 'Tierras Natales',
-				pt: 'Terras Natais'
-			},
-			mkm_name : "Homelands",
-			mkm_id : 14
-		},
-		{
-			name : "Alliances",
-			code : "ALL",
-			gathererCode : "AL",
-			magicCardsInfoCode : "ai",
-			releaseDate : "1996-06-10",
-			border : "black",
-			type : "expansion",
-			block : "Ice Age",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Allianzen',
-				fr: 'Alliances',
-				it: 'Alleanze',
-				es: 'Alianzas',
-				pt: 'Alianças'
-			},
-			mkm_name : "Alliances",
-			mkm_id : 15
-		},
-		{
-			name : "Rivals Quick Start Set",
-			code : "RQS",
-			releaseDate : "1996-07-01",
-			border : "white",
-			type : "box"
-		},
-		{
-			name : "Arena League",
-			code : "pARL",
-			magicCardsInfoCode : "arena",
-			magicRaritiesCodes : ["7-rarities-arena-league-promos"],
-			isMCISet : true,
-			releaseDate : "1996-08-02",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Celebration",
-			code : "pCEL",
-			magicCardsInfoCode : "uqc",
-			magicRaritiesCodes : ["353-rarities-unique-cards", "352-rarities-garfield-event-cards", "798-rarities-special-guest-gift-cards"],
-			isMCISet : true,
-			releaseDate : "1996-08-14",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Mirage",
-			code : "MIR",
-			gathererCode : "MI",
-			magicCardsInfoCode : "mr",
-			releaseDate : "1996-10-08",
-			border : "black",
-			type : "expansion",
-			block : "Mirage",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Trugbilder',
-				fr: 'Mirage',
-				it: 'Mirage',
-				es: 'Espejismo',
-				pt: 'Miragem'
-			},
-			mkm_name : "Mirage",
-			mkm_id : 16
-		},
-		{
-			name : "Multiverse Gift Box",
-			code : "MGB",
-			magicCardsInfoCode : "mgbc",
-			magicRaritiesCodes : ["145-rarities-multiverse-gift-box-cards"],
-			isMCISet : true,
-			releaseDate : "1996-11-01",
-			border : "black",
-			type : "box",
-			mkm_name : "Multiverse Gift Box",
-			mkm_id : 1519
-		},
-		{
-			name : "Introductory Two-Player Set",
-			code : "ITP",
-			oldCode : "I2P",
-			magicCardsInfoCode : "itp",
-			releaseDate : "1996-12-31",
-			border : "white",
-			type : "starter",
-			translations: {
-				de: 'Introductory Two-Player Set',
-				fr: 'Introductory Two-Player Set',
-				es: 'Introductory Two-Player Set'
-			},
-			mkm_name : "Introductory Two-Player Set",
-			mkm_id : 85
-		},
-		{
-			name : "Visions",
-			code : "VIS",
-			gathererCode : "VI",
-			magicCardsInfoCode : "vi",
-			releaseDate : "1997-02-03",
-			border : "black",
-			type : "expansion",
-			block : "Mirage",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Visionen',
-				fr: 'Visions',
-				it: 'Visioni',
-				es: 'Visiones',
-				pt: 'Visões'
-			},
-			mkm_name : "Visions",
-			mkm_id : 17
-		},
-		{
-			name : "Fifth Edition",
-			code : "5ED",
-			gathererCode : "5E",
-			magicCardsInfoCode : "5e",
-			releaseDate : "1997-03-24",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Fünfte Edition',
-				fr: 'Cinquième Edition',
-				it: 'Quinta Edizione',
-				es: 'Quinta Edición',
-				pt: 'Quinta Edição'
-			},
-			mkm_name : "Fifth Edition",
-			mkm_id : 23
-		},
-		{
-			name : "Portal Demo Game",
-			code : "pPOD",
-			magicCardsInfoCode : "pot",
-			isMCISet : true,
-			releaseDate : "1997-05-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Portal",
-			code : "POR",
-			gathererCode : "PO",
-			magicCardsInfoCode : "po",
-			releaseDate : "1997-05-01",
-			border : "black",
-			type : "starter",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Portal',
-				fr: 'Portal',
-				es: 'Portal'
-			},
-			mkm_name : "Portal",
-			mkm_id : 25
-		},
-		{
-			name : "Vanguard",
-			code : "VAN",
-			releaseDate : "1997-05-01",
-			border : "black",
-			type : "vanguard",
-			mkm_name : "Vanguard",
-			mkm_id : 69
-		},
-		{
-			name : "Weatherlight",
-			code : "WTH",
-			gathererCode : "WL",
-			magicCardsInfoCode : "wl",
-			releaseDate : "1997-06-09",
-			border : "black",
-			type : "expansion",
-			block : "Mirage",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Wetterlicht',
-				fr: 'Aquilon',
-				it: 'Cavalcavento',
-				es: 'El Vientoligero',
-				pt: 'Alisios'
-			},
-			mkm_name : "Weatherlight",
-			mkm_id : 18
-		},
-		{
-			name : "Prerelease Events",
-			code : "pPRE",
-			magicCardsInfoCode : "ptc",
-			magicRaritiesCodes : ["82-rarities-prerelease-events-promos"],
-			isMCISet : true,
-			releaseDate : "1997-10-04",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Tempest",
-			code : "TMP",
-			gathererCode : "TE",
-			magicCardsInfoCode : "tp",
-			releaseDate : "1997-10-14",
-			border : "black",
-			type : "expansion",
-			block : "Tempest",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Sturmwind',
-				fr: 'Tempête',
-				it: 'Tempesta',
-				es: 'Tempestad',
-				pt: 'Tempestade'
-			},
-			mkm_name : "Tempest",
-			mkm_id : 19
-		},
-		{
-			name : "Stronghold",
-			code : "STH",
-			gathererCode : "ST",
-			magicCardsInfoCode : "sh",
-			releaseDate : "1998-03-02",
-			border : "black",
-			type : "expansion",
-			block : "Tempest",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Felsenburg',
-				fr: 'Forteresse',
-				it: 'Fortezza',
-				es: 'Fortaleza',
-				pt: 'Fortaleza'
-			},
-			mkm_name : "Stronghold",
-			mkm_id : 20
-		},
-		{
-			name : "Portal Second Age",
-			code : "PO2",
-			gathererCode : "P2",
-			magicCardsInfoCode : "po2",
-			oldCode : "P02",
-			releaseDate : "1998-06-01",
-			border : "black",
-			type : "starter",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Portal Zweites Zeitalter',
-				fr: 'Portal Second Age',
-				it: 'Portal Seconda Era',
-				es: 'Portal Segunda Edad',
-				pt: 'Portal Segunda Era'
-			},
-			mkm_name : "Portal Second Age",
-			mkm_id : 24
-		},
-		{
-			name : "Judge Gift Program",
-			code : "pJGP",
-			magicCardsInfoCode : "jr",
-			magicRaritiesCodes : ["56-rarities-judge-gift-cards"],
-			isMCISet : true,
-			releaseDate : "1998-06-01",
-			border : "black",
-			type : "promo",
-			mkm_name : "Judge Rewards Promos",
-			mkm_id : 80
-		},
-		{
-			name : "Exodus",
-			code : "EXO",
-			gathererCode : "EX",
-			magicCardsInfoCode : "ex",
-			releaseDate : "1998-06-15",
-			border : "black",
-			type : "expansion",
-			block : "Tempest",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Exodus',
-				fr: 'Exode',
-				it: 'Esodo',
-				es: 'Éxodo',
-				pt: 'Êxodo'
-			},
-			mkm_name : "Exodus",
-			mkm_id : 21
-		},
-		{
-			name : "Unglued",
-			code : "UGL",
-			gathererCode : "UG",
-			magicCardsInfoCode : "ug",
-			releaseDate : "1998-08-11",
-			border : "silver",
-			type : "un",
-			booster : ["rare", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "land"],
-			mkm_name : "Unglued",
-			mkm_id : 22
-		},
-		{
-			name : "Asia Pacific Land Program",
-			code : "pALP",
-			magicCardsInfoCode : "apac",
-			magicRaritiesCodes : ["44-rarities-apac-lands"],
-			isMCISet : true,
-			releaseDate : "1998-09-01",
-			border : "black",
-			type : "promo",
-			mkm_name : "APAC Lands",
-			mkm_id : 97
-		},
-		{
-			name : "Urza's Saga",
-			code : "USG",
-			gathererCode : "UZ",
-			magicCardsInfoCode : "us",
-			releaseDate : "1998-10-12",
-			border : "black",
-			type : "expansion",
-			block : "Urza's",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Urzas Saga',
-				fr: 'Epopée d\'Urza',
-				it: 'Saga di Urza',
-				es: 'La Saga de Urza',
-				pt: 'A Saga de Urza'
-			},
-			mkm_name : "Urza's Saga",
-			mkm_id : 26
-		},
-		{
-			name : "Anthologies",
-			code : "ATH",
-			magicCardsInfoCode : "at",
-			releaseDate : "1998-11-01",
-			border : "white",
-			type : "box",
-			mkm_name : "Anthologies",
-			mkm_id : 75
-		},
-		{
-			name : "Urza's Legacy",
-			code : "ULG",
-			gathererCode : "GU",
-			magicCardsInfoCode : "ul",
-			releaseDate : "1999-02-15",
-			border : "black",
-			type : "expansion",
-			block : "Urza's",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Urzas Vermächtnis',
-				fr: 'Héritage d\'Urza',
-				it: 'Eredità di Urza',
-				es: 'El Legado de Urza',
-				pt: 'O Legado de Urza'
-			},
-			mkm_name : "Urza's Legacy",
-			mkm_id : 27
-		},
-		{
-			name : "Classic Sixth Edition",
-			code : "6ED",
-			gathererCode : "6E",
-			magicCardsInfoCode : "6e",
-			releaseDate : "1999-04-21",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Classic Sechste Edition',
-				fr: 'Classique Sixième Edition',
-				it: 'Classic Sesta Edizione',
-				es: 'Clásica Sexta Edición',
-				pt: 'Classica Sexta Edição'
-			},
-			mkm_name : "Sixth Edition",
-			mkm_id : 29
-		},
-		{
-			name : "Portal Three Kingdoms",
-			code : "PTK",
-			gathererCode : "PK",
-			magicCardsInfoCode : "p3k",
-			releaseDate : "1999-05-01",
-			border : "white",
-			type : "starter",
-			booster : ["rare", "uncommon", "uncommon", "common", "common", "common", "common", "common", "land", "land"],
-			translations: {
-				jp: 'Portal Three Kingdoms',
-				cn: 'Portal Three Kingdoms'
-			},
-			mkm_name : "Portal Three Kingdoms",
-			mkm_id : 30
-		},
-		{
-			name : "Urza's Destiny",
-			code : "UDS",
-			gathererCode : "CG",
-			magicCardsInfoCode : "ud",
-			releaseDate : "1999-06-07",
-			border : "black",
-			type : "expansion",
-			block : "Urza's",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Urzas Schicksal',
-				fr: 'Destinée d\'Urza',
-				it: 'Destino di Urza',
-				es: 'El Destino de Urza',
-				pt: 'O Destino de Urza'
-			},
-			mkm_name : "Urza's Destiny",
-			mkm_id : 28
-		},
-		{
-			name : "Starter 1999",
-			code : "S99",
-			gathererCode : "P3",
-			magicCardsInfoCode : "st",
-			releaseDate : "1999-07-01",
-			border : "white",
-			type : "starter",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "land"],
-			mkm_name : "Starter 1999",
-			mkm_id : 63
-		},
-		{
-			name : "Guru",
-			code : "pGRU",
-			magicCardsInfoCode : "guru",
-			magicRaritiesCodes : ["50-rarities-guru-lands"],
-			isMCISet : true,
-			releaseDate : "1999-07-12",
-			border : "black",
-			type : "promo",
-			mkm_name : "Guru Lands",
-			mkm_id : 88
-		},
-		{
-			name : "Worlds",
-			code : "pWOR",
-			magicCardsInfoCode : "wrl",
-			magicRaritiesCodes : ["15-rarities-worlds-card"],
-			isMCISet : true,
-			releaseDate : "1999-08-04",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Wizards of the Coast Online Store",
-			code : "pWOS",
-			magicCardsInfoCode : "wotc",
-			magicRaritiesCodes : ["51-rarities-wizards-of-the-coast-online-store"],
-			isMCISet : true,
-			releaseDate : "1999-09-04",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Mercadian Masques",
-			code : "MMQ",
-			gathererCode : "MM",
-			magicCardsInfoCode : "mm",
-			releaseDate : "1999-10-04",
-			border : "black",
-			type : "expansion",
-			block : "Masques",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Merkadische Masken',
-				fr: 'Masques de Mercadia',
-				it: 'Maschere di Mercadia',
-				es: 'Máscaras de Mercadia',
-				pt: 'Máscara de Mercádia'
-			},
-			mkm_name : "Mercadian Masques",
-			mkm_id : 31
-		},
-		{
-			name : "Battle Royale Box Set",
-			code : "BRB",
-			gathererCode : "BR",
-			magicCardsInfoCode : "br",
-			releaseDate : "1999-11-12",
-			border : "white",
-			type : "box",
-			mkm_name : "Battle Royale",
-			mkm_id : 64
-		},
-		{
-			name : "Super Series",
-			code : "pSUS",
-			magicCardsInfoCode : "sus",
-			magicRaritiesCodes : ["36-rarities-junior-super-series"],
-			isMCISet : true,
-			releaseDate : "1999-12-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Friday Night Magic",
-			code : "pFNM",
-			magicCardsInfoCode : "fnmp",
-			magicRaritiesCodes : ["72-rarities-friday-night-magic"],
-			isMCISet : true,
-			releaseDate : "2000-02-01",
-			border : "black",
-			type : "promo",
-			mkm_name : "Friday Night Magic Promos",
-			mkm_id : 72
-		},
-		{
-			name : "European Land Program",
-			code : "pELP",
-			magicCardsInfoCode : "euro",
-			magicRaritiesCodes : ["46-rarities-euro-lands"],
-			isMCISet : true,
-			releaseDate : "2000-02-05",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Nemesis",
-			code : "NMS",
-			gathererCode : "NE",
-			magicCardsInfoCode : "ne",
-			oldCode : "NEM",
-			releaseDate : "2000-02-14",
-			border : "black",
-			type : "expansion",
-			block : "Masques",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Nemesis',
-				fr: 'Némésis',
-				it: 'Nemesis',
-				es: 'Némesis',
-				pt: 'Nêmesis'
-			},
-			mkm_name : "Nemesis",
-			mkm_id : 32
-		},
-		{
-			name : "Starter 2000",
-			code : "S00",
-			gathererCode : "P4",
-			magicCardsInfoCode : "st2k",
-			releaseDate : "2000-04-01",
-			border : "white",
-			type : "starter",
-			translations: {
-				de: 'Starter 2000',
-				fr: 'Starter 2000',
-				it: 'Starter 2000',
-				es: 'Starter 2000',
-				pt: 'Starter 2000'
-			},
-			mkm_name : "Starter 2000",
-			mkm_id : 65
-		},
-		{
-			name : "Prophecy",
-			code : "PCY",
-			gathererCode : "PR",
-			magicCardsInfoCode : "pr",
-			releaseDate : "2000-06-05",
-			border : "black",
-			type : "expansion",
-			block : "Masques",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Prophezeihung',
-				fr: 'Prophétie',
-				it: 'Profezia',
-				es: 'Profecía',
-				pt: 'Profecia'
-			},
-			mkm_name : "Prophecy",
-			mkm_id : 33
-		},
-		{
-			name : "Beatdown Box Set",
-			code : "BTD",
-			gathererCode : "BD",
-			magicCardsInfoCode : "bd",
-			releaseDate : "2000-10-01",
-			border : "white",
-			type : "box",
-			mkm_name : "Beatdown",
-			mkm_id : 62
-		},
-		{
-			name : "Invasion",
-			code : "INV",
-			gathererCode : "IN",
-			magicCardsInfoCode : "in",
-			releaseDate : "2000-10-02",
-			border : "black",
-			type : "expansion",
-			block : "Invasion",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Invasion',
-				fr: 'Invasion',
-				it: 'Invasione',
-				es: 'Invasión',
-				pt: 'Invasão'
-			},
-			mkm_name : "Invasion",
-			mkm_id : 34
-		},
-		{
-			name : "Planeshift",
-			code : "PLS",
-			gathererCode : "PS",
-			magicCardsInfoCode : "ps",
-			releaseDate : "2001-02-05",
-			border : "black",
-			type : "expansion",
-			block : "Invasion",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Weltenwechsel',
-				fr: 'Planeshift',
-				it: 'Congiunzione',
-				es: 'Transmigración',
-				pt: 'Conjunção'
-			},
-			mkm_name : "Planeshift",
-			mkm_id : 35
-		},
-		{
-			name : "Seventh Edition",
-			code : "7ED",
-			gathererCode : "7E",
-			magicCardsInfoCode : "7e",
-			releaseDate : "2001-04-11",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"],
-			translations: {
-				de: 'Siebte Edition',
-				fr: 'Septième Edition',
-				it: 'Settima Edizione',
-				es: 'Séptima Edición',
-				pt: 'Sétima Edição'
-			},
-			mkm_name : "Seventh Edition",
-			mkm_id : 37
-		},
-		{
-			name : "Magic Player Rewards",
-			code : "pMPR",
-			magicCardsInfoCode : "mprp",
-			magicRaritiesCodes : ["29-rarities-magic-player-rewards"],
-			isMCISet : true,
-			releaseDate : "2001-05-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Apocalypse",
-			code : "APC",
-			gathererCode : "AP",
-			magicCardsInfoCode : "ap",
-			releaseDate : "2001-06-04",
-			border : "black",
-			type : "expansion",
-			block : "Invasion",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Apokalypse',
-				fr: 'Apocalypse',
-				it: 'Apocalisse',
-				es: 'Apocalipsis',
-				pt: 'Apocalipse'
-			},
-			mkm_name : "Apocalypse",
-			mkm_id : 36
-		},
-		{
-			name : "Odyssey",
-			code : "ODY",
-			gathererCode : "OD",
-			magicCardsInfoCode : "od",
-			essentialMagicCode : "41",
-			releaseDate : "2001-10-01",
-			border : "black",
-			type : "expansion",
-			block : "Odyssey",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Odyssee',
-				fr: 'Odyssée',
-				it: 'Odissea',
-				es: 'Odisea',
-				pt: 'Odisséia'
-			},
-			mkm_name : "Odyssey",
-			mkm_id : 38
-		},
-		{
-			name : "Deckmasters",
-			code : "DKM",
-			magicCardsInfoCode : "dm",
-			releaseDate : "2001-12-01",
-			border : "white",
-			type : "box",
-			mkm_name : "Deckmasters",
-			mkm_id : 67
-		},
-		{
-			name : "Torment",
-			code : "TOR",
-			magicCardsInfoCode : "tr",
-			releaseDate : "2002-02-04",
-			border : "black",
-			type : "expansion",
-			block : "Odyssey",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Qualen',
-				fr: 'Tourment',
-				it: 'Tormento',
-				es: 'Tormento',
-				pt: 'Tormento'
-			},
-			mkm_name : "Torment",
-			mkm_id : 39
-		},
-		{
-			name : "Judgment",
-			code : "JUD",
-			magicCardsInfoCode : "ju",
-			releaseDate : "2002-05-27",
-			border : "black",
-			type : "expansion",
-			block : "Odyssey",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Abrechnung',
-				fr: 'Jugement',
-				it: 'Sentenza',
-				es: 'Juicio',
-				pt: 'Julgamento'
-			},
-			mkm_name : "Judgment",
-			mkm_id : 40
-		},
-		{
-			name : "Onslaught",
-			code : "ONS",
-			magicCardsInfoCode : "on",
-			releaseDate : "2002-10-07",
-			border : "black",
-			type : "expansion",
-			block : "Onslaught",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Aufmarsch',
-				fr: 'Carnage',
-				it: 'Assalto',
-				es: 'Embestida',
-				pt: 'Investida'
-			},
-			mkm_name : "Onslaught",
-			mkm_id : 41
-		},
-		{
-			name : "Legions",
-			code : "LGN",
-			magicCardsInfoCode : "le",
-			releaseDate : "2003-02-03",
-			border : "black",
-			type : "expansion",
-			block : "Onslaught",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Legionen',
-				fr: 'Légions',
-				it: 'Legioni',
-				es: 'Legiones',
-				pt: 'Legiões'
-			},
-			mkm_name : "Legions",
-			mkm_id : 42
-		},
-		{
-			name : "Scourge",
-			code : "SCG",
-			magicCardsInfoCode : "sc",
-			releaseDate : "2003-05-26",
-			border : "black",
-			type : "expansion",
-			block : "Onslaught",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Plagen',
-				fr: 'Fléau',
-				it: 'Flagello',
-				es: 'Azote',
-				pt: 'Flagelo'
-			},
-			mkm_name : "Scourge",
-			mkm_id : 43
-		},
-		{
-			name : "Release Events",
-			code : "pREL",
-			magicCardsInfoCode : "rep",
-			magicRaritiesCodes : ["94-rarities-release-events-promos"],
-			isMCISet : true,
-			releaseDate : "2003-07-26",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Eighth Edition",
-			code : "8ED",
-			oldCode : "8E",
-			magicCardsInfoCode : "8e",
-			releaseDate : "2003-07-28",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"],
-			translations: {
-				de: 'Haupt-Set - Achte Edition',
-				fr: 'Édition de base - Huitième Edition',
-				it: 'Set base - Ottava Edizione',
-				es: 'Colección Básica - Octava Edición',
-				pt: 'Kit Básico - Oitava Edição'
-			},
-			mkm_name : "Eighth Edition",
-			mkm_id : 44
-		},
-		{
-			name : "Mirrodin",
-			code : "MRD",
-			magicCardsInfoCode : "mi",
-			releaseDate : "2003-10-02",
-			border : "black",
-			type : "expansion",
-			block : "Mirrodin",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Mirrodin',
-				fr: 'Mirrodin',
-				it: 'Mirrodin',
-				es: 'Mirrodin',
-				pt: 'Mirrodin',
-				jp: 'ミラディン'
-			},
-			mkm_name : "Mirrodin",
-			mkm_id : 45
-		},
-		{
-			name : "Darksteel",
-			code : "DST",
-			magicCardsInfoCode : "ds",
-			releaseDate : "2004-02-06",
-			border : "black",
-			type : "expansion",
-			block : "Mirrodin",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Nachtstahl',
-				fr: 'Sombracier',
-				it: 'Darksteel',
-				es: 'Darksteel',
-				pt: 'Darksteel',
-				jp: 'ダークスティール',
-				cn: '玄铁'
-			},
-			mkm_name : "Darksteel",
-			mkm_id : 46
-		},
-		{
-			name : "Fifth Dawn",
-			code : "5DN",
-			magicCardsInfoCode : "5dn",
-			releaseDate : "2004-06-04",
-			border : "black",
-			type : "expansion",
-			block : "Mirrodin",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Fünfte Morgenröte',
-				fr: 'La Cinquième Aube',
-				it: 'Quinta Alba',
-				es: 'Quinto Amanecer',
-				pt: 'A Quinta Aurora',
-				jp: 'フィフス・ドーン',
-				cn: '五色曙光'
-			},
-			mkm_name : "Fifth Dawn",
-			mkm_id : 47
-		},
-		{
-			name : "Champions of Kamigawa",
-			code : "CHK",
-			magicCardsInfoCode : "chk",
-			releaseDate : "2004-10-01",
-			border : "black",
-			type : "expansion",
-			block : "Kamigawa",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Meister von Kamigawa',
-				fr: 'Guerriers de Kamigawa',
-				it: 'Campioni di Kamigawa',
-				es: 'Campeones de Kamigawa',
-				pt: 'Campeões de Kamigawa',
-				jp: '神河物語',
-				cn: '神河群英录'
-			},
-			mkm_name : "Champions of Kamigawa",
-			mkm_id : 48
-		},
-		{
-			name : "Unhinged",
-			code : "UNH",
-			magicCardsInfoCode : "uh",
-			releaseDate : "2004-11-20",
-			border : "silver",
-			type : "un",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"],
-			mkm_name : "Unhinged",
-			mkm_id : 59
-		},
-		{
-			name : "Betrayers of Kamigawa",
-			code : "BOK",
-			magicCardsInfoCode : "bok",
-			releaseDate : "2005-02-04",
-			border : "black",
-			type : "expansion",
-			block : "Kamigawa",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Verräter von Kamigawa',
-				fr: 'Traîtres de Kamigawa',
-				it: 'Traditori di Kamigawa',
-				es: 'Traidores de Kamigawa',
-				pt: 'Traidores de Kamigawa',
-				jp: '神河謀叛',
-				cn: '神河叛将谱'
-			},
-			mkm_name : "Betrayers of Kamigawa",
-			mkm_id : 51
-		},
-		{
-			name : "Saviors of Kamigawa",
-			code : "SOK",
-			magicCardsInfoCode : "sok",
-			releaseDate : "2005-06-03",
-			border : "black",
-			type : "expansion",
-			block : "Kamigawa",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Retter von Kamigawa',
-				fr: 'Libérateurs de Kamigawa',
-				it: 'Liberatori di Kamigawa',
-				es: 'Salvadores de Kamigawa',
-				pt: 'Salvadores Kamigawa',
-				jp: '神河救済',
-				cn: 'Saviors of Kamigawa'
-			},
-			mkm_name : "Saviors of Kamigawa",
-			mkm_id : 50
-		},
-		{
-			name : "Ninth Edition",
-			code : "9ED",
-			oldCode : "9E",
-			magicCardsInfoCode : "9e",
-			releaseDate : "2005-07-29",
-			border : "white",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"],
-			translations: {
-				de: 'Haupt-Set - Neunte Edition',
-				fr: 'Édition de base - Neuvième Edition',
-				it: 'Set base - Nona Edizione',
-				es: 'Colección Básica - Novena Edición',
-				pt: 'Kit Básico - Nona Edição',
-				jp: '第9版',
-				cn: '第九版',
-				ru: 'Девятая редакция',
-				tw: 'Ninth Edition',
-				ko: 'Ninth Edition'
-			},
-			mkm_name : "Ninth Edition",
-			mkm_id : 49
-		},
-		{
-			name : "Ravnica: City of Guilds",
-			code : "RAV",
-			magicCardsInfoCode : "rav",
-			releaseDate : "2005-10-07",
-			border : "black",
-			type : "expansion",
-			block : "Ravnica",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Ravnica: Stadt der Gilden',
-				fr: 'Ravnica: La Cité des Guildes',
-				it: 'Ravnica: Città delle Gilde',
-				es: 'Rávnica: Ciudad de Gremios',
-				pt: 'Ravnica: A Cidade das Guildas',
-				jp: 'ラブニカ：ギルドの都',
-				cn: '拉尼卡公会城',
-				ru: 'Равника: Город Гильдий'
-			},
-			mkm_name : "Ravnica: City of Guilds",
-			mkm_id : 55
-		},
-		{
-			name : "Two-Headed Giant Tournament",
-			code : "p2HG",
-			magicCardsInfoCode : "thgt",
-			magicRaritiesCodes : ["13-rarities-two-headed-giant"],
-			isMCISet : true,
-			releaseDate : "2005-12-09",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Gateway",
-			code : "pGTW",
-			magicCardsInfoCode : "grc",
-			magicRaritiesCodes : ["76-rarities-gateway-promos"],
-			isMCISet : true,
-			releaseDate : "2006-01-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Guildpact",
-			code : "GPT",
-			magicCardsInfoCode : "gp",
-			releaseDate : "2006-02-03",
-			border : "black",
-			type : "expansion",
-			block : "Ravnica",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Gildenbund',
-				fr: 'Le Pacte des Guildes',
-				it: 'Il Patto delle Gilde',
-				es: 'El Pacto entre Gremios',
-				pt: 'Pacto das Guildas',
-				jp: 'ギルドパクト',
-				cn: '十會盟',
-				ru: 'Договор Гильдий'
-			},
-			mkm_name : "Guildpact",
-			mkm_id : 54
-		},
-		{
-			name : "Champs and States",
-			code : "pCMP",
-			magicCardsInfoCode : "cp",
-			magicRaritiesCodes : ["54-rarities-champs-cards"],
-			isMCISet : true,
-			releaseDate : "2006-03-18",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Dissension",
-			code : "DIS",
-			magicCardsInfoCode : "di",
-			releaseDate : "2006-05-05",
-			border : "black",
-			type : "expansion",
-			block : "Ravnica",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Zwietracht',
-				fr: 'Discorde',
-				it: 'Discordia',
-				es: 'Discordia',
-				pt: 'Insurreição',
-				jp: 'ディセンション',
-				cn: '纷争',
-				ru: 'Раскол'
-			},
-			mkm_name : "Dissension",
-			mkm_id : 53
-		},
-		{
-			name : "Coldsnap",
-			code : "CSP",
-			magicCardsInfoCode : "cs",
-			releaseDate : "2006-07-21",
-			border : "black",
-			type : "expansion",
-			block : "Ice Age",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common"],
-			translations: {
-				de: 'Kälteeinbruch',
-				fr: 'Souffle glaciaire',
-				it: 'Ondata Glaciale',
-				es: 'Ola de frío',
-				pt: 'Frente Fria',
-				jp: 'コールドスナップ',
-				cn: '骤霜',
-				ru: 'Стужа'
-			},
-			mkm_name : "Coldsnap",
-			mkm_id : 52
-		},
-		{
-			name : "Coldsnap Theme Decks",
-			code : "CST",
-			magicCardsInfoCode : "cstd",
-			magicRaritiesCodes : ["230-rarities-coldsnap-preconstructed-reprint-cards"],
-			isMCISet : true,
-			useMagicRaritiesNumber : true,
-			releaseDate : "2006-07-21",
-			border : "black",
-			type : "box",
-			translations: {
-				de: 'Kälteeinbruch-Themendecks',
-				it: 'Coldsnap Theme Decks'
-			},
-			mkm_name : "Coldsnap Theme Decks",
-			mkm_id : 82
-		},
-		{
-			name : "Time Spiral",
-			code : "TSP",
-			magicCardsInfoCode : "ts",
-			releaseDate : "2006-10-06",
-			border : "black",
-			type : "expansion",
-			block : "Time Spiral",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "timeshifted purple"],
-			translations: {
-				de: 'Zeitspirale',
-				fr: 'Spirale Temporelle',
-				it: 'Spirale Temporale',
-				es: 'Espiral del Tiempo',
-				pt: 'Time Spiral',
-				jp: '時のらせん',
-				cn: 'Time Spiral',
-				ru: 'Спираль времени'
-			},
-			mkm_name : "Time Spiral",
-			mkm_id : 56
-		},
-		{
-			name : 'Time Spiral "Timeshifted"',
-			code : "TSB",
-			magicCardsInfoCode : "tsts",
-			releaseDate : "2006-10-06",
-			border : "black",
-			type : "expansion",
-			block : "Time Spiral",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "timeshifted purple"],
-			translations: {
-				de: 'Zeitspirale',
-				fr: 'Spirale Temporelle',
-				it: 'Spirale Temporale',
-				es: 'Espiral del Tiempo',
-				pt: 'Time Spiral',
-				jp: '時のらせん',
-				cn: 'Time Spiral',
-				ru: 'Спираль времени'
-			},
-			mkm_name : "Time Spiral",
-			mkm_id : 56
-		},
-		{
-			name : "Happy Holidays",
-			code : "pHHO",
-			oldCode : "HHO",
-			magicCardsInfoCode : "hho",
-			magicRaritiesCodes : ["19-rarities-happy-holidays-gift-card"],
-			isMCISet : true,
-			releaseDate : "2006-12-31",
-			border : "silver",
-			type : "promo",
-			mkm_name : "Happy Holidays Promos",
-			mkm_id : 1247
-		},
-		{
-			name : "Planar Chaos",
-			code : "PLC",
-			magicCardsInfoCode : "pc",
-			releaseDate : "2007-02-02",
-			border : "black",
-			type : "expansion",
-			block : "Time Spiral",
-			booster : ["rare", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "timeshifted common", "timeshifted common", "timeshifted common", ["timeshifted rare", "timeshifted uncommon"]],
-			translations: {
-				de: 'Weltenchaos',
-				fr: 'Chaos planaire',
-				it: 'Caos Dimensionale',
-				es: 'Caos planar',
-				pt: 'Caos Planar',
-				jp: '次元の混乱',
-				cn: '时空混沌',
-				ru: 'Вселенский Хаос'
-			},
-			mkm_name : "Planar Chaos",
-			mkm_id : 58
-		},
-		{
-			name : "Pro Tour",
-			code : "pPRO",
-			magicCardsInfoCode : "pro",
-			magicRaritiesCodes : ["14-rarities-pro-tour-card"],
-			isMCISet : true,
-			releaseDate : "2007-02-09",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Grand Prix",
-			code : "pGPX",
-			magicCardsInfoCode : "gpx",
-			magicRaritiesCodes : ["73-rarities-grand-prix-promos"],
-			isMCISet : true,
-			releaseDate : "2007-02-24",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Future Sight",
-			code : "FUT",
-			magicCardsInfoCode : "fut",
-			releaseDate : "2007-05-04",
-			border : "black",
-			type : "expansion",
-			block : "Time Spiral",
-			booster : [["rare", "timeshifted rare"], ["uncommon", "timeshifted uncommon"], ["uncommon", "timeshifted uncommon"], ["uncommon", "timeshifted uncommon"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"], ["common", "timeshifted common"]],
-			translations: {
-				de: 'Blick in die Zukunft',
-				fr: 'Vision de l\'Avenir',
-				it: 'Visione Futura',
-				es: 'Visión del Futuro',
-				pt: 'Visão do Futuro',
-				jp: '未来予知',
-				cn: '预知将来',
-				ru: 'Взгляд в Будущее'
-			},
-			mkm_name : "Future Sight",
-			mkm_id : 70
-		},
-		{
-			name : "Tenth Edition",
-			code : "10E",
-			magicCardsInfoCode : "10e",
-			releaseDate : "2007-07-13",
-			border : "black",
-			type : "core",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Zehnte Edition',
-				fr: 'Dixième édition',
-				it: 'Decima Edizione',
-				es: 'Décima Edición',
-				pt: 'Décima Edição',
-				jp: '第10版',
-				cn: '第十版',
-				ru: 'Десятое Издание',
-				tw: 'Tenth Edition'
-			},
-			mkm_name : "Tenth Edition",
-			mkm_id : 74
-		},
-		{
-			name : "Magic Game Day",
-			code : "pMGD",
-			magicCardsInfoCode : "mgdc",
-			magicRaritiesCodes : ["119-rarities-magic-game-day-cards"],
-			isMCISet : true,
-			releaseDate : "2007-07-14",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Masters Edition",
-			code : "MED",
-			magicCardsInfoCode : "med",
-			releaseDate : "2007-09-10",
-			border : "black",
-			type : "masters",
-			onlineOnly : true,
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"]
-		},
-		{
-			name : "Lorwyn",
-			code : "LRW",
-			magicCardsInfoCode : "lw",
-			releaseDate : "2007-10-12",
-			border : "black",
-			type : "expansion",
-			block : "Lorwyn",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "marketing"],
-			translations: {
-				de: 'Lorwyn',
-				fr: 'Lorwyn',
-				it: 'Lorwyn',
-				es: 'Lorwyn',
-				pt: 'Lorwyn',
-				jp: 'ローウィン',
-				cn: '洛温',
-				ru: 'Лорвин',
-				tw: 'Lorwyn'
-			},
-			mkm_name : "Lorwyn",
-			mkm_id : 84
-		},
-		{
-			name : "Duel Decks: Elves vs. Goblins",
-			code : "EVG",
-			magicCardsInfoCode : "evg",
-			releaseDate : "2007-11-16",
-			border : "black",
-			type : "duel deck",
-			mkm_name : "Duel Decks: Elves vs. Goblins",
-			mkm_id : 91
-		},
-		{
-			name : "Launch Parties",
-			code : "pLPA",
-			magicCardsInfoCode : "mlp",
-			magicRaritiesCodes : ["226-rarities-pre-launch-party-cards"],
-			isMCISet : true,
-			releaseDate : "2008-02-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Morningtide",
-			code : "MOR",
-			magicCardsInfoCode : "mt",
-			releaseDate : "2008-02-01",
-			border : "black",
-			type : "expansion",
-			block : "Lorwyn",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "marketing"],
-			translations: {
-				de: 'Morgenluft',
-				fr: 'Lèveciel',
-				it: 'Aurora',
-				es: 'Alborada',
-				pt: 'Alvorecer',
-				jp: 'モーニングタイド',
-				cn: '晨光',
-				ru: 'Рассвет'
-			},
-			mkm_name : "Morningtide",
-			mkm_id : 92
-		},
-		{
-			name : "15th Anniversary",
-			code : "p15A",
-			magicCardsInfoCode : "15ann",
-			magicRaritiesCodes : ["178-rarities-mtg-15th-anniversary"],
-			isMCISet : true,
-			releaseDate : "2008-04-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Shadowmoor",
-			code : "SHM",
-			magicCardsInfoCode : "shm",
-			releaseDate : "2008-05-02",
-			border : "black",
-			type : "expansion",
-			block : "Shadowmoor",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "marketing"],
-			translations: {
-				de: 'Schattenmoor',
-				fr: 'Sombrelande',
-				it: 'Landa Tenebrosa',
-				es: 'Páramo Sombrío',
-				pt: 'Pântano Sombrio',
-				jp: 'シャドウムーア',
-				cn: '暗影荒原',
-				ru: 'Шэдоумур'
-			},
-			mkm_name : "Shadowmoor",
-			mkm_id : 95
-		},
-		{
-			name : "Summer of Magic",
-			code : "pSUM",
-			magicCardsInfoCode : "sum",
-			magicRaritiesCodes : ["118-rarities-summer-of-magic-tournament"],
-			isMCISet : true,
-			releaseDate : "2007-07-21",
-			border : "black",
-			type : "promo",
-			mkm_name : "Summer Magic",
-			mkm_id : 76
-		},
-		{
-			name : "Eventide",
-			code : "EVE",
-			magicCardsInfoCode : "eve",
-			releaseDate : "2008-07-25",
-			border : "black",
-			type : "expansion",
-			block : "Shadowmoor",
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "marketing"],
-			translations: {
-				de: 'Abendkühle',
-				fr: 'Coucheciel',
-				it: 'Vespro',
-				es: 'Crepúsculo',
-				pt: 'Entardecer',
-				jp: 'イーブンタイド',
-				cn: '暮光',
-				ru: 'Сумерки'
-			},
-			mkm_name : "Eventide",
-			mkm_id : 99
-		},
-		{
-			name : "From the Vault: Dragons",
-			code : "DRB",
-			magicCardsInfoCode : "fvd",
-			releaseDate : "2008-08-29",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Dragons",
-			mkm_id : 100
-		},
-		{
-			name : "Masters Edition II",
-			code : "ME2",
-			magicCardsInfoCode : "me2",
-			releaseDate : "2008-09-22",
-			border : "black",
-			type : "masters",
-			onlineOnly : true,
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"]
-		},
-		{
-			name : "Wizards Play Network",
-			code : "pWPN",
-			magicCardsInfoCode : "grc",
-			magicRaritiesCodes : ["255-rarities-wpn-promos"],
-			isMCISet : true,
-			releaseDate : "2008-10-01",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Shards of Alara",
-			code : "ALA",
-			magicCardsInfoCode : "ala",
-			releaseDate : "2008-10-03",
-			border : "black",
-			type : "expansion",
-			block : "Alara",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Fragmente von Alara',
-				fr: 'Les éclats d\'Alara',
-				it: 'Frammenti di Alara',
-				es: 'Fragmentos de Alara',
-				pt: 'Fragmentos de Alara',
-				jp: 'アラーラの断片',
-				cn: '阿拉若断片',
-				ru: 'Осколки Алары'
-			},
-			mkm_name : "Shards of Alara",
-			mkm_id : 102
-		},
-		{
-			name : "Duel Decks: Jace vs. Chandra",
-			code : "DD2",
-			oldCode : "D2",
-			magicCardsInfoCode : "jvc",
-			releaseDate : "2008-11-07",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'Duel Decks: Jace vs. Chandra'
-			},
-			mkm_name : "Duel Decks: Jace vs. Chandra",
-			mkm_id : 104
-		},
-		{
-			name : "Conflux",
-			code : "CON",
-			oldCode : "CFX",
-			magicCardsInfoCode : "cfx",
-			releaseDate : "2009-02-06",
-			border : "black",
-			type : "expansion",
-			block : "Alara",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Conflux',
-				fr: 'Conflux',
-				it: 'Conflux',
-				es: 'Conflux',
-				pt: 'Conflux',
-				jp: 'コンフラックス',
-				cn: '聚流',
-				ru: 'Conflux'
-			},
-			mkm_name : "Conflux",
-			mkm_id : 106
-		},
-		{
-			name : "Duel Decks: Divine vs. Demonic",
-			code : "DDC",
-			magicCardsInfoCode : "dvd",
-			releaseDate : "2009-04-10",
-			border : "black",
-			type : "duel deck",
-			mkm_name : "Duel Decks: Divine vs. Demonic",
-			mkm_id : 107
-		},
-		{
-			name : "Alara Reborn",
-			code : "ARB",
-			magicCardsInfoCode : "arb",
-			releaseDate : "2009-04-30",
-			border : "black",
-			type : "expansion",
-			block : "Alara",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Alara Reborn',
-				fr: 'Alara Reborn',
-				it: 'Alara Reborn',
-				es: 'Alara Reborn',
-				pt: 'Alara Reborn',
-				jp: 'アラーラ再誕',
-				cn: 'Alara Reborn',
-				ru: 'Alara Reborn'
-			},
-			mkm_name : "Alara Reborn",
-			mkm_id : 108
-		},
-		{
-			name : "Magic 2010",
-			code : "M10",
-			magicCardsInfoCode : "m10",
-			releaseDate : "2009-07-17",
-			border : "black",
-			type : "core",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Magic 2010',
-				fr: 'Magic 2010',
-				it: 'Magic 2010',
-				es: 'Magic 2010',
-				pt: 'Magic 2010',
-				jp: '基本セット2010',
-				cn: 'Magic 2010',
-				ru: 'Magic 2010'
-			},
-			mkm_name : "Magic 2010",
-			mkm_id : 109
-		},
-		{
-			name : "From the Vault: Exiled",
-			code : "V09",
-			oldCode : "FVE",
-			magicCardsInfoCode : "fve",
-			releaseDate : "2009-08-28",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Exiled",
-			mkm_id : 112
-		},
-		{
-			name : "Planechase",
-			code : "HOP",
-			oldCode : "PCH",
-			magicCardsInfoCode : "pch",
-			releaseDate : "2009-09-04",
-			border : "black",
-			type : "planechase",
-			mkm_name : "Planechase",
-			mkm_id : 113
-		},
-		{
-			name : "Masters Edition III",
-			code : "ME3",
-			magicCardsInfoCode : "me3",
-			releaseDate : "2009-09-07",
-			border : "black",
-			type : "masters",
-			onlineOnly : true,
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"]
-		},
-		{
-			name : "Zendikar",
-			code : "ZEN",
-			magicCardsInfoCode : "zen",
-			releaseDate : "2009-10-02",
-			border : "black",
-			type : "expansion",
-			block : "Zendikar",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Zendikar',
-				fr: 'Zendikar',
-				it: 'Zendikar',
-				es: 'Zendikar',
-				pt: 'Zendikar',
-				jp: 'ゼンディカー',
-				cn: '赞迪卡',
-				ru: 'Zendikar'
-			},
-			mkm_name : "Zendikar",
-			mkm_id : 114
-		},
-		{
-			name : "Duel Decks: Garruk vs. Liliana",
-			code : "DDD",
-			magicCardsInfoCode : "gvl",
-			releaseDate : "2009-10-30",
-			border : "black",
-			type : "duel deck",
-			mkm_name : "Duel Decks: Garruk vs. Liliana",
-			mkm_id : 115
-		},
-		{
-			name : "Premium Deck Series: Slivers",
-			code : "H09",
-			magicCardsInfoCode : "pds",
-			releaseDate : "2009-11-20",
-			border : "black",
-			type : "premium deck",
-			mkm_name : "Premium Deck Series: Slivers",
-			mkm_id : 116
-		},
-		{
-			name : "Worldwake",
-			code : "WWK",
-			magicCardsInfoCode : "wwk",
-			releaseDate : "2010-02-05",
-			border : "black",
-			type : "expansion",
-			block : "Zendikar",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Weltenerwachen',
-				fr: 'Worldwake',
-				it: 'Worldwake',
-				es: 'Despertar del mundo',
-				pt: 'Despertar do Mundo',
-				jp: 'ワールドウェイク',
-				cn: '天地醒转',
-				ru: 'Пробуждение Мира',
-				ko: 'Worldwake'
-			},
-			mkm_name : "Worldwake",
-			mkm_id : 118
-		},
-		{
-			name : "Duel Decks: Phyrexia vs. the Coalition",
-			code : "DDE",
-			magicCardsInfoCode : "pvc",
-			releaseDate : "2010-03-19",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'Duel Decks: Phyrexia vs. The Coalition'
-			},
-			mkm_name : "Duel Decks: Phyrexia vs. The Coalition",
-			mkm_id : 119
-		},
-		{
-			name : "Rise of the Eldrazi",
-			code : "ROE",
-			magicCardsInfoCode : "roe",
-			releaseDate : "2010-04-23",
-			border : "black",
-			type : "expansion",
-			block : "Zendikar",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Aufstieg der Eldrazi',
-				fr: 'L\'ascension des Eldrazi',
-				it: 'Ascesa degli Eldrazi',
-				es: 'Levantamiento de los Eldrazi',
-				pt: 'Ascensão dos Eldrazi',
-				jp: 'エルドラージ覚醒',
-				cn: '奥札奇再起',
-				ru: 'Возрождение Эльдрази'
-			},
-			mkm_name : "Rise of the Eldrazi",
-			mkm_id : 120
-		},
-		{
-			name : "Duels of the Planeswalkers",
-			code : "DPA",
-			magicCardsInfoCode : "dpa",
-			releaseDate : "2010-06-04",
-			border : "black",
-			type : "box",
-			mkm_name : "Duels of the Planeswalkers Decks",
-			mkm_id : 1193
-		},
-		{
-			name : "Archenemy",
-			code : "ARC",
-			magicCardsInfoCode : "arc",
-			releaseDate : "2010-06-18",
-			border : "black",
-			type : "archenemy",
-			mkm_name : "Archenemy",
-			mkm_id : 1194
-		},
-		{
-			name : "Magic 2011",
-			code : "M11",
-			magicCardsInfoCode : "m11",
-			releaseDate : "2010-07-16",
-			border : "black",
-			type : "core",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Magic 2011',
-				fr: 'Magic 2011',
-				it: 'Magic 2011',
-				es: 'Magic 2011',
-				pt: 'Magic 2011',
-				jp: 'Magic 2011',
-				cn: 'Magic 2011',
-				ru: 'Magic 2011',
-				tw: 'Magic 2011'
-			},
-			mkm_name : "Magic 2011",
-			mkm_id : 1197
-		},
-		{
-			name : "From the Vault: Relics",
-			code : "V10",
-			magicCardsInfoCode : "fvr",
-			releaseDate : "2010-08-27",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Relics",
-			mkm_id : 1202
-		},
-		{
-			name : "Duel Decks: Elspeth vs. Tezzeret",
-			code : "DDF",
-			magicCardsInfoCode : "ddf",
-			releaseDate : "2010-09-03",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				de: 'Duel Decks: Elspeth vs. Tezzeret',
-				fr: 'Duel Decks: Elspeth vs. Tezzeret',
-				it: 'Duel Decks: Elspeth vs. Tezzeret',
-				es: 'Duel Decks: Elspeth vs. Tezzeret',
-				jp: 'Duel Decks: Elspeth vs. Tezzeret'
-			},
-			mkm_name : "Duel Decks: Elspeth vs. Tezzeret",
-			mkm_id : 1203
-		},
-		{
-			name : "Scars of Mirrodin",
-			code : "SOM",
-			magicCardsInfoCode : "som",
-			releaseDate : "2010-10-01",
-			border : "black",
-			type : "expansion",
-			block : "Scars of Mirrodin",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Die Narben von Mirrodin',
-				fr: 'Les cicatrices de Mirrodin',
-				it: 'Cicatrici di Mirrodin',
-				es: 'Cicatrices de Mirrodin',
-				pt: 'Cicatrizes de Mirrodin',
-				jp: 'ミラディンの傷跡',
-				cn: '秘罗地创痕',
-				ru: 'Шрамы Мирродина',
-				tw: '秘罗地创痕'
-			},
-			mkm_name : "Scars of Mirrodin",
-			mkm_id : 1206
-		},
-		{
-			name : "Premium Deck Series: Fire and Lightning",
-			code : "PD2",
-			magicCardsInfoCode : "pd2",
-			releaseDate : "2010-11-19",
-			border : "black",
-			type : "premium deck",
-			mkm_name : "Premium Deck Series: Fire & Lightning",
-			mkm_id : 1218
-		},
-		{
-			name : "Masters Edition IV",
-			code : "ME4",
-			magicCardsInfoCode : "me4",
-			releaseDate : "2011-01-10",
-			border : "black",
-			type : "masters",
-			onlineOnly : true,
-			booster : ["rare", "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "urza land"]
-		},
-		{
-			name : "Mirrodin Besieged",
-			code : "MBS",
-			magicCardsInfoCode : "mbs",
-			releaseDate : "2011-02-04",
-			border : "black",
-			type : "expansion",
-			block : "Scars of Mirrodin",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Belagertes Mirrodin',
-				fr: 'Mirrodin assiégé',
-				it: 'Mirrodin Assediato',
-				es: 'Mirrodin sitiado',
-				pt: 'Mirrodin Sitiada',
-				jp: 'ミラディン包囲戦',
-				cn: '围攻秘罗地',
-				ru: 'Осада Мирродина',
-				tw: '围攻秘罗地'
-			},
-			mkm_name : "Mirrodin Besieged",
-			mkm_id : 1253
-		},
-		{
-			name : "Duel Decks: Knights vs. Dragons",
-			code : "DDG",
-			magicCardsInfoCode : "ddg",
-			releaseDate : "2011-04-01",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				de: 'Duel Decks: Knights vs. Dragons',
-				fr: 'Duel Decks: Knights vs. Dragons',
-				it: 'Duel Decks: Knights vs. Dragons',
-				es: 'Duel Decks: Knights vs. Dragons',
-				jp: 'Duel Decks: Knights vs. Dragons'
-			},
-			mkm_name : "Duel Decks: Knights vs. Dragons",
-			mkm_id : 1261
-		},
-		{
-			name : "New Phyrexia",
-			code : "NPH",
-			magicCardsInfoCode : "nph",
-			releaseDate : "2011-05-13",
-			border : "black",
-			type : "expansion",
-			block : "Scars of Mirrodin",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Das neue Phyrexia',
-				fr: 'La Nouvelle Phyrexia',
-				it: 'Nuova Phyrexia',
-				es: 'Nueva Phyrexia',
-				pt: 'Nova Phyrexia',
-				jp: '新たなるファイレクシア',
-				cn: '新非瑞克西亚',
-				ru: 'Новая Фирексия',
-				tw: '新非瑞克西亚'
-			},
-			mkm_name : "New Phyrexia",
-			mkm_id : 1262
-		},
-		{
-			name : "Magic: The Gathering-Commander",
-			code : "CMD",
-			oldCode : "COM",
-			magicCardsInfoCode : "cmd",
-			releaseDate : "2011-06-17",
-			border : "black",
-			type : "commander",
-			translations: {
-				de: 'Commander',
-				fr: 'Commander',
-				it: 'Commander',
-				es: 'Commander',
-				jp: '統率者'
-			},
-			mkm_name : "Commander",
-			mkm_id : 1273
-		},
-		{
-			name : "Magic 2012",
-			code : "M12",
-			magicCardsInfoCode : "m12",
-			releaseDate : "2011-07-15",
-			border : "black",
-			type : "core",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Magic 2012',
-				fr: 'Magic 2012',
-				it: 'Magic 2012',
-				es: 'Magic 2012',
-				pt: 'Magic 2012',
-				jp: '2012基本セット',
-				cn: '核心系列2012',
-				ru: 'Базовый выпуск 2012',
-				tw: '核心系列2012'
-			},
-			mkm_name : "Magic 2012",
-			mkm_id : 1280
-		},
-		{
-			name : "From the Vault: Legends",
-			code : "V11",
-			oldCode : "FVL",
-			magicCardsInfoCode : "fvl",
-			releaseDate : "2011-08-26",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Legends",
-			mkm_id : 1286
-		},
-		{
-			name : "Duel Decks: Ajani vs. Nicol Bolas",
-			code : "DDH",
-			magicCardsInfoCode : "ddh",
-			releaseDate : "2011-09-02",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				de: 'Duel Decks: Ajani vs. Nicol Bolas',
-				fr: 'Duel Decks: Ajani vs. Nicol Bolas',
-				it: 'Duel Decks: Ajani vs. Nicol Bolas',
-				es: 'Duel Decks: Ajani vs. Nicol Bolas'
-			},
-			mkm_name : "Duel Decks: Ajani vs. Nicol Bolas",
-			mkm_id : 1288
-		},
-		{
-			name : "Innistrad",
-			code : "ISD",
-			magicCardsInfoCode : "isd",
-			releaseDate : "2011-09-30",
-			border : "black",
-			type : "expansion",
-			block : "Innistrad",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", ["land", "checklist"], "marketing", "double faced"],
-			translations: {
-				de: 'Innistrad',
-				fr: 'Innistrad',
-				it: 'Innistrad',
-				es: 'Innistrad',
-				pt: 'Innistrad',
-				jp: 'イニストラード',
-				cn: '依尼翠',
-				ru: 'Innistrad',
-				tw: '依尼翠'
-			},
-			mkm_name : "Innistrad",
-			mkm_id : 1327
-		},
-		{
-			name : "Premium Deck Series: Graveborn",
-			code : "PD3",
-			magicCardsInfoCode : "pd3",
-			releaseDate : "2011-11-18",
-			border : "black",
-			type : "premium deck",
-			mkm_name : "Premium Deck Series: Graveborn",
-			mkm_id : 1337
-		},
-		{
-			name : "Dark Ascension",
-			code : "DKA",
-			magicCardsInfoCode : "dka",
-			releaseDate : "2012-02-03",
-			border : "black",
-			type : "expansion",
-			block : "Innistrad",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Dunkles Erwachen',
-				fr: 'Obscure ascension',
-				it: 'Ascesa Oscura',
-				es: 'Ascenso siniestro',
-				pt: 'Ascensão das Trevas',
-				jp: '闇の隆盛',
-				cn: '黑影笼罩',
-				ru: 'Возвышение Мрака',
-				tw: '黑影籠罩',
-				ko: '어둠의 강림'
-			},
-			mkm_name : "Dark Ascension",
-			mkm_id : 1345
-		},
-		{
-			name : "Duel Decks: Venser vs. Koth",
-			code : "DDI",
-			magicCardsInfoCode : "ddi",
-			releaseDate : "2012-03-30",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'デュエルデッキ：ヴェンセール vs. コス'
-			},
-			mkm_name : "Duel Decks: Venser vs. Koth",
-			mkm_id : 1350
-		},
-		{
-			name : "Avacyn Restored",
-			code : "AVR",
-			magicCardsInfoCode : "avr",
-			releaseDate : "2012-05-04",
-			border : "black",
-			type : "expansion",
-			block : "Innistrad",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Avacyns Rückkehr',
-				fr: 'Avacyn ressuscitée',
-				it: 'Ritorno di Avacyn',
-				es: 'Avacyn restituida',
-				pt: 'Retorno de Avacyn',
-				jp: 'アヴァシンの帰還',
-				cn: '艾维欣重临',
-				ru: 'Возвращение Авацины',
-				tw: '艾維欣重臨',
-				ko: '아바신의 귀환'
-			},
-			mkm_name : "Avacyn Restored",
-			mkm_id : 1358
-		},
-		{
-			name : "Planechase 2012 Edition",
-			code : "PC2",
-			magicCardsInfoCode : "pc2",
-			releaseDate : "2012-06-01",
-			border : "black",
-			type : "planechase",
-			translations: {
-				de: 'Planechase 2012 Edition',
-				fr: 'Planechase 2012 Edition',
-				it: 'Planechase 2012 Edition',
-				es: 'Planechase 2012 Edition',
-				jp: 'プレインチェイス2012'
-			},
-			mkm_name : "Planechase 2012",
-			mkm_id : 1369
-		},
-		{
-			name : "Magic 2013",
-			code : "M13",
-			magicCardsInfoCode : "m13",
-			releaseDate : "2012-07-13",
-			border : "black",
-			type : "core",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Magic 2013',
-				fr: 'Magic 2013',
-				it: 'Magic 2013',
-				es: 'Magic 2013',
-				pt: 'Magic 2013',
-				jp: '2013基本セット',
-				cn: '核心系列2013',
-				ru: 'Базовый выпуск 2013',
-				tw: '核心系列2013',
-				ko: '매직2013'
-			},
-			mkm_name : "Magic 2013",
-			mkm_id : 1388
-		},
-		{
-			name : "From the Vault: Realms",
-			code : "V12",
-			oldCode : "FVR",
-			magicCardsInfoCode : "v12",
-			releaseDate : "2012-08-31",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Realms",
-			mkm_id : 1397
-		},
-		{
-			name : "Duel Decks: Izzet vs. Golgari",
-			code : "DDJ",
-			magicCardsInfoCode : "ddj",
-			releaseDate : "2012-09-07",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'デュエルデッキ：イゼット vs. ゴルガリ'
-			},
-			mkm_name : "Duel Decks: Izzet vs. Golgari",
-			mkm_id : 1398
-		},
-		{
-			name : "Return to Ravnica",
-			code : "RTR",
-			magicCardsInfoCode : "rtr",
-			releaseDate : "2012-10-05",
-			border : "black",
-			type : "expansion",
-			block : "Return to Ravnica",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Rückkehr nach Ravnica',
-				fr: 'Retour sur Ravnica',
-				it: 'Ritorno a Ravnica',
-				es: 'Regreso a Rávnica',
-				pt: 'Retorno a Ravnica',
-				jp: 'ラヴニカへの回帰',
-				cn: '再访拉尼卡',
-				ru: 'Возвращение в Равнику',
-				tw: '再訪拉尼卡',
-				ko: '라브니카로의 귀환'
-			},
-			mkm_name : "Return to Ravnica",
-			mkm_id : 1389
-		},
-		{
-			name : "Commander's Arsenal",
-			code : "CM1",
-			oldCode : "CMA",
-			magicCardsInfoCode : "cma",
-			releaseDate : "2012-11-02",
-			border : "black",
-			type : "commander",
-			mkm_name : "Commander's Arsenal",
-			mkm_id : 1418
-		},
-		{
-			name : "Gatecrash",
-			code : "GTC",
-			magicCardsInfoCode : "gtc",
-			releaseDate : "2013-02-01",
-			border : "black",
-			type : "expansion",
-			block : "Return to Ravnica",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Gildensturm',
-				fr: 'Insurrection',
-				it: 'Irruzione',
-				es: 'Intrusión',
-				pt: 'Portões Violados',
-				jp: 'ギルド門侵犯',
-				cn: '兵临古城',
-				ru: 'Незваные Гости',
-				tw: '兵臨古城',
-				ko: '충돌의 관문'
-			},
-			mkm_name : "Gatecrash",
-			mkm_id : 1424
-		},
-		{
-			name : "Duel Decks: Sorin vs. Tibalt",
-			code : "DDK",
-			magicCardsInfoCode : "ddk",
-			releaseDate : "2013-03-15",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'Duel Decks: Sorin vs. Tibalt'
-			},
-			mkm_name : "Duel Decks: Sorin vs. Tibalt",
-			mkm_id : 1430
-		},
-		{
-			name : "World Magic Cup Qualifiers",
-			code : "pWCQ",
-			magicCardsInfoCode : "wmcq",
-			magicRaritiesCodes : ["780-rarities-world-magic-cup-qualifiers-promos"],
-			isMCISet : true,
-			releaseDate : "2013-04-06",
-			border : "black",
-			type : "promo"
-		},
-		{
-			name : "Dragon's Maze",
-			code : "DGM",
-			magicCardsInfoCode : "dgm",
-			releaseDate : "2013-05-03",
-			border : "black",
-			type : "expansion",
-			block : "Return to Ravnica",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Labyrinth des Drachen',
-				fr: 'Le labyrinthe du dragon',
-				it: 'Labirinto del Drago',
-				es: 'Laberinto del Dragón',
-				pt: 'Labirinto do Dragão',
-				jp: 'ドラゴンの迷路',
-				cn: '巨龙迷城',
-				ru: 'Лабиринт Дракона',
-				tw: '巨龍迷城',
-				ko: '용의 미로'
-			},
-			mkm_name : "Dragon's Maze",
-			mkm_id : 1435
-		},
-		{
-			name : "Modern Masters",
-			code : "MMA",
-			magicCardsInfoCode : "mma",
-			releaseDate : "2013-06-07",
-			border : "black",
-			type : "reprint",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", ["foil mythic rare", "foil rare", "foil uncommon", "foil common"]],
-			mkm_name : "Modern Masters",
-			mkm_id : 1444
-		},
-		{
-			name : "Magic 2014 Core Set",
-			code : "M14",
-			magicCardsInfoCode : "m14",
-			releaseDate : "2013-07-19",
-			border : "black",
-			type : "core",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Hauptset Magic 2014',
-				fr: 'Édition de base Magic 2014',
-				it: 'Set Base Magic 2014',
-				es: 'Colección básica Magic 2014',
-				pt: 'Coleção Básica Magic 2014',
-				jp: 'マジック基本セット2014',
-				cn: '魔法風雲會2014核心系列',
-				ru: 'Базовый выпуск Magic 2014',
-				tw: '万智牌2014核心系列',
-				ko: '매직 2014 코어세트'
-			},
-			mkm_name : "Magic 2014",
-			mkm_id : 1449
-		},
-		{
-			name : "From the Vault: Twenty",
-			code : "V13",
-			magicCardsInfoCode : "v13",
-			releaseDate : "2013-08-23",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Twenty",
-			mkm_id : 1455
-		},
-		{
-			name : "Duel Decks: Heroes vs. Monsters",
-			code : "DDL",
-			magicCardsInfoCode : "ddl",
-			releaseDate : "2013-09-06",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'Duel Decks: Heroes vs. Monsters'
-			},
-			mkm_name : "Duel Decks: Heroes vs. Monsters",
-			mkm_id : 1456
-		},
-		{
-			name : "Theros",
-			code : "THS",
-			magicCardsInfoCode : "ths",
-			releaseDate : "2013-09-27",
-			border : "black",
-			type : "expansion",
-			block : "Theros",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Theros',
-				fr: 'Theros',
-				it: 'Theros',
-				es: 'Theros',
-				pt: 'Theros',
-				jp: 'テーロス',
-				cn: 'Theros',
-				ru: 'Theros',
-				tw: 'Theros',
-				ko: 'Theros'
-			},
-			mkm_name : "Theros",
-			mkm_id : 1457
-		},
-		{
-			name : "Commander 2013 Edition",
-			code : "C13",
-			magicCardsInfoCode : "c13",
-			releaseDate : "2013-11-01",
-			border : "black",
-			type : "commander",
-			translations: {
-				de: 'Commander 2013 Edition',
-				fr: 'Commander 2013 Edition',
-				it: 'Commander 2013 Edition',
-				es: 'Commander 2013 Edition',
-				jp: '統率者(2013年版)'
-			},
-			mkm_name : "Commander 2013",
-			mkm_id : 1464
-		},
-		{
-			name : "Born of the Gods",
-			code : "BNG",
-			magicCardsInfoCode : "bng",
-			releaseDate : "2014-02-07",
-			border : "black",
-			type : "expansion",
-			block : "Theros",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Kinder der Götter',
-				fr: 'Créations divines',
-				it: 'Figli degli dei',
-				es: 'Nacidos de los dioses',
-				pt: 'Nascidos dos Deuses',
-				jp: '神々の軍勢',
-				cn: '天神创生',
-				ru: 'Порождения Богов',
-				tw: '天神創生',
-				ko: '신들의 피조물'
-			},
-			mkm_name : "Born of the Gods",
-			mkm_id : 1469
-		},
-		{
-			name : "Duel Decks: Jace vs. Vraska",
-			code : "DDM",
-			magicCardsInfoCode : "ddm",
-			releaseDate : "2014-03-14",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'Duel Decks: Jace vs. Vraska'
-			},
-			mkm_name : "Duel Decks: Jace vs. Vraska",
-			mkm_id : 1477
-		},
-		{
-			name : "Journey into Nyx",
-			code : "JOU",
-			magicCardsInfoCode : "jou",
-			releaseDate : "2014-05-02",
-			border : "black",
-			type : "expansion",
-			block : "Theros",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Reise nach Nyx',
-				fr: 'Incursion dans Nyx',
-				it: 'Viaggio verso Nyx',
-				es: 'Travesía hacia Nyx',
-				pt: 'Viagem para Nyx',
-				jp: 'ニクスへの旅',
-				cn: '尼兹之旅',
-				ru: 'Путешествие в Никс',
-				tw: '尼茲之旅',
-				ko: '닉스로 가는 길'
-			},
-			mkm_name : "Journey into Nyx",
-			mkm_id : 1481
-		},
-		{
-			name : "Modern Event Deck 2014",
-			code : "MD1",
-			magicCardsInfoCode : "md1",
-			releaseDate : "2014-05-30",
-			border : "black",
-			type : "box",
-			mkm_name : "Modern Event Deck 2014",
-			mkm_id : 1484
-		},
-		{
-			name : "Magic: The Gathering—Conspiracy",
-			code : "CNS",
-			magicCardsInfoCode : "cns",
-			releaseDate : "2014-06-06",
-			border : "black",
-			type : "conspiracy",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "draft-matters", "marketing"],
-			translations: {
-				jp: 'Conspiracy',
-				cn: 'Conspiracy'
-			},
-			mkm_name : "Conspiracy",
-			mkm_id : 1483
-		},
-		{
-			name : "Vintage Masters",
-			code : "VMA",
-			magicCardsInfoCode : "vma",
-			releaseDate : "2014-06-16",
-			border : "black",
-			type : "masters",
-			onlineOnly : true,
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", ["power nine", "foil"]]
-		},
-		{
-			name : "Magic 2015 Core Set",
-			code : "M15",
-			magicCardsInfoCode : "m15",
-			releaseDate : "2014-07-18",
-			border : "black",
-			type : "core",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Magic 2015',
-				fr: 'Magic 2015',
-				it: 'Magic 2015',
-				es: 'Magic 2015',
-				pt: 'Magic 2015',
-				jp: 'Magic 2015',
-				cn: 'Magic 2015',
-				ru: 'Magic 2015',
-				tw: 'Magic 2015',
-				ko: 'Magic 2015'
-			},
-			mkm_name : "Magic 2015",
-			mkm_id : 1485
-		},
-		{
-			name : "Clash Pack",
-			code : "CPK",
-			isMCISet : true,
-			magicCardsInfoCode : "clash",
-			releaseDate : "2014-07-18",
-			border : "black",
-			type : "starter",
-			mkm_name : "Clash Pack Promos",
-			mkm_id : 1490
-		},
-		{
-			name : "From the Vault: Annihilation (2014)",
-			code : "V14",
-			magicCardsInfoCode : "v14",
-			releaseDate : "2014-08-22",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Annihilation",
-			mkm_id : 1494
-		},
-		{
-			name : "Duel Decks: Speed vs. Cunning",
-			code : "DDN",
-			magicCardsInfoCode : "ddn",
-			releaseDate : "2014-09-05",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'Duel Decks: Speed vs. Cunning'
-			},
-			mkm_name : "Duel Decks: Speed vs. Cunning",
-			mkm_id : 1496
-		},
-		{
-			name : "Khans of Tarkir",
-			code : "KTK",
-			magicCardsInfoCode : "ktk",
-			essentialMagicCode : "102",
-			releaseDate : "2014-09-26",
-			border : "black",
-			type : "expansion",
-			block : "Khans of Tarkir",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Khane von Tarkir',
-				fr: 'Les Khans de Tarkir',
-				it: 'I Khan di Tarkir',
-				es: 'Kans de Tarkir',
-				pt: 'Khans de Tarkir',
-				jp: 'タルキール覇王譚',
-				cn: '鞑契可汗',
-				ru: 'Ханы Таркира',
-				tw: '韃契可汗',
-				ko: '타르커의 칸'
-			},
-			mkm_name : "Khans of Tarkir",
-			mkm_id : 1495
-		},
-		{
-			name : "Commander 2014",
-			code : "C14",
-			magicCardsInfoCode : "c14",
-			essentialMagicCode : "104",
-			releaseDate : "2014-11-07",
-			border : "black",
-			type : "commander",
-			translations: {
-				de: 'Commander 2014 Edition',
-				fr: 'Commander 2014 Edition',
-				it: 'Commander 2014 Edition',
-				es: 'Commander 2014 Edition',
-				jp: 'Commander 2014 Edition',
-				cn: 'Commander 2014 Edition'
-			},
-			mkm_name : "Commander 2014",
-			mkm_id : 1513
-		},
-		{
-			name : "Duel Decks Anthology, Divine vs. Demonic",
-			code : "DD3_DVD",
-			magicCardsInfoCode : "ddadvd",
-			releaseDate : "2014-12-05",
-			border : "black",
-			type : "duel deck",
-			mkm_name : "Duel Decks: Divine vs. Demonic",
-			mkm_id : 107
-		},
-		{
-			name : "Duel Decks Anthology, Elves vs. Goblins",
-			code : "DD3_EVG",
-			magicCardsInfoCode : "ddaevg",
-			releaseDate : "2014-12-05",
-			border : "black",
-			type : "duel deck",
-			mkm_name : "Duel Decks: Elves vs. Goblins",
-			mkm_id : 91
-		},
-		{
-			name : "Duel Decks Anthology, Garruk vs. Liliana",
-			code : "DD3_GVL",
-			magicCardsInfoCode : "ddagvl",
-			releaseDate : "2014-12-05",
-			border : "black",
-			type : "duel deck",
-			mkm_name : "Duel Decks: Garruk vs. Liliana",
-			mkm_id : 115
-		},
-		{
-			name : "Duel Decks Anthology, Jace vs. Chandra",
-			code : "DD3_JVC",
-			magicCardsInfoCode : "ddajvc",
-			releaseDate : "2014-12-05",
-			border : "black",
-			type : "duel deck",
-			mkm_name : "Duel Decks: Jace vs. Chandra",
-			mkm_id : 104
-		},
-		{
-			name : "Ugin's Fate promos",
-			code : "FRF_UGIN",
-			magicCardsInfoCode : "ugin",
-			releaseDate : "2015-01-17",
-			border : "black",
-			type : "promo",
-			translations: {
-				de: 'Ugin\'s Fate',
-				fr: 'Ugin\'s Fate',
-				it: 'Ugin\'s Fate',
-				es: 'Ugin\'s Fate​',
-				pt: 'Ugin\'s Fate',
-				jp: 'Ugin\'s Fate',
-				cn: 'Ugin\'s Fate',
-				ru: 'Ugin\'s Fate',
-				tw: 'Ugin\'s Fate',
-				ko: 'Ugin\'s Fate'
-			},
-			mkm_name : "Ugin's Fate Promos",
-			mkm_id : 1587
-		},
-		{
-			name : "Fate Reforged",
-			code : "FRF",
-			magicCardsInfoCode : "frf",
-			essentialMagicCode : "103",
-			releaseDate : "2015-01-23",
-			border : "black",
-			type : "expansion",
-			block : "Khans of Tarkir",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Schmiede des Schicksals',
-				fr: 'Destin reforgé',
-				it: 'Riforgiare il destino',
-				es: 'Destino reescrito',
-				pt: 'Destino Reescrito',
-				jp: '運命再編',
-				cn: '龙命殊途',
-				ru: 'Перекованная Судьба',
-				tw: '龍命殊途',
-				ko: '재창조된 운명'
-			},
-			mkm_name : "Fate Reforged",
-			mkm_id : 1522
-		},
-		{
-			name : "Duel Decks: Elspeth vs. Kiora",
-			code : "DDO",
-			magicCardsInfoCode : "ddo",
-			releaseDate : "2015-02-27",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'デュエルデッキ: エルズペスVSキオーラ'
-			},
-			mkm_name : "Duel Decks: Elspeth vs. Kiora",
-			mkm_id : 1593
-		},
-		{
-			name : "Dragons of Tarkir",
-			code : "DTK",
-			magicCardsInfoCode : "dtk",
-			essentialMagicCode : "106",
-			releaseDate : "2015-03-27",
-			border : "black",
-			type : "expansion",
-			block : "Khans of Tarkir",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Drachen von Tarkir',
-				fr: 'Les dragons de Tarkir',
-				it: 'Draghi di Tarkir',
-				es: 'Dragones de Tarkir',
-				pt: 'Dragões de Tarkir',
-				jp: 'タルキール龍紀伝',
-				cn: '鞑契龙王',
-				ru: 'Драконы Таркира',
-				tw: '韃契龍王',
-				ko: '타르커의 용'
-			},
-			mkm_name : "Dragons of Tarkir",
-			mkm_id : 1601
-		},
-		{
-			name : "Tempest Remastered",
-			code : "TPR",
-			magicCardsInfoCode : "tpr",
-			releaseDate : "2015-05-06",
-			border : "black",
-			type : "reprint",
-			onlineOnly : true,
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land"],
-			mkm_name : "Tempest",
-			mkm_id : 19
-		},
-		{
-			name : "Modern Masters 2015 Edition",
-			code : "MM2",
-			magicCardsInfoCode : "mm2",
-			releaseDate : "2015-05-22",
-			border : "black",
-			type : "reprint",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", ["foil mythic rare", "foil rare", "foil uncommon", "foil common"]],
-			translations: {
-				jp: 'Modern Masters 2015 Edition',
-				cn: 'Modern Masters 2015 Edition'
-			},
-			mkm_name : "Modern Masters 2015",
-			mkm_id : 1641
-		},
-		{
-			name : "Magic Origins",
-			code : "ORI",
-			magicCardsInfoCode : "ori",
-			essentialMagicCode : "107",
-			releaseDate : "2015-07-17",
-			border : "black",
-			type : "core",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Magic Ursprünge',
-				fr: 'Magic Origines',
-				it: 'Magic Origins',
-				es: 'Magic Orígenes',
-				pt: 'Magic – Origens',
-				jp: 'マジック・オリジン',
-				cn: '万智牌：起源',
-				ru: 'Magic: Истоки',
-				tw: '魔法風雲會：起源',
-				ko: '매직의 기원'
-			},
-			mkm_name : "Magic Origins",
-			mkm_id : 1652
-		},
-		{
-			name : "From the Vault: Angels",
-			code : "V15",
-			magicCardsInfoCode : "v15",
-			releaseDate : "2015-08-21",
-			border : "black",
-			type : "from the vault",
-			mkm_name : "From the Vault: Angels",
-			mkm_id : 1661
-		},
-		{
-			name : "Duel Decks: Zendikar vs. Eldrazi",
-			code : "DDP",
-			magicCardsInfoCode : "ddp",
-			releaseDate : "2015-08-28",
-			border : "black",
-			type : "duel deck",
-			translations: {
-				jp: 'Duel Decks: Zendikar vs. Eldrazi'
-			},
-			mkm_name : "Duel Decks: Zendikar vs. Eldrazi",
-			mkm_id : 1663
-		},
-		{
-			name : "Battle for Zendikar",
-			code : "BFZ",
-			magicCardsInfoCode : "bfz",
-			essentialMagicCode : "108",
-			releaseDate : "2015-10-02",
-			border : "black",
-			type : "expansion",
-			block : "Battle for Zendikar",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Kampf um Zendikar',
-				fr: 'La bataille de Zendikar',
-				it: 'Battaglia per Zendikar',
-				es: 'La batalla por Zendikar',
-				pt: 'Batalha por Zendikar',
-				jp: '戦乱のゼンディカー',
-				cn: '再战赞迪卡',
-				ru: 'Битва за Зендикар',
-				tw: '再戰贊迪卡',
-				ko: '젠디카르 전투'
-			},
-			mkm_name : "Battle for Zendikar",
-			mkm_id : 1668
-		},
-		{
-			name : "Zendikar Expeditions",
-			code : "EXP",
-			magicCardsInfoCode : "exp",
-			releaseDate : "2015-10-02",
-			border : "black",
-			type : "promo",
-			mkm_name : "Zendikar Expeditions",
-			mkm_id : 1669
-		},
-		{
-			name : "Commander 2015",
-			code : "C15",
-			magicCardsInfoCode : "c15",
-			releaseDate : "2015-11-13",
-			border : "black",
-			type : "commander",
-			translations: {
-				de: 'Commander 2015',
-				fr: 'Commander 2015',
-				it: 'Commander 2015',
-				es: 'Commander 2015',
-				jp: 'Commander 2015',
-				cn: 'Commander 2015'
-			},
-			mkm_name : "Commander 2015",
-			mkm_id : 1679
-		},
-		{
-			name : "Oath of the Gatewatch",
-			code : "OGW",
-			magicCardsInfoCode : "ogw",
-			releaseDate : "2016-01-22",
-			border : "black",
-			type : "expansion",
-			block : "Battle for Zendikar",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				pt: 'Juramento das Sentinelas',
-				es: 'El juramento de los Guardianes',
-				ru: 'Клятва Стражей',
-				ko: '관문수호대의 맹세',
-				jp: '『ゲートウォッチの誓い』',
-				it: 'Giuramento dei Guardiani',
-				de: 'Eid der Wächter',
-				fr: 'Le serment des Sentinelles',
-				'zh-hant': '守護者誓約',
-				'zh-hans': '守护者誓约'
+	exports.SETS =
+		[
+			{
+				"name": "Limited Edition Alpha",
+				"code": "LEA",
+				"gathererCode": "1E",
+				"magicCardsInfoCode": "al",
+				"releaseDate": "1993-08-05",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"mkm_name": "Alpha",
+				"mkm_id": 1,
+				"card_total": 295
+			},
+			{
+				"name": "Limited Edition Beta",
+				"code": "LEB",
+				"gathererCode": "2E",
+				"magicCardsInfoCode": "be",
+				"releaseDate": "1993-10-01",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"mkm_name": "Beta",
+				"mkm_id": 2,
+				"card_total": 302
+			},
+			{
+				"name": "Arabian Nights",
+				"code": "ARN",
+				"gathererCode": "AN",
+				"magicCardsInfoCode": "an",
+				"releaseDate": "1993-12-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"mkm_name": "Arabian Nights",
+				"mkm_id": 4,
+				"card_total": 92
+			},
+			{
+				"name": "Unlimited Edition",
+				"code": "2ED",
+				"gathererCode": "2U",
+				"magicCardsInfoCode": "un",
+				"releaseDate": "1993-12-01",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"mkm_name": "Unlimited",
+				"mkm_id": 3,
+				"card_total": 302
+			},
+			{
+				"name": "Collector's Edition",
+				"code": "CED",
+				"magicCardsInfoCode": "ced",
+				"isMCISet": true,
+				"releaseDate": "1993-12-01",
+				"border": "black",
+				"type": "reprint",
+				"mkm_name": "Collectors' Edition",
+				"mkm_id": 61
+			},
+			{
+				"name": "International Collector's Edition",
+				"code": "CEI",
+				"magicCardsInfoCode": "cedi",
+				"isMCISet": true,
+				"releaseDate": "1993-12-01",
+				"border": "black",
+				"type": "reprint",
+				"mkm_name": "International Edition",
+				"mkm_id": 77
+			},
+			{
+				"name": "Dragon Con",
+				"code": "pDRC",
+				"magicCardsInfoCode": "drc",
+				"isMCISet": true,
+				"releaseDate": "1994-01-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Antiquities",
+				"code": "ATQ",
+				"gathererCode": "AQ",
+				"magicCardsInfoCode": "aq",
+				"releaseDate": "1994-03-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"mkm_name": "Antiquities",
+				"mkm_id": 5,
+				"card_total": 100
+			},
+			{
+				"name": "Revised Edition",
+				"code": "3ED",
+				"gathererCode": "3E",
+				"magicCardsInfoCode": "rv",
+				"releaseDate": "1994-04-01",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Unlimitierte Auflage",
+					"fr": "Tirage Non Limité",
+					"it": "Seconda Edizione"
+				},
+				"mkm_name": "Revised",
+				"mkm_id": 6,
+				"card_total": 306
+			},
+			{
+				"name": "Legends",
+				"code": "LEG",
+				"gathererCode": "LE",
+				"magicCardsInfoCode": "lg",
+				"releaseDate": "1994-06-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"it": "Leggende"
+				},
+				"mkm_name": "Legends",
+				"mkm_id": 7,
+				"card_total": 310
+			},
+			{
+				"name": "The Dark",
+				"code": "DRK",
+				"gathererCode": "DK",
+				"magicCardsInfoCode": "dk",
+				"releaseDate": "1994-08-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"it": "L'Oscurità"
+				},
+				"mkm_name": "The Dark",
+				"mkm_id": 8,
+				"card_total": 119
+			},
+			{
+				"name": "Media Inserts",
+				"code": "pMEI",
+				"magicCardsInfoCode": "mbp",
+				"magicRaritiesCodes": [
+					"189-rarities-agent-of-artifice-novel-promo-insert",
+					"109-rarities-harperprism-book-inserts",
+					"20-rarities-armada-comics-book-promos",
+					"175-rarities-coro-coro-comic-book-inserts",
+					"296-rarities-dengeki-maoh-magazine-inserts",
+					"81-rarities-gotta-magazine-cards",
+					"196-rarities-hachette-french-magic-encyclopedia-inserts",
+					"197-rarities-hachette-italian-magic-encyclopedia-inserts",
+					"765-rarities-idw-comics-book-inserts",
+					"16-rarities-kartefakt-magazine-promo",
+					"121-rarities-players-guide-inserts",
+					"228-rarities-rpg-magazine-inserts",
+					"135-rarities-salvat-magic-encyclopedia-cards",
+					"134-rarities-the-cardz-magazine-inserts",
+					"22-rarities-the-duelist-cards",
+					"18-rarities-topdeck-cards",
+					"258-rarities-buy-a-box-promos",
+					"787-rarities-holiday-gift-box",
+					"224-rarities-duels-of-the-planeswalkers-software-promos",
+					"160-rarities-resale-promos",
+					"686-rarities-convention-and-various-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "1995-01-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Fallen Empires",
+				"code": "FEM",
+				"gathererCode": "FE",
+				"magicCardsInfoCode": "fe",
+				"releaseDate": "1994-11-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"mkm_name": "Fallen Empires",
+				"mkm_id": 9,
+				"card_total": 187
+			},
+			{
+				"name": "Legend Membership",
+				"code": "pLGM",
+				"magicCardsInfoCode": "dcilm",
+				"magicRaritiesCodes": [
+					"23-rarities-dci-legend-membership-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "1995-01-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Fourth Edition",
+				"code": "4ED",
+				"gathererCode": "4E",
+				"magicCardsInfoCode": "4e",
+				"essentialMagicCode": "6",
+				"releaseDate": "1995-04-01",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Vierte Edition",
+					"fr": "Quatrième Edition",
+					"it": "Quarta Edizione",
+					"es": "Cuarta Edición",
+					"pt": "Quarta Edição"
+				},
+				"mkm_name": "Fourth Edition",
+				"mkm_id": 10,
+				"card_total": 378
+			},
+			{
+				"name": "Ice Age",
+				"code": "ICE",
+				"gathererCode": "IA",
+				"magicCardsInfoCode": "ia",
+				"releaseDate": "1995-06-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Eiszeit",
+					"fr": "Ere Glaciaire",
+					"it": "Era Glaciale",
+					"es": "Era Glacial",
+					"pt": "Era Glacial"
+				},
+				"mkm_name": "Ice Age",
+				"mkm_id": 11,
+				"block_code": "ICE",
+				"block_name": "Ice Age",
+				"block_release_date": "1995-06-01",
+				"card_total": 383
+			},
+			{
+				"name": "Chronicles",
+				"code": "CHR",
+				"gathererCode": "CH",
+				"magicCardsInfoCode": "ch",
+				"releaseDate": "1995-07-01",
+				"border": "white",
+				"type": "reprint",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"mkm_name": "Chronicles",
+				"mkm_id": 12,
+				"card_total": 125
+			},
+			{
+				"name": "Homelands",
+				"code": "HML",
+				"gathererCode": "HM",
+				"magicCardsInfoCode": "hl",
+				"releaseDate": "1995-10-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"uncommon"
+					],
+					[
+						"rare",
+						"uncommon"
+					],
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Heimatländer",
+					"fr": "Terres Natales",
+					"it": "Origini",
+					"es": "Tierras Natales",
+					"pt": "Terras Natais"
+				},
+				"mkm_name": "Homelands",
+				"mkm_id": 14,
+				"card_total": 140
+			},
+			{
+				"name": "Alliances",
+				"code": "ALL",
+				"gathererCode": "AL",
+				"magicCardsInfoCode": "ai",
+				"releaseDate": "1996-06-10",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Allianzen",
+					"fr": "Alliances",
+					"it": "Alleanze",
+					"es": "Alianzas",
+					"pt": "Alianças"
+				},
+				"mkm_name": "Alliances",
+				"mkm_id": 15,
+				"block_code": "ICE",
+				"block_name": "Ice Age",
+				"block_release_date": "1995-06-01",
+				"card_total": 199
+			},
+			{
+				"name": "Rivals Quick Start Set",
+				"code": "RQS",
+				"releaseDate": "1996-07-01",
+				"border": "white",
+				"type": "box"
+			},
+			{
+				"name": "Arena League",
+				"code": "pARL",
+				"magicCardsInfoCode": "arena",
+				"magicRaritiesCodes": [
+					"7-rarities-arena-league-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "1996-08-02",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Celebration",
+				"code": "pCEL",
+				"magicCardsInfoCode": "uqc",
+				"magicRaritiesCodes": [
+					"353-rarities-unique-cards",
+					"352-rarities-garfield-event-cards",
+					"798-rarities-special-guest-gift-cards"
+				],
+				"isMCISet": true,
+				"releaseDate": "1996-08-14",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Mirage",
+				"code": "MIR",
+				"gathererCode": "MI",
+				"magicCardsInfoCode": "mr",
+				"releaseDate": "1996-10-08",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Trugbilder",
+					"fr": "Mirage",
+					"it": "Mirage",
+					"es": "Espejismo",
+					"pt": "Miragem"
+				},
+				"mkm_name": "Mirage",
+				"mkm_id": 16,
+				"block_code": "MIR",
+				"block_name": "Mirage",
+				"block_release_date": "1996-10-08",
+				"card_total": 350
+			},
+			{
+				"name": "Multiverse Gift Box",
+				"code": "MGB",
+				"magicCardsInfoCode": "mgbc",
+				"magicRaritiesCodes": [
+					"145-rarities-multiverse-gift-box-cards"
+				],
+				"isMCISet": true,
+				"releaseDate": "1996-11-01",
+				"border": "black",
+				"type": "box",
+				"mkm_name": "Multiverse Gift Box",
+				"mkm_id": 1519
+			},
+			{
+				"name": "Introductory Two-Player Set",
+				"code": "ITP",
+				"oldCode": "I2P",
+				"magicCardsInfoCode": "itp",
+				"releaseDate": "1996-12-31",
+				"border": "white",
+				"type": "starter",
+				"translations": {
+					"de": "Introductory Two-Player Set",
+					"fr": "Introductory Two-Player Set",
+					"es": "Introductory Two-Player Set"
+				},
+				"mkm_name": "Introductory Two-Player Set",
+				"mkm_id": 85
+			},
+			{
+				"name": "Visions",
+				"code": "VIS",
+				"gathererCode": "VI",
+				"magicCardsInfoCode": "vi",
+				"releaseDate": "1997-02-03",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Visionen",
+					"fr": "Visions",
+					"it": "Visioni",
+					"es": "Visiones",
+					"pt": "Visões"
+				},
+				"mkm_name": "Visions",
+				"mkm_id": 17,
+				"block_code": "MIR",
+				"block_name": "Mirage",
+				"block_release_date": "1996-10-08",
+				"card_total": 167
+			},
+			{
+				"name": "Fifth Edition",
+				"code": "5ED",
+				"gathererCode": "5E",
+				"magicCardsInfoCode": "5e",
+				"releaseDate": "1997-03-24",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Fünfte Edition",
+					"fr": "Cinquième Edition",
+					"it": "Quinta Edizione",
+					"es": "Quinta Edición",
+					"pt": "Quinta Edição"
+				},
+				"mkm_name": "Fifth Edition",
+				"mkm_id": 23,
+				"card_total": 449
+			},
+			{
+				"name": "Portal Demo Game",
+				"code": "pPOD",
+				"magicCardsInfoCode": "pot",
+				"isMCISet": true,
+				"releaseDate": "1997-05-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Portal",
+				"code": "POR",
+				"gathererCode": "PO",
+				"magicCardsInfoCode": "po",
+				"releaseDate": "1997-05-01",
+				"border": "black",
+				"type": "starter",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Portal",
+					"fr": "Portal",
+					"es": "Portal"
+				},
+				"mkm_name": "Portal",
+				"mkm_id": 25
+			},
+			{
+				"name": "Vanguard",
+				"code": "VAN",
+				"releaseDate": "1997-05-01",
+				"border": "black",
+				"type": "vanguard",
+				"mkm_name": "Vanguard",
+				"mkm_id": 69
+			},
+			{
+				"name": "Weatherlight",
+				"code": "WTH",
+				"gathererCode": "WL",
+				"magicCardsInfoCode": "wl",
+				"releaseDate": "1997-06-09",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Wetterlicht",
+					"fr": "Aquilon",
+					"it": "Cavalcavento",
+					"es": "El Vientoligero",
+					"pt": "Alisios"
+				},
+				"mkm_name": "Weatherlight",
+				"mkm_id": 18,
+				"block_code": "MIR",
+				"block_name": "Mirage",
+				"block_release_date": "1996-10-08",
+				"card_total": 167
+			},
+			{
+				"name": "Prerelease Events",
+				"code": "pPRE",
+				"magicCardsInfoCode": "ptc",
+				"magicRaritiesCodes": [
+					"82-rarities-prerelease-events-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "1997-10-04",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Tempest",
+				"code": "TMP",
+				"gathererCode": "TE",
+				"magicCardsInfoCode": "tp",
+				"releaseDate": "1997-10-14",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Sturmwind",
+					"fr": "Tempête",
+					"it": "Tempesta",
+					"es": "Tempestad",
+					"pt": "Tempestade"
+				},
+				"mkm_name": "Tempest",
+				"mkm_id": 19,
+				"block_code": "TMP",
+				"block_name": "Tempest",
+				"block_release_date": "1997-10-14",
+				"card_total": 350
+			},
+			{
+				"name": "Stronghold",
+				"code": "STH",
+				"gathererCode": "ST",
+				"magicCardsInfoCode": "sh",
+				"releaseDate": "1998-03-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Felsenburg",
+					"fr": "Forteresse",
+					"it": "Fortezza",
+					"es": "Fortaleza",
+					"pt": "Fortaleza"
+				},
+				"mkm_name": "Stronghold",
+				"mkm_id": 20,
+				"block_code": "TMP",
+				"block_name": "Tempest",
+				"block_release_date": "1997-10-14",
+				"card_total": 143
+			},
+			{
+				"name": "Portal Second Age",
+				"code": "PO2",
+				"gathererCode": "P2",
+				"magicCardsInfoCode": "po2",
+				"oldCode": "P02",
+				"releaseDate": "1998-06-01",
+				"border": "black",
+				"type": "starter",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Portal Zweites Zeitalter",
+					"fr": "Portal Second Age",
+					"it": "Portal Seconda Era",
+					"es": "Portal Segunda Edad",
+					"pt": "Portal Segunda Era"
+				},
+				"mkm_name": "Portal Second Age",
+				"mkm_id": 24
+			},
+			{
+				"name": "Judge Gift Program",
+				"code": "pJGP",
+				"magicCardsInfoCode": "jr",
+				"magicRaritiesCodes": [
+					"56-rarities-judge-gift-cards"
+				],
+				"isMCISet": true,
+				"releaseDate": "1998-06-01",
+				"border": "black",
+				"type": "promo",
+				"mkm_name": "Judge Rewards Promos",
+				"mkm_id": 80
+			},
+			{
+				"name": "Exodus",
+				"code": "EXO",
+				"gathererCode": "EX",
+				"magicCardsInfoCode": "ex",
+				"releaseDate": "1998-06-15",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Exodus",
+					"fr": "Exode",
+					"it": "Esodo",
+					"es": "Éxodo",
+					"pt": "Êxodo"
+				},
+				"mkm_name": "Exodus",
+				"mkm_id": 21,
+				"block_code": "TMP",
+				"block_name": "Tempest",
+				"block_release_date": "1997-10-14",
+				"card_total": 143
+			},
+			{
+				"name": "Unglued",
+				"code": "UGL",
+				"gathererCode": "UG",
+				"magicCardsInfoCode": "ug",
+				"releaseDate": "1998-08-11",
+				"border": "silver",
+				"type": "un",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				],
+				"mkm_name": "Unglued",
+				"mkm_id": 22,
+				"magic_ville_name": "Unglued"
+			},
+			{
+				"name": "Asia Pacific Land Program",
+				"code": "pALP",
+				"magicCardsInfoCode": "apac",
+				"magicRaritiesCodes": [
+					"44-rarities-apac-lands"
+				],
+				"isMCISet": true,
+				"releaseDate": "1998-09-01",
+				"border": "black",
+				"type": "promo",
+				"mkm_name": "APAC Lands",
+				"mkm_id": 97
+			},
+			{
+				"name": "Urza's Saga",
+				"code": "USG",
+				"gathererCode": "UZ",
+				"magicCardsInfoCode": "us",
+				"releaseDate": "1998-10-12",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Urzas Saga",
+					"fr": "Epopée d'Urza",
+					"it": "Saga di Urza",
+					"es": "La Saga de Urza",
+					"pt": "A Saga de Urza"
+				},
+				"mkm_name": "Urza's Saga",
+				"mkm_id": 26,
+				"block_code": "USG",
+				"block_name": "Urza's Saga",
+				"block_release_date": "1998-10-12",
+				"card_total": 350
+			},
+			{
+				"name": "Anthologies",
+				"code": "ATH",
+				"magicCardsInfoCode": "at",
+				"releaseDate": "1998-11-01",
+				"border": "white",
+				"type": "box",
+				"mkm_name": "Anthologies",
+				"mkm_id": 75
+			},
+			{
+				"name": "Urza's Legacy",
+				"code": "ULG",
+				"gathererCode": "GU",
+				"magicCardsInfoCode": "ul",
+				"releaseDate": "1999-02-15",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Urzas Vermächtnis",
+					"fr": "Héritage d'Urza",
+					"it": "Eredità di Urza",
+					"es": "El Legado de Urza",
+					"pt": "O Legado de Urza"
+				},
+				"mkm_name": "Urza's Legacy",
+				"mkm_id": 27,
+				"block_code": "USG",
+				"block_name": "Urza's Saga",
+				"block_release_date": "1998-10-12",
+				"card_total": 143
+			},
+			{
+				"name": "Classic Sixth Edition",
+				"code": "6ED",
+				"gathererCode": "6E",
+				"magicCardsInfoCode": "6e",
+				"releaseDate": "1999-04-21",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Classic Sechste Edition",
+					"fr": "Classique Sixième Edition",
+					"it": "Classic Sesta Edizione",
+					"es": "Clásica Sexta Edición",
+					"pt": "Classica Sexta Edição"
+				},
+				"mkm_name": "Sixth Edition",
+				"mkm_id": 29,
+				"card_total": 350
+			},
+			{
+				"name": "Portal Three Kingdoms",
+				"code": "PTK",
+				"gathererCode": "PK",
+				"magicCardsInfoCode": "p3k",
+				"releaseDate": "1999-05-01",
+				"border": "white",
+				"type": "starter",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"land"
+				],
+				"translations": {
+					"jp": "Portal Three Kingdoms",
+					"cn": "Portal Three Kingdoms"
+				},
+				"mkm_name": "Portal Three Kingdoms",
+				"mkm_id": 30
+			},
+			{
+				"name": "Urza's Destiny",
+				"code": "UDS",
+				"gathererCode": "CG",
+				"magicCardsInfoCode": "ud",
+				"releaseDate": "1999-06-07",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Urzas Schicksal",
+					"fr": "Destinée d'Urza",
+					"it": "Destino di Urza",
+					"es": "El Destino de Urza",
+					"pt": "O Destino de Urza"
+				},
+				"mkm_name": "Urza's Destiny",
+				"mkm_id": 28,
+				"block_code": "USG",
+				"block_name": "Urza's Saga",
+				"block_release_date": "1998-10-12",
+				"card_total": 143
+			},
+			{
+				"name": "Starter 1999",
+				"code": "S99",
+				"gathererCode": "P3",
+				"magicCardsInfoCode": "st",
+				"releaseDate": "1999-07-01",
+				"border": "white",
+				"type": "starter",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"land"
+				],
+				"mkm_name": "Starter 1999",
+				"mkm_id": 63
+			},
+			{
+				"name": "Guru",
+				"code": "pGRU",
+				"magicCardsInfoCode": "guru",
+				"magicRaritiesCodes": [
+					"50-rarities-guru-lands"
+				],
+				"isMCISet": true,
+				"releaseDate": "1999-07-12",
+				"border": "black",
+				"type": "promo",
+				"mkm_name": "Guru Lands",
+				"mkm_id": 88
+			},
+			{
+				"name": "Worlds",
+				"code": "pWOR",
+				"magicCardsInfoCode": "wrl",
+				"magicRaritiesCodes": [
+					"15-rarities-worlds-card"
+				],
+				"isMCISet": true,
+				"releaseDate": "1999-08-04",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Wizards of the Coast Online Store",
+				"code": "pWOS",
+				"magicCardsInfoCode": "wotc",
+				"magicRaritiesCodes": [
+					"51-rarities-wizards-of-the-coast-online-store"
+				],
+				"isMCISet": true,
+				"releaseDate": "1999-09-04",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Mercadian Masques",
+				"code": "MMQ",
+				"gathererCode": "MM",
+				"magicCardsInfoCode": "mm",
+				"releaseDate": "1999-10-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Merkadische Masken",
+					"fr": "Masques de Mercadia",
+					"it": "Maschere di Mercadia",
+					"es": "Máscaras de Mercadia",
+					"pt": "Máscara de Mercádia"
+				},
+				"mkm_name": "Mercadian Masques",
+				"mkm_id": 31,
+				"block_code": "MMQ",
+				"block_name": "Masques",
+				"block_release_date": "1999-10-04",
+				"card_total": 350
+			},
+			{
+				"name": "Battle Royale Box Set",
+				"code": "BRB",
+				"gathererCode": "BR",
+				"magicCardsInfoCode": "br",
+				"releaseDate": "1999-11-12",
+				"border": "white",
+				"type": "box",
+				"mkm_name": "Battle Royale",
+				"mkm_id": 64,
+				"card_total": 136
+			},
+			{
+				"name": "Super Series",
+				"code": "pSUS",
+				"magicCardsInfoCode": "sus",
+				"magicRaritiesCodes": [
+					"36-rarities-junior-super-series"
+				],
+				"isMCISet": true,
+				"releaseDate": "1999-12-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Friday Night Magic",
+				"code": "pFNM",
+				"magicCardsInfoCode": "fnmp",
+				"magicRaritiesCodes": [
+					"72-rarities-friday-night-magic"
+				],
+				"isMCISet": true,
+				"releaseDate": "2000-02-01",
+				"border": "black",
+				"type": "promo",
+				"mkm_name": "Friday Night Magic Promos",
+				"mkm_id": 72
+			},
+			{
+				"name": "European Land Program",
+				"code": "pELP",
+				"magicCardsInfoCode": "euro",
+				"magicRaritiesCodes": [
+					"46-rarities-euro-lands"
+				],
+				"isMCISet": true,
+				"releaseDate": "2000-02-05",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Nemesis",
+				"code": "NMS",
+				"gathererCode": "NE",
+				"magicCardsInfoCode": "ne",
+				"oldCode": "NEM",
+				"releaseDate": "2000-02-14",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Nemesis",
+					"fr": "Némésis",
+					"it": "Nemesis",
+					"es": "Némesis",
+					"pt": "Nêmesis"
+				},
+				"mkm_name": "Nemesis",
+				"mkm_id": 32,
+				"block_code": "MMQ",
+				"block_name": "Masques",
+				"block_release_date": "1999-10-04",
+				"card_total": 143
+			},
+			{
+				"name": "Starter 2000",
+				"code": "S00",
+				"gathererCode": "P4",
+				"magicCardsInfoCode": "st2k",
+				"releaseDate": "2000-04-01",
+				"border": "white",
+				"type": "starter",
+				"translations": {
+					"de": "Starter 2000",
+					"fr": "Starter 2000",
+					"it": "Starter 2000",
+					"es": "Starter 2000",
+					"pt": "Starter 2000"
+				},
+				"mkm_name": "Starter 2000",
+				"mkm_id": 65
+			},
+			{
+				"name": "Prophecy",
+				"code": "PCY",
+				"gathererCode": "PR",
+				"magicCardsInfoCode": "pr",
+				"releaseDate": "2000-06-05",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Prophezeihung",
+					"fr": "Prophétie",
+					"it": "Profezia",
+					"es": "Profecía",
+					"pt": "Profecia"
+				},
+				"mkm_name": "Prophecy",
+				"mkm_id": 33,
+				"block_code": "MMQ",
+				"block_name": "Masques",
+				"block_release_date": "1999-10-04",
+				"card_total": 143
+			},
+			{
+				"name": "Beatdown Box Set",
+				"code": "BTD",
+				"gathererCode": "BD",
+				"magicCardsInfoCode": "bd",
+				"releaseDate": "2000-10-01",
+				"border": "white",
+				"type": "box",
+				"mkm_name": "Beatdown",
+				"mkm_id": 62,
+				"card_total": 90
+			},
+			{
+				"name": "Invasion",
+				"code": "INV",
+				"gathererCode": "IN",
+				"magicCardsInfoCode": "in",
+				"releaseDate": "2000-10-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Invasion",
+					"fr": "Invasion",
+					"it": "Invasione",
+					"es": "Invasión",
+					"pt": "Invasão"
+				},
+				"mkm_name": "Invasion",
+				"mkm_id": 34,
+				"block_code": "INV",
+				"block_name": "Invasion",
+				"block_release_date": "2000-10-02",
+				"card_total": 350
+			},
+			{
+				"name": "Planeshift",
+				"code": "PLS",
+				"gathererCode": "PS",
+				"magicCardsInfoCode": "ps",
+				"releaseDate": "2001-02-05",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Weltenwechsel",
+					"fr": "Planeshift",
+					"it": "Congiunzione",
+					"es": "Transmigración",
+					"pt": "Conjunção"
+				},
+				"mkm_name": "Planeshift",
+				"mkm_id": 35,
+				"block_code": "INV",
+				"block_name": "Invasion",
+				"block_release_date": "2000-10-02",
+				"card_total": 143
+			},
+			{
+				"name": "Seventh Edition",
+				"code": "7ED",
+				"gathererCode": "7E",
+				"magicCardsInfoCode": "7e",
+				"releaseDate": "2001-04-11",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				],
+				"translations": {
+					"de": "Siebte Edition",
+					"fr": "Septième Edition",
+					"it": "Settima Edizione",
+					"es": "Séptima Edición",
+					"pt": "Sétima Edição"
+				},
+				"mkm_name": "Seventh Edition",
+				"mkm_id": 37,
+				"card_total": 350
+			},
+			{
+				"name": "Magic Player Rewards",
+				"code": "pMPR",
+				"magicCardsInfoCode": "mprp",
+				"magicRaritiesCodes": [
+					"29-rarities-magic-player-rewards"
+				],
+				"isMCISet": true,
+				"releaseDate": "2001-05-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Apocalypse",
+				"code": "APC",
+				"gathererCode": "AP",
+				"magicCardsInfoCode": "ap",
+				"releaseDate": "2001-06-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Apokalypse",
+					"fr": "Apocalypse",
+					"it": "Apocalisse",
+					"es": "Apocalipsis",
+					"pt": "Apocalipse"
+				},
+				"mkm_name": "Apocalypse",
+				"mkm_id": 36,
+				"block_code": "INV",
+				"block_name": "Invasion",
+				"block_release_date": "2000-10-02",
+				"card_total": 143
+			},
+			{
+				"name": "Odyssey",
+				"code": "ODY",
+				"gathererCode": "OD",
+				"magicCardsInfoCode": "od",
+				"essentialMagicCode": "41",
+				"releaseDate": "2001-10-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Odyssee",
+					"fr": "Odyssée",
+					"it": "Odissea",
+					"es": "Odisea",
+					"pt": "Odisséia"
+				},
+				"mkm_name": "Odyssey",
+				"mkm_id": 38,
+				"block_code": "ODY",
+				"block_name": "Odyssey",
+				"block_release_date": "2001-10-01",
+				"card_total": 350
+			},
+			{
+				"name": "Deckmasters",
+				"code": "DKM",
+				"magicCardsInfoCode": "dm",
+				"releaseDate": "2001-12-01",
+				"border": "white",
+				"type": "box",
+				"mkm_name": "Deckmasters",
+				"mkm_id": 67
+			},
+			{
+				"name": "Torment",
+				"code": "TOR",
+				"magicCardsInfoCode": "tr",
+				"releaseDate": "2002-02-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Qualen",
+					"fr": "Tourment",
+					"it": "Tormento",
+					"es": "Tormento",
+					"pt": "Tormento"
+				},
+				"mkm_name": "Torment",
+				"mkm_id": 39,
+				"block_code": "ODY",
+				"block_name": "Odyssey",
+				"block_release_date": "2001-10-01",
+				"card_total": 143
+			},
+			{
+				"name": "Judgment",
+				"code": "JUD",
+				"magicCardsInfoCode": "ju",
+				"releaseDate": "2002-05-27",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Abrechnung",
+					"fr": "Jugement",
+					"it": "Sentenza",
+					"es": "Juicio",
+					"pt": "Julgamento"
+				},
+				"mkm_name": "Judgment",
+				"mkm_id": 40,
+				"block_code": "ODY",
+				"block_name": "Odyssey",
+				"block_release_date": "2001-10-01",
+				"card_total": 143
+			},
+			{
+				"name": "Onslaught",
+				"code": "ONS",
+				"magicCardsInfoCode": "on",
+				"releaseDate": "2002-10-07",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Aufmarsch",
+					"fr": "Carnage",
+					"it": "Assalto",
+					"es": "Embestida",
+					"pt": "Investida"
+				},
+				"mkm_name": "Onslaught",
+				"mkm_id": 41,
+				"block_code": "ONS",
+				"block_name": "Onslaught",
+				"block_release_date": "2002-10-07",
+				"card_total": 350
+			},
+			{
+				"name": "Legions",
+				"code": "LGN",
+				"magicCardsInfoCode": "le",
+				"releaseDate": "2003-02-03",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Legionen",
+					"fr": "Légions",
+					"it": "Legioni",
+					"es": "Legiones",
+					"pt": "Legiões"
+				},
+				"mkm_name": "Legions",
+				"mkm_id": 42,
+				"block_code": "ONS",
+				"block_name": "Onslaught",
+				"block_release_date": "2002-10-07",
+				"card_total": 145
+			},
+			{
+				"name": "Scourge",
+				"code": "SCG",
+				"magicCardsInfoCode": "sc",
+				"releaseDate": "2003-05-26",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Plagen",
+					"fr": "Fléau",
+					"it": "Flagello",
+					"es": "Azote",
+					"pt": "Flagelo"
+				},
+				"mkm_name": "Scourge",
+				"mkm_id": 43,
+				"block_code": "ONS",
+				"block_name": "Onslaught",
+				"block_release_date": "2002-10-07",
+				"card_total": 143
+			},
+			{
+				"name": "Release Events",
+				"code": "pREL",
+				"magicCardsInfoCode": "rep",
+				"magicRaritiesCodes": [
+					"94-rarities-release-events-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "2003-07-26",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Eighth Edition",
+				"code": "8ED",
+				"oldCode": "8E",
+				"magicCardsInfoCode": "8e",
+				"releaseDate": "2003-07-28",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				],
+				"translations": {
+					"de": "Haupt-Set - Achte Edition",
+					"fr": "Édition de base - Huitième Edition",
+					"it": "Set base - Ottava Edizione",
+					"es": "Colección Básica - Octava Edición",
+					"pt": "Kit Básico - Oitava Edição"
+				},
+				"mkm_name": "Eighth Edition",
+				"mkm_id": 44,
+				"card_total": 350
+			},
+			{
+				"name": "Mirrodin",
+				"code": "MRD",
+				"magicCardsInfoCode": "mi",
+				"releaseDate": "2003-10-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Mirrodin",
+					"fr": "Mirrodin",
+					"it": "Mirrodin",
+					"es": "Mirrodin",
+					"pt": "Mirrodin",
+					"jp": "ミラディン"
+				},
+				"mkm_name": "Mirrodin",
+				"mkm_id": 45,
+				"block_code": "MRD",
+				"block_name": "Mirrodin",
+				"block_release_date": "2003-10-02",
+				"card_total": 306
+			},
+			{
+				"name": "Darksteel",
+				"code": "DST",
+				"magicCardsInfoCode": "ds",
+				"releaseDate": "2004-02-06",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Nachtstahl",
+					"fr": "Sombracier",
+					"it": "Darksteel",
+					"es": "Darksteel",
+					"pt": "Darksteel",
+					"jp": "ダークスティール",
+					"cn": "玄铁"
+				},
+				"mkm_name": "Darksteel",
+				"mkm_id": 46,
+				"block_code": "MRD",
+				"block_name": "Mirrodin",
+				"block_release_date": "2003-10-02",
+				"card_total": 165
+			},
+			{
+				"name": "Fifth Dawn",
+				"code": "5DN",
+				"magicCardsInfoCode": "5dn",
+				"releaseDate": "2004-06-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Fünfte Morgenröte",
+					"fr": "La Cinquième Aube",
+					"it": "Quinta Alba",
+					"es": "Quinto Amanecer",
+					"pt": "A Quinta Aurora",
+					"jp": "フィフス・ドーン",
+					"cn": "五色曙光"
+				},
+				"mkm_name": "Fifth Dawn",
+				"mkm_id": 47,
+				"block_code": "MRD",
+				"block_name": "Mirrodin",
+				"block_release_date": "2003-10-02",
+				"card_total": 165
+			},
+			{
+				"name": "Champions of Kamigawa",
+				"code": "CHK",
+				"magicCardsInfoCode": "chk",
+				"releaseDate": "2004-10-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Meister von Kamigawa",
+					"fr": "Guerriers de Kamigawa",
+					"it": "Campioni di Kamigawa",
+					"es": "Campeones de Kamigawa",
+					"pt": "Campeões de Kamigawa",
+					"jp": "神河物語",
+					"cn": "神河群英录"
+				},
+				"mkm_name": "Champions of Kamigawa",
+				"mkm_id": 48,
+				"block_code": "CHK",
+				"block_name": "Kamigawa",
+				"block_release_date": "2004-10-01",
+				"card_total": 306
+			},
+			{
+				"name": "Unhinged",
+				"code": "UNH",
+				"magicCardsInfoCode": "uh",
+				"releaseDate": "2004-11-20",
+				"border": "silver",
+				"type": "un",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				],
+				"mkm_name": "Unhinged",
+				"mkm_id": 59
+			},
+			{
+				"name": "Betrayers of Kamigawa",
+				"code": "BOK",
+				"magicCardsInfoCode": "bok",
+				"releaseDate": "2005-02-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Verräter von Kamigawa",
+					"fr": "Traîtres de Kamigawa",
+					"it": "Traditori di Kamigawa",
+					"es": "Traidores de Kamigawa",
+					"pt": "Traidores de Kamigawa",
+					"jp": "神河謀叛",
+					"cn": "神河叛将谱"
+				},
+				"mkm_name": "Betrayers of Kamigawa",
+				"mkm_id": 51,
+				"block_code": "CHK",
+				"block_name": "Kamigawa",
+				"block_release_date": "2004-10-01",
+				"card_total": 165
+			},
+			{
+				"name": "Saviors of Kamigawa",
+				"code": "SOK",
+				"magicCardsInfoCode": "sok",
+				"releaseDate": "2005-06-03",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Retter von Kamigawa",
+					"fr": "Libérateurs de Kamigawa",
+					"it": "Liberatori di Kamigawa",
+					"es": "Salvadores de Kamigawa",
+					"pt": "Salvadores Kamigawa",
+					"jp": "神河救済",
+					"cn": "Saviors of Kamigawa"
+				},
+				"mkm_name": "Saviors of Kamigawa",
+				"mkm_id": 50,
+				"block_code": "CHK",
+				"block_name": "Kamigawa",
+				"block_release_date": "2004-10-01",
+				"card_total": 165
+			},
+			{
+				"name": "Ninth Edition",
+				"code": "9ED",
+				"oldCode": "9E",
+				"magicCardsInfoCode": "9e",
+				"releaseDate": "2005-07-29",
+				"border": "white",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				],
+				"translations": {
+					"de": "Haupt-Set - Neunte Edition",
+					"fr": "Édition de base - Neuvième Edition",
+					"it": "Set base - Nona Edizione",
+					"es": "Colección Básica - Novena Edición",
+					"pt": "Kit Básico - Nona Edição",
+					"jp": "第9版",
+					"cn": "第九版",
+					"ru": "Девятая редакция",
+					"tw": "Ninth Edition",
+					"ko": "Ninth Edition"
+				},
+				"mkm_name": "Ninth Edition",
+				"mkm_id": 49,
+				"card_total": 350
+			},
+			{
+				"name": "Ravnica: City of Guilds",
+				"code": "RAV",
+				"magicCardsInfoCode": "rav",
+				"releaseDate": "2005-10-07",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Ravnica: Stadt der Gilden",
+					"fr": "Ravnica: La Cité des Guildes",
+					"it": "Ravnica: Città delle Gilde",
+					"es": "Rávnica: Ciudad de Gremios",
+					"pt": "Ravnica: A Cidade das Guildas",
+					"jp": "ラブニカ：ギルドの都",
+					"cn": "拉尼卡公会城",
+					"ru": "Равника: Город Гильдий"
+				},
+				"mkm_name": "Ravnica: City of Guilds",
+				"mkm_id": 55,
+				"block_code": "RAV",
+				"block_name": "Ravnica",
+				"block_release_date": "2005-10-07",
+				"card_total": 306
+			},
+			{
+				"name": "Two-Headed Giant Tournament",
+				"code": "p2HG",
+				"magicCardsInfoCode": "thgt",
+				"magicRaritiesCodes": [
+					"13-rarities-two-headed-giant"
+				],
+				"isMCISet": true,
+				"releaseDate": "2005-12-09",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Gateway",
+				"code": "pGTW",
+				"magicCardsInfoCode": "grc",
+				"magicRaritiesCodes": [
+					"76-rarities-gateway-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "2006-01-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Guildpact",
+				"code": "GPT",
+				"magicCardsInfoCode": "gp",
+				"releaseDate": "2006-02-03",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Gildenbund",
+					"fr": "Le Pacte des Guildes",
+					"it": "Il Patto delle Gilde",
+					"es": "El Pacto entre Gremios",
+					"pt": "Pacto das Guildas",
+					"jp": "ギルドパクト",
+					"cn": "十會盟",
+					"ru": "Договор Гильдий"
+				},
+				"mkm_name": "Guildpact",
+				"mkm_id": 54,
+				"block_code": "RAV",
+				"block_name": "Ravnica",
+				"block_release_date": "2005-10-07",
+				"card_total": 165
+			},
+			{
+				"name": "Champs and States",
+				"code": "pCMP",
+				"magicCardsInfoCode": "cp",
+				"magicRaritiesCodes": [
+					"54-rarities-champs-cards"
+				],
+				"isMCISet": true,
+				"releaseDate": "2006-03-18",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Dissension",
+				"code": "DIS",
+				"magicCardsInfoCode": "di",
+				"releaseDate": "2006-05-05",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Zwietracht",
+					"fr": "Discorde",
+					"it": "Discordia",
+					"es": "Discordia",
+					"pt": "Insurreição",
+					"jp": "ディセンション",
+					"cn": "纷争",
+					"ru": "Раскол"
+				},
+				"mkm_name": "Dissension",
+				"mkm_id": 53,
+				"block_code": "RAV",
+				"block_name": "Ravnica",
+				"block_release_date": "2005-10-07",
+				"card_total": 180
+			},
+			{
+				"name": "Coldsnap",
+				"code": "CSP",
+				"magicCardsInfoCode": "cs",
+				"releaseDate": "2006-07-21",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common"
+				],
+				"translations": {
+					"de": "Kälteeinbruch",
+					"fr": "Souffle glaciaire",
+					"it": "Ondata Glaciale",
+					"es": "Ola de frío",
+					"pt": "Frente Fria",
+					"jp": "コールドスナップ",
+					"cn": "骤霜",
+					"ru": "Стужа"
+				},
+				"mkm_name": "Coldsnap",
+				"mkm_id": 52,
+				"block_code": "ICE",
+				"block_name": "Ice Age",
+				"block_release_date": "1995-06-01",
+				"card_total": 155
+			},
+			{
+				"name": "Coldsnap Theme Decks",
+				"code": "CST",
+				"magicCardsInfoCode": "cstd",
+				"magicRaritiesCodes": [
+					"230-rarities-coldsnap-preconstructed-reprint-cards"
+				],
+				"isMCISet": true,
+				"useMagicRaritiesNumber": true,
+				"releaseDate": "2006-07-21",
+				"border": "black",
+				"type": "box",
+				"translations": {
+					"de": "Kälteeinbruch-Themendecks",
+					"it": "Coldsnap Theme Decks"
+				},
+				"mkm_name": "Coldsnap Theme Decks",
+				"mkm_id": 82
+			},
+			{
+				"name": "Time Spiral",
+				"code": "TSP",
+				"magicCardsInfoCode": "ts",
+				"releaseDate": "2006-10-06",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"timeshifted purple"
+				],
+				"translations": {
+					"de": "Zeitspirale",
+					"fr": "Spirale Temporelle",
+					"it": "Spirale Temporale",
+					"es": "Espiral del Tiempo",
+					"pt": "Time Spiral",
+					"jp": "時のらせん",
+					"cn": "Time Spiral",
+					"ru": "Спираль времени"
+				},
+				"mkm_name": "Time Spiral",
+				"mkm_id": 56,
+				"block_code": "TSP",
+				"block_name": "Time Spiral",
+				"block_release_date": "2006-10-06",
+				"card_total": 301
+			},
+			{
+				"name": "Time Spiral \"Timeshifted\"",
+				"code": "TSB",
+				"magicCardsInfoCode": "tsts",
+				"releaseDate": "2006-10-06",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"timeshifted purple"
+				],
+				"translations": {
+					"de": "Zeitspirale",
+					"fr": "Spirale Temporelle",
+					"it": "Spirale Temporale",
+					"es": "Espiral del Tiempo",
+					"pt": "Time Spiral",
+					"jp": "時のらせん",
+					"cn": "Time Spiral",
+					"ru": "Спираль времени"
+				},
+				"mkm_name": "Time Spiral",
+				"mkm_id": 56,
+				"block_code": "TSP",
+				"block_name": "Time Spiral",
+				"block_release_date": "2006-10-06",
+				"card_total": 121
+			},
+			{
+				"name": "Happy Holidays",
+				"code": "pHHO",
+				"oldCode": "HHO",
+				"magicCardsInfoCode": "hho",
+				"magicRaritiesCodes": [
+					"19-rarities-happy-holidays-gift-card"
+				],
+				"isMCISet": true,
+				"releaseDate": "2006-12-31",
+				"border": "silver",
+				"type": "promo",
+				"mkm_name": "Happy Holidays Promos",
+				"mkm_id": 1247
+			},
+			{
+				"name": "Planar Chaos",
+				"code": "PLC",
+				"magicCardsInfoCode": "pc",
+				"releaseDate": "2007-02-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"timeshifted common",
+					"timeshifted common",
+					"timeshifted common",
+					[
+						"timeshifted rare",
+						"timeshifted uncommon"
+					]
+				],
+				"translations": {
+					"de": "Weltenchaos",
+					"fr": "Chaos planaire",
+					"it": "Caos Dimensionale",
+					"es": "Caos planar",
+					"pt": "Caos Planar",
+					"jp": "次元の混乱",
+					"cn": "时空混沌",
+					"ru": "Вселенский Хаос"
+				},
+				"mkm_name": "Planar Chaos",
+				"mkm_id": 58,
+				"block_code": "TSP",
+				"block_name": "Time Spiral",
+				"block_release_date": "2006-10-06",
+				"card_total": 165
+			},
+			{
+				"name": "Pro Tour",
+				"code": "pPRO",
+				"magicCardsInfoCode": "pro",
+				"magicRaritiesCodes": [
+					"14-rarities-pro-tour-card"
+				],
+				"isMCISet": true,
+				"releaseDate": "2007-02-09",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Grand Prix",
+				"code": "pGPX",
+				"magicCardsInfoCode": "gpx",
+				"magicRaritiesCodes": [
+					"73-rarities-grand-prix-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "2007-02-24",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Future Sight",
+				"code": "FUT",
+				"magicCardsInfoCode": "fut",
+				"releaseDate": "2007-05-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"timeshifted rare"
+					],
+					[
+						"uncommon",
+						"timeshifted uncommon"
+					],
+					[
+						"uncommon",
+						"timeshifted uncommon"
+					],
+					[
+						"uncommon",
+						"timeshifted uncommon"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					],
+					[
+						"common",
+						"timeshifted common"
+					]
+				],
+				"translations": {
+					"de": "Blick in die Zukunft",
+					"fr": "Vision de l'Avenir",
+					"it": "Visione Futura",
+					"es": "Visión del Futuro",
+					"pt": "Visão do Futuro",
+					"jp": "未来予知",
+					"cn": "预知将来",
+					"ru": "Взгляд в Будущее"
+				},
+				"mkm_name": "Future Sight",
+				"mkm_id": 70,
+				"block_code": "TSP",
+				"block_name": "Time Spiral",
+				"block_release_date": "2006-10-06",
+				"card_total": 180
+			},
+			{
+				"name": "Tenth Edition",
+				"code": "10E",
+				"magicCardsInfoCode": "10e",
+				"releaseDate": "2007-07-13",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Zehnte Edition",
+					"fr": "Dixième édition",
+					"it": "Decima Edizione",
+					"es": "Décima Edición",
+					"pt": "Décima Edição",
+					"jp": "第10版",
+					"cn": "第十版",
+					"ru": "Десятое Издание",
+					"tw": "Tenth Edition"
+				},
+				"mkm_name": "Tenth Edition",
+				"mkm_id": 74,
+				"magic_ville_name": "10ème Edition",
+				"card_total": 383
+			},
+			{
+				"name": "Magic Game Day",
+				"code": "pMGD",
+				"magicCardsInfoCode": "mgdc",
+				"magicRaritiesCodes": [
+					"119-rarities-magic-game-day-cards"
+				],
+				"isMCISet": true,
+				"releaseDate": "2007-07-14",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Masters Edition",
+				"code": "MED",
+				"magicCardsInfoCode": "med",
+				"releaseDate": "2007-09-10",
+				"border": "black",
+				"type": "masters",
+				"onlineOnly": true,
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				]
+			},
+			{
+				"name": "Lorwyn",
+				"code": "LRW",
+				"magicCardsInfoCode": "lw",
+				"releaseDate": "2007-10-12",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"marketing"
+				],
+				"translations": {
+					"de": "Lorwyn",
+					"fr": "Lorwyn",
+					"it": "Lorwyn",
+					"es": "Lorwyn",
+					"pt": "Lorwyn",
+					"jp": "ローウィン",
+					"cn": "洛温",
+					"ru": "Лорвин",
+					"tw": "Lorwyn"
+				},
+				"mkm_name": "Lorwyn",
+				"mkm_id": 84,
+				"magic_ville_name": "Lorwyn",
+				"block_code": "LRW",
+				"block_name": "Lorwyn",
+				"block_release_date": "2007-10-12",
+				"card_total": 301
+			},
+			{
+				"name": "Duel Decks: Elves vs. Goblins",
+				"code": "EVG",
+				"magicCardsInfoCode": "evg",
+				"releaseDate": "2007-11-16",
+				"border": "black",
+				"type": "duel deck",
+				"mkm_name": "Duel Decks: Elves vs. Goblins",
+				"mkm_id": 91,
+				"magic_ville_name": "Elves vs. Goblins",
+				"card_total": 62
+			},
+			{
+				"name": "Launch Parties",
+				"code": "pLPA",
+				"magicCardsInfoCode": "mlp",
+				"magicRaritiesCodes": [
+					"226-rarities-pre-launch-party-cards"
+				],
+				"isMCISet": true,
+				"releaseDate": "2008-02-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Morningtide",
+				"code": "MOR",
+				"magicCardsInfoCode": "mt",
+				"releaseDate": "2008-02-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"marketing"
+				],
+				"translations": {
+					"de": "Morgenluft",
+					"fr": "Lèveciel",
+					"it": "Aurora",
+					"es": "Alborada",
+					"pt": "Alvorecer",
+					"jp": "モーニングタイド",
+					"cn": "晨光",
+					"ru": "Рассвет"
+				},
+				"mkm_name": "Morningtide",
+				"mkm_id": 92,
+				"magic_ville_name": "Lèveciel",
+				"block_code": "LRW",
+				"block_name": "Lorwyn",
+				"block_release_date": "2007-10-12",
+				"card_total": 150
+			},
+			{
+				"name": "15th Anniversary",
+				"code": "p15A",
+				"magicCardsInfoCode": "15ann",
+				"magicRaritiesCodes": [
+					"178-rarities-mtg-15th-anniversary"
+				],
+				"isMCISet": true,
+				"releaseDate": "2008-04-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Shadowmoor",
+				"code": "SHM",
+				"magicCardsInfoCode": "shm",
+				"releaseDate": "2008-05-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"marketing"
+				],
+				"translations": {
+					"de": "Schattenmoor",
+					"fr": "Sombrelande",
+					"it": "Landa Tenebrosa",
+					"es": "Páramo Sombrío",
+					"pt": "Pântano Sombrio",
+					"jp": "シャドウムーア",
+					"cn": "暗影荒原",
+					"ru": "Шэдоумур"
+				},
+				"mkm_name": "Shadowmoor",
+				"mkm_id": 95,
+				"magic_ville_name": "Sombrelande",
+				"block_code": "SHM",
+				"block_name": "Shadowmoor",
+				"block_release_date": "2008-05-02",
+				"card_total": 301
+			},
+			{
+				"name": "Summer of Magic",
+				"code": "pSUM",
+				"magicCardsInfoCode": "sum",
+				"magicRaritiesCodes": [
+					"118-rarities-summer-of-magic-tournament"
+				],
+				"isMCISet": true,
+				"releaseDate": "2007-07-21",
+				"border": "black",
+				"type": "promo",
+				"mkm_name": "Summer Magic",
+				"mkm_id": 76
+			},
+			{
+				"name": "Eventide",
+				"code": "EVE",
+				"magicCardsInfoCode": "eve",
+				"releaseDate": "2008-07-25",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"marketing"
+				],
+				"translations": {
+					"de": "Abendkühle",
+					"fr": "Coucheciel",
+					"it": "Vespro",
+					"es": "Crepúsculo",
+					"pt": "Entardecer",
+					"jp": "イーブンタイド",
+					"cn": "暮光",
+					"ru": "Сумерки"
+				},
+				"mkm_name": "Eventide",
+				"mkm_id": 99,
+				"magic_ville_name": "Coucheciel",
+				"block_code": "SHM",
+				"block_name": "Shadowmoor",
+				"block_release_date": "2008-05-02",
+				"card_total": 180
+			},
+			{
+				"name": "From the Vault: Dragons",
+				"code": "DRB",
+				"magicCardsInfoCode": "fvd",
+				"releaseDate": "2008-08-29",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Dragons",
+				"mkm_id": 100,
+				"card_total": 15
+			},
+			{
+				"name": "Masters Edition II",
+				"code": "ME2",
+				"magicCardsInfoCode": "me2",
+				"releaseDate": "2008-09-22",
+				"border": "black",
+				"type": "masters",
+				"onlineOnly": true,
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				]
+			},
+			{
+				"name": "Wizards Play Network",
+				"code": "pWPN",
+				"magicCardsInfoCode": "grc",
+				"magicRaritiesCodes": [
+					"255-rarities-wpn-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "2008-10-01",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Shards of Alara",
+				"code": "ALA",
+				"magicCardsInfoCode": "ala",
+				"releaseDate": "2008-10-03",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Fragmente von Alara",
+					"fr": "Les éclats d'Alara",
+					"it": "Frammenti di Alara",
+					"es": "Fragmentos de Alara",
+					"pt": "Fragmentos de Alara",
+					"jp": "アラーラの断片",
+					"cn": "阿拉若断片",
+					"ru": "Осколки Алары"
+				},
+				"mkm_name": "Shards of Alara",
+				"mkm_id": 102,
+				"magic_ville_name": "Eclats d'Alara",
+				"block_code": "ALA",
+				"block_name": "Alara",
+				"block_release_date": "2008-10-03",
+				"card_total": 249
+			},
+			{
+				"name": "Duel Decks: Jace vs. Chandra",
+				"code": "DD2",
+				"oldCode": "D2",
+				"magicCardsInfoCode": "jvc",
+				"releaseDate": "2008-11-07",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "Duel Decks: Jace vs. Chandra"
+				},
+				"mkm_name": "Duel Decks: Jace vs. Chandra",
+				"mkm_id": 104,
+				"magic_ville_name": "Jace vs. Chandra",
+				"card_total": 62
+			},
+			{
+				"name": "Conflux",
+				"code": "CON",
+				"oldCode": "CFX",
+				"magicCardsInfoCode": "cfx",
+				"releaseDate": "2009-02-06",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Conflux",
+					"fr": "Conflux",
+					"it": "Conflux",
+					"es": "Conflux",
+					"pt": "Conflux",
+					"jp": "コンフラックス",
+					"cn": "聚流",
+					"ru": "Conflux"
+				},
+				"mkm_name": "Conflux",
+				"mkm_id": 106,
+				"magic_ville_name": "Conflux",
+				"block_code": "ALA",
+				"block_name": "Alara",
+				"block_release_date": "2008-10-03",
+				"card_total": 145
+			},
+			{
+				"name": "Duel Decks: Divine vs. Demonic",
+				"code": "DDC",
+				"magicCardsInfoCode": "dvd",
+				"releaseDate": "2009-04-10",
+				"border": "black",
+				"type": "duel deck",
+				"mkm_name": "Duel Decks: Divine vs. Demonic",
+				"mkm_id": 107,
+				"magic_ville_name": "Divine vs. Demonic",
+				"card_total": 62
+			},
+			{
+				"name": "Alara Reborn",
+				"code": "ARB",
+				"magicCardsInfoCode": "arb",
+				"releaseDate": "2009-04-30",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Alara Reborn",
+					"fr": "Alara Reborn",
+					"it": "Alara Reborn",
+					"es": "Alara Reborn",
+					"pt": "Alara Reborn",
+					"jp": "アラーラ再誕",
+					"cn": "Alara Reborn",
+					"ru": "Alara Reborn"
+				},
+				"mkm_name": "Alara Reborn",
+				"mkm_id": 108,
+				"magic_ville_name": "Renaissance d'Alara",
+				"block_code": "ALA",
+				"block_name": "Alara",
+				"block_release_date": "2008-10-03",
+				"card_total": 145
+			},
+			{
+				"name": "Magic 2010",
+				"code": "M10",
+				"magicCardsInfoCode": "m10",
+				"releaseDate": "2009-07-17",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Magic 2010",
+					"fr": "Magic 2010",
+					"it": "Magic 2010",
+					"es": "Magic 2010",
+					"pt": "Magic 2010",
+					"jp": "基本セット2010",
+					"cn": "Magic 2010",
+					"ru": "Magic 2010"
+				},
+				"mkm_name": "Magic 2010",
+				"mkm_id": 109,
+				"magic_ville_name": "Magic 2010",
+				"card_total": 249
+			},
+			{
+				"name": "From the Vault: Exiled",
+				"code": "V09",
+				"oldCode": "FVE",
+				"magicCardsInfoCode": "fve",
+				"releaseDate": "2009-08-28",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Exiled",
+				"mkm_id": 112,
+				"card_total": 15
+			},
+			{
+				"name": "Planechase",
+				"code": "HOP",
+				"oldCode": "PCH",
+				"magicCardsInfoCode": "pch",
+				"releaseDate": "2009-09-04",
+				"border": "black",
+				"type": "planechase",
+				"mkm_name": "Planechase",
+				"mkm_id": 113
+			},
+			{
+				"name": "Masters Edition III",
+				"code": "ME3",
+				"magicCardsInfoCode": "me3",
+				"releaseDate": "2009-09-07",
+				"border": "black",
+				"type": "masters",
+				"onlineOnly": true,
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				]
+			},
+			{
+				"name": "Zendikar",
+				"code": "ZEN",
+				"magicCardsInfoCode": "zen",
+				"releaseDate": "2009-10-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Zendikar",
+					"fr": "Zendikar",
+					"it": "Zendikar",
+					"es": "Zendikar",
+					"pt": "Zendikar",
+					"jp": "ゼンディカー",
+					"cn": "赞迪卡",
+					"ru": "Zendikar"
+				},
+				"mkm_name": "Zendikar",
+				"mkm_id": 114,
+				"magic_ville_name": "Zendikar",
+				"block_code": "ZEN",
+				"block_name": "Zendikar",
+				"block_release_date": "2009-10-02",
+				"card_total": 269
+			},
+			{
+				"name": "Duel Decks: Garruk vs. Liliana",
+				"code": "DDD",
+				"magicCardsInfoCode": "gvl",
+				"releaseDate": "2009-10-30",
+				"border": "black",
+				"type": "duel deck",
+				"mkm_name": "Duel Decks: Garruk vs. Liliana",
+				"mkm_id": 115,
+				"magic_ville_name": "Garruk vs. Liliana",
+				"card_total": 63
+			},
+			{
+				"name": "Premium Deck Series: Slivers",
+				"code": "H09",
+				"magicCardsInfoCode": "pds",
+				"releaseDate": "2009-11-20",
+				"border": "black",
+				"type": "premium deck",
+				"mkm_name": "Premium Deck Series: Slivers",
+				"mkm_id": 116,
+				"card_total": 41
+			},
+			{
+				"name": "Worldwake",
+				"code": "WWK",
+				"magicCardsInfoCode": "wwk",
+				"releaseDate": "2010-02-05",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Weltenerwachen",
+					"fr": "Worldwake",
+					"it": "Worldwake",
+					"es": "Despertar del mundo",
+					"pt": "Despertar do Mundo",
+					"jp": "ワールドウェイク",
+					"cn": "天地醒转",
+					"ru": "Пробуждение Мира",
+					"ko": "Worldwake"
+				},
+				"mkm_name": "Worldwake",
+				"mkm_id": 118,
+				"magic_ville_name": "Worldwake",
+				"block_code": "ZEN",
+				"block_name": "Zendikar",
+				"block_release_date": "2009-10-02",
+				"card_total": 145
+			},
+			{
+				"name": "Duel Decks: Phyrexia vs. the Coalition",
+				"code": "DDE",
+				"magicCardsInfoCode": "pvc",
+				"releaseDate": "2010-03-19",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "Duel Decks: Phyrexia vs. The Coalition"
+				},
+				"mkm_name": "Duel Decks: Phyrexia vs. The Coalition",
+				"mkm_id": 119,
+				"magic_ville_name": "Phyrexia vs. The Coalition",
+				"card_total": 71
+			},
+			{
+				"name": "Rise of the Eldrazi",
+				"code": "ROE",
+				"magicCardsInfoCode": "roe",
+				"releaseDate": "2010-04-23",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Aufstieg der Eldrazi",
+					"fr": "L'ascension des Eldrazi",
+					"it": "Ascesa degli Eldrazi",
+					"es": "Levantamiento de los Eldrazi",
+					"pt": "Ascensão dos Eldrazi",
+					"jp": "エルドラージ覚醒",
+					"cn": "奥札奇再起",
+					"ru": "Возрождение Эльдрази"
+				},
+				"mkm_name": "Rise of the Eldrazi",
+				"mkm_id": 120,
+				"magic_ville_name": "L'Ascension des Eldrazi",
+				"block_code": "ZEN",
+				"block_name": "Zendikar",
+				"block_release_date": "2009-10-02",
+				"card_total": 248
+			},
+			{
+				"name": "Duels of the Planeswalkers",
+				"code": "DPA",
+				"magicCardsInfoCode": "dpa",
+				"releaseDate": "2010-06-04",
+				"border": "black",
+				"type": "box",
+				"mkm_name": "Duels of the Planeswalkers Decks",
+				"mkm_id": 1193
+			},
+			{
+				"name": "Archenemy",
+				"code": "ARC",
+				"magicCardsInfoCode": "arc",
+				"releaseDate": "2010-06-18",
+				"border": "black",
+				"type": "archenemy",
+				"mkm_name": "Archenemy",
+				"mkm_id": 1194
+			},
+			{
+				"name": "Magic 2011",
+				"code": "M11",
+				"magicCardsInfoCode": "m11",
+				"releaseDate": "2010-07-16",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Magic 2011",
+					"fr": "Magic 2011",
+					"it": "Magic 2011",
+					"es": "Magic 2011",
+					"pt": "Magic 2011",
+					"jp": "Magic 2011",
+					"cn": "Magic 2011",
+					"ru": "Magic 2011",
+					"tw": "Magic 2011"
+				},
+				"mkm_name": "Magic 2011",
+				"mkm_id": 1197,
+				"magic_ville_name": "Magic 2011",
+				"card_total": 249
+			},
+			{
+				"name": "From the Vault: Relics",
+				"code": "V10",
+				"magicCardsInfoCode": "fvr",
+				"releaseDate": "2010-08-27",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Relics",
+				"mkm_id": 1202,
+				"card_total": 15
+			},
+			{
+				"name": "Duel Decks: Elspeth vs. Tezzeret",
+				"code": "DDF",
+				"magicCardsInfoCode": "ddf",
+				"releaseDate": "2010-09-03",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"de": "Duel Decks: Elspeth vs. Tezzeret",
+					"fr": "Duel Decks: Elspeth vs. Tezzeret",
+					"it": "Duel Decks: Elspeth vs. Tezzeret",
+					"es": "Duel Decks: Elspeth vs. Tezzeret",
+					"jp": "Duel Decks: Elspeth vs. Tezzeret"
+				},
+				"mkm_name": "Duel Decks: Elspeth vs. Tezzeret",
+				"mkm_id": 1203,
+				"magic_ville_name": "Elspeth vs. Tezzeret",
+				"card_total": 79
+			},
+			{
+				"name": "Scars of Mirrodin",
+				"code": "SOM",
+				"magicCardsInfoCode": "som",
+				"releaseDate": "2010-10-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Die Narben von Mirrodin",
+					"fr": "Les cicatrices de Mirrodin",
+					"it": "Cicatrici di Mirrodin",
+					"es": "Cicatrices de Mirrodin",
+					"pt": "Cicatrizes de Mirrodin",
+					"jp": "ミラディンの傷跡",
+					"cn": "秘罗地创痕",
+					"ru": "Шрамы Мирродина",
+					"tw": "秘罗地创痕"
+				},
+				"mkm_name": "Scars of Mirrodin",
+				"mkm_id": 1206,
+				"magic_ville_name": "Les Cicatrices de Mirrodin",
+				"block_code": "SOM",
+				"block_name": "Scars of Mirrodin",
+				"block_release_date": "2010-10-01",
+				"card_total": 249
+			},
+			{
+				"name": "Premium Deck Series: Fire and Lightning",
+				"code": "PD2",
+				"magicCardsInfoCode": "pd2",
+				"releaseDate": "2010-11-19",
+				"border": "black",
+				"type": "premium deck",
+				"mkm_name": "Premium Deck Series: Fire & Lightning",
+				"mkm_id": 1218,
+				"card_total": 34
+			},
+			{
+				"name": "Masters Edition IV",
+				"code": "ME4",
+				"magicCardsInfoCode": "me4",
+				"releaseDate": "2011-01-10",
+				"border": "black",
+				"type": "masters",
+				"onlineOnly": true,
+				"booster": [
+					"rare",
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"urza land"
+				]
+			},
+			{
+				"name": "Mirrodin Besieged",
+				"code": "MBS",
+				"magicCardsInfoCode": "mbs",
+				"releaseDate": "2011-02-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Belagertes Mirrodin",
+					"fr": "Mirrodin assiégé",
+					"it": "Mirrodin Assediato",
+					"es": "Mirrodin sitiado",
+					"pt": "Mirrodin Sitiada",
+					"jp": "ミラディン包囲戦",
+					"cn": "围攻秘罗地",
+					"ru": "Осада Мирродина",
+					"tw": "围攻秘罗地"
+				},
+				"mkm_name": "Mirrodin Besieged",
+				"mkm_id": 1253,
+				"magic_ville_name": "Mirrodin Assiégé",
+				"block_code": "SOM",
+				"block_name": "Scars of Mirrodin",
+				"block_release_date": "2010-10-01",
+				"card_total": 155
+			},
+			{
+				"name": "Duel Decks: Knights vs. Dragons",
+				"code": "DDG",
+				"magicCardsInfoCode": "ddg",
+				"releaseDate": "2011-04-01",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"de": "Duel Decks: Knights vs. Dragons",
+					"fr": "Duel Decks: Knights vs. Dragons",
+					"it": "Duel Decks: Knights vs. Dragons",
+					"es": "Duel Decks: Knights vs. Dragons",
+					"jp": "Duel Decks: Knights vs. Dragons"
+				},
+				"mkm_name": "Duel Decks: Knights vs. Dragons",
+				"mkm_id": 1261,
+				"magic_ville_name": "Knights vs. Dragons",
+				"card_total": 81
+			},
+			{
+				"name": "New Phyrexia",
+				"code": "NPH",
+				"magicCardsInfoCode": "nph",
+				"releaseDate": "2011-05-13",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Das neue Phyrexia",
+					"fr": "La Nouvelle Phyrexia",
+					"it": "Nuova Phyrexia",
+					"es": "Nueva Phyrexia",
+					"pt": "Nova Phyrexia",
+					"jp": "新たなるファイレクシア",
+					"cn": "新非瑞克西亚",
+					"ru": "Новая Фирексия",
+					"tw": "新非瑞克西亚"
+				},
+				"mkm_name": "New Phyrexia",
+				"mkm_id": 1262,
+				"magic_ville_name": "La Nouvelle Phyrexia",
+				"block_code": "SOM",
+				"block_name": "Scars of Mirrodin",
+				"block_release_date": "2010-10-01",
+				"card_total": 175
+			},
+			{
+				"name": "Magic: The Gathering-Commander",
+				"code": "CMD",
+				"oldCode": "COM",
+				"magicCardsInfoCode": "cmd",
+				"releaseDate": "2011-06-17",
+				"border": "black",
+				"type": "commander",
+				"translations": {
+					"de": "Commander",
+					"fr": "Commander",
+					"it": "Commander",
+					"es": "Commander",
+					"jp": "統率者"
+				},
+				"mkm_name": "Commander",
+				"mkm_id": 1273,
+				"card_total": 318
+			},
+			{
+				"name": "Magic 2012",
+				"code": "M12",
+				"magicCardsInfoCode": "m12",
+				"releaseDate": "2011-07-15",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Magic 2012",
+					"fr": "Magic 2012",
+					"it": "Magic 2012",
+					"es": "Magic 2012",
+					"pt": "Magic 2012",
+					"jp": "2012基本セット",
+					"cn": "核心系列2012",
+					"ru": "Базовый выпуск 2012",
+					"tw": "核心系列2012"
+				},
+				"mkm_name": "Magic 2012",
+				"mkm_id": 1280,
+				"magic_ville_name": "Magic 2012",
+				"card_total": 249
+			},
+			{
+				"name": "From the Vault: Legends",
+				"code": "V11",
+				"oldCode": "FVL",
+				"magicCardsInfoCode": "fvl",
+				"releaseDate": "2011-08-26",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Legends",
+				"mkm_id": 1286,
+				"card_total": 15
+			},
+			{
+				"name": "Duel Decks: Ajani vs. Nicol Bolas",
+				"code": "DDH",
+				"magicCardsInfoCode": "ddh",
+				"releaseDate": "2011-09-02",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"de": "Duel Decks: Ajani vs. Nicol Bolas",
+					"fr": "Duel Decks: Ajani vs. Nicol Bolas",
+					"it": "Duel Decks: Ajani vs. Nicol Bolas",
+					"es": "Duel Decks: Ajani vs. Nicol Bolas"
+				},
+				"mkm_name": "Duel Decks: Ajani vs. Nicol Bolas",
+				"mkm_id": 1288,
+				"magic_ville_name": "Ajani vs. Nicol Bolas",
+				"card_total": 80
+			},
+			{
+				"name": "Innistrad",
+				"code": "ISD",
+				"magicCardsInfoCode": "isd",
+				"releaseDate": "2011-09-30",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					[
+						"land",
+						"checklist"
+					],
+					"marketing",
+					"double faced"
+				],
+				"translations": {
+					"de": "Innistrad",
+					"fr": "Innistrad",
+					"it": "Innistrad",
+					"es": "Innistrad",
+					"pt": "Innistrad",
+					"jp": "イニストラード",
+					"cn": "依尼翠",
+					"ru": "Innistrad",
+					"tw": "依尼翠"
+				},
+				"mkm_name": "Innistrad",
+				"mkm_id": 1327,
+				"magic_ville_name": "Innistrad",
+				"block_code": "ISD",
+				"block_name": "Innistrad",
+				"block_release_date": "2011-09-30",
+				"card_total": 264
+			},
+			{
+				"name": "Premium Deck Series: Graveborn",
+				"code": "PD3",
+				"magicCardsInfoCode": "pd3",
+				"releaseDate": "2011-11-18",
+				"border": "black",
+				"type": "premium deck",
+				"mkm_name": "Premium Deck Series: Graveborn",
+				"mkm_id": 1337,
+				"card_total": 30
+			},
+			{
+				"name": "Dark Ascension",
+				"code": "DKA",
+				"magicCardsInfoCode": "dka",
+				"releaseDate": "2012-02-03",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Dunkles Erwachen",
+					"fr": "Obscure ascension",
+					"it": "Ascesa Oscura",
+					"es": "Ascenso siniestro",
+					"pt": "Ascensão das Trevas",
+					"jp": "闇の隆盛",
+					"cn": "黑影笼罩",
+					"ru": "Возвышение Мрака",
+					"tw": "黑影籠罩",
+					"ko": "어둠의 강림"
+				},
+				"mkm_name": "Dark Ascension",
+				"mkm_id": 1345,
+				"magic_ville_name": "Obscure Ascension",
+				"block_code": "ISD",
+				"block_name": "Innistrad",
+				"block_release_date": "2011-09-30",
+				"card_total": 158
+			},
+			{
+				"name": "Duel Decks: Venser vs. Koth",
+				"code": "DDI",
+				"magicCardsInfoCode": "ddi",
+				"releaseDate": "2012-03-30",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "デュエルデッキ：ヴェンセール vs. コス"
+				},
+				"mkm_name": "Duel Decks: Venser vs. Koth",
+				"mkm_id": 1350,
+				"magic_ville_name": "Venser vs. Koth",
+				"card_total": 77
+			},
+			{
+				"name": "Avacyn Restored",
+				"code": "AVR",
+				"magicCardsInfoCode": "avr",
+				"releaseDate": "2012-05-04",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Avacyns Rückkehr",
+					"fr": "Avacyn ressuscitée",
+					"it": "Ritorno di Avacyn",
+					"es": "Avacyn restituida",
+					"pt": "Retorno de Avacyn",
+					"jp": "アヴァシンの帰還",
+					"cn": "艾维欣重临",
+					"ru": "Возвращение Авацины",
+					"tw": "艾維欣重臨",
+					"ko": "아바신의 귀환"
+				},
+				"mkm_name": "Avacyn Restored",
+				"mkm_id": 1358,
+				"magic_ville_name": "Avacyn Ressuscitée",
+				"block_code": "ISD",
+				"block_name": "Innistrad",
+				"block_release_date": "2011-09-30",
+				"card_total": 244
+			},
+			{
+				"name": "Planechase 2012 Edition",
+				"code": "PC2",
+				"magicCardsInfoCode": "pc2",
+				"releaseDate": "2012-06-01",
+				"border": "black",
+				"type": "planechase",
+				"translations": {
+					"de": "Planechase 2012 Edition",
+					"fr": "Planechase 2012 Edition",
+					"it": "Planechase 2012 Edition",
+					"es": "Planechase 2012 Edition",
+					"jp": "プレインチェイス2012"
+				},
+				"mkm_name": "Planechase 2012",
+				"mkm_id": 1369
+			},
+			{
+				"name": "Magic 2013",
+				"code": "M13",
+				"magicCardsInfoCode": "m13",
+				"releaseDate": "2012-07-13",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Magic 2013",
+					"fr": "Magic 2013",
+					"it": "Magic 2013",
+					"es": "Magic 2013",
+					"pt": "Magic 2013",
+					"jp": "2013基本セット",
+					"cn": "核心系列2013",
+					"ru": "Базовый выпуск 2013",
+					"tw": "核心系列2013",
+					"ko": "매직2013"
+				},
+				"mkm_name": "Magic 2013",
+				"mkm_id": 1388,
+				"magic_ville_name": "Magic 2013",
+				"card_total": 249
+			},
+			{
+				"name": "From the Vault: Realms",
+				"code": "V12",
+				"oldCode": "FVR",
+				"magicCardsInfoCode": "v12",
+				"releaseDate": "2012-08-31",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Realms",
+				"mkm_id": 1397,
+				"card_total": 15
+			},
+			{
+				"name": "Duel Decks: Izzet vs. Golgari",
+				"code": "DDJ",
+				"magicCardsInfoCode": "ddj",
+				"releaseDate": "2012-09-07",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "デュエルデッキ：イゼット vs. ゴルガリ"
+				},
+				"mkm_name": "Duel Decks: Izzet vs. Golgari",
+				"mkm_id": 1398,
+				"magic_ville_name": "Izzet vs. Golgari",
+				"card_total": 90
+			},
+			{
+				"name": "Return to Ravnica",
+				"code": "RTR",
+				"magicCardsInfoCode": "rtr",
+				"releaseDate": "2012-10-05",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Rückkehr nach Ravnica",
+					"fr": "Retour sur Ravnica",
+					"it": "Ritorno a Ravnica",
+					"es": "Regreso a Rávnica",
+					"pt": "Retorno a Ravnica",
+					"jp": "ラヴニカへの回帰",
+					"cn": "再访拉尼卡",
+					"ru": "Возвращение в Равнику",
+					"tw": "再訪拉尼卡",
+					"ko": "라브니카로의 귀환"
+				},
+				"mkm_name": "Return to Ravnica",
+				"mkm_id": 1389,
+				"magic_ville_name": "Retour sur Ravnica",
+				"block_code": "RTR",
+				"block_name": "Return to Ravnica",
+				"block_release_date": "2012-10-05",
+				"card_total": 274
+			},
+			{
+				"name": "Commander's Arsenal",
+				"code": "CM1",
+				"oldCode": "CMA",
+				"magicCardsInfoCode": "cma",
+				"releaseDate": "2012-11-02",
+				"border": "black",
+				"type": "commander",
+				"mkm_name": "Commander's Arsenal",
+				"mkm_id": 1418,
+				"card_total": 18
+			},
+			{
+				"name": "Gatecrash",
+				"code": "GTC",
+				"magicCardsInfoCode": "gtc",
+				"releaseDate": "2013-02-01",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Gildensturm",
+					"fr": "Insurrection",
+					"it": "Irruzione",
+					"es": "Intrusión",
+					"pt": "Portões Violados",
+					"jp": "ギルド門侵犯",
+					"cn": "兵临古城",
+					"ru": "Незваные Гости",
+					"tw": "兵臨古城",
+					"ko": "충돌의 관문"
+				},
+				"mkm_name": "Gatecrash",
+				"mkm_id": 1424,
+				"magic_ville_name": "Gatecrash",
+				"block_code": "RTR",
+				"block_name": "Return to Ravnica",
+				"block_release_date": "2012-10-05",
+				"card_total": 249
+			},
+			{
+				"name": "Duel Decks: Sorin vs. Tibalt",
+				"code": "DDK",
+				"magicCardsInfoCode": "ddk",
+				"releaseDate": "2013-03-15",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "Duel Decks: Sorin vs. Tibalt"
+				},
+				"mkm_name": "Duel Decks: Sorin vs. Tibalt",
+				"mkm_id": 1430,
+				"magic_ville_name": "Sorin vs. Tibalt",
+				"card_total": 80
+			},
+			{
+				"name": "World Magic Cup Qualifiers",
+				"code": "pWCQ",
+				"magicCardsInfoCode": "wmcq",
+				"magicRaritiesCodes": [
+					"780-rarities-world-magic-cup-qualifiers-promos"
+				],
+				"isMCISet": true,
+				"releaseDate": "2013-04-06",
+				"border": "black",
+				"type": "promo"
+			},
+			{
+				"name": "Dragon's Maze",
+				"code": "DGM",
+				"magicCardsInfoCode": "dgm",
+				"releaseDate": "2013-05-03",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Labyrinth des Drachen",
+					"fr": "Le labyrinthe du dragon",
+					"it": "Labirinto del Drago",
+					"es": "Laberinto del Dragón",
+					"pt": "Labirinto do Dragão",
+					"jp": "ドラゴンの迷路",
+					"cn": "巨龙迷城",
+					"ru": "Лабиринт Дракона",
+					"tw": "巨龍迷城",
+					"ko": "용의 미로"
+				},
+				"mkm_name": "Dragon's Maze",
+				"mkm_id": 1435,
+				"magic_ville_name": "Le Labyrinthe du dragon",
+				"block_code": "RTR",
+				"block_name": "Return to Ravnica",
+				"block_release_date": "2012-10-05",
+				"card_total": 156
+			},
+			{
+				"name": "Modern Masters",
+				"code": "MMA",
+				"magicCardsInfoCode": "mma",
+				"releaseDate": "2013-06-07",
+				"border": "black",
+				"type": "reprint",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					[
+						"foil mythic rare",
+						"foil rare",
+						"foil uncommon",
+						"foil common"
+					]
+				],
+				"mkm_name": "Modern Masters",
+				"mkm_id": 1444,
+				"magic_ville_name": "Modern Masters",
+				"card_total": 229
+			},
+			{
+				"name": "Magic 2014 Core Set",
+				"code": "M14",
+				"magicCardsInfoCode": "m14",
+				"releaseDate": "2013-07-19",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Hauptset Magic 2014",
+					"fr": "Édition de base Magic 2014",
+					"it": "Set Base Magic 2014",
+					"es": "Colección básica Magic 2014",
+					"pt": "Coleção Básica Magic 2014",
+					"jp": "マジック基本セット2014",
+					"cn": "魔法風雲會2014核心系列",
+					"ru": "Базовый выпуск Magic 2014",
+					"tw": "万智牌2014核心系列",
+					"ko": "매직 2014 코어세트"
+				},
+				"mkm_name": "Magic 2014",
+				"mkm_id": 1449,
+				"magic_ville_name": "Magic 2014",
+				"card_total": 249
+			},
+			{
+				"name": "From the Vault: Twenty",
+				"code": "V13",
+				"magicCardsInfoCode": "v13",
+				"releaseDate": "2013-08-23",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Twenty",
+				"mkm_id": 1455,
+				"card_total": 20
+			},
+			{
+				"name": "Duel Decks: Heroes vs. Monsters",
+				"code": "DDL",
+				"magicCardsInfoCode": "ddl",
+				"releaseDate": "2013-09-06",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "Duel Decks: Heroes vs. Monsters"
+				},
+				"mkm_name": "Duel Decks: Heroes vs. Monsters",
+				"mkm_id": 1456,
+				"magic_ville_name": "Heroes vs. Monsters",
+				"card_total": 81
+			},
+			{
+				"name": "Theros",
+				"code": "THS",
+				"magicCardsInfoCode": "ths",
+				"releaseDate": "2013-09-27",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Theros",
+					"fr": "Theros",
+					"it": "Theros",
+					"es": "Theros",
+					"pt": "Theros",
+					"jp": "テーロス",
+					"cn": "Theros",
+					"ru": "Theros",
+					"tw": "Theros",
+					"ko": "Theros"
+				},
+				"mkm_name": "Theros",
+				"mkm_id": 1457,
+				"magic_ville_name": "Theros",
+				"block_code": "THS",
+				"block_name": "Theros",
+				"block_release_date": "2013-09-27",
+				"card_total": 249
+			},
+			{
+				"name": "Commander 2013 Edition",
+				"code": "C13",
+				"magicCardsInfoCode": "c13",
+				"releaseDate": "2013-11-01",
+				"border": "black",
+				"type": "commander",
+				"translations": {
+					"de": "Commander 2013 Edition",
+					"fr": "Commander 2013 Edition",
+					"it": "Commander 2013 Edition",
+					"es": "Commander 2013 Edition",
+					"jp": "統率者(2013年版)"
+				},
+				"mkm_name": "Commander 2013",
+				"mkm_id": 1464,
+				"card_total": 356
+			},
+			{
+				"name": "Born of the Gods",
+				"code": "BNG",
+				"magicCardsInfoCode": "bng",
+				"releaseDate": "2014-02-07",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Kinder der Götter",
+					"fr": "Créations divines",
+					"it": "Figli degli dei",
+					"es": "Nacidos de los dioses",
+					"pt": "Nascidos dos Deuses",
+					"jp": "神々の軍勢",
+					"cn": "天神创生",
+					"ru": "Порождения Богов",
+					"tw": "天神創生",
+					"ko": "신들의 피조물"
+				},
+				"mkm_name": "Born of the Gods",
+				"mkm_id": 1469,
+				"magic_ville_name": "Créations Divines",
+				"block_code": "THS",
+				"block_name": "Theros",
+				"block_release_date": "2013-09-27",
+				"card_total": 165
+			},
+			{
+				"name": "Duel Decks: Jace vs. Vraska",
+				"code": "DDM",
+				"magicCardsInfoCode": "ddm",
+				"releaseDate": "2014-03-14",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "Duel Decks: Jace vs. Vraska"
+				},
+				"mkm_name": "Duel Decks: Jace vs. Vraska",
+				"mkm_id": 1477,
+				"magic_ville_name": "Jace vs. Vraska",
+				"card_total": 88
+			},
+			{
+				"name": "Journey into Nyx",
+				"code": "JOU",
+				"magicCardsInfoCode": "jou",
+				"releaseDate": "2014-05-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Reise nach Nyx",
+					"fr": "Incursion dans Nyx",
+					"it": "Viaggio verso Nyx",
+					"es": "Travesía hacia Nyx",
+					"pt": "Viagem para Nyx",
+					"jp": "ニクスへの旅",
+					"cn": "尼兹之旅",
+					"ru": "Путешествие в Никс",
+					"tw": "尼茲之旅",
+					"ko": "닉스로 가는 길"
+				},
+				"mkm_name": "Journey into Nyx",
+				"mkm_id": 1481,
+				"magic_ville_name": "Incursion dans Nyx",
+				"block_code": "THS",
+				"block_name": "Theros",
+				"block_release_date": "2013-09-27",
+				"card_total": 165
+			},
+			{
+				"name": "Modern Event Deck 2014",
+				"code": "MD1",
+				"magicCardsInfoCode": "md1",
+				"releaseDate": "2014-05-30",
+				"border": "black",
+				"type": "box",
+				"mkm_name": "Modern Event Deck 2014",
+				"mkm_id": 1484,
+				"card_total": 26
+			},
+			{
+				"name": "Magic: The Gathering—Conspiracy",
+				"code": "CNS",
+				"magicCardsInfoCode": "cns",
+				"releaseDate": "2014-06-06",
+				"border": "black",
+				"type": "conspiracy",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"draft-matters",
+					"marketing"
+				],
+				"translations": {
+					"jp": "Conspiracy",
+					"cn": "Conspiracy"
+				},
+				"mkm_name": "Conspiracy",
+				"mkm_id": 1483,
+				"magic_ville_name": "Conspiracy",
+				"card_total": 210
+			},
+			{
+				"name": "Vintage Masters",
+				"code": "VMA",
+				"magicCardsInfoCode": "vma",
+				"releaseDate": "2014-06-16",
+				"border": "black",
+				"type": "masters",
+				"onlineOnly": true,
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					[
+						"power nine",
+						"foil"
+					]
+				]
+			},
+			{
+				"name": "Magic 2015 Core Set",
+				"code": "M15",
+				"magicCardsInfoCode": "m15",
+				"releaseDate": "2014-07-18",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Magic 2015",
+					"fr": "Magic 2015",
+					"it": "Magic 2015",
+					"es": "Magic 2015",
+					"pt": "Magic 2015",
+					"jp": "Magic 2015",
+					"cn": "Magic 2015",
+					"ru": "Magic 2015",
+					"tw": "Magic 2015",
+					"ko": "Magic 2015"
+				},
+				"mkm_name": "Magic 2015",
+				"mkm_id": 1485,
+				"magic_ville_name": "Magic 2015",
+				"card_total": 269
+			},
+			{
+				"name": "Clash Pack",
+				"code": "CPK",
+				"isMCISet": true,
+				"magicCardsInfoCode": "clash",
+				"releaseDate": "2014-07-18",
+				"border": "black",
+				"type": "starter",
+				"mkm_name": "Clash Pack Promos",
+				"mkm_id": 1490
+			},
+			{
+				"name": "From the Vault: Annihilation (2014)",
+				"code": "V14",
+				"magicCardsInfoCode": "v14",
+				"releaseDate": "2014-08-22",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Annihilation",
+				"mkm_id": 1494,
+				"card_total": 15
+			},
+			{
+				"name": "Duel Decks: Speed vs. Cunning",
+				"code": "DDN",
+				"magicCardsInfoCode": "ddn",
+				"releaseDate": "2014-09-05",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "Duel Decks: Speed vs. Cunning"
+				},
+				"mkm_name": "Duel Decks: Speed vs. Cunning",
+				"mkm_id": 1496,
+				"magic_ville_name": "Speed vs. Cunning",
+				"card_total": 82
+			},
+			{
+				"name": "Khans of Tarkir",
+				"code": "KTK",
+				"magicCardsInfoCode": "ktk",
+				"essentialMagicCode": "102",
+				"releaseDate": "2014-09-26",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Khane von Tarkir",
+					"fr": "Les Khans de Tarkir",
+					"it": "I Khan di Tarkir",
+					"es": "Kans de Tarkir",
+					"pt": "Khans de Tarkir",
+					"jp": "タルキール覇王譚",
+					"cn": "鞑契可汗",
+					"ru": "Ханы Таркира",
+					"tw": "韃契可汗",
+					"ko": "타르커의 칸"
+				},
+				"mkm_name": "Khans of Tarkir",
+				"mkm_id": 1495,
+				"magic_ville_name": "Les Khans de Tarkir",
+				"block_code": "KTK",
+				"block_name": "Khans of Tarkir",
+				"block_release_date": "2014-09-26",
+				"card_total": 269
+			},
+			{
+				"name": "Commander 2014",
+				"code": "C14",
+				"magicCardsInfoCode": "c14",
+				"essentialMagicCode": "104",
+				"releaseDate": "2014-11-07",
+				"border": "black",
+				"type": "commander",
+				"translations": {
+					"de": "Commander 2014 Edition",
+					"fr": "Commander 2014 Edition",
+					"it": "Commander 2014 Edition",
+					"es": "Commander 2014 Edition",
+					"jp": "Commander 2014 Edition",
+					"cn": "Commander 2014 Edition"
+				},
+				"mkm_name": "Commander 2014",
+				"mkm_id": 1513,
+				"magic_ville_name": "Commander 2014",
+				"card_total": 337
+			},
+			{
+				"name": "Duel Decks Anthology, Divine vs. Demonic",
+				"code": "DD3_DVD",
+				"magicCardsInfoCode": "ddadvd",
+				"releaseDate": "2014-12-05",
+				"border": "black",
+				"type": "duel deck",
+				"card_total": 62
+			},
+			{
+				"name": "Duel Decks Anthology, Elves vs. Goblins",
+				"code": "DD3_EVG",
+				"magicCardsInfoCode": "ddaevg",
+				"releaseDate": "2014-12-05",
+				"border": "black",
+				"type": "duel deck",
+				"card_total": 62
+			},
+			{
+				"name": "Duel Decks Anthology, Garruk vs. Liliana",
+				"code": "DD3_GVL",
+				"magicCardsInfoCode": "ddagvl",
+				"releaseDate": "2014-12-05",
+				"border": "black",
+				"type": "duel deck",
+				"card_total": 63
+			},
+			{
+				"name": "Duel Decks Anthology, Jace vs. Chandra",
+				"code": "DD3_JVC",
+				"magicCardsInfoCode": "ddajvc",
+				"releaseDate": "2014-12-05",
+				"border": "black",
+				"type": "duel deck",
+				"card_total": 62
+			},
+			{
+				"name": "Ugin's Fate promos",
+				"code": "FRF_UGIN",
+				"magicCardsInfoCode": "ugin",
+				"releaseDate": "2015-01-17",
+				"border": "black",
+				"type": "promo",
+				"translations": {
+					"de": "Ugin's Fate",
+					"fr": "Ugin's Fate",
+					"it": "Ugin's Fate",
+					"es": "Ugin's Fate​",
+					"pt": "Ugin's Fate",
+					"jp": "Ugin's Fate",
+					"cn": "Ugin's Fate",
+					"ru": "Ugin's Fate",
+					"tw": "Ugin's Fate",
+					"ko": "Ugin's Fate"
+				},
+				"mkm_name": "Ugin's Fate Promos",
+				"mkm_id": 1587,
+				"card_total": 220
+			},
+			{
+				"name": "Fate Reforged",
+				"code": "FRF",
+				"magicCardsInfoCode": "frf",
+				"essentialMagicCode": "103",
+				"releaseDate": "2015-01-23",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Schmiede des Schicksals",
+					"fr": "Destin reforgé",
+					"it": "Riforgiare il destino",
+					"es": "Destino reescrito",
+					"pt": "Destino Reescrito",
+					"jp": "運命再編",
+					"cn": "龙命殊途",
+					"ru": "Перекованная Судьба",
+					"tw": "龍命殊途",
+					"ko": "재창조된 운명"
+				},
+				"mkm_name": "Fate Reforged",
+				"mkm_id": 1522,
+				"magic_ville_name": "Destin Reforgé",
+				"block_code": "KTK",
+				"block_name": "Khans of Tarkir",
+				"block_release_date": "2014-09-26",
+				"card_total": 185
+			},
+			{
+				"name": "Duel Decks: Elspeth vs. Kiora",
+				"code": "DDO",
+				"magicCardsInfoCode": "ddo",
+				"releaseDate": "2015-02-27",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "デュエルデッキ: エルズペスVSキオーラ"
+				},
+				"mkm_name": "Duel Decks: Elspeth vs. Kiora",
+				"mkm_id": 1593,
+				"magic_ville_name": "Elspeth vs. Kiora",
+				"card_total": 67
+			},
+			{
+				"name": "Dragons of Tarkir",
+				"code": "DTK",
+				"magicCardsInfoCode": "dtk",
+				"essentialMagicCode": "106",
+				"releaseDate": "2015-03-27",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Drachen von Tarkir",
+					"fr": "Les dragons de Tarkir",
+					"it": "Draghi di Tarkir",
+					"es": "Dragones de Tarkir",
+					"pt": "Dragões de Tarkir",
+					"jp": "タルキール龍紀伝",
+					"cn": "鞑契龙王",
+					"ru": "Драконы Таркира",
+					"tw": "韃契龍王",
+					"ko": "타르커의 용"
+				},
+				"mkm_name": "Dragons of Tarkir",
+				"mkm_id": 1601,
+				"magic_ville_name": "Les Dragons de Tarkir",
+				"block_code": "KTK",
+				"block_name": "Khans of Tarkir",
+				"block_release_date": "2014-09-26",
+				"card_total": 264
+			},
+			{
+				"name": "Tempest Remastered",
+				"code": "TPR",
+				"magicCardsInfoCode": "tpr",
+				"releaseDate": "2015-05-06",
+				"border": "black",
+				"type": "reprint",
+				"onlineOnly": true,
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land"
+				],
+				"mkm_name": "Tempest",
+				"mkm_id": 19
+			},
+			{
+				"name": "Modern Masters 2015 Edition",
+				"code": "MM2",
+				"magicCardsInfoCode": "mm2",
+				"releaseDate": "2015-05-22",
+				"border": "black",
+				"type": "reprint",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					[
+						"foil mythic rare",
+						"foil rare",
+						"foil uncommon",
+						"foil common"
+					]
+				],
+				"translations": {
+					"jp": "Modern Masters 2015 Edition",
+					"cn": "Modern Masters 2015 Edition"
+				},
+				"mkm_name": "Modern Masters 2015",
+				"mkm_id": 1641,
+				"magic_ville_name": "Modern Masters 2015",
+				"card_total": 249
+			},
+			{
+				"name": "Magic Origins",
+				"code": "ORI",
+				"magicCardsInfoCode": "ori",
+				"essentialMagicCode": "107",
+				"releaseDate": "2015-07-17",
+				"border": "black",
+				"type": "core",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Magic Ursprünge",
+					"fr": "Magic Origines",
+					"it": "Magic Origins",
+					"es": "Magic Orígenes",
+					"pt": "Magic – Origens",
+					"jp": "マジック・オリジン",
+					"cn": "万智牌：起源",
+					"ru": "Magic: Истоки",
+					"tw": "魔法風雲會：起源",
+					"ko": "매직의 기원"
+				},
+				"mkm_name": "Magic Origins",
+				"mkm_id": 1652,
+				"magic_ville_name": "Magic Origins",
+				"card_total": 272
+			},
+			{
+				"name": "From the Vault: Angels",
+				"code": "V15",
+				"magicCardsInfoCode": "v15",
+				"releaseDate": "2015-08-21",
+				"border": "black",
+				"type": "from the vault",
+				"mkm_name": "From the Vault: Angels",
+				"mkm_id": 1661,
+				"card_total": 15
+			},
+			{
+				"name": "Duel Decks: Zendikar vs. Eldrazi",
+				"code": "DDP",
+				"magicCardsInfoCode": "ddp",
+				"releaseDate": "2015-08-28",
+				"border": "black",
+				"type": "duel deck",
+				"translations": {
+					"jp": "Duel Decks: Zendikar vs. Eldrazi"
+				},
+				"mkm_name": "Duel Decks: Zendikar vs. Eldrazi",
+				"mkm_id": 1663,
+				"magic_ville_name": "Zendikar vs. Eldrazi",
+				"card_total": 80
+			},
+			{
+				"name": "Battle for Zendikar",
+				"code": "BFZ",
+				"magicCardsInfoCode": "bfz",
+				"essentialMagicCode": "108",
+				"releaseDate": "2015-10-02",
+				"border": "black",
+				"type": "expansion",
+				"booster": [
+					[
+						"rare",
+						"mythic rare"
+					],
+					"uncommon",
+					"uncommon",
+					"uncommon",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"common",
+					"land",
+					"marketing"
+				],
+				"translations": {
+					"de": "Kampf um Zendikar",
+					"fr": "La bataille de Zendikar",
+					"it": "Battaglia per Zendikar",
+					"es": "La batalla por Zendikar",
+					"pt": "Batalha por Zendikar",
+					"jp": "戦乱のゼンディカー",
+					"cn": "再战赞迪卡",
+					"ru": "Битва за Зендикар",
+					"tw": "再戰贊迪卡",
+					"ko": "젠디카르 전투"
+				},
+				"mkm_name": "Battle for Zendikar",
+				"mkm_id": 1668,
+				"magic_ville_name": "La Bataille de Zendikar",
+				"block_code": "BFZ",
+				"block_name": "Battle for Zendikar",
+				"block_release_date": "2015-10-02",
+				"card_total": 274
+			},
+			{
+				"name": "Zendikar Expeditions",
+				"code": "EXP",
+				"magicCardsInfoCode": "exp",
+				"releaseDate": "2015-10-02",
+				"border": "black",
+				"type": "promo",
+				"mkm_name": "Zendikar Expeditions",
+				"mkm_id": 1669,
+				"card_total": 25
+			},
+			{
+				"name": "Commander 2015",
+				"code": "C15",
+				"magicCardsInfoCode": "c15",
+				"releaseDate": "2015-11-13",
+				"border": "black",
+				"type": "commander",
+				"translations": {
+					"de": "Commander 2015",
+					"fr": "Commander 2015",
+					"it": "Commander 2015",
+					"es": "Commander 2015",
+					"jp": "Commander 2015",
+					"cn": "Commander 2015"
+				},
+				"mkm_name": "Commander 2015",
+				"mkm_id": 1679,
+				"magic_ville_name": "Commander 2015",
+				"card_total": 342
+			},
+			{
+				name : "Oath of the Gatewatch",
+				code : "OGW",
+				releaseDate : "2016-01-22",
+				border : "black",
+				type : "expansion",
+				"block_code": "BFZ",
+				"block_name": "Battle for Zendikar",
+				"block_release_date": "2015-10-02",
+				booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
+				translations: {
+					pt: 'Juramento das Sentinelas',
+					es: 'El juramento de los Guardianes',
+					ru: 'Клятва Стражей',
+					ko: '관문수호대의 맹세',
+					jp: '『ゲートウォッチの誓い』',
+					it: 'Giuramento dei Guardiani',
+					de: 'Eid der Wächter',
+					fr: 'Le serment des Sentinelles',
+					'zh-hant': '守護者誓約',
+					'zh-hans': '守护者誓约'
+				},
+				"card_total": 184,
+				"mkm_name": "Oath of the Gatewatch",
+				"mkm_id": 1676,
+				"magic_ville_name": "Le serment des Sentinelles"
+
+			},
+			{
+				name : 'Duel Decks: Blessed vs. Cursed',
+				code : 'DDQ',
+				releaseDate : '2016-02-26',
+				border : 'black',
+				type : 'duel deck',
+				translations: {
+					jp: 'Duel Decks: Blessed vs. Cursed'
+				},
+				"card_total": 80,
+				"mkm_name": "Duel Decks: Blessed vs. Cursed",
+				"mkm_id": 1692,
+				"magic_ville_name": "Blessed vs. Cursed"
+			},
+			{
+				name: 'Welcome Deck 2016',
+				code: 'W16',
+				releaseDate : '2016-04-08',
+				border : 'black',
+				type: 'starter',
+				translations: {
+					fr: 'Welcome Deck 2016'
+				},
+				"card_total": 16,
+				"mkm_name": "Welcome Deck 2016",
+				"mkm_id": 1710,
+				"magic_ville_name": "Welcome Deck 2016"
+			},
+			{
+				name : "Shadows over Innistrad",
+				code : "SOI",
+				releaseDate : "2016-04-08",
+				border : "black",
+				type : "expansion",
+				block : "Shadows over Innistrad",
+				booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
+				translations: {
+					de: 'Schatten über Innistrad',
+					fr: 'Ténèbres sur Innistrad',
+					it: 'Ombre su Innistrad',
+					es: 'Sombras sobre Innistrad',
+					pt: 'Sombras em Innistrad',
+					jp: 'イニストラードを覆う影',
+					cn: '依尼翠暗影',
+					ru: 'Тени над Иннистрадом',
+					ko: '이니스트라드에 드리운 그림자'
+				},
+				"card_total": 297,
+				"mkm_name": "Shadows over Innistrad",
+				"mkm_id": 1694,
+				"magic_ville_name": "Ténèbres sur Innistrad"
 			}
-		},
-		{
-			name : 'Duel Decks: Blessed vs. Cursed',
-			code : 'DDQ',
-			releaseDate : '2016-02-26',
-			border : 'black',
-			type : 'duel deck',
-			translations: {
-				jp: 'Duel Decks: Blessed vs. Cursed'
-			}
-		},
-		{
-			name: 'Welcome Deck 2016',
-			code: 'W16',
-			releaseDate : '2016-04-08',
-			border : 'black',
-			type: 'starter',
-			block : 'Shadows over Innistrad'
-		},
-		{
-			name : "Shadows over Innistrad",
-			code : "SOI",
-			releaseDate : "2016-04-08",
-			border : "black",
-			type : "expansion",
-			block : "Shadows over Innistrad",
-			booster : [["rare", "mythic rare"], "uncommon", "uncommon", "uncommon", "common", "common", "common", "common", "common", "common", "common", "common", "common", "common", "land", "marketing"],
-			translations: {
-				de: 'Schatten über Innistrad',
-				fr: 'Ténèbres sur Innistrad',
-				it: 'Ombre su Innistrad',
-				es: 'Sombras sobre Innistrad',
-				pt: 'Sombras em Innistrad',
-				jp: 'イニストラードを覆う影',
-				cn: '依尼翠暗影',
-				ru: 'Тени над Иннистрадом',
-				ko: '이니스트라드에 드리운 그림자'
-			}
-		}
-	];
+		];
 
 	exports.IGNORE_GATHERER_PRINTINGS = ["Promo set for Gatherer"];
+
+	exports.SUPERTYPES = ["Basic", "Legendary", "Snow", "World", "Ongoing"];
+	exports.SUPERTYPES_TRANSLATIONS = {"Basic":{fr:"Basique"}, "Legendary":{fr:"Légendaire"}, "Snow":{fr:"Neige"}, "World":{fr:"Monde"}};
+
+	exports.TYPES = ["Instant", "Sorcery", "Artifact", "Creature", "Enchantment", "Land", "Planeswalker", "Tribal", "Plane", "Phenomenon", "Scheme", "Vanguard", "Conspiracy", "Emblem"];
+	exports.TYPES_TRANSLATIONS = {"Instant":{fr:"Éphémère"}, "Sorcery":{fr:"Rituel"}, "Artifact":{fr:"Artefact"}, "Creature":{fr:"Créature"}, "Enchantment":{fr:"Enchantement"}, "Land":{fr:"Terrain"}, "Planeswalker":{fr:"Planeswalker"}, "Tribal":{fr:"Tribal"},  "Conspiracy":{fr:"Conspiracy"}, "Emblem":{fr:"Emblème"}};
+// Unglued/Unhinged types
+	exports.TYPES.push("Enchant", "Player", "Interrupt", "Scariest", "You'll", "Ever", "See", "Eaturecray");
+
+	exports.SUBTYPES_TRANSLATIONS = {
+		Ajani: { fr: 'Ajani' },
+		Angel: { fr: 'Ange' },
+		Antelope: { fr: 'Antilope' },
+		Arcane: { fr: 'Arcane' },
+		Archon: { fr: 'Archonte' },
+		Artificer: { fr: 'Artificier' },
+		Ashiok: { fr: 'Ashiok' },
+		Atog: { fr: 'Atog' },
+		Aura: { fr: 'Aura' },
+		Aurochs: { fr: 'Aurochs' },
+		Avatar: { fr: 'Avatar' },
+		Badger: { fr: 'Blaireau' },
+		Basilisk: { fr: 'Basilic' },
+		Bat: { fr: 'Chauve-souris' },
+		Bear: { fr: 'Ours' },
+		Beast: { fr: 'Bête' },
+		Berserker: { fr: 'Berserker' },
+		Bird: { fr: 'Oiseau' },
+		Boar: { fr: 'Sanglier' },
+		Bolas: { fr: 'Bolas' },
+		Bringer: { fr: 'Annonciateur' },
+		Carrier: { fr: 'Propagateur' },
+		Cat: { fr: 'Chat' },
+		Centaur: { fr: 'Centaure' },
+		Cephalid: { fr: 'Céphalide' },
+		Chandra: { fr: 'Chandra' },
+		Chimera: { fr: 'Chimère' },
+		Cleric: { fr: 'Clerc' },
+		Cockatrice: { fr: 'Cocatrix' },
+		Construct: { fr: 'Construction' },
+		Crab: { fr: 'Crabe' },
+		Crocodile: { fr: 'Crocodile' },
+		Cyclops: { fr: 'Cyclope' },
+		Daretti: { fr: 'Daretti' },
+		Demon: { fr: 'Démon' },
+		Desert: { fr: 'Désert' },
+		Devil: { fr: 'Diable' },
+		Djinn: { fr: 'Djinn' },
+		Domri: { fr: 'Domri' },
+		Dragon: { fr: 'Dragon' },
+		Drake: { fr: 'Drakôn' },
+		Drone: { fr: 'Drone' },
+		Dryad: { fr: 'Dryade' },
+		Dwarf: { fr: 'Nain' },
+		Efreet: { fr: 'Éfrit' },
+		Eldrazi: { fr: 'Eldrazi' },
+		Elemental: { fr: 'Élémental' },
+		Elephant: { fr: 'Éléphant' },
+		Elf: { fr: 'Elfe' },
+		Elk: { fr: 'Élan' },
+		Elspeth: { fr: 'Elspeth' },
+		Equipment: { fr: 'Équipement' },
+		Eye: { fr: 'Œil' },
+		Fish: { fr: 'Poisson' },
+		Forest: { fr: 'Forêt' },
+		Fortification: { fr: 'Fortification' },
+		Fox: { fr: 'Renard' },
+		Freyalise: { fr: 'Freyalise' },
+		Frog: { fr: 'Grenouille' },
+		Fungus: { fr: 'Fongus' },
+		Gargoyle: { fr: 'Gargouille' },
+		Garruk: { fr: 'Garruk' },
+		Gate: { fr: 'Porte' },
+		Giant: { fr: 'Géant' },
+		Gideon: { fr: 'Gideon' },
+		Gnome: { fr: 'Gnome' },
+		Goat: { fr: 'Chèvre' },
+		Goblin: { fr: 'Gobelin' },
+		God: { fr: 'Dieu' },
+		Golem: { fr: 'Golem' },
+		Gorgon: { fr: 'Gorgonoïde' },
+		Gremlin: { fr: 'Gremlin' },
+		Griffin: { fr: 'Griffon' },
+		Hag: { fr: 'Mégère' },
+		Harpy: { fr: 'Harpie' },
+		Hellion: { fr: 'Monstruosité' },
+		Hippo: { fr: 'Hippopotame' },
+		Hippogriff: { fr: 'Hippogriffe' },
+		Homunculus: { fr: 'Homoncule' },
+		Horror: { fr: 'Horreur' },
+		Horse: { fr: 'Cheval' },
+		Hound: { fr: 'Golem' },
+		Human: { fr: 'Humain' },
+		Hydra: { fr: 'Hydre' },
+		Illusion: { fr: 'Illusion' },
+		Imp: { fr: 'Diablotin' },
+		Incarnation: { fr: 'Incarnation' },
+		Insect: { fr: 'Insecte' },
+		Island: { fr: 'Île' },
+		Jace: { fr: 'Jace' },
+		Jellyfish: { fr: 'Méduse' },
+		Juggernaut: { fr: 'Djaggernaut' },
+		Karn: { fr: 'Karn' },
+		Kavu: { fr: 'Kavru' },
+		Kiora: { fr: 'Kiora' },
+		Kirin: { fr: 'Kirin' },
+		Kithkin: { fr: 'Sangami' },
+		Kobold: { fr: 'Kobold' },
+		Koth: { fr: 'Koth' },
+		Kraken: { fr: 'Kraken' },
+		Lamia: { fr: 'Lamie' },
+		Lammasu: { fr: 'Lamassu' },
+		Leech: { fr: 'Sangsue' },
+		Leviathan: { fr: 'Léviathan' },
+		Lhurgoyf: { fr: 'Lhurgoyf' },
+		Liliana: { fr: 'Liliana' },
+		Lizard: { fr: 'Lézard' },
+		Locus: { fr: 'Site' },
+		Manticore: { fr: 'Manticore' },
+		Masticore: { fr: 'Masticore' },
+		Merfolk: { fr: 'Ondin' },
+		Metathran: { fr: 'Navire' },
+		Minion: { fr: 'Mignon' },
+		Minotaur: { fr: 'Minotaure' },
+		Monger: { fr: 'Négociant' },
+		Mongoose: { fr: 'Mangouste' },
+		Mountain: { fr: 'Montagne' },
+		Myr: { fr: 'Myr' },
+		Nahiri: { fr: 'Nahiri' },
+		Narset: { fr: 'Narset' },
+		Nautilus: { fr: 'Nautile' },
+		Nephilim: { fr: 'Nephilim' },
+		Nissa: { fr: 'Nissa' },
+		Nixilis: { fr: 'Nixilis' },
+		Nymph: { fr: 'Nymphe' },
+		Octopus: { fr: 'Pieuvre' },
+		Ogre: { fr: 'Ogre' },
+		Ooze: { fr: 'Limon' },
+		Orc: { fr: 'Orque' },
+		Orgg: { fr: 'Orgg' },
+		Ouphe: { fr: 'Orphe' },
+		Ox: { fr: 'Bovidé' },
+		Oyster: { fr: 'Huître' },
+		Pegasus: { fr: 'Pégase' },
+		Pest: { fr: 'Parasite' },
+		Phelddagrif: { fr: 'Phelddagrif' },
+		Phoenix: { fr: 'Phénix' },
+		Plains: { fr: 'Plaine' },
+		Plant: { fr: 'Plante' },
+		Praetor: { fr: 'Praetor' },
+		Ral: { fr: 'Ral' },
+		Rat: { fr: 'Rat' },
+		Rhino: { fr: 'Rhinocéros' },
+		Rogue: { fr: 'Gredin' },
+		Sable: { fr: 'Zibeline' },
+		Salamander: { fr: 'Salamandre' },
+		Sarkhan: { fr: 'Sarkhan' },
+		Satyr: { fr: 'Satyre' },
+		Scarecrow: { fr: 'Épouvantail' },
+		Scorpion: { fr: 'Scorpion' },
+		Serpent: { fr: 'Serpent' },
+		Shade: { fr: 'Ombre' },
+		Shaman: { fr: 'Shamane' },
+		Shapeshifter: { fr: 'Changeforme' },
+		Sheep: { fr: 'Mouton' },
+		Shrine: { fr: 'Reliquaire' },
+		Siren: { fr: 'Sirène' },
+		Skeleton: { fr: 'Squelette' },
+		Slith: { fr: 'Slith' },
+		Sliver: { fr: 'Slivoïde' },
+		Slug: { fr: 'Limace' },
+		Snake: { fr: 'Serpent' },
+		Soldier: { fr: 'Soldat' },
+		Sorin: { fr: 'Sorin' },
+		Specter: { fr: 'Spectre' },
+		Spellshaper: { fr: 'Sortisan' },
+		Sphinx: { fr: 'Sphinx' },
+		Spider: { fr: 'Araignée' },
+		Spike: { fr: 'Épix' },
+		Spirit: { fr: 'Esprit' },
+		Squirrel: { fr: 'Écureuil' },
+		Surrakar: { fr: 'Surrakar' },
+		Swamp: { fr: 'Marais' },
+		Tamiyo: { fr: 'Tamiyo' },
+		Teferi: { fr: 'Téfeiri' },
+		Tezzeret: { fr: 'Tezzeret' },
+		Thopter: { fr: 'Mécanoptère' },
+		Thrull: { fr: 'Srâne' },
+		Tibalt: { fr: 'Tibalt' },
+		Trap: { fr: 'Piège' },
+		Treefolk: { fr: 'Sylvin' },
+		Troll: { fr: 'Troll' },
+		Ugin: { fr: 'Ugin' },
+		Unicorn: { fr: 'Licorne' },
+		Vampire: { fr: 'Vampire' },
+		Vedalken: { fr: 'Vedalken' },
+		Venser: { fr: 'Venser' },
+		Viashino: { fr: 'Viashino' },
+		Volver: { fr: 'Évolien' },
+		Vraska: { fr: 'Vraska' },
+		Wall: { fr: 'Mur' },
+		Warrior: { fr: 'Guerrier' },
+		Weird: { fr: 'Anomalie' },
+		Whale: { fr: 'Baleine' },
+		Wizard: { fr: 'Sorcier' },
+		Wolf: { fr: 'Loup' },
+		Worm: { fr: 'Ver' },
+		Wraith: { fr: 'Apparition' },
+		Wurm: { fr: 'Guivre' },
+		Xenagos: { fr: 'Xénagos' },
+		Yeti: { fr: 'Yeti' },
+		Zombie: { fr: 'Zombie' },
+
+
+		Advisor: { fr: 'Conseiller' },
+		Ally: { fr: 'Allié' },
+		Ape: { fr: 'Singe' },
+		Archer: { fr: 'Archer' },
+		Assassin: { fr: 'Assassin' },
+		'Assembly-Worker': { fr: 'Ouvrier spécialisé' },
+		Barbarian: { fr: 'Barbare' },
+		Beeble: { fr: 'Bidules' },
+		Brushwagg: { fr: 'Bosquérisson' },
+		Camel: { fr: 'Chameau' },
+		Curse: { fr: 'Malédiction' },
+		Dack: { fr: 'Dack' },
+		Dauthi: { fr: 'Dauthi' },
+		Dreadnought: { fr: 'Cuirassé' },
+		Druid: { fr: 'Druide' },
+		Elder: { fr: 'Ancêtre' },
+		Faerie: { fr: 'Fée' },
+		Ferret: { fr: 'Furet' },
+		Flagbearer: { fr: 'Enseigne' },
+		Germ: { fr: 'Germe' },
+		Homarid: { fr: 'Homaride' },
+		Hyena: { fr: 'Hyène' },
+		Knight: { fr: 'Chevalier' },
+		Kor: { fr: 'Kor' },
+		Lair: { fr: 'Repaire' },
+		Licid: { fr: 'Litique' },
+		Mercenary: { fr: 'Mercenaire' },
+		Mine: { fr: 'Mine' },
+		Monk: { fr: 'Moine' },
+		Moonfolk: { fr: 'Lunaréen' },
+		Mutant: { fr: 'Mutant' },
+		Mystic: { fr: 'Mystique' },
+		Naga: { fr: 'Naga' },
+		Nightmare: { fr: 'Cauchemar' },
+		Nightstalker: { fr: 'Chassenuit' },
+		Ninja: { fr: 'Ninja' },
+		Noggle: { fr: 'Neugle' },
+		Nomad: { fr: 'Nomade' },
+		Pentavite: { fr: 'Pentavite' },
+		Pirate: { fr: 'Pirate' },
+		'Power-Plant': { fr: 'Centrale énergétique' },
+		Processor: { fr: 'Convertisseur' },
+		Rabbit: { fr: 'Lapin' },
+		Rebel: { fr: 'Rebel' },
+		Rigger: { fr: 'Gréeur' },
+		Samurai: { fr: 'Samouraï' },
+		Saproling: { fr: 'Saprobionte' },
+		Scion: { fr: 'Scion' },
+		Scout: { fr: 'Éclaireur' },
+		Soltari: { fr: 'Soltari' },
+		Spawn: { fr: 'Engeance' },
+		Sponge: { fr: 'Éponge' },
+		Squid: { fr: 'Calamar' },
+		Starfish: { fr: 'Étoile de mer' },
+		Thalakos: { fr: 'Thalakos' },
+		Tower: { fr: 'Tour' },
+		Turtle: { fr: 'Tortue terrestre' },
+		'Urza’s': { fr: 'd\'Urza' },
+		Werewolf: { fr: 'Loup-garou' },
+		Wolverine: { fr: 'Glouton' },
+		Wombat: { fr: 'Wombat' },
+		Zubera: { fr: 'Zubera'}
+
+
+
+
+	};
+
 
 	exports.NON_GATHERER_SET_CARD_LISTS =
 	{
@@ -4890,6 +7376,8 @@ var base = require("xbase");
 		artist        : "string",
 		number        : "string",
 		mciNumber     : "string",
+		mkm_product_id: "number",
+		mkm_url		  : "string",
 		power         : "string",
 		toughness     : "string",
 		loyalty       : "number",
@@ -4911,6 +7399,7 @@ var base = require("xbase");
 		releaseDate   : "string",
 		legalities    : ["object"],
 		starter       : "boolean",
+		mtgjson_id    : "string",
 		id            : "string",
 		colorIdentity : ["string"]
 	};
@@ -5012,6 +7501,193 @@ var base = require("xbase");
 	};
 
 	exports.VALID_COLORS = [ 'W', 'U', 'B', 'R', 'G' ];
+
+	exports.MKM_PRODUCT_ID_CORRECT = {
+
+		TSB: [{mciNumber: "106a", mkm_product_id: 14060}, //Assault // Formation
+		{mciNumber: "106b", mkm_product_id: 14060}], //Assault // Formation
+
+		CMD: [{mciNumber: "198a", mkm_product_id: 247227}, //Fire // Ice
+		{mciNumber: "198b", mkm_product_id: 247227}, //Fire // Ice
+		{mciNumber: "92b", mkm_product_id: 247290}], //Nezumi Graverobber // nighteyes the desecrator
+
+		BFZ: [{mciNumber: "250a", mkm_product_id: 284927}, //Plains (Version 2)
+		{mciNumber: "250b", mkm_product_id: 284319}, //Plains (Version 1)
+		{mciNumber: "251b", mkm_product_id: 284379}, //Plains (Version 3)
+		{mciNumber: "251a", mkm_product_id: 284928}, //Plains (Version 4)
+		{mciNumber: "252b", mkm_product_id: 284380}, //Plains (Version 5)
+		{mciNumber: "252a", mkm_product_id: 284929}, //Plains (Version 6)
+		{mciNumber: "253b", mkm_product_id: 284396}, //Plains (Version 7)
+		{mciNumber: "253a", mkm_product_id: 284930}, //Plains (Version 8)
+		{mciNumber: "254a", mkm_product_id: 284931}, //Plains (Version 10)
+		{mciNumber: "254b", mkm_product_id: 284381}, //Plains (Version 9)
+		{mciNumber: "255b", mkm_product_id: 284320}, //Island (Version 1)
+		{mciNumber: "255a", mkm_product_id: 284932}, //Island (Version 2)
+		{mciNumber: "256b", mkm_product_id: 284397}, //Island (Version 3)
+		{mciNumber: "256a", mkm_product_id: 284933}, //Island (Version 4)
+		{mciNumber: "257b", mkm_product_id: 284382}, //Island (Version 5)
+		{mciNumber: "257a", mkm_product_id: 284934}, //Island (Version 6)
+		{mciNumber: "258b", mkm_product_id: 284383}, //Island (Version 7)
+		{mciNumber: "258a", mkm_product_id: 284935}, //Island (Version 8)
+		{mciNumber: "259b", mkm_product_id: 284398}, //Island (Version 9)
+		{mciNumber: "259a", mkm_product_id: 284936}, //Island (Version 10)
+		{mciNumber: "260a", mkm_product_id: 284937}, //Swamp (Version 2)
+		{mciNumber: "260b", mkm_product_id: 284321}, //Swamp (Version 1)
+		{mciNumber: "261a", mkm_product_id: 284938}, //Swamp (Version 4)
+		{mciNumber: "261b", mkm_product_id: 284384}, //Swamp (Version 3)
+		{mciNumber: "262b", mkm_product_id: 284394}, //Swamp (Version 5)
+		{mciNumber: "262a", mkm_product_id: 284939}, //Swamp (Version 6)
+		{mciNumber: "263a", mkm_product_id: 284940}, //Swamp (Version 8)
+		{mciNumber: "263b", mkm_product_id: 284395}, //Swamp (Version 7)
+		{mciNumber: "264b", mkm_product_id: 284385}, //Swamp (Version 9)
+		{mciNumber: "264a", mkm_product_id: 284941}, //Swamp (Version 10)
+		{mciNumber: "265a", mkm_product_id: 284942}, //Mountain (Version 2)
+		{mciNumber: "265b", mkm_product_id: 284322}, //Mountain (Version 1)
+		{mciNumber: "266a", mkm_product_id: 284943}, //Mountain (Version 4)
+		{mciNumber: "266b", mkm_product_id: 284386}, //Mountain (Version 3)
+		{mciNumber: "267a", mkm_product_id: 284944}, //Mountain (Version 6)
+		{mciNumber: "267b", mkm_product_id: 284387}, //Mountain (Version 5)
+		{mciNumber: "268a", mkm_product_id: 284945}, //Mountain (Version 8)
+		{mciNumber: "268b", mkm_product_id: 284388}, //Mountain (Version 7)
+		{mciNumber: "269a", mkm_product_id: 284946}, //Mountain (Version 10)
+		{mciNumber: "269b", mkm_product_id: 284389}, //Mountain (Version 9)
+		{mciNumber: "270b", mkm_product_id: 284323}, //Forest (Version 1)
+		{mciNumber: "270a", mkm_product_id: 284947}, //Forest (Version 2)
+		{mciNumber: "271b", mkm_product_id: 284390}, //Forest (Version 3)
+		{mciNumber: "271a", mkm_product_id: 284948}, //Forest (Version 4)
+		{mciNumber: "272b", mkm_product_id: 284391}, //Forest (Version 5)
+		{mciNumber: "272a", mkm_product_id: 284949}, //Forest (Version 6)
+		{mciNumber: "273b", mkm_product_id: 284392}, //Forest (Version 7)
+		{mciNumber: "273a", mkm_product_id: 284950}, //Forest (Version 8)
+		{mciNumber: "274b", mkm_product_id: 284393}, //Forest (Version 9)
+		{mciNumber: "274a", mkm_product_id: 284951}] //Forest (Version 10)
+	};
+
+
+
+	exports.CARDS_TRANSLATIONS = {
+		366466: {
+			multiverseid: 366678,
+			language: "French",
+			name: "Regard tueur",
+			text: "Détruisez la créature ciblée de force inférieure ou égale à X.",
+			flavor: "Un coup d'œil machinal dans un coin sombre peut s'avérer fatal.",
+			type: "Éphémère"
+		}
+	};
+
+
+	exports.TOKENS_TRANSLATIONS = {
+		C14: [{
+			number: 34,
+			card: {
+				url: "http://www.magicbazar.fr/images/cartes/commander_2014/emblem_teferi_temporal_archmage.jpg",
+				name: "Emblème Téferi",
+				language: "French",
+				type: "Emblème : Téfeiri",
+				text: "Vous pouvez activer les capacités de loyauté des planeswalkers que vous contrôlez pendant le tour de n'importe quel joueur à tout moment où vous pourriez lancer un éphémère."
+			}
+		}],
+		C15: [{
+			number: 11,
+			card: {
+				name: "Furie d'éclairs",
+				url: "http://www.smfcorp.net/images/cartes/149/1011.png",
+				language: "French",
+				type: "Créature-jeton : élémental",
+				text: "Piétinement, célérité\nAu début de l'étape de fin, sacrifiez cette créature."
+			}
+		}],
+		FRF: [{
+			number: 4,
+			card: {
+				name: "Manifester",
+				url: "http://boutique.magiccorporation.com/images/produits/normal/21520.jpg",
+				language: "French",
+				type: "Créature",
+				text: "Vous pouvez couvrir une créature face cachée avec cette carte de rappel.\nUne carte avec la mue peut-être retournée face visible à tout moment pour son coût de mue."
+			}
+		}],
+		M10: [{
+				number: 2,
+				card: {
+					name: "Soldat",
+					language: "French",
+					type: "Créature : soldat"
+				}
+			},
+			{
+				number: 6,
+				card: {
+					name: "Insecte",
+					language: "French",
+					type: "Créature : insecte"
+				}
+			},
+			{
+				number: 7,
+				card: {
+					name: "Loup",
+					language: "French",
+					type: "Créature : loup"
+			}
+		}],
+		DDG: [{
+			number: 1,
+			card: {
+				name: "Gobelin",
+				language: "French",
+				type: "Créature : gobelin"
+			}
+		}],
+	};
+
+	exports.TOKENS_MATCH = {
+		C14 : [
+			{number:32, magic_ville_number: "14c369"},
+			{number:33, magic_ville_number: "14c370"}
+		],
+		C15 : [
+			{number:17, magic_ville_number: "15c359"},
+			{number:21, magic_ville_number: "15c363"},
+			{number:4,  magic_ville_number: "15c346"},
+			{number:5,  magic_ville_number: "15c347"}
+		],
+		AVR : [
+			{number:2, magic_ville_number: "avr246"},
+			{number:3, magic_ville_number: "avr247"},
+			{number:4, magic_ville_number: "avr248"},
+			{number:7, magic_ville_number: "avr251"}
+		],
+		LRW : [
+			{number:2, magic_ville_number: "lor303"},
+			{number:8, magic_ville_number: "lor309"}
+		],
+		M15 : [
+			{number:5, magic_ville_number: "15m289"},
+			{number:9, magic_ville_number: "15m293"}
+		],
+		SHM : [
+			{number:12, magic_ville_number: "sha313"},
+			{number:5, magic_ville_number: "sha306"}
+		],
+		SOM : [
+			{number:8, magic_ville_number: "som257"},
+			{number:9, magic_ville_number: "som258"}
+		],
+		THS : [
+			{number:7, magic_ville_number: "ths256"},
+			{number:3, magic_ville_number: "ths251"},
+			{number:2, magic_ville_number: "ths251"}
+		]
+	}
+
+	exports.TOKENS_TO_CORRECT = [
+		{extension: 'M14', name: 'Angel',  number: "1", replacementNumber:"2"},
+		{extension: 'BFZ', name: 'Plant',  number: "009", replacementNumber:"010"},
+		{extension: 'DDI', name: 'Koth Emblem',  number: "E1", replacementNumber:"E2"},
+		{extension: 'DDI', name: 'Venser Emblem',  number: "E2", replacementNumber:"E1"}
+	];
 
 	exports.STANDARD_SETS = [
 		'DTK',
