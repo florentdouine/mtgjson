@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "async": "^2.0.0-rc.3",
+    "btoa": "^1.1.2",
     "cache": "git+https://github.com/mtgjson/cache.git",
     "cli-color": ">= 0.2.3",
     "domino": ">= 1.0.19",
@@ -16,7 +17,9 @@
     "read-chunk": "^2.0.0",
     "request": "^2.72.0",
     "rimraf": ">= 2.4.2",
+    "sortby": "0.0.2",
     "tiptoe": ">= 1.0.0",
+    "uniqid": "^3.0.0",
     "xbase": "git://github.com/Sembiance/xbase.git",
     "xutil": "git://github.com/Sembiance/xutil.git"
   },
