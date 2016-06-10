@@ -5325,6 +5325,7 @@ var base = require("xbase");
 		Chandra: { fr: 'Chandra' },
 		Chimera: { fr: 'Chimère' },
 		Cleric: { fr: 'Clerc' },
+		Clue: { fr: 'Indice' },
 		Cockatrice: { fr: 'Cocatrix' },
 		Construct: { fr: 'Construction' },
 		Crab: { fr: 'Crabe' },

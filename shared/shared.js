@@ -1057,7 +1057,7 @@ exports.saveSet = function(set, callback) {
 	fn += '.json';
 
 	// 99. Save the file on the proper path
-	fs.writeFile(path.join(__dirname, "..", "json", fn), JSON.stringify(set, null, '  '), {encoding:"utf8"}, callback);
+	fs.writeFile(path.join(__dirname, "..", "jsonFD", fn), JSON.stringify(set, null, '  '), {encoding:"utf8"}, callback);
 };
 
 // Natural sort implementation, for getting those card numbers in a human-readable format.
