@@ -1,0 +1,848 @@
+{
+  "types": {
+    "Instant": {
+      "fr": "Éphémère"
+    },
+    "Sorcery": {
+      "fr": "Rituel"
+    },
+    "Artifact": {
+      "fr": "Artefact"
+    },
+    "Creature": {
+      "fr": "Créature"
+    },
+    "Enchantment": {
+      "fr": "Enchantement"
+    },
+    "Land": {
+      "fr": "Terrain"
+    },
+    "Planeswalker": {
+      "fr": "Planeswalker"
+    },
+    "Tribal": {
+      "fr": "Tribal"
+    },
+    "Conspiracy": {
+      "fr": "Conspiracy"
+    },
+    "Emblem": {
+      "fr": "Emblème"
+    }
+  },
+  "supertypes": {
+    "Basic": {
+      "fr": "Basique"
+    },
+    "Legendary": {
+      "fr": "Légendaire"
+    },
+    "Snow": {
+      "fr": "Neige"
+    },
+    "World": {
+      "fr": "Monde"
+    }
+  },
+  "subtypes": {
+    "Ajani": {
+      "fr": "Ajani"
+    },
+    "Angel": {
+      "fr": "Ange"
+    },
+    "Antelope": {
+      "fr": "Antilope"
+    },
+    "Arcane": {
+      "fr": "Arcane"
+    },
+    "Archon": {
+      "fr": "Archonte"
+    },
+    "Arlinn": {
+      "fr": "Arlinn"
+    },
+    "Artificer": {
+      "fr": "Artificier"
+    },
+    "Ashiok": {
+      "fr": "Ashiok"
+    },
+    "Atog": {
+      "fr": "Atog"
+    },
+    "Aura": {
+      "fr": "Aura"
+    },
+    "Aurochs": {
+      "fr": "Aurochs"
+    },
+    "Avatar": {
+      "fr": "Avatar"
+    },
+    "Badger": {
+      "fr": "Blaireau"
+    },
+    "Basilisk": {
+      "fr": "Basilic"
+    },
+    "Bat": {
+      "fr": "Chauve-souris"
+    },
+    "Bear": {
+      "fr": "Ours"
+    },
+    "Beast": {
+      "fr": "Bête"
+    },
+    "Berserker": {
+      "fr": "Berserker"
+    },
+    "Bird": {
+      "fr": "Oiseau"
+    },
+    "Boar": {
+      "fr": "Sanglier"
+    },
+    "Bolas": {
+      "fr": "Bolas"
+    },
+    "Bringer": {
+      "fr": "Annonciateur"
+    },
+    "Carrier": {
+      "fr": "Propagateur"
+    },
+    "Cat": {
+      "fr": "Chat"
+    },
+    "Centaur": {
+      "fr": "Centaure"
+    },
+    "Cephalid": {
+      "fr": "Céphalide"
+    },
+    "Chandra": {
+      "fr": "Chandra"
+    },
+    "Chimera": {
+      "fr": "Chimère"
+    },
+    "Cleric": {
+      "fr": "Clerc"
+    },
+    "Cockatrice": {
+      "fr": "Cocatrix"
+    },
+    "Construct": {
+      "fr": "Construction"
+    },
+    "Crab": {
+      "fr": "Crabe"
+    },
+    "Crocodile": {
+      "fr": "Crocodile"
+    },
+    "Cyclops": {
+      "fr": "Cyclope"
+    },
+    "Daretti": {
+      "fr": "Daretti"
+    },
+    "Demon": {
+      "fr": "Démon"
+    },
+    "Desert": {
+      "fr": "Désert"
+    },
+    "Devil": {
+      "fr": "Diable"
+    },
+    "Djinn": {
+      "fr": "Djinn"
+    },
+    "Domri": {
+      "fr": "Domri"
+    },
+    "Dragon": {
+      "fr": "Dragon"
+    },
+    "Drake": {
+      "fr": "Drakôn"
+    },
+    "Drone": {
+      "fr": "Drone"
+    },
+    "Dryad": {
+      "fr": "Dryade"
+    },
+    "Dwarf": {
+      "fr": "Nain"
+    },
+    "Efreet": {
+      "fr": "Éfrit"
+    },
+    "Eldrazi": {
+      "fr": "Eldrazi"
+    },
+    "Elemental": {
+      "fr": "Élémental"
+    },
+    "Elephant": {
+      "fr": "Éléphant"
+    },
+    "Elf": {
+      "fr": "Elfe"
+    },
+    "Elk": {
+      "fr": "Élan"
+    },
+    "Elspeth": {
+      "fr": "Elspeth"
+    },
+    "Equipment": {
+      "fr": "Équipement"
+    },
+    "Eye": {
+      "fr": "Œil"
+    },
+    "Fish": {
+      "fr": "Poisson"
+    },
+    "Forest": {
+      "fr": "Forêt"
+    },
+    "Fortification": {
+      "fr": "Fortification"
+    },
+    "Fox": {
+      "fr": "Renard"
+    },
+    "Freyalise": {
+      "fr": "Freyalise"
+    },
+    "Frog": {
+      "fr": "Grenouille"
+    },
+    "Fungus": {
+      "fr": "Fongus"
+    },
+    "Gargoyle": {
+      "fr": "Gargouille"
+    },
+    "Garruk": {
+      "fr": "Garruk"
+    },
+    "Gate": {
+      "fr": "Porte"
+    },
+    "Giant": {
+      "fr": "Géant"
+    },
+    "Gideon": {
+      "fr": "Gideon"
+    },
+    "Gnome": {
+      "fr": "Gnome"
+    },
+    "Goat": {
+      "fr": "Chèvre"
+    },
+    "Goblin": {
+      "fr": "Gobelin"
+    },
+    "God": {
+      "fr": "Dieu"
+    },
+    "Golem": {
+      "fr": "Golem"
+    },
+    "Gorgon": {
+      "fr": "Gorgonoïde"
+    },
+    "Gremlin": {
+      "fr": "Gremlin"
+    },
+    "Griffin": {
+      "fr": "Griffon"
+    },
+    "Hag": {
+      "fr": "Mégère"
+    },
+    "Harpy": {
+      "fr": "Harpie"
+    },
+    "Hellion": {
+      "fr": "Monstruosité"
+    },
+    "Hippo": {
+      "fr": "Hippopotame"
+    },
+    "Hippogriff": {
+      "fr": "Hippogriffe"
+    },
+    "Homunculus": {
+      "fr": "Homoncule"
+    },
+    "Horror": {
+      "fr": "Horreur"
+    },
+    "Horse": {
+      "fr": "Cheval"
+    },
+    "Hound": {
+      "fr": "Golem"
+    },
+    "Human": {
+      "fr": "Humain"
+    },
+    "Hydra": {
+      "fr": "Hydre"
+    },
+    "Illusion": {
+      "fr": "Illusion"
+    },
+    "Imp": {
+      "fr": "Diablotin"
+    },
+    "Incarnation": {
+      "fr": "Incarnation"
+    },
+    "Insect": {
+      "fr": "Insecte"
+    },
+    "Island": {
+      "fr": "Île"
+    },
+    "Jace": {
+      "fr": "Jace"
+    },
+    "Jellyfish": {
+      "fr": "Méduse"
+    },
+    "Juggernaut": {
+      "fr": "Djaggernaut"
+    },
+    "Karn": {
+      "fr": "Karn"
+    },
+    "Kavu": {
+      "fr": "Kavru"
+    },
+    "Kiora": {
+      "fr": "Kiora"
+    },
+    "Kirin": {
+      "fr": "Kirin"
+    },
+    "Kithkin": {
+      "fr": "Sangami"
+    },
+    "Kobold": {
+      "fr": "Kobold"
+    },
+    "Koth": {
+      "fr": "Koth"
+    },
+    "Kraken": {
+      "fr": "Kraken"
+    },
+    "Lamia": {
+      "fr": "Lamie"
+    },
+    "Lammasu": {
+      "fr": "Lamassu"
+    },
+    "Leech": {
+      "fr": "Sangsue"
+    },
+    "Leviathan": {
+      "fr": "Léviathan"
+    },
+    "Lhurgoyf": {
+      "fr": "Lhurgoyf"
+    },
+    "Liliana": {
+      "fr": "Liliana"
+    },
+    "Lizard": {
+      "fr": "Lézard"
+    },
+    "Locus": {
+      "fr": "Site"
+    },
+    "Manticore": {
+      "fr": "Manticore"
+    },
+    "Masticore": {
+      "fr": "Masticore"
+    },
+    "Merfolk": {
+      "fr": "Ondin"
+    },
+    "Metathran": {
+      "fr": "Navire"
+    },
+    "Minion": {
+      "fr": "Mignon"
+    },
+    "Minotaur": {
+      "fr": "Minotaure"
+    },
+    "Mole": {
+      "fr": "Taupe"
+    },
+    "Monger": {
+      "fr": "Négociant"
+    },
+    "Mongoose": {
+      "fr": "Mangouste"
+    },
+    "Mountain": {
+      "fr": "Montagne"
+    },
+    "Myr": {
+      "fr": "Myr"
+    },
+    "Nahiri": {
+      "fr": "Nahiri"
+    },
+    "Narset": {
+      "fr": "Narset"
+    },
+    "Nautilus": {
+      "fr": "Nautile"
+    },
+    "Nephilim": {
+      "fr": "Nephilim"
+    },
+    "Nissa": {
+      "fr": "Nissa"
+    },
+    "Nixilis": {
+      "fr": "Nixilis"
+    },
+    "Nymph": {
+      "fr": "Nymphe"
+    },
+    "Octopus": {
+      "fr": "Pieuvre"
+    },
+    "Ogre": {
+      "fr": "Ogre"
+    },
+    "Ooze": {
+      "fr": "Limon"
+    },
+    "Orc": {
+      "fr": "Orque"
+    },
+    "Orgg": {
+      "fr": "Orgg"
+    },
+    "Ouphe": {
+      "fr": "Orphe"
+    },
+    "Ox": {
+      "fr": "Bovidé"
+    },
+    "Oyster": {
+      "fr": "Huître"
+    },
+    "Pegasus": {
+      "fr": "Pégase"
+    },
+    "Pest": {
+      "fr": "Parasite"
+    },
+    "Phelddagrif": {
+      "fr": "Phelddagrif"
+    },
+    "Phoenix": {
+      "fr": "Phénix"
+    },
+    "Plains": {
+      "fr": "Plaine"
+    },
+    "Plant": {
+      "fr": "Plante"
+    },
+    "Praetor": {
+      "fr": "Praetor"
+    },
+    "Ral": {
+      "fr": "Ral"
+    },
+    "Rat": {
+      "fr": "Rat"
+    },
+    "Rhino": {
+      "fr": "Rhinocéros"
+    },
+    "Rogue": {
+      "fr": "Gredin"
+    },
+    "Sable": {
+      "fr": "Zibeline"
+    },
+    "Salamander": {
+      "fr": "Salamandre"
+    },
+    "Sarkhan": {
+      "fr": "Sarkhan"
+    },
+    "Satyr": {
+      "fr": "Satyre"
+    },
+    "Scarecrow": {
+      "fr": "Épouvantail"
+    },
+    "Scorpion": {
+      "fr": "Scorpion"
+    },
+    "Serpent": {
+      "fr": "Serpent"
+    },
+    "Shade": {
+      "fr": "Ombre"
+    },
+    "Shaman": {
+      "fr": "Shamane"
+    },
+    "Shapeshifter": {
+      "fr": "Changeforme"
+    },
+    "Sheep": {
+      "fr": "Mouton"
+    },
+    "Shrine": {
+      "fr": "Reliquaire"
+    },
+    "Siren": {
+      "fr": "Sirène"
+    },
+    "Skeleton": {
+      "fr": "Squelette"
+    },
+    "Slith": {
+      "fr": "Slith"
+    },
+    "Sliver": {
+      "fr": "Slivoïde"
+    },
+    "Slug": {
+      "fr": "Limace"
+    },
+    "Snake": {
+      "fr": "Serpent"
+    },
+    "Soldier": {
+      "fr": "Soldat"
+    },
+    "Sorin": {
+      "fr": "Sorin"
+    },
+    "Specter": {
+      "fr": "Spectre"
+    },
+    "Spellshaper": {
+      "fr": "Sortisan"
+    },
+    "Sphinx": {
+      "fr": "Sphinx"
+    },
+    "Spider": {
+      "fr": "Araignée"
+    },
+    "Spike": {
+      "fr": "Épix"
+    },
+    "Spirit": {
+      "fr": "Esprit"
+    },
+    "Squirrel": {
+      "fr": "Écureuil"
+    },
+    "Surrakar": {
+      "fr": "Surrakar"
+    },
+    "Swamp": {
+      "fr": "Marais"
+    },
+    "Tamiyo": {
+      "fr": "Tamiyo"
+    },
+    "Teferi": {
+      "fr": "Téfeiri"
+    },
+    "Tezzeret": {
+      "fr": "Tezzeret"
+    },
+    "Thopter": {
+      "fr": "Mécanoptère"
+    },
+    "Thrull": {
+      "fr": "Srâne"
+    },
+    "Tibalt": {
+      "fr": "Tibalt"
+    },
+    "Trap": {
+      "fr": "Piège"
+    },
+    "Treefolk": {
+      "fr": "Sylvin"
+    },
+    "Troll": {
+      "fr": "Troll"
+    },
+    "Ugin": {
+      "fr": "Ugin"
+    },
+    "Unicorn": {
+      "fr": "Licorne"
+    },
+    "Vampire": {
+      "fr": "Vampire"
+    },
+    "Vedalken": {
+      "fr": "Vedalken"
+    },
+    "Venser": {
+      "fr": "Venser"
+    },
+    "Viashino": {
+      "fr": "Viashino"
+    },
+    "Volver": {
+      "fr": "Évolien"
+    },
+    "Vraska": {
+      "fr": "Vraska"
+    },
+    "Wall": {
+      "fr": "Mur"
+    },
+    "Warrior": {
+      "fr": "Guerrier"
+    },
+    "Weird": {
+      "fr": "Anomalie"
+    },
+    "Whale": {
+      "fr": "Baleine"
+    },
+    "Wizard": {
+      "fr": "Sorcier"
+    },
+    "Wolf": {
+      "fr": "Loup"
+    },
+    "Worm": {
+      "fr": "Ver"
+    },
+    "Wraith": {
+      "fr": "Apparition"
+    },
+    "Wurm": {
+      "fr": "Guivre"
+    },
+    "Xenagos": {
+      "fr": "Xénagos"
+    },
+    "Yeti": {
+      "fr": "Yeti"
+    },
+    "Zombie": {
+      "fr": "Zombie"
+    },
+    "Advisor": {
+      "fr": "Conseiller"
+    },
+    "Ally": {
+      "fr": "Allié"
+    },
+    "Ape": {
+      "fr": "Singe"
+    },
+    "Archer": {
+      "fr": "Archer"
+    },
+    "Assassin": {
+      "fr": "Assassin"
+    },
+    "Assembly-Worker": {
+      "fr": "Ouvrier spécialisé"
+    },
+    "Barbarian": {
+      "fr": "Barbare"
+    },
+    "Beeble": {
+      "fr": "Bidules"
+    },
+    "Brushwagg": {
+      "fr": "Bosquérisson"
+    },
+    "Camel": {
+      "fr": "Chameau"
+    },
+    "Curse": {
+      "fr": "Malédiction"
+    },
+    "Dack": {
+      "fr": "Dack"
+    },
+    "Dauthi": {
+      "fr": "Dauthi"
+    },
+    "Dreadnought": {
+      "fr": "Cuirassé"
+    },
+    "Druid": {
+      "fr": "Druide"
+    },
+    "Elder": {
+      "fr": "Ancêtre"
+    },
+    "Faerie": {
+      "fr": "Fée"
+    },
+    "Ferret": {
+      "fr": "Furet"
+    },
+    "Flagbearer": {
+      "fr": "Enseigne"
+    },
+    "Germ": {
+      "fr": "Germe"
+    },
+    "Homarid": {
+      "fr": "Homaride"
+    },
+    "Hyena": {
+      "fr": "Hyène"
+    },
+    "Knight": {
+      "fr": "Chevalier"
+    },
+    "Kor": {
+      "fr": "Kor"
+    },
+    "Lair": {
+      "fr": "Repaire"
+    },
+    "Licid": {
+      "fr": "Litique"
+    },
+    "Mercenary": {
+      "fr": "Mercenaire"
+    },
+    "Mine": {
+      "fr": "Mine"
+    },
+    "Monk": {
+      "fr": "Moine"
+    },
+    "Moonfolk": {
+      "fr": "Lunaréen"
+    },
+    "Mutant": {
+      "fr": "Mutant"
+    },
+    "Mystic": {
+      "fr": "Mystique"
+    },
+    "Naga": {
+      "fr": "Naga"
+    },
+    "Nightmare": {
+      "fr": "Cauchemar"
+    },
+    "Nightstalker": {
+      "fr": "Chassenuit"
+    },
+    "Ninja": {
+      "fr": "Ninja"
+    },
+    "Noggle": {
+      "fr": "Neugle"
+    },
+    "Nomad": {
+      "fr": "Nomade"
+    },
+    "Pentavite": {
+      "fr": "Pentavite"
+    },
+    "Pirate": {
+      "fr": "Pirate"
+    },
+    "Power-Plant": {
+      "fr": "Centrale énergétique"
+    },
+    "Processor": {
+      "fr": "Convertisseur"
+    },
+    "Rabbit": {
+      "fr": "Lapin"
+    },
+    "Rebel": {
+      "fr": "Rebel"
+    },
+    "Rigger": {
+      "fr": "Gréeur"
+    },
+    "Samurai": {
+      "fr": "Samouraï"
+    },
+    "Saproling": {
+      "fr": "Saprobionte"
+    },
+    "Scion": {
+      "fr": "Scion"
+    },
+    "Scout": {
+      "fr": "Éclaireur"
+    },
+    "Soltari": {
+      "fr": "Soltari"
+    },
+    "Spawn": {
+      "fr": "Engeance"
+    },
+    "Sponge": {
+      "fr": "Éponge"
+    },
+    "Squid": {
+      "fr": "Calamar"
+    },
+    "Starfish": {
+      "fr": "Étoile de mer"
+    },
+    "Thalakos": {
+      "fr": "Thalakos"
+    },
+    "Tower": {
+      "fr": "Tour"
+    },
+    "Turtle": {
+      "fr": "Tortue terrestre"
+    },
+    "Urza’s": {
+      "fr": "d'Urza"
+    },
+    "Werewolf": {
+      "fr": "Loup-garou"
+    },
+    "Wolverine": {
+      "fr": "Glouton"
+    },
+    "Wombat": {
+      "fr": "Wombat"
+    },
+    "Zubera": {
+      "fr": "Zubera"
+    }
+  }
+}

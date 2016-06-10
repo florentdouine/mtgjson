@@ -141,7 +141,8 @@ var TEXT_TO_SYMBOL_MAP = {
 
 var doubleFacedCardNames = [];
 
-var ripSet = function(setName, cb) {
+var ripSet = function(set, cb) {
+	var setName = set.name;
 	base.info("====================================================================================================================");
 	base.info("Ripping Set: %s", setName);
 
@@ -236,7 +237,7 @@ var ripSet = function(setName, cb) {
 
 			performFDTokensTranslationToSet(this.data.set, this);
 		},
-		function performFMCardSpecificRemoval(){
+		function performFDCardSpecificRemoval(){
 
 			base.info("Perform FD remove specific cards...");
 			this.data.set.cards = this.data.set.cards.filter(function(card){
@@ -308,7 +309,7 @@ var ripSet = function(setName, cb) {
 		{
 			if(err)
 			{
-				base.error("Error ripping: %s (%s)", this.data.set.code, setName);
+				base.error("Error ripping: %s", setName);
 				return setImmediate(function() { cb(err); });
 			}
 
@@ -335,6 +336,43 @@ var ripSet = function(setName, cb) {
 		}
 	);
 }
+
+var processMultiverseDocs = function(docs, callback) {
+	var cards = [];
+
+	var i = 0;
+
+	docs.forEachBatch(function (multiverseDoc, printedMultiverseDoc) {
+		var newCards = [];
+		var multiverseDocCardParts = getCardParts(multiverseDoc);
+		var printedMultiverseDocCardParts = getCardParts(printedMultiverseDoc);
+		if (multiverseDocCardParts.length!==printedMultiverseDocCardParts.length) {
+			throw new Error("multiverseDocCardParts length [" + multiverseDocCardParts.length + "] does not equal printedMultiverseDocCardParts length [" + printedMultiverseDocCardParts.length + "]");
+		}
+
+		multiverseDocCardParts.forEach(function (cardPart, i) {
+			var newCard = processCardPart(multiverseDoc, cardPart, printedMultiverseDoc, printedMultiverseDocCardParts[i]);
+
+			if (newCard.layout==="split" && i===1)
+				return;
+
+			newCards.push(newCard);
+		});
+
+		if (newCards.length === 2 && newCards[0].layout === "double-faced") {
+			var doubleFacedCardName = newCards[0].names.concat().sort().join(":::");
+			if (!doubleFacedCardNames.contains(doubleFacedCardName))
+				doubleFacedCardNames.push(doubleFacedCardName);
+			else
+				newCards = [];
+		}
+
+		cards = cards.concat(newCards);
+	}, 2);
+
+	if (callback)
+		setImmediate(callback, null, cards);
+};
 
 var cacheMultiverseIds = function(cb){
 	console.log("Store multiverse ids in cache");
@@ -572,6 +610,7 @@ var processMultiverseids = function (multiverseids, cb) {
 		);
 	}, function(err) { return setImmediate(cb, err, cards); });
 };
+
 
 var getCardPartIDPrefix = function(cardPart) {
 	return "#" + cardPart.querySelector(".rightCol").getAttribute("id").replaceAll("_rightCol", "");
@@ -934,12 +973,11 @@ var addPrintingsToCards = function (set, cb) {
 			var nonGathererSets = C.SETS_NOT_ON_GATHERER.concat(shared.getMCISetCodes()).concat(setCodes.slice(setCodes.indexOf(C.LAST_PRINTINGS_RESET)+1)).unique();
 			nonGathererSets.remove(set.code);
 			nonGathererSets.serialForEach(function (code, subcb) {
-				fs.readFile(path.join(__dirname, "..", "jsonFD", code + ".json"), "utf8", subcb);
+				fs.readFile(path.join(__dirname, "..", "json", code + ".json"), "utf8", subcb);
 			}, this);
 		},
 		function addPrintings(nonGathererSetsJSONRaw) {
 			var nonGathererSets = nonGathererSetsJSONRaw.map(function (nonGathererSetJSONRaw) { return JSON.parse(nonGathererSetJSONRaw); });
-
 			set.cards.serialForEach(function (card, subcb) {
 				addPrintingsToCard(nonGathererSets, card, subcb);
 			}, this);
@@ -1466,6 +1504,28 @@ function performFDTokensAdditionToSet(set, cb){
 
 }
 
+function slugImageName(card, cardNameCounts, setCorrections){
+	var imageName = unicodeUtil.unicodeToAscii((card.layout==="split" ? card.names.join("") : card.name));
+
+	if(typeof cardNameCounts === 'undefined')cardNameCounts = {};
+	if(cardNameCounts.hasOwnProperty(card.name))
+	{
+		var imageNumber = cardNameCounts[card.name]--;
+
+		var numberOrder = setCorrections.mutateOnce(function(setCorrection) { return setCorrection.renumberImages===card.name ? setCorrection.order : undefined; });
+		if(numberOrder)
+			imageNumber = numberOrder.indexOf(card.multiverseid)+1;
+
+		imageName += imageNumber;
+	}
+
+	imageName = imageName.replaceAll("/", " ");
+
+	imageName = imageName.strip(":\"?").replaceAll(" token card", "").toLowerCase();
+
+	return imageName;
+}
+
 exports.ripToken = performFDTokensTranslationToSet;
 
 function performFDTokensTranslationToSet(set, cb){
@@ -1665,6 +1725,20 @@ function performFDTokensTranslationToSet(set, cb){
 	);
 }
 
+function performFDSetLanguageAdditionToSet(set, cb){
+
+	set.languages = ["English"];
+	var card = set.cards[0];
+	if(card.hasOwnProperty("foreignNames")) {
+		card.foreignNames.forEach(function (foreignName) {
+			if (set.languages.indexOf(foreignName.language) == -1) {
+				set.languages.push(foreignName.language);
+			}
+		});
+	}
+
+	cb();
+}
 
 function compareCardsToMCI(set, cb)
 {

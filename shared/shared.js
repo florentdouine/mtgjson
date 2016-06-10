@@ -715,58 +715,61 @@ exports.buildMultiverseListingURLs = function(setName, cb) {
 
 
 
- exports.getURLAsJSON = function(targetURL, cb, retryCount, additionalOptions, withcache)
- {
- var cachePath = exports.generateCacheFilePath(targetURL);
 
- tiptoe(
- function get()
- {
- if(fs.existsSync(cachePath) && withcache!=null)
- {
- zlib.gunzip(fs.readFileSync(cachePath), this);
- }
- else {
- base.info("Requesting from web: %s", targetURL);
- var options = {
- timeout: base.SECOND * 10,
- retry: 5,
- headers: {"Accept": "application/json", "Content-Type": "application/json"}
- };
- if (additionalOptions) {
- options = merge_objects(options, additionalOptions);
- }
- httpUtil.get(targetURL, options, this);
- }
- },
- function createJson(err, JSONcontent, responseHeaders, responseStatusCode)
- {
- if(err || (responseStatusCode && responseStatusCode!==200))
- {
- base.error("Error downloading: " + targetURL+ " status code = "+responseStatusCode);
- base.error("Cache path: " + cachePath);
- base.error(err);
- return setImmediate(function() { cb(err); });
- }
-
- if(!JSONcontent || JSONcontent.length===0)
- {
- retryCount = retryCount||0;
- if(retryCount>3)
- throw new Error("Invalid pageHTML for " + cachePath + " (" + targetURL + ")");
-
- base.error("FAILED DOWNLOADING (%s), TRYING AGAIN RETRY %d", targetURL, retryCount);
- return exports.getURLAsJSON(targetURL, cb, retryCount+1, additionalOptions, withcache);
- }
- if(!fs.existsSync(cachePath)) {
- fs.writeFileSync(cachePath, zlib.gzipSync(JSONcontent));
- }
-
- setImmediate(function() {  cb(null, JSONcontent); }.bind(this));
- }
- );
- };
  */
+
+exports.getURLAsJSON = function(targetURL, cb, retryCount, additionalOptions, withcache)
+{
+	//var cachePath = exports.generateCacheFilePath(targetURL);
+
+	tiptoe(
+		function get()
+		{
+			if(false)//fs.existsSync(cachePath) && withcache!=null)
+			{
+				//zlib.gunzip(fs.readFileSync(cachePath), this);
+			}
+			else {
+				base.info("Requesting from web: %s", targetURL);
+				var options = {
+					timeout: base.SECOND * 10,
+					retry: 5,
+					headers: {"Accept": "application/json", "Content-Type": "application/json"}
+				};
+				if (additionalOptions) {
+					options = merge_objects(options, additionalOptions);
+				}
+				httpUtil.get(targetURL, options, this);
+			}
+		},
+		function createJson(err, JSONcontent, responseHeaders, responseStatusCode)
+		{
+			if(err || (responseStatusCode && responseStatusCode!==200))
+			{
+				base.error("Error downloading: " + targetURL+ " status code = "+responseStatusCode);
+				base.error("Cache path: " + cachePath);
+				base.error(err);
+				return setImmediate(function() { cb(err); });
+			}
+
+			if(!JSONcontent || JSONcontent.length===0)
+			{
+				retryCount = retryCount||0;
+				if(retryCount>3)
+					throw new Error("Invalid pageHTML for " + cachePath + " (" + targetURL + ")");
+
+				base.error("FAILED DOWNLOADING (%s), TRYING AGAIN RETRY %d", targetURL, retryCount);
+				return exports.getURLAsJSON(targetURL, cb, retryCount+1, additionalOptions, withcache);
+			}
+			/*if(!fs.existsSync(cachePath)) {
+				fs.writeFileSync(cachePath, zlib.gzipSync(JSONcontent));
+			}*/
+
+			setImmediate(function() {  cb(null, JSONcontent); }.bind(this));
+		}
+	);
+};
+
 function merge_objects(obj1, obj2) {
 
 	for (var p in obj2) {
@@ -1064,7 +1067,7 @@ exports.alphanum = function(a, b) {
     var tz = new Array();
     var x = 0, y = -1, n = 0, i, j;
 
-    while (i = (j = t.charAt(x++)).charCodeAt(0)) {
+    while (i = (j = (t+"").charAt(x++)).charCodeAt(0)) {
       var m = (i == 46 || (i >=48 && i <= 57));
       if (m !== n) {
         tz[++y] = "";
